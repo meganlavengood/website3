@@ -1,0 +1,156 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Analyzing Musical Instruments
+author: Dr. Megan L. Lavengood
+email: mlavengo@gmu.edu
+description: >- # this means to ignore newlines until "baseurl:"
+    Course website for MUSI 810. Fall 2025.
+
+
+courseno: MUSI 810
+semester: Fall 2025
+domain: instruments.meganlavengood.com
+url: "https://instruments.meganlavengood.com"
+# baseurl: "/" # the subpath of your site, e.g. /blog
+# repository: meganlavengood/instruments-class
+github_username: meganlavengood
+
+# Build settings
+
+# destination: docs/
+
+theme: minima
+plugins:
+    - jekyll-feed
+    - jekyll-remote-theme
+    - jekyll-scholar
+    - jekyll-toc
+    - jekyll-spaceship
+    - jekyll-target-blank
+defaults:
+    - scope:
+          path: ""
+      values:
+          toc: true
+
+# Jekyll-TOC
+toc:
+    min_level: 2
+    max_level: 3
+    ordered_list: true
+    no_toc_section_class: toc-container
+    list_id: toc
+    list_class: section-nav
+    sublist_class: "toc-sublist"
+    item_class: toc-entry
+    item_prefix: toc-
+
+scholar:
+    bibliography: instruments-class.bib
+    style: chicago-author-date
+    bibtex_filters:
+        - latex
+        - HtmlLinks
+        - DOILinks
+    sort_by: author
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+permalink: /:year/:title:output_ext
+
+future: true
+
+## Class/semester variables
+
+year: 2025
+
+mon01: "Mon, Aug 25"
+mon02: "Mon, Sep 1"
+mon03: "Mon, Sep 8"
+mon04: "Mon, Sep 15"
+mon05: "Mon, Sep 22"
+mon06: "Mon, Sep 29"
+mon07: "Mon, Oct 6"
+mon08: "Mon, Oct 13"
+mon09: "Mon, Oct 20"
+mon10: "Mon, Oct 27"
+mon11: "Mon, Nov 3"
+mon12: "Mon, Nov 10"
+mon13: "Mon, Nov 17"
+mon14: "Mon, Nov 24"
+mon15: "Mon, Dec 1"
+
+wed01: "Wed, Aug 27"
+wed02: "Wed, Sep 3"
+wed03: "Wed, Sep 10"
+wed04: "Wed, Sep 17"
+wed05: "Wed, Sep 24"
+wed06: "Wed, Oct 1"
+wed07: "Wed, Oct 8"
+wed08: "Wed, Oct 15"
+wed09: "Wed, Oct 22"
+wed10: "Wed, Oct 29"
+wed11: "Wed, Nov 5"
+wed12: "Wed, Nov 12"
+wed13: "Wed, Nov 19"
+wed14: "Wed, Nov 26"
+wed15: "Wed, Dec 3"
+
+sun01: "Sun, Aug 31"
+sun02: "Sun, Sep 7"
+sun03: "Sun, Sep 14"
+sun04: "Sun, Sep 21"
+sun05: "Sun, Sep 28"
+sun06: "Sun, Oct 5"
+sun07: "Sun, Oct 12"
+sun08: "Sun, Oct 19"
+sun09: "Sun, Oct 26"
+sun10: "Sun, Nov 2"
+sun11: "Sun, Nov 9"
+sun12: "Sun, Nov 16"
+sun13: "Sun, Nov 23"
+sun14: "Sun, Nov 30"
+sun15: "Sun, Dec 7"
+
+final-worksheet: "Wed, Nov 19"
+final-video: "Sun, Nov 30"
+final-peer: "Wed, Dec 3"
+final-early: "Mon, Dec 8"
+final-late: "Mon, Dec 15"
+final-range: "Dec 8–Dec 15"

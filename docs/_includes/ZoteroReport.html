@@ -1,0 +1,2078 @@
+<!DOCTYPE html>
+<html><head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src data:; style-src 'unsafe-inline' data:">
+		<title>Zotero Report</title>
+		<link rel="stylesheet" type="text/css" href="data:text/css;base64,Ym9keSB7Cgljb2xvci1zY2hlbWU6IGxpZ2h0IGRhcms7CgkvKiBUaGVzZSBzaG91bGQgYmUgdGhlIGRlZmF1bHRzLCBidXQganVzdCBpbiBjYXNlOiAqLwoJYmFja2dyb3VuZDogQ2FudmFzOwoJY29sb3I6IENhbnZhc1RleHQ7Cn0KCmEgewoJdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7Cn0KCmJvZHkgewoJcGFkZGluZzogMDsKfQoKdWwucmVwb3J0IGxpLml0ZW0gewoJYm9yZGVyLXRvcDogNHB4IHNvbGlkICM1NTU7CglwYWRkaW5nLXRvcDogMWVtOwoJcGFkZGluZy1sZWZ0OiAxZW07CglwYWRkaW5nLXJpZ2h0OiAxZW07CgltYXJnaW4tYm90dG9tOiAyZW07Cn0KCmgxLCBoMiwgaDMsIGg0LCBoNSwgaDYgewoJZm9udC13ZWlnaHQ6IG5vcm1hbDsKfQoKaDIgewoJbWFyZ2luOiAwIDAgLjVlbTsKfQoKaDIucGFyZW50SXRlbSB7Cglmb250LXdlaWdodDogNjAwOwoJZm9udC1zaXplOiAxZW07CglwYWRkaW5nOiAwIDAgLjVlbTsKCWJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjY2NjOwp9CgovKiBJZiBjb21iaW5pbmcgY2hpbGRyZW4sIGRpc3BsYXkgcGFyZW50IHNsaWdodGx5IGxhcmdlciAqLwp1bC5yZXBvcnQuY29tYmluZUNoaWxkSXRlbXMgaDIucGFyZW50SXRlbSB7Cglmb250LXNpemU6IDEuMWVtOwoJcGFkZGluZy1ib3R0b206IC43NWVtOwoJbWFyZ2luLWJvdHRvbTogLjRlbTsKfQoKaDIucGFyZW50SXRlbSAudGl0bGUgewoJZm9udC13ZWlnaHQ6IG5vcm1hbDsKfQoKaDMgewoJbWFyZ2luLWJvdHRvbTogLjZlbTsKCWZvbnQtd2VpZ2h0OiA2MDAgIWltcG9ydGFudDsKCWZvbnQtc2l6ZTogMWVtOwoJZGlzcGxheTogYmxvY2s7Cn0KCi8qIE1ldGFkYXRhIHRhYmxlICovCnRoIHsKCXZlcnRpY2FsLWFsaWduOiB0b3A7Cgl0ZXh0LWFsaWduOiByaWdodDsKCXdpZHRoOiAxNSU7Cgl3aGl0ZS1zcGFjZTogbm93cmFwOwp9Cgp0ZCB7CglwYWRkaW5nLWxlZnQ6IC41ZW07Cn0KCgp1bC5yZXBvcnQsIHVsLm5vdGVzLCB1bC50YWdzIHsKCWxpc3Qtc3R5bGU6IG5vbmU7CgltYXJnaW4tbGVmdDogMDsKCXBhZGRpbmctbGVmdDogMDsKfQoKLyogVGFncyAqLwpoMy50YWdzIHsKCWZvbnQtc2l6ZTogMS4xZW07Cn0KCnVsLnRhZ3MgewoJbGluZS1oZWlnaHQ6IDEuNzVlbTsKCWxpc3Qtc3R5bGU6IG5vbmU7Cn0KCnVsLnRhZ3MgbGkgewoJZGlzcGxheTogaW5saW5lOwp9Cgp1bC50YWdzIGxpOm5vdCg6bGFzdC1jaGlsZCk6YWZ0ZXIgewoJY29udGVudDogJywgJzsKfQoKCi8qIENoaWxkIG5vdGVzICovCmgzLm5vdGVzIHsKCWZvbnQtc2l6ZTogMS4xZW07Cn0KCnVsLm5vdGVzIHsKCW1hcmdpbi1ib3R0b206IDEuMmVtOwp9Cgp1bC5ub3RlcyA+IGxpOmZpcnN0LWNoaWxkIHAgewoJbWFyZ2luLXRvcDogMDsKfQoKdWwubm90ZXMgPiBsaSB7CglwYWRkaW5nOiAuN2VtIDA7Cn0KCnVsLm5vdGVzID4gbGk6bm90KDpsYXN0LWNoaWxkKSB7Cglib3JkZXItYm90dG9tOiAxcHggI2NjYyBzb2xpZDsKfQoKCnVsLm5vdGVzID4gbGkgcDpmaXJzdC1jaGlsZCB7CgltYXJnaW4tdG9wOiAwOwp9Cgp1bC5ub3RlcyA+IGxpIHA6bGFzdC1jaGlsZCB7CgltYXJnaW4tYm90dG9tOiAwOwp9CgovKiBBZGQgcXVvdGF0aW9uIG1hcmtzIGFyb3VuZCBibG9ja3F1b3RlICovCnVsLm5vdGVzID4gbGkgYmxvY2txdW90ZSBwOm5vdCg6ZW1wdHkpOmJlZm9yZSwKbGkubm90ZSBibG9ja3F1b3RlIHA6bm90KDplbXB0eSk6YmVmb3JlIHsKCWNvbnRlbnQ6ICfigJwnOwp9Cgp1bC5ub3RlcyA+IGxpIGJsb2NrcXVvdGUgcDpub3QoOmVtcHR5KTpsYXN0LWNoaWxkOmFmdGVyLApsaS5ub3RlIGJsb2NrcXVvdGUgcDpub3QoOmVtcHR5KTpsYXN0LWNoaWxkOmFmdGVyIHsKCWNvbnRlbnQ6ICfigJ0nOwp9CgovKiBQcmVzZXJ2ZSB3aGl0ZXNwYWNlIG9uIHBsYWludGV4dCBub3RlcyAqLwp1bC5ub3RlcyBsaSBwLnBsYWludGV4dCwgbGkubm90ZSBwLnBsYWludGV4dCwgZGl2Lm5vdGUgcC5wbGFpbnRleHQgewoJd2hpdGUtc3BhY2U6IHByZS13cmFwOwp9CgovKiBEaXNwbGF5IHRhZ3Mgd2l0aGluIGNoaWxkIG5vdGVzIGlubGluZSAqLwp1bC5ub3RlcyBoMy50YWdzIHsKCWRpc3BsYXk6IGlubGluZTsKCWZvbnQtc2l6ZTogMWVtOwp9Cgp1bC5ub3RlcyBoMy50YWdzOmFmdGVyIHsKCWNvbnRlbnQ6ICcgJzsKfQoKdWwubm90ZXMgdWwudGFncyB7CglkaXNwbGF5OiBpbmxpbmU7Cn0KCnVsLm5vdGVzIHVsLnRhZ3MgbGk6bm90KDpsYXN0LWNoaWxkKTphZnRlciB7Cgljb250ZW50OiAnLCAnOwp9CgoKLyogQ2hpbGQgYXR0YWNobWVudHMgKi8KaDMuYXR0YWNobWVudHMgewoJZm9udC1zaXplOiAxLjFlbTsKfQoKdWwuYXR0YWNobWVudHMgbGkgewoJcGFkZGluZy10b3A6IC41ZW07Cn0KCnVsLmF0dGFjaG1lbnRzIGRpdi5ub3RlIHsKCW1hcmdpbi1sZWZ0OiAyZW07Cn0KCnVsLmF0dGFjaG1lbnRzIGRpdi5ub3RlIHA6Zmlyc3QtY2hpbGQgewoJbWFyZ2luLXRvcDogLjc1ZW07Cn0KCmRpdiB0YWJsZSB7Cglib3JkZXItY29sbGFwc2U6IGNvbGxhcHNlOwp9CgpkaXYgdGFibGUgdGQsIGRpdiB0YWJsZSB0aCB7Cglib3JkZXI6IDFweCAjY2NjIHNvbGlkOwoJYm9yZGVyLWNvbGxhcHNlOiBjb2xsYXBzZTsKCXdvcmQtYnJlYWs6IGJyZWFrLWFsbDsKfQoKZGl2IHRhYmxlIHRkIHA6ZW1wdHk6OmFmdGVyLCBkaXYgdGFibGUgdGggcDplbXB0eTo6YWZ0ZXIgewoJY29udGVudDogIlwwMGEwIjsKfQoKZGl2IHRhYmxlIHRkICo6Zmlyc3QtY2hpbGQsIGRpdiB0YWJsZSB0aCAqOmZpcnN0LWNoaWxkIHsKCW1hcmdpbi10b3A6IDA7Cn0KCmRpdiB0YWJsZSB0ZCAqOmxhc3QtY2hpbGQsIGRpdiB0YWJsZSB0aCAqOmxhc3QtY2hpbGQgewoJbWFyZ2luLWJvdHRvbTogMDsKfQo=">
+		<link rel="stylesheet" type="text/css" media="screen,projection" href="data:text/css;base64,LyogR2VuZXJpYyBzdHlsZXMgKi8KYm9keSB7Cglmb250OiA2Mi41JSBHZW9yZ2lhLCBUaW1lcywgc2VyaWY7Cgl3aWR0aDogNzgwcHg7CgltYXJnaW46IDAgYXV0bzsKfQoKaDIgewoJZm9udC1zaXplOiAxLjVlbTsKCWxpbmUtaGVpZ2h0OiAxLjVlbTsKCWZvbnQtZmFtaWx5OiBHZW9yZ2lhLCBUaW1lcywgc2VyaWY7Cn0KCnAgewoJbGluZS1oZWlnaHQ6IDEuNWVtOwp9CgphOmFueS1saW5rIHsKCWNvbG9yOiAjOTAwOwp9CgphOmhvdmVyLCBhOmFjdGl2ZSB7Cgljb2xvcjogIzc3NzsKfQoKQG1lZGlhIChwcmVmZXJzLWNvbG9yLXNjaGVtZTogZGFyaykgewoJYTphbnktbGluayB7CgkJY29sb3I6ICNmMDA7Cgl9CgoJYTpob3ZlciwgYTphY3RpdmUgewoJCWNvbG9yOiAjOTk5OwoJfQp9CgoKdWwucmVwb3J0IHsKCWZvbnQtc2l6ZTogMS40ZW07Cgl3aWR0aDogNjgwcHg7CgltYXJnaW46IDAgYXV0bzsKCXBhZGRpbmc6IDIwcHggMjBweDsKfQoKLyogTWV0YWRhdGEgdGFibGUgKi8KdGFibGUgewoJYm9yZGVyOiAxcHggI2NjYyBzb2xpZDsKCW92ZXJmbG93OiBhdXRvOwoJd2lkdGg6IDEwMCU7CgltYXJnaW46IC4xZW0gYXV0byAuNzVlbTsKCXBhZGRpbmc6IDAuNWVtOwp9Cg==">
+		<link rel="stylesheet" type="text/css" media="print" href="data:text/css;base64,Ym9keSB7Cglmb250OiAxMnB0ICJUaW1lcyBOZXcgUm9tYW4iLCBUaW1lcywgR2VvcmdpYSwgc2VyaWY7CgltYXJnaW46IDA7Cgl3aWR0aDogYXV0bzsKfQoKLyogUGFnZSBCcmVha3MgKHBhZ2UtYnJlYWstaW5zaWRlIG9ubHkgcmVjb2duaXplZCBieSBPcGVyYSkgKi8KaDEsIGgyLCBoMywgaDQsIGg1LCBoNiB7CglwYWdlLWJyZWFrLWFmdGVyOiBhdm9pZDsKCXBhZ2UtYnJlYWstaW5zaWRlOiBhdm9pZDsKfQoKdWwsIG9sLCBkbCB7CglwYWdlLWJyZWFrLWluc2lkZTogYXZvaWQ7Cgljb2xvci1hZGp1c3Q6IGV4YWN0Owp9CgpoMiB7Cglmb250LXNpemU6IDEuM2VtOwoJbGluZS1oZWlnaHQ6IDEuM2VtOwp9CgphIHsKCWNvbG9yOiBpbmhlcml0OwoJdGV4dC1kZWNvcmF0aW9uOiBub25lOwp9Cg==">
+	</head>
+	<body>
+		<ul class="report combineChildItems">
+			<li id="item_NDEXN65V" class="item journalArticle">
+			<h2>Actor-Network Theory and Organology</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Eliot Bates</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>At its most basic, actor-network theory is a methodological 
+standpoint that assumes an analytical equivalence between humans and 
+non-humans. Since anything can be an actor, ANT has been termed a "flat 
+ontology" or, in other words, a non-hierarchical ordering of things. 
+ANT, in its most basic form, doesn't have any particular explanatory or 
+predictive power (the "theory" part of the term is a misnomer), but the 
+methodology was developed alongside a number of interrelated concepts, 
+some of which need to be included for an analysis to be truly exemplary 
+of ANT. Here we need to understand the roles of many kinds of actors, 
+including marketers, distributors, and expert users, in translating 
+between the worlds of electronics and lab equipment, and the worlds of 
+musicians in the genres of psychedelic rock, sound design, and 
+underground/mainstream dance music. Agency, in this conceptualization, 
+is not to be confused with intentionality: agency is simply a property 
+of things that make a difference/change in a particular situation, 
+rather than a result of conscious thought or intention.</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2018</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>English</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>ProQuest</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.proquest.com/docview/3132950357/abstract/5C71D4E6E9534759PQ/1">https://www.proquest.com/docview/3132950357/abstract/5C71D4E6E9534759PQ/1</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>6/16/2025, 3:32:32 PM</td>
+					</tr>
+					<tr>
+					<th>Rights</th>
+						<td>Copyright American Musical Instrument Society 2018</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Num Pages: 41-51,350
+Place: Middleton, United States
+Publisher: American Musical Instrument Society</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>44</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>41-51,350</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Journal of the American Musical Instrument Society</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>03623300</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>6/16/2025, 3:32:32 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>6/16/2025, 3:50:38 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Musical instruments</li>
+					<li>Actor-network theory</li>
+					<li>Ethnography</li>
+					<li>Ontology</li>
+					<li>Science</li>
+					<li>Scientists</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_623QE6KB">Bates - 2018 - Actor-Network Theory and Organology					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_EN5G5MZS" class="item book">
+			<h2>Analog Days: The Invention and Impact of the Moog Synthesizer</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Book</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Trevor Pinch</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Frank Trocco</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2004-11-15</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>English</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>Analog Days</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>Amazon</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Cambridge, Massachusetts London, England</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>Harvard University Press</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-0-674-01617-0</td>
+					</tr>
+					<tr>
+					<th>Edition</th>
+						<td>Revised edition</td>
+					</tr>
+					<tr>
+					<th># of Pages</th>
+						<td>384</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>5/12/2022, 10:39:50 AM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>5/12/2022, 2:11:27 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_CSPB86YF">Amazon.com Link					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_4WC7UGMC" class="item journalArticle">
+			<h2>Analyzing Vocal Placement in Recorded Virtual Space</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Michèle Duguay</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>When listening to a piece of recorded music through headphones
+ or stereo speakers, one hears various sound sources as though they were
+ in a virtual space. This article establishes a methodology for 
+analyzing vocal placement—the apparent location of a voice within this 
+virtual space—in recent popular music. In contrast to existing 
+analytical approaches to the analysis of virtual space that rely 
+primarily on close listening, I provide an empirical method using 
+digital sound-processing tools to precisely locate recorded sound 
+sources in virtual space. Additionally, I offer a measurable way to 
+visually display these parameters within the virtual space. After Ruth 
+Dockwray and Allan Moore (2010), I depict the virtual space as an empty 
+room in which sound sources are located. I position the voice in this 
+empty room according to five parameters: (1) width (the perceived 
+lateral space occupied by the voice); (2) pitch range (the range 
+occupied by the voice); (3) prominence (the amplitude of the voice in 
+relationship to other sound sources in the mix); (4) environment (the 
+level of echo and reverberation applied to the voice); and (5) layering 
+(supplementary vocal tracks added to the voice). To illustrate the 
+methodology, I analyze and compare the vocal placements in Eminem’s and 
+Rihanna’s four collaborations: “Love the Way You Lie” (2010), “Love the 
+Way You Lie (Part II)” (2010), “Numb” (2012), and “The Monster” (2013).</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2022/12/01</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>mtosmt.org</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://mtosmt.org/issues/mto.22.28.4/mto.22.28.4.duguay.html">https://mtosmt.org/issues/mto.22.28.4/mto.22.28.4.duguay.html</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>1/3/2023, 4:46:54 PM</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>28</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Music Theory Online</td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>4</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>1/3/2023, 4:46:54 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>1/7/2023, 2:21:25 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_GUBHM4QG">Snapshot					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_UZHRWCH6" class="item book">
+			<h2>Any Sound You Can Imagine: Making Music/Consuming Technology</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Book</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Paul Théberge</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>Winner of the International Association for the Study of 
+Popular Music (IASPM) Book Award (1997)Recent innovations in musical 
+instrument design are not simply a response to the needs of musicians, 
+writes Paul Théberge; they also have become "a driving force with which 
+musicians must contend." He argues that digital synthesizers, samplers, 
+and sequencers in studio production and in the home have caused 
+musicians to rely increasingly on manufacturers for both the instruments
+ themselves as well as the very sounds and musical patterns that they 
+use to make music. Musical practices have thus become allied with a new 
+type of consumer practice that is altogether different from earlier 
+relationships between musicians and their instruments as a means of 
+production. Théberge places these developments within a broad social and
+ historical perspective that examines the development of the musical 
+instrument industry, particularly the piano industry, the economic and 
+cultural role of musicians' magazines and computer networks, and the 
+fundamental relationships between musical concepts, styles, and 
+technology.</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>1997-06-23</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>Any Sound You Can Imagine</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>Google Books</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Google-Books-ID: asBnYmKKz6kC</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Hanover, NH</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>Wesleyan University Press</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-0-8195-6309-5</td>
+					</tr>
+					<tr>
+					<th># of Pages</th>
+						<td>308</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2/9/2018, 3:48:06 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2/9/2018, 3:48:44 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Music / Business Aspects</li>
+					<li>Music / General</li>
+					<li>Music / History &amp; Criticism</li>
+					<li>Music / Musical Instruments / General</li>
+					<li>Social Science / Anthropology / Cultural &amp; Social</li>
+					<li>Social Science / Popular Culture</li>
+					<li>Technology &amp; Engineering / Acoustics &amp; Sound</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_X38FR6RR">Any Sound You Can Imagine- Making 
+Music-Consuming Technology -- Théberge, Paul -- Wesleyan University 
+Press, Hanover, NH, 1997 -- Hanover, NH- -- 9780585372211 -- 
+eaa56e30a55f2ad3dd82e02498fd6672 -- Anna’s Archive					</li>
+					<li id="item_AACJJ3EV">Google Books Link					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_6AJP872C" class="item bookSection">
+			<h2>Beethoven's Prosthesis</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Book Section</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Jonathan De Souza</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>This chapter takes performances by the deaf Beethoven as an 
+instance of body-instrument interaction. Prior research in music theory,
+ drawing on cognitive linguistics, suggests that Beethoven’s music was 
+shaped by conceptual metaphors, which are both culturally specific and 
+grounded in the body. Yet this chapter shows that players’ experience is
+ not simply embodied but also technical. To that end, the chapter 
+explores cognitive neuroscience, ecological psychology, and 
+phenomenology. Patterns of auditory-motor coactivation in players’ 
+brains are made possible by the stable affordances of an instrument. 
+These auditory-motor connections support performative habits, and they 
+may be reactivated and recombined in perception and 
+imagination—supporting Beethoven’s auditory simulations after hearing 
+loss, for example.</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2017</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>eng</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>wrlc-gm.primo.exlibrisgroup.com</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>New York, NY</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>Oxford University Press</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-0-19-027113-8</td>
+					</tr>
+					<tr>
+					<th>Series</th>
+						<td>Oxford Studies in Music Theory</td>
+					</tr>
+					<tr>
+					<th>Book Title</th>
+						<td>Music at hand: instruments, bodies, and cognition</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>7/17/2025, 1:16:09 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>7/17/2025, 1:17:42 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Music</li>
+					<li>Psychological aspects</li>
+					<li>Performance</li>
+				</ul>
+				<h3 class="related">Related</h3>
+				<ul class="related">
+				</ul>
+			</li>
+
+
+			<li id="item_ZN2Y65I5" class="item bookSection">
+			<h2>“Cello-and-Bow Thinking”: The First Movement of Boccherini’s Cello Sonata in E♭ Major, Fuori Catalogo</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Book Section</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Elisabeth Le Guin</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>In this chapter, Elisabeth Le Guin explores the intimate, 
+embodied relationship between performer and composer through a detailed 
+analysis of the first movement of Boccherini’s Cello Sonata in E-flat 
+Major. Framing her approach within the concept of “carnal musicology,” 
+Le Guin argues that physical sensation and gesture—what she terms 
+“cello-and-bow thinking”—are central to understanding both the 
+performance and the compositional process. She examines how bodily 
+experience, particularly the cellist’s engagement with thumb position, 
+friction, and muscular movement, informs musical interpretation and 
+reveals a reciprocal relationship with the composer. Through close 
+readings of the sonata’s structure, Le Guin illustrates how Boccherini’s
+ music invites introspection, comfort, and subtle emotional expression, 
+often resisting virtuosic display in favor of nuanced physical and 
+affective gestures. The chapter concludes by situating Boccherini’s work
+ within broader historical and aesthetic contexts, proposing that his 
+sonatas reflect a deeply personal and tactile mode of musical creation 
+that challenges conventional notions of musical authority and 
+interpretation. [AI-generated]</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2006</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>ACLS Humanities EBook</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://hdl.handle.net/2027/heb06338.0001.001">https://hdl.handle.net/2027/heb06338.0001.001</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>8/14/2025, 1:43:27 PM</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Berkeley</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>University of California Press</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-0-520-93062-9 978-0-520-24017-9</td>
+					</tr>
+					<tr>
+					<th>Book Title</th>
+						<td>Boccherini's body: an essay in carnal musicology</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>8/14/2025, 1:43:33 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>8/14/2025, 2:06:17 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_RDRFUJBT">PDF					</li>
+				</ul>
+				<h3 class="related">Related</h3>
+				<ul class="related">
+					<li id="item_SZMSXZJA">Boccherini's body: an essay in carnal musicology</li>
+				</ul>
+			</li>
+
+
+			<li id="item_7IQZP39N" class="item bookSection">
+			<h2>Five theses about music and technology</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Book Section</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Mark Katz</td>
+					</tr>
+					<tr>
+						<th class="editor">Editor</th>
+						<td>Mark Katz</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>The concluding chapter proposes five central takeaways from 
+this volume in the form of five theses about music and technology. They 
+are as follows: 1. All music is technological. 2. Our relationship with 
+music technology is fundamentally collaborative. 3. All uses of musical 
+technologies reveal power relationships. 4. The mass mediation of music 
+has not eliminated cultural differences. 5. The study of music 
+technology is the study of people. The five theses are illustrated 
+through a diverse array of examples, including a comparison of the 
+traditional piano and the player piano; the musical demands and 
+possibilities of video games such as Guitar Hero; the use of radio in 
+Nazi Germany; the emergence of the steel drum as a musical instrument in
+ Trinidad; hip hop in Zimbabwe; and the musical handclapping and rope 
+jumping games of African American girls.</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2022-09-08</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>Silverchair</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://doi.org/10.1093/actrade/9780199946983.003.0007">https://doi.org/10.1093/actrade/9780199946983.003.0007</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>6/16/2025, 3:55:55 PM</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>DOI: 10.1093/actrade/9780199946983.003.0007</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>Oxford University Press</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-0-19-994698-3</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>0</td>
+					</tr>
+					<tr>
+					<th>Book Title</th>
+						<td>Music and Technology: A Very Short Introduction</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>6/16/2025, 3:55:55 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>6/16/2025, 3:57:08 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_8FP49UK5">PDF					</li>
+					<li id="item_2QINAM47">Snapshot					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_8PMUYUFW" class="item bookSection">
+			<h2>Guitar Voicing I: Barre Chords, Gesture, and Agency</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Book Section</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Timothy Koozin</td>
+					</tr>
+					<tr>
+						<th class="editor">Editor</th>
+						<td>Timothy Koozin</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>Chapter 1 focuses on guitar-based expression, showing how we 
+can understand basic moves in guitar playing not only as building blocks
+ in creating songs, but also as musical gestures carrying aural traces 
+of human movement that can project attributes of a fictionalized virtual
+ musical agent. The chapter begins with barre chords that can be grasped
+ on the guitar fretboard at any location within boundaries up and down 
+the guitar neck. Concepts are illustrated with examples selected from a 
+broad range of artists, including the Kinks, Jimi Hendrix, the Rolling 
+Stones, Neil Young, Tower of Power, and Lenny Kravitz. The study 
+progresses from basics in how barre chords map to fretboard space, to 
+more complex barre chord figurations and guitar riffs, to extended jazz 
+chords based on familiar barre chord shapes found in songs by Lianne La 
+Havas.</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2024-11-15</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>Guitar Voicing I</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>Silverchair</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://doi.org/10.1093/oso/9780197692981.003.0002">https://doi.org/10.1093/oso/9780197692981.003.0002</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>7/17/2025, 12:55:54 PM</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>DOI: 10.1093/oso/9780197692981.003.0002</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>Oxford University Press</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-0-19-769298-1</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>0</td>
+					</tr>
+					<tr>
+					<th>Book Title</th>
+						<td>Embodied Expression in Popular Music: A Theory of Musical Gesture and Agency</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>7/17/2025, 12:55:54 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>7/17/2025, 12:55:54 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_TNK5XJ72">PDF					</li>
+					<li id="item_GYYWPLUB">Snapshot					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_BBCXGVDZ" class="item bookSection">
+			<h2>Guitar Voicing II: Open-String Chords, Fretboard Strategies, and Virtual Spaces</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Book Section</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Timothy Koozin</td>
+					</tr>
+					<tr>
+						<th class="editor">Editor</th>
+						<td>Timothy Koozin</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>Following the introduction to guitar barre chords provided in 
+Chapter 1, this chapter continues with guitar chords that utilize open 
+strings, showing how basic fretted chord shapes form “chord spaces” that
+ guitarists navigate creatively. Examples by artists including Tom 
+Petty, the Grateful Dead, the Rolling Stones, the Eagles, and Liz Phair 
+provide a framework in exploring songs by Sheryl Crow that use fretboard
+ space to establish axial harmonic relationships, projecting virtual 
+environments and dramatic trajectories that interact with vocal persona.
+ Crow employs G-chord space in an artistically personalized way to craft
+ an individual creative strategy. Blending rock and country style 
+idioms, she creates songs that juxtapose mythic imagery of the American 
+West against realistic narratives of modern romance, crisis, and 
+recovery. Given the easy access to the more materially grounded E minor 
+submediant, G-chord fretboard space offers the potential to musically 
+personify a powerful metaphor: a crisis waiting to happen.</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2024-11-15</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>Guitar Voicing II</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>Silverchair</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://doi.org/10.1093/oso/9780197692981.003.0003">https://doi.org/10.1093/oso/9780197692981.003.0003</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>7/17/2025, 12:56:05 PM</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>DOI: 10.1093/oso/9780197692981.003.0003</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>Oxford University Press</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-0-19-769298-1</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>0</td>
+					</tr>
+					<tr>
+					<th>Book Title</th>
+						<td>Embodied Expression in Popular Music: A Theory of Musical Gesture and Agency</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>7/17/2025, 12:56:05 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>7/17/2025, 12:56:05 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_3NTVE7N3">PDF					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_S4NGLGZ7" class="item journalArticle">
+			<h2>Hands, Fingers, Strings, and Bows: Performance Technique and Analysis in J.S. Bach’s Largo for Solo Violin</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Christa Cole</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>In this article, I draw on public-facing sources and my 
+violinistic experience to show how attention to performance technique 
+illustrates three different relationships between performance and 
+analysis. In the Largo from J.S. Bach’s Sonata No. 3 for Solo Violin 
+(BWV 1005), multiple-stop chords, string-based affordances, and bowings 
+in turn correspond with, contradict, and create new analytical 
+perspectives. I first collate definitions of interpretation and 
+technique as they relate to performance. Interpretation is 
+non-instrument-specific and deals with decoding and expressing musical 
+meaning; technique is instrument-specific and deals with the granular 
+mechanics of sound production. A multiple-stop intensity model shows 
+that changes in a violinist’s multiple-stop-based effort correspond with
+ significant cadential markers. At the local level, the violinistic 
+“feel” of each quadruple stop aligns with expressive aspects of harmony 
+and form. Heinrich Schenker’s performance recommendations for the 
+Largo’s cadences, by contrast, conflict with a violinist’s experience of
+ how the cadences intersect with instrumental affordances. Although the 
+two perspectives may be reconcilable, actual performances support the 
+instrument-grounded perspective. Finally, I draw on basic bowing motions
+ to create an analytical technique of bowing reduction. My reduction of 
+the Largo reveals a recurring bowing-based motive, which in turn 
+elucidates the source of a performative tension I have experienced when 
+playing the movement. This final example reminds us that technique and 
+interpretation—just like performance and analysis—are inevitably 
+entangled.</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2024/09/01</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>Hands, Fingers, Strings, and Bows</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>mtosmt.org</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://mtosmt.org/issues/mto.24.30.3/mto.24.30.3.cole.html">https://mtosmt.org/issues/mto.24.30.3/mto.24.30.3.cole.html</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>7/17/2025, 12:41:24 PM</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>30</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Music Theory Online</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.30535/mto.30.3.1">10.30535/mto.30.3.1</a></td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>3</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>7/17/2025, 12:41:24 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>7/17/2025, 1:15:09 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_FPHLK3JR">Snapshot					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_SEGXJMXN" class="item bookSection">
+			<h2>Hard Limitations and Soft Possibilities: A “Systematic” History of Early Video Game Sound Technology</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Book Section</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Kevin R. Burke</td>
+					</tr>
+					<tr>
+						<th class="editor">Editor</th>
+						<td>William Gibbons</td>
+					</tr>
+					<tr>
+						<th class="editor">Editor</th>
+						<td>Mark Grimshaw-Aagaard</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>Kevin R. Burke provides a survey and assessment of the 
+hardware and software that powered early video game sound and analyzes 
+how the hardware limitations and innovative software led to specific 
+compositional styles across platform developers. Throughout, Burke’s 
+focus is on the home consoles of the chiptune era, and he develops a 
+“systematic” approach for the analysis of the audio hardware and 
+software systems, systems that determine the challenges posed, and the 
+possibilities afforded the games’ composers. Burke provides also a 
+glossary of selected digital audio terminology pertinent to the video 
+games industry, a list of video game audio formats, and a table of 
+programmable sound generators used in the video games industry detailing
+ their developer, the number of channels they have, and significant 
+console and PC video games producers using these generators.</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2024-08-12</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>Hard Limitations and Soft Possibilities</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>Silverchair</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://doi.org/10.1093/oxfordhb/9780197556160.013.17">https://doi.org/10.1093/oxfordhb/9780197556160.013.17</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>7/17/2025, 2:11:04 PM</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>DOI: 10.1093/oxfordhb/9780197556160.013.17</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>Oxford University Press</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-0-19-755616-0</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>0</td>
+					</tr>
+					<tr>
+					<th>Book Title</th>
+						<td>The Oxford Handbook of Video Game Music and Sound</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>7/17/2025, 2:11:04 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>7/17/2025, 2:11:04 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_SZUZ92N9">PDF					</li>
+					<li id="item_9TLQEMAT">Snapshot					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_G6FASFU6" class="item journalArticle">
+			<h2>Instruments of Music Theory</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Alexander Rehding</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2016/12/01</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>mtosmt.org</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://mtosmt.org/issues/mto.16.22.4/mto.16.22.4.rehding.html">https://mtosmt.org/issues/mto.16.22.4/mto.16.22.4.rehding.html</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>8/14/2025, 1:22:46 PM</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>22</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Music Theory Online</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.30535/mto.22.4.4">10.30535/mto.22.4.4</a></td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>4</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>8/14/2025, 1:22:46 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>8/14/2025, 1:22:49 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_6JXXRIFY">Snapshot					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_8TPFWJ84" class="item journalArticle">
+			<h2>Maria Callas's Waistline and the Organology of Voice</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Nina Sun Eidsheim</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>In this article, Nina Sun Eidsheim interrogates the cultural 
+and critical narratives surrounding Maria Callas’s voice and body, 
+particularly the persistent claim that her dramatic weight loss led to 
+vocal decline. Drawing on feminist theory, especially Susan Bordo’s 
+concept of the body as a carrier of culture, Eidsheim explores how 
+Callas’s voice became a site of gendered scrutiny, where vocal timbre, 
+vibrato, and register were interpreted through the lens of bodily 
+control and femininity. Eidsheim introduces a “critical organology” of 
+voice—an interdisciplinary framework that considers the material, 
+physiological, and cultural dimensions of vocal production—to challenge 
+the reductionist view of the voice as merely an instrument shaped by 
+body size. Through this lens, she reveals how critiques of Callas’s 
+voice reflect broader societal anxieties about female appetite, 
+discipline, and power. Ultimately, the article calls for a rethinking of
+ vocal discourse that disentangles voice from entrenched gendered and 
+bodily ideologies, advocating for a more nuanced, materially grounded, 
+and culturally aware understanding of vocal performance. [AI-generated]</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2017</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>Project MUSE</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://muse.jhu.edu/pub/8/article/685647">https://muse.jhu.edu/pub/8/article/685647</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>7/16/2025, 1:40:56 PM</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Publisher: Oxford University Press</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>33</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>249-268</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>The Opera Quarterly</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1093/oq/kbx008">10.1093/oq/kbx008</a></td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>3</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1476-2870</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>7/16/2025, 1:40:56 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>7/17/2025, 1:27:01 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_N2T7Y5MH">PDF					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_PNCGXVEM" class="item bookSection">
+			<h2>Musical Instruments as Assemblage</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Book Section</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Paul Théberge</td>
+					</tr>
+					<tr>
+						<th class="editor">Editor</th>
+						<td>Till Bovermann</td>
+					</tr>
+					<tr>
+						<th class="editor">Editor</th>
+						<td>Alberto De Campo</td>
+					</tr>
+					<tr>
+						<th class="editor">Editor</th>
+						<td>Hauke Egermann</td>
+					</tr>
+					<tr>
+						<th class="editor">Editor</th>
+						<td>Sarah-Indriyati Hardjowirogo</td>
+					</tr>
+					<tr>
+						<th class="editor">Editor</th>
+						<td>Stefan Weinzierl</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>Traditional analysis and classification of musical instruments
+ is often based on an account of the material characteristics of 
+instruments as physical objects. In this sense, their material basis as a
+ kind of purpose-built technology is
+the primary focus of concern. This chapter takes the position that 
+musical instruments are better understood in terms of their place in a 
+network of relationships—an “assemblage”—with other objects, practices, 
+institutions and social discourses. Particular attention is applied to 
+the violin, the electric guitar and the phonographic turntable as 
+examples. The assemblage is variable, and the same instrument can be 
+used differently and take on different meanings depending on its place 
+within a particular assemblage; indeed, it is the assemblage that allows
+ us to consider devices like turntables as musical instruments even 
+though they were not designed for such purposes.</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2017</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://link.springer.com/10.1007/978-981-10-2951-6">http://link.springer.com/10.1007/978-981-10-2951-6</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>4/18/2025, 8:34:40 AM</td>
+					</tr>
+					<tr>
+					<th>Rights</th>
+						<td>http://www.springer.com/tdm</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>DOI: 10.1007/978-981-10-2951-6</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Singapore</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>Springer</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-981-10-2950-9 978-981-10-2951-6</td>
+					</tr>
+					<tr>
+					<th>Book Title</th>
+						<td>Musical Instruments in the 21st Century</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>4/18/2025, 8:35:46 AM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>7/17/2025, 1:28:10 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="related">Related</h3>
+				<ul class="related">
+				</ul>
+			</li>
+
+
+			<li id="item_SYUMNTL5" class="item journalArticle">
+			<h2>Pitch Properties of the Pedal Harp, with an Interactive Guide</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Mark R. H. Gotham</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Iain A. D. Gunn</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>This article is aimed at two groups of readers. First, we 
+present an interactive guide to pitch on the pedal harp for anyone 
+wishing to teach or learn about harp pedaling and its associated pitch 
+possibilities. We originally created this in response to a pedagogical 
+need for such a resource in the teaching of composition and 
+orchestration.
+
+Secondly, for composers and theorists seeking a more comprehensive 
+understanding of what can be done on this unique instrument, we present a
+ range of empirical-theoretical observations about the properties and 
+prevalence of pitch structures on the pedal harp and the routes among 
+them. This is particularly relevant to those interested in 
+extended-tonal and atonal repertoires. A concluding section discusses 
+prospective theoretical developments and analytical applications.</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2016/12/01</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>mtosmt.org</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://mtosmt.org/issues/mto.16.22.4/mto.16.22.4.gotham.html">https://mtosmt.org/issues/mto.16.22.4/mto.16.22.4.gotham.html</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>7/17/2025, 12:41:41 PM</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>22</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Music Theory Online</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.30535/mto.22.4.3">10.30535/mto.22.4.3</a></td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>4</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>7/17/2025, 12:41:41 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>7/17/2025, 1:27:19 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_T6CTAS45">Snapshot					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_2PID6FSM" class="item bookSection">
+			<h2>Quality</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Book Section</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Victoria Malawey</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>Similar to what several researchers in the early 1980s dubbed 
+“sonance,” quality comprises more than just timbre, including also 
+intensity, harmonic spectrum, phonation, and changes in sound. Multiple 
+dimensions—including timbre, phonation, onset, resonance, clarity, 
+paralinguistic effects, and loudness—create a singer’s individual vocal 
+quality. Songs recorded and re-recorded by Lucas Silveira demonstrate 
+the dynamic aspects associated with an ever-evolving vocal quality due 
+to the artist’s having undergone hormone replacement therapy. The 
+concept of quality is framed in terms of three different 
+orientations—the physiological, acoustic, and perceptual—all of which 
+are essential to understanding qualitative aspects of vocal delivery, 
+more so than aspects in the domains of pitch and prosody. While sonic 
+markers of identities are fluid social constructions rather than static 
+essential attributes, this chapter considers how qualitative elements 
+may signify artists’ identities and genre.</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2020-08-06</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>Silverchair</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://doi.org/10.1093/oso/9780190052201.003.0004">https://doi.org/10.1093/oso/9780190052201.003.0004</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>7/17/2025, 12:50:04 PM</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>DOI: 10.1093/oso/9780190052201.003.0004</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>Oxford University Press</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-0-19-005220-1</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>0</td>
+					</tr>
+					<tr>
+					<th>Book Title</th>
+						<td>A Blaze of Light in Every Word: Analyzing the Popular Singing Voice</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>7/17/2025, 12:50:04 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>7/17/2025, 1:16:32 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_678Q5IVU">PDF					</li>
+					<li id="item_6CXAQDYK">Snapshot					</li>
+				</ul>
+				<h3 class="related">Related</h3>
+				<ul class="related">
+					<li id="item_EJ7EELJH">A blaze of light in every word: analyzing the popular singing voice</li>
+				</ul>
+			</li>
+
+
+			<li id="item_TJUHRX8V" class="item bookSection">
+			<h2>Race as Zeros and Ones: Vocaloid Refused, Reimagined, and Repurposed</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Book Section</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Nina Sun Eidsheim</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>Thus far I have considered a number of ways in which formal 
+and informal pedagogies shape human bodies and vocal practices, focusing
+ on timbre. First, considering classical vocal pedagogy, I showed that 
+vocal timbre does not exist a priori but is shaped by cultural forces. I
+ discussed that the available imagery and language are saturated with 
+race- and gender-related power structures, thus presenting a challenge 
+in themselves to combating such wrongs. Second, examining Marian 
+Anderson?s opera career, I discussed how female African American opera 
+singers are perceived through racialized layers generated by listeners, 
+and how the segregation that ended by</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2019</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>RACE AS ZEROS AND ONES</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>JSTOR</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.jstor.org/stable/j.ctv11hpntq.8">https://www.jstor.org/stable/j.ctv11hpntq.8</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>8/12/2025, 1:27:08 PM</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>DOI: 10.2307/j.ctv11hpntq.8</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>Duke University Press</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-0-8223-6856-4</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>115-150</td>
+					</tr>
+					<tr>
+					<th>Series</th>
+						<td>Listening, Timbre, and Vocality in African American Music</td>
+					</tr>
+					<tr>
+					<th>Book Title</th>
+						<td>The Race of Sound</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>8/12/2025, 1:27:08 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>8/12/2025, 1:28:04 PM</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_EUXD7M9G" class="item journalArticle">
+			<h2>Riff Schemes, Form, and the Genre of Early American Hardcore Punk (1978–83)</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>David B. Easley</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>This article explores the structures of guitar riffs in early 
+American hardcore punk rock and their role in the creation of meaning 
+within the genre. Drawing upon a corpus analysis of recordings by Bad 
+Brains, Black Flag, Dead Kennedys, and Minor Threat, the article begins 
+by outlining the main ways in which guitar riffs are structured. Many 
+reflect a structural basis in what I call “riff schemes,” organizing 
+patterns of physical repetition and physical change made by a 
+guitarist’s fretting hand. There are four main types, which are defined 
+by the location of repetition within the riff (at the beginning or at 
+the end) and whether the type of repetition is exact or altered: (1) 
+Initial Repetition and Contrast, (2) Statement and Terminal Repetition, 
+(3) Statement and Terminal Alteration, and (4) Model and Sequential 
+Repetition. These schemes may also play an expressive role in song 
+narratives of energy, intensity, and aggression, all of which are common
+ tropes in oral histories of hardcore. In the final part of the article,
+ I present analyses of two songs that demonstrate this use: Minor 
+Threat’s “Straight Edge” and Black Flag’s “Rise Above.”</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2015/03/01</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>mtosmt.org</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://mtosmt.org/issues/mto.15.21.1/mto.15.21.1.easley.html">https://mtosmt.org/issues/mto.15.21.1/mto.15.21.1.easley.html</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>7/17/2025, 12:52:38 PM</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>21</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Music Theory Online</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.30535/mto.21.1.3">10.30535/mto.21.1.3</a></td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>1</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>7/17/2025, 12:52:38 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>7/17/2025, 1:21:55 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_MXBU7ZF8">Snapshot					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_QLT3WCKT" class="item journalArticle">
+			<h2>The influence of generative AI on popular music: Fan productions and the reimagination of iconic voices</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Patryk Galuszka</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>This essay explores the burgeoning phenomenon of fan-generated
+ content that utilizes generative artificial intelligence (AI) to mimic 
+the voices of deceased or retired popular music artists. This practice 
+can be seen as an extension of Digital Audio Workstations’ (DAWs’) 
+capabilities, potentially leading to the creation of musical pieces that
+ resemble traditional covers and mash-ups. The essay analyzes three 
+representative works in this creative category. Two of them are of a fan
+ nature, exploring imagined alternative paths in the development of 
+popular music, while the third is a parody. As these examples 
+demonstrate, the rise of AI covers raises numerous questions. These 
+include concerns about the nature of human creativity and the potential 
+response of the music industries to this technology’s proliferation.</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2025-04-01</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>EN</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>The influence of generative AI on popular music</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>SAGE Journals</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://doi.org/10.1177/01634437241282382">https://doi.org/10.1177/01634437241282382</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>7/21/2025, 11:01:26 AM</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Publisher: SAGE Publications Ltd</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>47</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>603-612</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Media, Culture &amp; Society</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1177/01634437241282382">10.1177/01634437241282382</a></td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>3</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0163-4437</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>7/21/2025, 11:01:26 AM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>7/21/2025, 11:01:26 AM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_634Y7CNS">PDF					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_4TRCWS9I" class="item bookSection">
+			<h2>The Picked Instrument: Reinventing the Sound of the Electric Bass</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Book Section</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Brian F. Wright</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2024</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en-US</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>press.umich.edu</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://press.umich.edu/Books/T/The-Bastard-Instrument2">https://press.umich.edu/Books/T/The-Bastard-Instrument2</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>5/1/2025, 2:16:00 PM</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>University of Michigan Press</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-0-472-07681-9</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>112-134</td>
+					</tr>
+					<tr>
+					<th>Book Title</th>
+						<td>The Bastard Instrument</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>7/21/2025, 11:05:28 AM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>8/27/2025, 10:05:49 AM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="related">Related</h3>
+				<ul class="related">
+					<li id="item_LAAV9SF7">The Bastard Instrument</li>
+				</ul>
+			</li>
+
+
+			<li id="item_CLFS82QP" class="item bookSection">
+			<h2>Timbre, Genre, and Polystylism in &lt;i&gt;Sonic the Hedgehog 3&lt;/i&gt;</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Book Section</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Megan L. Lavengood</td>
+					</tr>
+					<tr>
+						<th class="editor">Editor</th>
+						<td>Nick Braae</td>
+					</tr>
+					<tr>
+						<th class="editor">Editor</th>
+						<td>Kai Arne Hansen</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>In the soundtrack for the Sega Genesis game Sonic the Hedgehog
+ 3 (1994), the genres represented include calypso, funk, carnival, new 
+wave, prog rock, and more. Soundtracks for video games frequently shift 
+genres this way, to create aesthetic themes for different levels or 
+characters. Turning toward an account of the game’s soundtrack as a 
+unified and continuous work, I posit that the music of Sonic the 
+Hedgehog 3 might be understood as analogous to a series of “samples” 
+within a polystylistic whole, following Leydon 2010. Leydon notes that 
+instrumentation “bears the bulk of the semiotic burden” in communicating
+ genre, but stops short of detailing how different instrumental timbres 
+themselves might signify these genres. In my close analysis of two 
+specific levels from Sonic the Hedgehog 3—Ice Cap Zone and Marble Garden
+ Zone—I detail how timbre, as a musical parameter separate from 
+instrumentation, can evoke specific intertextual and “extra”-musical 
+associations from a listener, based on implied genres in the soundtrack.
+ In doing this, I will show how timbre, a musical parameter that remains
+ overlooked in a great deal of music analysis, might inform and enhance 
+dialogue in music analyses of genre within video game music and more 
+broadly.</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2019</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>www.palgrave.com</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://link.springer.com/chapter/10.1007/978-3-030-18099-7_11">https://link.springer.com/chapter/10.1007/978-3-030-18099-7_11</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>12/6/2019, 10:18:20 AM</td>
+					</tr>
+					<tr>
+					<th>Rights</th>
+						<td>All rights reserved</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>DOI: 10.1007/978-3-030-18099-7</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>London</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>Palgrave Macmillan</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-3-030-18098-0</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>209-234</td>
+					</tr>
+					<tr>
+					<th>Book Title</th>
+						<td>On Popular Music and Its Unruly Entanglements</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>12/6/2019, 10:18:20 AM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>8/22/2022, 2:41:57 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_D59CHSJ9">Lavengood - 2019 - Timbre, Genre, and Polystylism in iSonic the Hedgehog 3-i.pdf						<div class="note"><div><p xmlns="http://www.w3.org/1999/xhtml" id="title"><strong>Contents</strong></p><ul xmlns="http://www.w3.org/1999/xhtml" style="list-style-type: none; padding-left:0px" id="toc"><li><a href="zotero://open-pdf/0_XUNKBDPS/12">Ice Cap Zone</a></li><li style="padding-top:4px"><a href="zotero://open-pdf/0_XUNKBDPS/19">Marble Garden Zone</a></li><li style="padding-top:4px"><a href="zotero://open-pdf/0_XUNKBDPS/23">Conclusion</a></li><li style="padding-top:4px"><a href="zotero://open-pdf/0_XUNKBDPS/24">References</a></li></ul></div>
+					</div>					</li>
+					<li id="item_8GQ4VVCI">Snapshot					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_8SNI49E9" class="item journalArticle">
+			<h2>“Together Again,” but We Keep On Crying: Buck Owens, Tom Brumley, and the Pedal Steel Guitar, 1964</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Chelsea Burns</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>Buck Owens and the Buckaroos’ 1964 hit “Together Again” tells,
+ in ambivalent terms, of a couple’s reunion. The song is best known for 
+Tom Brumley’s pedal steel guitar solo, a quintessential example of the 
+trademark “crying” sound of the instrument. Brumley’s steel stylings 
+emphasize a negative interpretation of the text, and some of the most 
+poignant elements of his remarkable solo were guided by the mechanics of
+ the instrument. I explore the relationship between the limits and 
+special capabilities of the pedal steel guitar, and I discuss how 
+Brumley highlights both of these aspects in this brief yet famous solo, 
+illustrating relationships between text and technics in this iconic 
+recording.</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2019/07/01</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>“Together Again,” but We Keep On Crying</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>mtosmt.org</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://mtosmt.org/issues/mto.19.25.2/mto.19.25.2.burns.html">http://mtosmt.org/issues/mto.19.25.2/mto.19.25.2.burns.html</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>10/28/2019, 4:16:06 PM</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>25</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Music Theory Online</td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>2</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>10/28/2019, 4:16:06 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>7/17/2025, 1:11:19 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_UVBZYNV7">Snapshot					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_LPR9ME59" class="item journalArticle">
+			<h2>Toward a New Organology: Instruments of Music and Science</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>John Tresch</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Emily I. Dolan</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>The Renaissance genre of organological treatises inventoried 
+the forms and functions of musical instruments. This article proposes an
+ update and expansion of the organological tradition, examining the 
+discourses and practices surrounding both musical and scientiﬁc 
+instruments. Drawing on examples from many periods and genres, we aim to
+ capture instruments’ diverse ways of life. To that end we propose and 
+describe a comparative “ethics of instruments”: an analysis of 
+instruments’ material conﬁgurations, social and institutional locations,
+ degrees of freedom, and teleologies. This perspective makes it possible
+ to trace the intersecting and at times divergent histories of science 
+and music: their shared material practices, aesthetic commitments, and 
+attitudes toward technology, as well as their impact on understandings 
+of human agency and the order of nature.</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>01/2013</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>Toward a New Organology</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.journals.uchicago.edu/doi/10.1086/671381">https://www.journals.uchicago.edu/doi/10.1086/671381</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>6/30/2025, 2:58:49 PM</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>28</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>278-298</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Osiris</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1086/671381">10.1086/671381</a></td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>1</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>Osiris</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0369-7827, 1933-8287</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>6/30/2025, 2:58:49 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>6/30/2025, 2:58:49 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_PAKZSRL6">PDF					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_FBMLPL8T" class="item journalArticle">
+			<h2>Vocal Production, Mimesis, and Social Media in Bedroom Pop</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Alyssa Barna</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Caroline McLaughlin</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2024/12/01</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>mtosmt.org</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://mtosmt.org/issues/mto.24.30.4/mto.24.30.4.barnamclaughlin.html">https://mtosmt.org/issues/mto.24.30.4/mto.24.30.4.barnamclaughlin.html</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>7/17/2025, 1:50:50 PM</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>30</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Music Theory Online</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.30535/mto.30.4.1">10.30535/mto.30.4.1</a></td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>4</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>4/28/2025, 6:29:36 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>8/14/2025, 10:45:05 AM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_Y4KY7GC4">Snapshot					</li>
+				</ul>
+			</li>
+
+		</ul>
+	
+</body></html>

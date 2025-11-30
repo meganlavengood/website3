@@ -1,0 +1,34 @@
+- title: Music Theory Examples
+  details:
+      - Reconstruct a website that went offline earlier in the year.
+      - Scrape data from archive.org.
+      - Reorganize filesystem.
+      - Encode Roman numerals and other special notation with MathJax.
+      - Design page templates using Jekyll and Liquid.
+      - Front-end design using SASS and CSS.
+  year: 2024
+- title: Auralayer
+  details:
+      - Conceptualize and test web app for visualizing timbre analyses.
+      - Create model analyses for demonstration.
+      - Front-end design using JS and CSS.
+  year: 2023
+- title: Society for Music Theory
+  details:
+      - Extensively customize front-end design for the SMT website using CSS and HTML.
+      - Organize and create content on the SMT website using Drupal and YourMembership.
+  year: 2019–present
+- title: Music Theory Society of the Mid-Atlantic
+  details:
+      - Build a new MTSMA Wordpress site from the ground up, determining website layout and structure, developing a new theme, installing appropriate plugins, building custom forms with Forminator, customizing CSS, and writing documentation for use.
+      - Edit content for style and to conform to accessibility standards.
+      - Respond to member requests for improvements and updates to the website.
+  year: 2022–present
+- title: competencies
+  details:
+      - Wordpress
+      - Drupal
+      - Jekyll
+      - Liquid
+      - CSS3
+      - HTML5

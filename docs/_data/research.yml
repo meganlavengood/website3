@@ -1,0 +1,218 @@
+---
+# articles
+
+- title: "The Common Cold: Using Computational Musicology to Define the Winter Topic in Video Game Music"
+  id: winter
+  type: journalArticle
+  img: winter.png
+  alt: node graph showing features of the winter topic
+  note: Co-authored with Evan Williams.
+  pub: Music Theory Online
+  pub-link: https://mtosmt.org/
+  vol: 29/1
+  year: 2023
+  link: http://doi.org/10.30535/mto.29.1.0
+  open: true
+
+- title: "“Oops! …I Did It Again”: The Complement Chorus in Britney Spears, The Backstreet Boys, and *NSYNC"
+  id: oops
+  type: journalArticle
+  img: oops.jpg
+  alt: Britney Spears
+  credit: <a href="https://commons.wikimedia.org/wiki/File:Britney_Spears_performing,_Las_Vegas,_January_29,_2014.jpg">Rhys Adams</a>, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, via Wikimedia Commons
+  pub: SMT-V
+  pub-link: http://www.smt-v.org
+  vol: 7/6
+  year: 2021
+  link: http://doi.org/10.30535/smtv.7.6
+  open: true
+
+- title: "The Cultural Significance of Timbre Analysis: A Case Study in 1980s Pop Music, Texture, and Narrative"
+  id: timbre_norms
+  type: journalArticle
+  img: timbre_norms.png
+  alt: Spectrogram
+  pub: Music Theory Online
+  pub-link: https://mtosmt.org/
+  vol: 26/3
+  year: 2020
+  link: http://doi.org/10.30535/mto.26.3.3
+  open: true
+
+- title: "Bespoke Music Theory: A Modular Core Curriculum Designed for Audio Engineers, Classical Violinists, and Everyone in Between"
+  id: modular_mt
+  type: journalArticle
+  img: modular_mt.png
+  alt: flowchart of a modular curriculum
+  pub: Engaging Students
+  pub-link: https://engagingstudentsmusic.org/
+  vol: 7
+  year: 2019
+  link: http://doi.org/10.18061/es.v7i0.7362
+  open: true
+
+- title: "“What makes it sound ’80s?”: The Yamaha DX7 Electric Piano Sound"
+  id: epiano
+  type: journalArticle
+  img: epiano.jpg
+  alt:
+  credit: <a href="https://commons.wikimedia.org/wiki/File:YAMAHA_DX7.jpg">Finnianhughes101</a>, Public domain, via Wikimedia Commons
+  pub: Journal of Popular Music Studies
+  pub-link: https://online.ucpress.edu/jpms
+  vol: 31/3
+  year: 2019
+  link: https://works.hcommons.org/records/041m1-9v105
+  open: true
+
+- title: "Begging to Be Seen: Beyoncé’s <em>Partition</em>"
+  id: beyonce
+  type: journalArticle
+  img: beyonce.jpg
+  alt:
+  credit: <a href="https://commons.wikimedia.org/wiki/File:The_Mrs._Carter_Show_World_Tour_London_(15).jpg">J.ébey</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
+  pub: SAMPLES
+  pub-link: https://gfpm-samples.de/
+  vol: 22
+  year: 2024
+  link: https://gfpm-samples.de/index.php/samples/article/view/332
+  open: true
+
+# chapters
+
+- title: "/r/musictheory: Making Music Theory on Reddit"
+  id: reddit
+  type: bookSection
+  img: reddit.png
+  alt: "A screenshot of a post on the music theory subreddit with the title 'What makes a song sound Arabic?' The text of the question reads: I recently played Arabian Dances by Brian Balmages and it made me wonder what gave it that feel as far as notes. I guess I'm looking for something like a scale that could be used as a general framework. Edit: thanks to the people who knew what I was talking about and answered my question. I probably should have mentioned I am a saxophone player and I want to try and use a lot of this theory to improv and just to hear the different directions I can take while playing. I'm not going to try and write a piece that doesn't do their culture justice. I just want to know about some of the theory, most of which I'm interested in is in the piece I asked about, which I understand is largely a western interpretation. But scales that originated in that culture that can be loosely applied to our 12 tone system are great too, because I can still use those to some extent."
+  credit: Megan Lavengood, CC 0
+  pub: The Oxford Handbook of Public Music Theory
+  pub-link: https://academic.oup.com/edited-volume/37086
+  vol:
+  year: 2022
+  link: https://works.hcommons.org/records/v5g6w-5xz53
+  open: true
+
+- title: "Timbre, Rhythm, and Texture within Music Theory’s White Racial Frame"
+  id: edm
+  type: bookSection
+  img: edm.jpg
+  alt: Jeff Mills performing in 2010
+  credit: <a href="https://commons.wikimedia.org/wiki/File:Jeff_Mills_2010.jpg">Basic Sounds</a>, <a href="https://creativecommons.org/licenses/by-sa/2.0">CC BY-SA 2.0</a>, via Wikimedia Commons
+  pub: The Oxford Handbook of Electronic Dance Music
+  pub-link: https://academic.oup.com/edited-volume/35416
+  vol:
+  year: 2021
+  link: https://works.hcommons.org/records/77d22-63m18
+  open: true
+
+- title: "Timbre, Genre, and Polystylism in&nbsp;<em>Sonic the Hedgehog 3</em>"
+  id: sonic
+  type: bookSection
+  img: sonic.jpg
+  alt: Fan art of Sonic the Hedgehog
+  credit: <a href="https://www.deviantart.com/anneeve/art/Sonic-the-Hedgehog-Fanart-778872066">Anneeve</a>, CC BY-NC 3.0, via <a href="https://www.deviantart.com">DeviantArt</a>
+  pub: On Popular Music and Its Unruly Entanglements
+  pub-link: https://link.springer.com/book/10.1007/978-3-030-18099-7
+  vol:
+  year: 2019
+  link: https://works.hcommons.org/records/kf8m5-8hr78
+  open: true
+
+# Presentations
+
+- title: "Instrumental Timbre and Texture in Popular Song"
+  id: tops
+  type: presentation
+  img: tops.jpg
+  alt: Origami-shaped metal sculptures
+  credit: <a href="https://commons.wikimedia.org/wiki/File:Metal_clay_origami.jpg">Tyler Spaeth</a>, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, via Wikimedia Commons
+  conf: Timbre and Orchestration in Popular Song
+  conf-link: https://www.mcgill.ca/tops2025/
+  year: 2025
+  link: https://presentations.meganlavengood.com/2025-tops.html
+
+- title: "Layers of Meaning: Teaching Instrumentation and Texture"
+  id: tsmt_keynote
+  type: presentation
+  img: tsmt_keynote.jpg
+  alt:
+  credit: Image by <a href="https://pixabay.com/users/nusrat-kaniz-fahima-44946305/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8988890">Nusrat Fahima</a> from <a href="https://pixabay.com/">Pixabay</a>
+  conf: Keynote for Texas Society for Music Theory 2024; also presented at University of Iowa, University of Maryland, and Oxford Seminar in Music Theory &amp; Analysis
+  year: 2024
+  link: https://presentations.meganlavengood.com/2024-teaching-timbre.html
+
+- title: "I Want It That Way: Good Practices for Pop Music Pedagogy"
+  id: teaching_pop
+  type: presentation
+  img: teaching_pop.jpg
+  alt: A close-up of the headstock of a guitar
+  credit: Image by <a href="https://pixabay.com/users/domenicocervini-4705559/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4345340">Domenico Cervini</a> from <a href="https://pixabay.com/">Pixabay</a>
+  pub: Utah State University
+  year: 2024
+  link: https://presentations.meganlavengood.com/2024-teaching_pop.html
+
+- title: "Tracing Music Theory’s (un)Shifting Frames:&nbsp; A Natural Language Processing Approach"
+  id: language
+  type: oldPresentation
+  img: language.png
+  alt: a line chart showing the prevalence of male pronouns over female pronouns in the abstracts of Music Theory Online articles
+  credit: © Tom Johnson, Evan /Williams, and Megan Lavengood
+  note: Co-authored with <a href="https://tom-johnson.net" target="_blank" rel="noopener noreferrer">Thomas Johnson</a> and <a href="https://medium.com/@williams.evanpaul" target="_blank" rel="noopener noreferrer">Evan Williams</a>
+  conf: the 43rd Annual Meeting of the Society for Music Theory
+  year: 2020
+
+- title: "Diversifying the Theory Curriculum: How to Open Multiple Pathways through the Theory Core"
+  id: diverse_mt
+  type: oldPresentation
+  img: diverse_mt.png
+  alt: Flowchart of theory classes in a curriculum
+  conf: The 2nd Pedagogy Into Practice Conference
+  conf-link: https://jmtp.appstate.edu/conference/2019-conference-program
+  year: 2019
+
+- title: "From Cheesy to Chill: The Shift in Popular Opinions of Digital Synthesis and the 1980s"
+  id: cheesy_chill
+  type: oldPresentation
+  img: cheesy_chill.png
+  alt: "Eighties-style text meme reading 'From Cheesy to Chill'"
+  conf: the 49th Pop Culture Association and American Culture Association annual conference
+  conf-link: https://pcaaca.org/conference
+  year: 2019
+
+- title: "Following Schenker’s Lead in the Analysis of Stravinsky"
+  id: stravinsky
+  type: oldPresentation
+  img: stravinsky.png
+  alt: An excerpt from a Schenkerian analysis of a Stravinsky piece
+  conf: the Music Theory Society of New York State 45th Annual Meeting and the 5th Biennial Student Conference of the Music Theory &amp; Musicology Society of University of Cincinnati College-Conservatory of Music
+  year: 2016, 2014
+
+- title: "Rhythmic and Timbral Associations in Sufjan Stevens’s “Come On, Feel the Illinoise!”"
+  id: sufjan
+  type: oldPresentation
+  img: sufjan.png
+  alt: "Part of a texture graph of Sufjan Stevens's 'Come On, Feel the Illinoise!'"
+  conf: the&nbsp;Society for Music Theory 36th Annual Meeting; Music Theory Society of New York State 42nd Annual Meeting;&nbsp;Music Theory Society of the Mid-Atlantic 11th Annual Meeting;&nbsp;Music Theory Forum at Florida State University 29th Annual Meeting
+  year: 2013
+
+# Reviews
+
+- title: "Review of&nbsp;<em>Timbre is a Many-Splendored Thing</em>&nbsp;(2018) conference"
+  id: review_timbre_conf
+  type: review
+  pub: Journal of Popular Music Studies
+  pub-link: https://online.ucpress.edu/jpms
+  vol:
+  year: 2019
+  link: http://doi.org/10.1525/jpms.2019.311004
+  open: false
+
+- title: "Review of Robert Fink, Melinda Latour, and Zachary Wallmark (eds),&nbsp;<em>The Relentless Pursuit of Tone</em>&nbsp;(2018)"
+  id: review_timbre_book
+  type: review
+  pub: Current Musicology
+  pub-link: https://currentmusicology.columbia.edu
+  vol:
+  year: 2018
+  link: http://doi.org/10.7916/cm.v0i103.5385
+  open: true

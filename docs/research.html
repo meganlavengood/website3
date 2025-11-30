@@ -1,0 +1,215 @@
+---
+layout: page
+title: "Research"
+menu: true
+order: 2
+permalink: /research/
+---
+
+
+<h2 id="interests">interests</h2>
+
+<p>My research specializations are in timbre, technology, and popular music. I have developed <a href="#timbre_norms">a&nbsp;new approach to the analysis of timbre</a> that blends spectrogram analysis with cultural studies and ethnographies. I focused there on 1980s popular music and the Yamaha DX7 synthesizer. Since that article, I've given several invited talks on timbre, pop music, and the teaching of those subjects.</p>
+
+<p>The Sega Genesis uses the YM2612 sound chip, which shares most its technology as the Yamaha DX7. This (plus a lifelong love of video games) led me to an interest in ludomusiology, especially <a href="#sonic">video game soundtracks from games released for the Sega Genesis</a>, and multimedia analysis more generally.</p>
+
+<p>My current projects include a collaboration with a percussionist theorizing and analyzing orchestral percussion excerpts. Since beginning this project, I've grown ever increasingly interested in the peculiarities of (especially non-pitched) percussion, both acoustic and <a href="#edm">electronic</a>. I am also working on an edited collection about methodologies for studying instruments in popular music, under contract with Palgrave Macmillan.</p>
+
+
+<h2 id="articles">articles</h2>
+
+<div class="flex-row row justify-content-around g-4" id="articles-list">
+
+    {% assign articles = site.data.research | where: "type", "journalArticle" %}
+
+    {% for item in articles %}
+    <div class="col-md-6">
+        <div class="card">
+            <img src="/img/{{ item.img }}" class="card-img-top" alt="{{ item.alt }}" />
+            {% if item.credit %}
+            <div class="text-secondary text-end img-att">{{ item.credit }}</div>
+            {% endif %}
+            <div class="card-body">
+
+                <h3 class="card-title" id="{{ item.id }}">{{ item.title }}</h3>
+                <div class="card-text">
+                    {% if item.note %}
+
+                    <p>{{ item.note }}</p>
+                    {% endif %}
+
+                    <p>In
+                        {% if item.pub-link %}<a class="text-dark" href="{{ item.pub-link }}">{% endif %}
+                            <em>{{ item.pub }}</em>
+                            {% if item.pub-link %}</a>{% endif %}
+                        {{ item.vol }}, {{ item.year }}.</p>
+                    <a class="btn btn-primary" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">
+                        {% if item.open %}
+                        <i class="bi bi-unlock2-fill"></i> access full text
+                        {% else %}
+                        view
+                        {% endif %}
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% endfor %}
+</div>
+
+
+<h2 id="book-chapters">book chapters</h2>
+
+<div class="flex-row row justify-content-around g-4" id="chapters-list">
+
+    {% assign chapters = site.data.research | where: "type", "bookSection" %}
+
+    {% for item in chapters %}
+    <div class="col-md-6">
+        <div class="card">
+            <img src="/img/{{ item.img }}" class="card-img-top" alt="{{ item.alt }}" />
+            {% if item.credit %}
+            <div class="text-secondary text-end img-att">{{ item.credit }}</div>
+            {% endif %}
+            <div class="card-body">
+
+                <h3 class="card-title" id="{{ item.id }}">{{ item.title }}</h3>
+                <div class="card-text">
+                    {% if item.note %}
+
+                    <p>{{ item.note }}</p>
+                    {% endif %}
+
+                    <p>In {% if item.pub-link %}<a class="text-dark" href="{{ item.pub-link }}">{% endif %}<em>{{ item.pub }}</em>{% if item.pub-link %}</a>{% endif %}, {{ item.year }}.</p>
+                    <a class="btn btn-primary" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">
+                        {% if item.open %}
+                        <i class="bi bi-unlock2-fill"></i> access full text
+                        {% else %}
+                        view
+                        {% endif %}
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% endfor %}
+
+</div>
+
+<h2 id="presentations">selected presentations</h2>
+
+<p>This list only includes presentations that were not later published. For a full list of my presentations, see my <a href="/cv">CV</a>.</p>
+
+<p>In 2023, I started making my presentations using <a href="https://revealjs.com" data-type="link" data-id="https://revealjs.com">Reveal.js</a>, so you can view the slides as a website.</p>
+
+
+<div class="flex-row row justify-content-around g-4 mb-3" id="presentations-list">
+
+    {% assign talks = site.data.research | where: "type", "presentation" %}
+
+    {% for item in talks %}
+    <div class="col-md-6">
+        <div class="card">
+            <img src="/img/{{ item.img }}" class="card-img-top" alt="{{ item.alt }}" />
+            {% if item.credit %}
+            <div class="text-secondary text-end img-att">{{ item.credit }}</div>
+            {% endif %}
+            <div class="card-body">
+
+                <h3 class="card-title" id="{{ item.id }}">{{ item.title }}</h3>
+                <div class="card-text">
+                    {% if item.note %}
+
+                    <p>{{ item.note }}</p>
+                    {% endif %}
+
+                    <p>Presented at {% if item.conf-link %}<a class="text-dark" href="{{ item.conf-link }}">{% endif %}{{ item.conf }}{% if item.conf-link %}</a>{% endif %}, {{ item.year }}.</p>
+                    {% if item.link %}
+                    <a class="btn btn-primary" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-unlock2-fill"></i> view presentation
+                    </a>
+                    {% endif %}
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% endfor %}
+
+</div>
+
+<p>Following are selected, older presentations not on Reveal.js. For a complete list of presentations, <a href="cv.html">see my CV</a>. Feel free to request materials for them (handouts, slides, etc.)</p>
+
+<div class="flex-row row justify-content-around g-4 mb-3" id="old-presentations-list">
+    {% assign talks = site.data.research | where: "type", "oldPresentation" %}
+
+    {% for item in talks %}
+    <div class="col-md-6">
+        <div class="card">
+            <img src="/img/{{ item.img }}" class="card-img-top" alt="{{ item.alt }}" />
+            {% if item.credit %}
+            <div class="text-secondary text-end img-att">{{ item.credit }}</div>
+            {% endif %}
+            <div class="card-body">
+
+                <h3 class="card-title" id="{{ item.id }}">{{ item.title }}</h3>
+                <div class="card-text">
+                    {% if item.note %}
+
+                    <p>{{ item.note }}</p>
+                    {% endif %}
+
+                    <p>Presented at {% if item.conf-link %}<a class="text-dark" href="{{ item.conf-link }}">{% endif %}{{ item.conf }}{% if item.conf-link %}</a>{% endif %}, {{ item.year }}.</p>
+                    {% if item.link %}
+                    <a class="btn btn-primary" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-unlock2-fill"></i> view presentation
+                    </a>
+                    {% endif %}
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% endfor %}
+</div>
+
+<h2 id="reviews">reviews</h2>
+
+<div class="flex-row row justify-content-around g-4 mb-3" id="reviews">
+
+    {% assign reviews = site.data.research | where: "type", "review" %}
+
+    {% for item in reviews %}
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-body">
+
+                <h3 class="card-title" id="{{ item.id }}">{{ item.title }}</h3>
+                <div class="card-text">
+                    {% if item.note %}
+
+                    <p>{{ item.note }}</p>
+                    {% endif %}
+
+                    <p>In {% if item.pub-link %}<a class="text-dark" href="{{ item.pub-link }}">{% endif %}<em>{{ item.pub }}</em>{% if item.pub-link %}</a>{% endif %}, {{ item.year }}.</p>
+                    <a class="btn btn-primary" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">
+                        {% if item.open %}
+                        <i class="bi bi-unlock2-fill"></i> access full text
+                        {% else %}
+                        view
+                        {% endif %}
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% endfor %}
+</div>

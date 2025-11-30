@@ -1,0 +1,544 @@
+# yaml-language-server: $schema=https://json.schemastore.org/yamllint.json
+
+education:
+    - institution: The Graduate Center, City University of New York
+      degree: Ph.D. in Music Theory
+      year: 2017
+    - institution: The Florida State University
+      degree: M.M. in Music Theory and Composition
+      year: 2012
+    - institution: Ohio University
+      degree: B.M. in Music Theory
+      year: 2010
+
+professional_employment:
+    - title: Associate Professor
+      institution: George Mason University
+      details: Fairfax, VA
+      year: 2023–present
+    - title: Assistant Professor
+      institution: George Mason University
+      details: Fairfax, VA
+      year: 2017–present
+
+publications:
+    - title: "Analyzing Musical Instruments: Approaches from Popular Music Studies"
+      type: edited-collection
+      details: Co-edited with Brian F. Wright. Under contract with Palgrave Macmillan.
+      year: 2027
+    - title: Open Music Theory v. 2.5
+      type: textbook
+      details: Co-authored with Mark Gotham, Kyle Gullings, Chelsey Hamm, Bryn Hughes, Brian Jarvis, and John Peterson. New version adds about a dozen new chapters, a professionally typeset PDF and eBook, and improved accessibility compliance.
+      year: 2025
+      award: true
+    - title: Open Music Theory v. 2
+      type: textbook
+      details: Co-authored with Mark Gotham, Kyle Gullings, Chelsey Hamm, Bryn Hughes, Brian Jarvis, and John Peterson. New version adds roughly 100 new chapters to OMT version 1.
+      year: 2021
+      award: true
+      url: https://viva.pressbooks.pub/openmusictheory
+    - title: Harassment and Public Music Theory
+      type: article
+      journal: Music Theory Spectrum 47/1.
+      year: 2025
+      url: https://doi.org/10.1093/mts/mtae019
+    - title: "The Common Cold: Using Data Science to Define the Winter Topic in Video Game Music"
+      type: article
+      journal: Music Theory Online
+      vol: 29/1
+      year: 2023
+      url: https://www.mtosmt.org/issues/mto.23.29.1/mto.23.29.1.lavengoodwilliams.html
+    - title: '"Oops!... I Did It Again": The Complement Chorus in Britney Spears, The Backstreet Boys, and *NSYNC'
+      type: article
+      journal: SMT-V
+      vol: 7/6
+      year: 2021
+      url: http://doi.org/10.30535/smtv.7.6
+    - title: "The Cultural Significance of Timbre Analysis: A Case Study in 1980s Pop Music, Texture, and Narrative"
+      type: article
+      journal: Music Theory Online
+      vol: 26/3
+      year: 2020
+      award: true
+      url: http://doi.org/10.30535/mto.26.3.3
+    - title: "Bespoke Music Theory: A Modular Core Curriculum Designed for Audio Engineers, Classical Violinists, and Everyone in Between"
+      type: article
+      journal: Engaging Students
+      vol: 7
+      year: 2019
+      url: http://dx.doi.org/10.18061/es.v7i0.7362
+    - title: '"What Makes It Sound ’80s?": The Yamaha DX7 Electric Piano Sound'
+      type: article
+      journal: Journal of Popular Music Studies
+      vol: 31/3
+      year: 2019
+      url: https://doi.org/10.1525/jpms.2019.313009
+    - title: "Orchestrating for Tambourine: A Timbral Guide for Conductors, Composers, and Performers"
+      type: bookSection
+      details: Co-authored with Michael Barranco. Forthcoming.
+      book: Oxford Handbook of Orchestration Studies, ed. Robert Hasegawa
+      year: 2025
+    - title: "/r/musictheory: Making Music Theory on Reddit"
+      type: bookSection
+      details: Co-authored with Nathaniel Mitchell.
+      book: Oxford Handbook of Public Music Theory, ed. J. Daniel Jenkins
+      year: 2022
+      url: https://doi.org/10.1093/oxfordhb/9780197551554.013.6
+    - title: Timbre, Rhythm, and Texture within Music Theory's White Racial Frame
+      type: bookSection
+      book: Oxford Handbook of Electronic Dance Music, ed. Luis-Manuel Garcia and Robin James
+      year: 2021
+      url: https://doi.org/10.1093/oxfordhb/9780190093723.013.17
+    - title: Timbre, Genre, and Polystylism in <em>Sonic the Hedgehog 3</em>
+      type: bookSection
+      book: Music and Its Unruly Entanglements, ed. Nick Braae and Kai Arne Hansen
+      year: 2019
+      url: http://doi.org/10.1007/978-3-030-18099-7
+    - title: "Timbre 2018: A Response"
+      type: review
+      journal: Journal of Popular Music Studies
+      vol: 31/1.
+      year: 2019
+      url: https://doi.org/10.1525/jpms.2019.311004
+    - title: "Review: The Relentless Pursuit of Tone: Timbre in Popular Music"
+      type: review
+      journal: Current Musicology
+      vol: 103
+      year: 2018
+      url: https://doi.org/10.7916/cm.v0i103.5385
+    - title: 'Begging to be Seen: Beyoncé''s "Partition"'
+      type: inv-article
+      details: Co-authored with Chris Kattenbeck, Sean Peterson, Holger Schwetter, and Júlia Silveira.
+      journal: SAMPLES
+      vol: 22
+      year: 2024
+      url: https://gfpm-samples.de/index.php/samples/article/view/332
+
+awards_and_grants:
+    - title: New Editions Program
+      institution: Virtual Library of Virginia (VIVA)
+      details: Open Music Theory was selected to be the pilot case for a new initiative from VIVA. This program funds a fresh round of copyediting, accessibility compliance, and PDF/eBook typesetting.
+      year: 2025
+    - title: Adam Krims Award
+      institution: Society for Music Theory Popular Music Interest Group
+      details: 'Awarded to a junior scholar for an outstanding publication. For Music Theory Online article "The Cultural Significance of Timbre Analysis: A Case Study in 1980s Pop Music, Texture, and Narrative."'
+      year: 2022
+    - title: Course Redesign Grant Program
+      institution: Virtual Library of Virginia (VIVA)
+      details: $30,000 to substantially expand an open-access music theory textbook (openmusictheory.com).
+      year: 2019
+    - title: Robert K. Purks Faculty Enrichment Fund
+      institution: George Mason University
+      details: $750 for conference attendance.
+      year: 2018
+    - title: Provost's Curriculum Impact Grant
+      institution: George Mason University
+      details: $31,000 to design a new music theory core curriculum.
+      year: 2018
+    - title: Best Student Paper Award
+      institution: Music Theory Southeast
+      year: 2017
+
+invited_talks:
+    - title: "I Want It That Way: Good Practices for Pop Music Pedagogy"
+      details: Lecture within a mini-residency, Music Scholars Series, Utah State University. Logan, UT. April 3–6.
+      year: 2024
+      url: https://presentations.meganlavengood.com/2024-teaching-pop.html
+    - title: "Layers of Meaning: Teaching Instrumentation and Texture"
+      details: Oxford Seminar in Music Theory & Analysis. Virtual (University of Oxford, UK). November 21, 2023.
+      year: 2023
+    - title: "The Common Cold: Using Data Science to Define the Winter Topic in Video Game Music"
+      details:
+          - University of Delaware. Newark, DE. April 10, 2023.
+          - Barwick Colloquium Series at Harvard University. Virtual. March 22, 2022.
+          - Musicology Colloquium Series at Princeton University. Princeton, NJ. April 1, 2022.
+          - Colloquium series at Northwestern University. Chicago, IL. April 21, 2022.
+      year: 2022–2023
+    - title: Curricular design in Music Theory
+      details: Foundational Dialogues Program at Bates College. Lewiston, ME. August 23.
+      year: 2022
+    - title: Timbre, Rhythm, and Texture within Music Theory's White Racial Frame
+      details: '"Ausgewählte Kapitel aus Theorie und Geschichte der Popularmusik" lecture series at Universität für Musik und darstellende Kunst Wien. Virtual. December 9.'
+      year: 2021
+    - title: Timbre, Technology, and Topic Theory
+      details: Invited speaker series at Hunter College. New York, NY. October 18.
+      year: 2021
+    - title: Pop Music's Non-Standard Harmonic and Formal Designs
+      details: Leading undergraduate and graduate students in analysis of "Should Have Known Better" by Sufjan Stevens, as part of a larger music theory symposium designed to stimulate interest in music theory research in undergraduate students. Other leadership activities include critiquing in a music theory pedagogy workshop and student composition masterclass. Christopher Newport University Music Theory Symposium. Newport News, VA. April 6.
+      year: 2019
+
+conference_activities:
+    invited_keynotes_and_workshops:
+        - title: Instrumental Timbre and Texture in Popular Song
+          invited: true
+          conf: Timbre and Orchestration in Popular Song conference
+          location: Montreal, QC
+          date: June 5–7
+          year: 2025
+          url: https://presentations.meganlavengood.com/2025-tops.html
+        - title: "Layers of Meaning: Teaching Instrumentation and Texture"
+          invited: true
+          note: Keynote lecture
+          conf: 46th Annual Meeting of the Texas Society for Music Theory
+          location: Arlington, TX
+          date: February 24
+          year: 2024
+          url: https://presentations.meganlavengood.com/2024-teaching-timbre.html
+
+    peer_reviewed_presentations:
+        - title: "The Timbre Is the Instrument: The Imagined DX7 and 1980s Nostalgia"
+          conf: Society for American Music 52nd Annual Conference
+          location: Richmond, VA
+          date: March 11–15
+          year: 2026
+        - title: EDM as Timbre Learning Lab
+          conf: American Musicological Society and Society for Music Theory Joint Annual Meeting
+          location: Minneapolis, MN
+          date: November 6
+          year: 2025
+        - title: "Auralayer: An Easy-to-Use Web App for Visualizing Instrumentation and Timbre"
+          note: With Brian Jarvis and Evan Williams.
+          conf: Timbre and Orchestration Interest Group meeting, American Musicological Society and Society for Music Theory Joint Annual Meeting
+          location: Denver, CO
+          date: November 13
+          year: 2023
+        - title: "The Common Cold: Using Data Science to Define the Winter Topic in Video Game Music"
+          note: With Evan Williams.
+          conf: Society for Music Theory 45th Annual Meeting
+          location: New Orleans, LA
+          date: November 10–13
+          year: 2022
+        - title: Using Open Educational Resources for Inclusive, Flexible, and Innovative Music Theory Pedagogy
+          note: With Mark Gotham, Kyle Gullings, Chelsey Hamm, Bryn Hughes, Brian Jarvis, and John Peterson. Alternative-format special session.
+          conf: Society for Music Theory 43rd Annual Meeting
+          location: Minneapolis, MN
+          date: November 5–8
+          year: 2020
+        - title: "Tracing Music Theory's (un)Shifting Frames: A Natural Language Processing Approach"
+          note: With Thomas Johnson and Evan Williams.
+          conf: Society for Music Theory 43rd Annual Meeting
+          location: Minneapolis, MN
+          date: November 5–8
+          year: 2020
+        - title: "Diversifying the Theory Curriculum: How to Open Multiple Pathways through the Theory Core"
+          note: With Andrew Gades and Crystal Peebles.
+          conf: 2nd Pedagogy Into Practice Conference
+          location: Santa Barbara, CA
+          date: May 23–25
+          year: 2019
+        - title: "From Cheesy to Chill: Shifting Popular Opinions of Digital Synthesis and the 1980s"
+          conf: 49th Pop Culture Association and American Culture Association Annual Conference
+          location: Washington, DC
+          date: April 17–20
+          year: 2019
+        - title: "A New Approach to Analysis of Timbre: A Study in Timbre Narratives and Instrumentation in 1980s Pop"
+          conf: Society for Music Theory 41st Annual Meeting
+          location: San Antonio, TX
+          date: November 1–4
+          year: 2018
+        - title: A Musicological Approach to the Analysis of Timbre
+          conf: Timbre is a Many-Splendored Thing
+          location: Montréal, Québec, Canada
+          date: July 5–8
+          year: 2018
+        - title: Analyzing Sound, Analyzing Timbre
+          conf: International Association for the Study of Popular Music 19th Biennial Conference
+          location: Kassel, Germany
+          date: June 26–30
+          year: 2017
+        - title: A New Approach to the Analysis of Timbre
+          note: Winner of the Best Student Paper Award.
+          conf: Music Theory Southeast 26th Annual Meeting
+          location: Fort Myers, FL
+          date: March 3
+          year: 2017
+          award: true
+        - title: '"Everything''s Synth!": The Problem, or the Charm, of the 1980s Sound'
+          conf: "›Klang‹: Wundertüte oder Stiefkind der Musiktheorie (Gesellschaft für Musiktheorie 16th Annual Meeting)"
+          location: Hanover, Germany
+          date: October 1
+          year: 2016
+        - title: Following Schenker's Lead in the Analysis of Stravinsky
+          multiconf:
+              - conf: Music Theory Society of New York State 45th Annual Meeting
+                location: New York, NY
+                date: April 3
+              - conf: 5th Biennial Student Conference of the Music Theory & Musicology Society of University of Cincinnati College-Conservatory of Music
+                location: Cincinnati, OH
+                date: March 29
+          year: 2016
+        - title: '"Oops!… I Did It Again": Max Martin''s Complement Chorus'
+          conf: Society for Music Theory 38th Annual Meeting
+          location: St. Louis, MO
+          date: October 31
+          year: 2015
+        - title: 'Begging to Be Seen: Beyoncés "Partition"'
+          note: Co-authored with Chris Kattenbeck, Sean Peterson, Holger Schwetter, and Júlia Silveira.
+          conf: International Methods of Popular Music Analysis 2nd Summer School
+          location: Osnabrück, Lower Saxony, Germany
+          date: September 18
+          year: 2015
+        - title: 'Rhythmic and Timbral Associations in Sufjan Stevens''s "Come On, Feel the Illinoise!"'
+          multiconf:
+              - conf: Society for Music Theory 36th Annual Meeting
+                location: Charlotte, NC
+                date: October 31
+              - conf: Music Theory Society of New York State 42nd Annual Meeting
+                location: Stonybrook, NY
+                date: April 6
+              - conf: Music Theory Society of the Mid-Atlantic, 11th Annual Meeting
+                location: Philadelphia, PA
+                date: March 16
+              - conf: Music Theory Forum at Florida State University. 29th Annual Meeting
+                location: Tallahassee, FL
+                date: January 19
+          year: 2013
+
+    invited_discussant:
+        - title: Teaching Timbre
+          invited-discussant: true
+          note: Panel discussion
+          conf: Analysis, Creation, and Teaching of Orchestration (ACTOR) Workshop
+          location: Virtual
+          date: July 16
+          year: 2021
+        - title: The Dynamics of the Job Interview
+          invited-discussant: true
+          note: Special session sponsored by the Professional Development Committee
+          conf: Society of Music Theory 41st Annual Meeting
+          location: San Antonio, TX
+          date: November 1
+          year: 2018
+        - title: Music Theory and Online Discourse
+          invited-discussant: true
+          note: Panel discussion
+          conf: "Public Music Discourse: In Honor of the Bernstein Centenary"
+          location: Columbia, SC
+          date: March 3
+          year: 2018
+
+media_appearances:
+    - title: BBC Radio 6 Music
+      details: '"6 Music Instrumental." Produced by Matthew Mills.'
+      year: 2024
+    - title: Her Music Academia
+      details: '"Timbre in 1980s Pop Music." By Lydia Bangura. With Cara Stroud.'
+      year: 2022
+    - title: Note Doctors
+      details: '"Exploring timbre within 1980s pop and beyond." By Paul Thomas, Jenn Weaver, and Ben Graf.'
+      year: 2022
+    - title: Time
+      details: '"Why Lorde''s Solar Power Is a Pop Oddity." By Andrew R. Chow.'
+      year: 2021
+    - title: The Washington Post
+      details: '"These are the musicological reasons Taylor Swift''s new album sounds dull." By Alyssa Barna.'
+      year: 2020
+    - title: The Economist
+      details: '"Yamaha''s DX7 synthesiser changed modern music." By Bill Ridgers.'
+      year: 2020
+    - title: It's Been a Minute
+      details: '"The Cyndi Lauper Conspiracy." By Sam Sanders featuring Switched On Pop. Produced by NPR.'
+      year: 2020
+    - title: Switched On Pop
+      details: '"The Cyndi Lauper Conspiracy." By Nate Sloan and Charlie Harding. Produced by Vox.'
+      year: 2020
+    - title: Sound Expertise
+      details: '"Timbre and ''80s Pop with Megan Lavengood." By Will Robin.'
+      year: 2020
+    - title: Pop Unmuted
+      details: |
+          "Max Martin and Ellie Goulding's 'Love Me Like You Do.'" By Scott Interrante and Kurt Trowbridge.
+
+          "Timbre & 80s Synth Pop." By Scott Interrante and Kurt Trowbridge.
+      year: 2015, 2016
+
+teaching_experience:
+    positions:
+        - title: Associate Professor
+          institution: George Mason University
+          location: Fairfax, VA
+          year: 2023–present
+        - title: Assistant Professor
+          institution: George Mason University
+          location: Fairfax, VA
+          year: 2017–2023
+        - title: Teaching Fellow
+          institution: Brooklyn college
+          location: Brooklyn, NY
+          year: 2013–2016
+        - title: Teaching Assistant
+          institution: Florida State University
+          location: Tallahassee, FL
+          year: 2010–2012
+
+    graduate_courses:
+        - title: Analytical Techniques
+          details: "Survey of diverse methodologies for analyzing a broad range of repertoires: intertextuality, set theory, serialism, phenomenological approaches to rhythm in post-tonal music, Schenkerian analysis, Sonata Theory, narrative and musical meaning, analysis and performance, harmony in pop music, lyric analysis, and timbre. Culminates in a final project, an analysis of a piece of the student's choosing. Taught face-to-face, online, and blended."
+        - title: Analyzing Musical Instruments
+          details: Seminar on organology (the study of musical instruments) and music analysis, an interdisciplinary subject that incorporates ethnomusicology, history, production and technology, and cultural studies, among other disciplines. Guest scholars invited to speak on special subjects. Culminates in a final project, an analysis of a piece of the student's choosing. Online.
+          url: http://instruments.meganlavengood.com
+        - title: Doctoral Research Methods
+          details: Tutorial for DMA students on the research process. Topics include refining a research question, turning a question into a thesis statement, using primary and secondary resources, selecting a methodology, software tools to aid in the research process (especially Zotero), writing a literature review, writing abstracts, and organization. Face-to-face.
+        - title: Analysis of Timbre
+          details: "Seminar that explores the ways in which theorists and musicologists have tackled the difficult issue of analysis of timbre. Perspectives: ethnomusicology, physiology, cognition, orchestration, production and technology, identity, and genre. Repertoire is mainly popular music and 20th-/21st-c. concert music, with some study of Classical music. Guest scholars invited to speak on special subjects. Culminates in a final project, an analysis of a piece of the student's choosing. Online."
+          url: http://timbreclass.meganlavengood.com
+        - title: Music Theory and Multimedia
+          details: Seminar on several music-theoretical approaches for the analysis of music in film, TV, and video games. Approaches studied include topic theory, identity (gender studies, race studies, disability), leitmotif, the use of pre-existing music, and harmony. Guest scholars invited to speak on special subjects. Culminates in a final project, an analysis of a piece of the student's choosing. Online.
+          url: http://multimedia.meganlavengood.com
+        - title: Analyzing Classical Form
+          details: Analysis of harmony, phrase structure, and large-scale form of works of the Classical era using the theories of William Caplin, James Hepokoski, and Warren Darcy. Midterm and final projects involved analysis of repertoire from marginalized composers (women; composers of color). Online.
+        - title: Analysis of Post-1950 Popular Music
+          details: "Survey of approaches to analysis of pop music. Topics: intertextuality, form, harmony, tonality, lyrics, gender and sexuality, race and ethnicity, rhythm, and rap. Culminated in a final project, an analysis of a piece of the student's choosing. Taught online and face-to-face."
+          url: http://popclass.meganlavengood.com
+        - title: Graduate Theory Review
+          details: Undergraduate core theory compressed into a one-semester course. Covered diatonic and chromatic harmony, phrases, and binary form.
+        - title: Analysis of 20th-c. Music
+          details: Introduction to several methodologies for 20th-c. music, including pitch class set analysis, Neo-Riemannian analysis, and serialism. Aural skills included. Culminated in a final project, an analysis of a piece of the student's choosing.
+        - title: Linear Analysis
+          details: Introduction to Schenkerian analysis. Begins with metrical reductions, prolongations, and imaginary continuo and ends with binary forms. Culminates in a final project, a Schenkerian analysis of a piece from a list of approved 18th- and 19th-c. repertoire.
+
+    undergraduate_courses:
+        - title: Theory for 20th-/21st-c. music
+          details: Three units, 1) atonal music, 2) triadic post-tonality, and 3) music and media. Techniques learned include set theory, Neo-Riemannian theory, techniques of Debussy, pitch collections and diatonic modes, leitmotivic analysis, topic theory, and model composition.
+          url: https://musi216.meganlavengood.com
+        - title: Theory for Pop and Jazz Music
+          details: Teaches harmonic, rhythmic, melodic, and formal idioms of jazz and pop music. Topics include applied chords including applied ii–V progressions, mode mixture, tritone substitutions, extensions, jazz voicings, pop harmonic schemas, the blues, improvisation, pop forms, and phrasing.
+          url: https://musi215.meganlavengood.com
+        - title: Undergraduate Written Theory Core Curriculum
+          details: Beginning with fundamentals and species counterpoint, and continuing through chromatic harmony and form. Courses are centered on model composition in 18th- and 19th-c. styles.
+        - title: Undergraduate Ear Training Curriculum
+          details: Beginning with simple vs. compound meters and major/minor scales and continuing through mixed/changing meters, tuplets, sight-transposition, and chromatic chords.
+
+performance_employment:
+    - title: Soprano
+      institution: Schola Cantorum, Cathedral of St. Matthew the Apostle
+      year: 2023–2025
+    - title: Soprano
+      institution: St. John the Beloved Roman Catholic Church
+      details: McLean, VA
+      year: 2017–2020
+    - title: Soprano
+      institution: Holy Innocents Church
+      details: New York, NY
+      year: 2016–2017
+    - title: Soprano
+      institution: Renaissance Street Singers
+      details: New York, NY
+      year: 2015–2017
+    - title: Alto
+      institution: New York Chamber Choir
+      details: New York, NY
+      year: 2014
+    - title: Organist and Pianist
+      institution: First United Methodist Church
+      details: Parkersburg, WV
+      year: 2007–2010
+
+other_relevant_experience:
+    - title: Writing Fellow
+      institution: Medgar Evers College
+      details:
+          - Designed and taught introductory-level workshops on topics in music.
+          - Instilled good research practices into students by teaching them how to search for resources and evaluate them for depth and accuracy.
+          - Developed writing skills with students, such as breaking down a large assignment, brainstorming, organizing an essay and independently identifying grammar mistakes.
+          - Evaluated student writing within the context of various genres, such as analytical essays, response essays, or graduate school application materials.
+      year: 2016–2017
+    - title: Arranger, orchestrator, music engraver
+      details:
+          - Typeset musical examples for various manuscripts and dissertations.
+          - Arranged familiar tunes for many ensembles, including women's choir, children's choir, solo baritone, brass quintet, jazz orchestra, and chamber orchestra.
+          - Collaborated with choreographers and performers to fine-tune arrangements before performance.
+          - Arrangements have been played by the Fairfax Symphony Orchestra, Nouveau Productions, and other groups.
+      year: 2009–2015
+
+web_design_editing_development:
+    projects:
+        - title: Music Theory Examples
+          details:
+              - Reconstruct a website that went offline earlier in the year.
+              - Scrape data from archive.org.
+              - Reorganize filesystem.
+              - Encode Roman numerals and other special notation with MathJax.
+              - Design page templates using Jekyll and Liquid.
+              - Front-end design using SASS and CSS.
+          year: 2024
+        - title: Auralayer
+          details:
+              - Conceptualize and test web app for visualizing timbre analyses.
+              - Create model analyses for demonstration.
+              - Front-end design using JS and CSS.
+          year: 2023
+        - title: Society for Music Theory
+          details:
+              - Extensively customize front-end design for the SMT website using CSS and HTML.
+              - Organize and create content on the SMT website using Drupal and YourMembership.
+          year: 2019–present
+        - title: Music Theory Society of the Mid-Atlantic
+          details:
+              - Build a new MTSMA Wordpress site from the ground up, determining website layout and structure, developing a new theme, installing appropriate plugins, building custom forms with Forminator, customizing CSS, and writing documentation for use.
+              - Edit content for style and to conform to accessibility standards.
+              - Respond to member requests for improvements and updates to the website.
+          year: 2022–present
+
+    competencies:
+        - Wordpress
+        - Drupal
+        - Jekyll
+        - Liquid
+        - CSS3
+        - HTML5
+
+professional_service:
+    - institution: Society for Music Theory
+      title:
+          - Web Editor 2019–present
+          - Archival Committee, 2022–2025
+          - CV Review Session mentor, 2023
+          - Co-Chair, Popular Music Interest Group, 2018–2020
+          - IT/Networking Committee, 2017–2020
+      year: 2017–present
+    - institution: Music Theory Online
+      title: Editorial Board Member
+      year: 2024–2027
+    - institution: Music Theory Society of the Mid-Atlantic
+      title:
+          - President, 2024–2026
+          - Member-at-large, 2019–2023
+          - Web designer, 2022
+          - Program committee, 2021
+      year: 2019–present
+    - institution: Theory and Practice
+      title: Reviews Editor
+      year: 2019–2022
+    - institution: Music Theory Southeast
+      title: Program committee
+      year: 2017–2018
+
+departmental_college_service:
+    - title: Faculty advisor
+      details: Music Studies Club
+      year: 2025–present
+    - title: Committee on Opportunity, Understanding, and Respect
+      details: College of Visual and Performing Arts
+      year: 2023–present
+    - title: Graduate Committee
+      details: School of Music
+      year: 2019–Present
+    - title: Area Director of Music Theory
+      details: School of Music
+      year: 2019–present
+    - title: Canvas Mentor
+      details: College of visual and Performing Arts
+      year: 2024
+    - title: Director Renewal Committee
+      details: School of Music
+      year: 2023
+    - title: Undergraduate Committee
+      details: School of Music
+      year: 2018–2021
+    - title: COVID-19 Online Faculty Mentor
+      details: School of Music
+      year: 2020
+    - title: Faculty Lead, Online Course Development Primer
+      details: Stearns Center for Teaching and Learning
+      year: 2020
