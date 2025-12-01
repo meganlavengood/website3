@@ -43,6 +43,7 @@ permalink: /research/
                             <em>{{ item.pub }}</em>
                             {% if item.pub-link %}</a>{% endif %}
                         {{ item.vol }}, {{ item.year }}.</p>
+                    {% if item.link %}
                     <a class="btn btn-primary" href="{{ item.link }}" target="_blank" rel="noopener noreferrer">
                         {% if item.open %}
                         <i class="bi bi-unlock2-fill"></i> access full text
@@ -50,6 +51,7 @@ permalink: /research/
                         view
                         {% endif %}
                     </a>
+                    {% endif %}
 
                 </div>
             </div>
@@ -83,6 +85,7 @@ permalink: /research/
                     {% endif %}
 
                     <p>In {% if item.pub-link %}<a class="text-dark" href="{{ item.pub-link }}">{% endif %}<em>{{ item.pub }}</em>{% if item.pub-link %}</a>{% endif %}, {{ item.year }}.</p>
+                    {% if item.link %}
                     <a class="btn btn-primary" href="{{ item.link }}" target="_blank" rel="noopener noreferrer">
                         {% if item.open %}
                         <i class="bi bi-unlock2-fill"></i> access full text
@@ -90,6 +93,7 @@ permalink: /research/
                         view
                         {% endif %}
                     </a>
+                    {% endif %}
 
                 </div>
             </div>
@@ -198,6 +202,7 @@ permalink: /research/
                     {% endif %}
 
                     <p>In {% if item.pub-link %}<a class="text-dark" href="{{ item.pub-link }}">{% endif %}<em>{{ item.pub }}</em>{% if item.pub-link %}</a>{% endif %}, {{ item.year }}.</p>
+                    {% if item.link %}
                     <a class="btn btn-primary" href="{{ item.link }}" target="_blank" rel="noopener noreferrer">
                         {% if item.open %}
                         <i class="bi bi-unlock2-fill"></i> access full text
@@ -205,6 +210,7 @@ permalink: /research/
                         view
                         {% endif %}
                     </a>
+                    {% endif %}
 
                 </div>
             </div>
