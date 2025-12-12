@@ -1,44 +1,48 @@
 ---
 layout: default
 ---
-<article class="col-lg-8 mx-auto">
+<article id="blog-home">
+    <div class="col-lg-8 mx-auto">
 
-    <header class="post-header">
+        <header class="post-header">
 
-        <h1 class="mb-3">{{ page.title | escape }}</h1>
-    </header>
-    <div itemprop="articleBody">
-        {{ content}}
+            <h1 class="mb-3">{{ page.title | escape }}</h1>
+        </header>
+        <div itemprop="articleBody">
+            {{ content}}
 
 
-        {%- if site.posts.size > 0 -%}
+            <!-- {%- if site.posts.size > 0 -%}
+            <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+            {%- endif -%} -->
+        </div>
+    </div>
+    {%- if site.posts.size > 0 -%}
+    <div class="col-lg-10 mx-auto">
+        <div class="row d-flex justify-content-around g-3">
+            {%- for post in site.posts -%}
+            <div class="col-md-4 d-flex">
+                <div class="card">
+                    <img src="{{ post.banner }}" class="card-img-top" alt="{{post.banner-alt}}" />
+                    <div class="card-body">
 
-        <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+                        <h3 class="h5 card-title small-caps"><a class="stretched-link link-underline link-underline-opacity-0" href="{{ post.url | relative_url }}">
+                                {{ post.title | escape }}
+                            </a></h3>
 
-        {%- for post in site.posts -%}
-        <div class="col-md-6">
-            <div class="card">
-                <img src="{{ post.banner }}" class="card-img-top" alt="{{post.banner-alt}}" />
-                <div class="card-body">
-
-                    <h4 class="card-title"><a class="post-link" href="{{ post.url | relative_url }}">
-                            {{ post.title | escape }}
-                        </a></h4>
-
-                    <h5 class="card-subtitle mb-2 text-body-secondary">{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-                        {{ post.date | date: date_format }}
-                    </h5>
-                    <div class="card-text">
-
-                        {%- if site.show_excerpts -%}
-                        {{ post.excerpt }}
-                        {%- endif -%}
+                        <h4 class="fs-6 card-subtitle mb-2 text-body-secondary fw-light">{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                            {{ post.date | date: date_format }}
+                        </h4>
+                        <div class="card-text text-sm">
+                            {{ post.lead }}
+                        </div>
                     </div>
                 </div>
             </div>
+            {%- endfor -%}
         </div>
-        {%- endfor -%}
 
-        {%- endif -%}
+
     </div>
+    {%- endif -%}
 </article>

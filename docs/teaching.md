@@ -14,7 +14,7 @@ As part of a team of music theorists, I worked to create [*Open Music Theory* 
 
 <div class="col-md-6 mx-auto text-center">
     <figure><a href="https://viva.pressbooks.pub/openmusictheory/"><img class="img-fluid" src="https://meganlavengood.com/wp-content/uploads/2022/05/OMT-cover-lower-res-1-350x525-1.png" alt="Open Music Theory cover" /></a>
-        <figcaption class="wp-element-caption text-secondary"><small>Cover design: <a href="https://www.bethanynistler.com">Bethany Nistler</a>.</small>
+        <figcaption class="text-primary"><small>Cover design: <a href="https://www.bethanynistler.com">Bethany Nistler</a>.</small>
     </figcaption>
 
 </figure>

@@ -2,12 +2,12 @@
 layout: default
 ---
 <article class="blog-post" itemscope itemtype="http://schema.org/BlogPosting">
-  <header class="post-header">
+  <header class="post-header mb-5">
     <div id="banner" class="carousel slide">
-      <img src="{{ page.banner }}" class="d-block w-100" height="300" alt="{{ page.banner-alt }}" />
+      <img src="{{ page.banner }}" class="d-block w-100 object-fit-cover" height="300" alt="{{ page.banner-alt }}" />
       <div class="carousel-caption d-block text-start">
 
-        <h1>{% if page.title-prefix %}
+        <h1 class="small-caps fw-boldest">{% if page.title-prefix %}
           {{ page.title-prefix }}:
           {% endif %}
           {{ page.title }}</h1>
@@ -15,11 +15,20 @@ layout: default
     </div>
   </header>
 
-  <div class="col-md-8 mx-auto">
-    {% if page.toc == true %}
-    <div id="toc-container">
 
-      <h2>Table of Contents</h2>
+  <div class="col-md-8 mx-auto">
+
+    {% if page.lead %}
+
+    <p class="lead text-center">
+      {{ page.lead }}
+    </p>
+
+    {% endif %}
+    {% if page.toc == true %}
+    <div id="toc-container" class="alert alert-primary">
+
+      <h2 class="alert-heading">Table of Contents</h2>
       {% toc %}
     </div>
 
@@ -29,14 +38,32 @@ layout: default
       {{ content }}
     </div>
 
-    <div class="post-nav flex-row justify-space responsive">
-      {% if page.previous.url %}
-      <a class="prev button button-fill" href="{{page.previous.url | relative_url }}">&laquo; {{page.previous.title}}</a>
-      {% endif %}
-      {% if page.next.url %}
-      <a class="next button button-fill" href="{{page.next.url | relative_url }}">{{page.next.title}} &raquo;</a>
-      {% endif %}
+    {%- if site.posts.size > 0 -%}
+
+    <h2>More posts</h2>
+    <div class="d-flex flex-row justify-content-around">
+      {%- for post in site.related_posts -%}
+      <div class="col-md-4 d-flex">
+        <div class="card">
+          <img src="{{ post.banner }}" class="card-img-top" alt="{{post.banner-alt}}" />
+          <div class="card-body">
+
+            <h3 class="h5 card-title small-caps"><a class="stretched-link link-underline link-underline-opacity-0" href="{{ post.url | relative_url }}">
+                {{ post.title | escape }}
+              </a></h3>
+
+            <h4 class="fs-6 card-subtitle mb-2 text-body-secondary fw-light">{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+              {{ post.date | date: date_format }}
+            </h4>
+            <div class="card-text text-sm">
+              {{ post.lead }}
+            </div>
+          </div>
+        </div>
+      </div>
+      {%- endfor -%}
     </div>
+    {% endif %}
   </div>
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>

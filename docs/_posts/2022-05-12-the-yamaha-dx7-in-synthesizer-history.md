@@ -6,11 +6,12 @@ toc: true
 banner: "https://meganlavengood.com/wp-content/uploads/2022/05/Yamaha_DX7_settings-e1652370037507.jpg"
 banner-alt: "close-up photo of Yamaha DX7 settings"
 banner-caption: "[Leo-setä](https://www.flickr.com/people/12584677@N06), © [CC BY 2.0](https://creativecommons.org/licenses/by/2.0), via Wikimedia Commons."
+lead: "To say that the DX7’s arrival was earth-shaking would be no exaggeration: the affordable price, sound palette, and physical feel of the instrument combined to make the DX7 the new must-have instrument in every studio, garage, and university music department in the U.S. and the U.K."
 ---
 
-MY FOCUS ON THE YAMAHA DX7 SYNTHESIZER may seem overly niche or specialized, but in this essay I establish the magnitude of this synthesizer's impact on popular music in the 1980s. While the average person is unaware of the synthesizer by name, the DX7 changed popular music as we know it today. To say that the DX7's arrival was earth-shaking would be no exaggeration: the affordable price, sound palette, and physical feel of the instrument combined to make the DX7 the new must-have instrument in every studio, garage, and university music department in the U.S. and the U.K. My study of contemporaneous music periodicals has led me to construct a narrative that describes how the DX7 impacted the lives of working musicians in the U.S. and the U.K. in the 1980s.
+My focus on the Yamaha DX7 synthesizer may seem overly niche or specialized, but in this essay I establish the magnitude of this synthesizer's impact on popular music in the 1980s. While the average person is unaware of the synthesizer by name, the DX7 changed popular music as we know it today. To say that the DX7's arrival was earth-shaking would be no exaggeration: the affordable price, sound palette, and physical feel of the instrument combined to make the DX7 the new must-have instrument in every studio, garage, and university music department in the U.S. and the U.K. My study of contemporaneous music periodicals has led me to construct a narrative that describes how the DX7 impacted the lives of working musicians in the U.S. and the U.K. in the 1980s.
 
----
+## Introduction
 
 The sonic landscape of popular music included keyboards long before the 1980s. Along with the piano, the standby keyboard instrument in the pop world, keyboardists might often play electric pianos such as the Fender Rhodes, the Hohner Pianet, the Wurlizer electric piano, or the distinctive Hohner Clavinet, or electric organs such as the Hammond B3 or the Vox Continental. A handful of keyboard legends emerge in popular music during the 1950s and '60s—Little Richard, Stevie Wonder, Ray Manzarek, and Keith Emerson, to name a few—but prior to the 1970s, the role of the keyboardist was, generally speaking, relegated to a rhythm section role, rather than being featured as a solo instrument. In other words, while guitar heroes like Jimi Hendrix, Eric Clapton, and Keith Richards enraptured audiences with epic guitar solos, keyboardists typically remained out of the spotlight. The amplified and distorted guitar was able to produce loud, sustained sounds, which were simply better suited to virtuosic and crowd-pleasing solos. In those early decades, the keyboard instruments were no match.
 
@@ -20,9 +21,8 @@ The invention of the Minimoog resolved the size issue, and made the price more a
 
 > [The DX7] is such a great instrument, such a versatile instrument. I think we're still at the tip of the iceberg of what it's capable of.
 >
-> {: .figcaption }
->
 > Patrice Rushen
+> {: .figcaption }
 
 ## The Arrival of the DX7
 
@@ -30,7 +30,7 @@ A handful of synthesizers dominated the sound of the 1980s. The Roland Jupiter-8
 
 Analog synthesis never really disappeared from the sound of popular music, but most other quintessential '80s synthesizers introduced the listening public to other, newer methods of sound synthesis, all of which were made possible by digital computing and microprocessors. The Fairlight CMI, first released in 1979, and the E-MU Emulator, first released in 1981, are two of the first keyboards to use digital sampling. Sampling made any sound imaginable available to keyboardists—or at least, to keyboardists who could afford them. Both the Fairlight and the Emulator were prohibitively expensive for the average keyboardist, with list prices in the tens of thousands of dollars at their release (1979 and 1981, respectively). Successful artists like Kate Bush and Duran Duran, who were able to pay for studio time and access to them, used these instruments to bring an entirely new flavor to their music. Even while samplers were out of the reach of many musicians, they left a major mark on the music of the 1980s.[^3]
 
-Also new in the 1980s was wavetable synthesis, famously deployed in the PPG Wave synthesizers. The PPG Wave processes analog waveforms through the digital microprocessors to produce new, more dynamic sounds. Both sampling and wavetable synthesis represent a merging of analog and digital technologies: the source of the sound is an analog source—a recorded analog sample in the case of the sampler, and an analog waveform in the case of wavetable synthesis—but the sound is processed and delivered digitally.
+Also new in the 1980s was wavetable synthesis, famously deployed in the PPG Wave synthesizers. The PPG Wave processes analog waveforms through the digital microprocessors to produce new, more dynamic sounds. Both sampling and wavetable synthesis represent a merging of analog and digital technologies: the source of the sound is an analog source—a recorded analog sample in the case of the sampler, and an analog waveform in the case of wavetable synthesis—but the sound is processed and delivered digitally. a
 
 The other classic '80s synths were purely digital, using frequency modulation (FM) synthesis technology first developed by John Chowning at Stanford University in the 1960s. The New England Digital Synclavier, introduced in 1977, was the first commercial instrument to solely use digital FM synthesis. The Yamaha GS-1, released in 1981, was Yamaha's first FM keyboard—technically not a synthesizer at all, because it consisted entirely of stored sounds from the factory. Digital FM synthesis remained less popular than other formats until one pivotal moment: the unveiling of the Yamaha DX7 at the National Association of Music Merchants show in the summer of 1983.
 
@@ -57,9 +57,8 @@ This flexibility alone would provide plenty of options for most people, but the 
 
 > It's my opinion that the velocity/touch-sensitivity feature ... is a major contributory factor in putting the DX7 into a class of its own.
 >
-> {: .figcaption }
->
 > Jay Chapman
+> {: .figcaption }
 
 The timbre of a sound on the DX7 can change further depending on how hard and/or how fast the player strikes the key: in other words, the keys are also both pressure- and velocity-sensitive. Jay Chapman, a writer for *Electronics & Music Maker, *states, "It's my opinion that the velocity/touch-sensitivity feature ... is a major contributory factor in putting the DX7 into a class of its own when compared to the other polyphonic synths available in the same price range."[^11] The DX7's keyboard action was one of the best in the synthesizer market, and this technology was incorporated into the design of the sounds themselves. Another non-musical preset, `TRAIN`, would clang a train bell when the key was pressed normally, but if the player then presses harder onto the key, the sounds of a train engine chugging gradually crescendo while the bell reverberates. Sounds like `TRAIN` and `TAKE OFF` might sound quaint or gimmicky to modern ears, but this was the first time such a sound had ever been synthesized from scratch (rather than sampled).
 
@@ -83,9 +82,8 @@ The innovation of FM synthesis was the greatest strength of the DX7, but also, p
 
 > I'm not a real DX7 fan ... I never warmed up to it, and along came the [Sequential Circuits Prophet VS, a hybrid digital-analog synth]. It gave me some pretty neat sounds. The digital waveforms were nice and bright, and they gave me all the [Hohner] Clavinet and [Fender] Rhodes things, and I could still deal with it in an analog fashion, which is what I'm most familiar with.
 >
-> {: .figcaption }
->
 > Alan Howarth, quoted in Burger (1986, 16).
+> {: .figcaption }
 
 This reveals that although Howarth was interested in the sound of digital synthesis, he was reluctant to spend time stumbling on the learning curve of this entirely new system of sound creation.[^15] Midge Ure similarly states, "The DX7 ... I still think is impossible to program! I can't be bothered with it."[^16]
 
@@ -95,9 +93,8 @@ A DX7 programmer, on the other hand, interacts with the FM synthesis algorithms 
 
 > The DX7 ... I still think is impossible to program! I can't be bothered with it.
 >
-> {: .figcaption }
->
 > Midge Ure
+> {: .figcaption }
 
 All of this information is only communicated to the DX7 programmer on a tiny, non-backlit LCD screen, capable of displaying only two rows of sixteen characters each. As Ted Greenwald, an editor for *Keyboard* magazine, summarizes, "Admittedly, the difficulty of DX programming stems as much from the differences between analog and FM synthesis, and between [four-step] and [eight-step] envelopes, but there was clearly a need for a front panel that related, in graphic terms, to the structure of any given patch."[^17] The combination of the more abstract mathematics behind sound generation, the substantial differences between analog and digital technology, and the difficult interface led to a total avoidance of programming the DX7 by the vast majority of keyboardists.
 
@@ -125,9 +122,8 @@ What clinched the DX7's place in synthesizer history was not just its offering a
 >
 > The fact that the event took place in North Carolina should not be overlooked. ... Before then, you couldn't really buy a synthesizer in Asheville. You had to travel three hours to Charlotte, North Carolina's largest city. But by 1984, the salesman knew his way around keyboard synthesizers, Chuck Leavell demoed to a hundred or so musicians, and suddenly synthesizers were a musical presence in North Carolina. That's what I mean by "democratization."
 >
-> {: .figcaption }
->
 > Bob Moog (1985, 42).
+> {: .figcaption }
 
 As I discuss in [Lavengood (2020)](https://www.mtosmt.org/issues/mto.20.26.3/mto.20.26.3.lavengood.html), the availability of the DX7 and other synthesizers meant that more musicians had access to unusual sounds in their music—to borrow Moog's terminology, it "democratizes" the novelty sound in popular music. As technologies become cheaper and more accessible, the trajectory of popular music's sound is altered.
 
@@ -189,17 +185,15 @@ This paradigm shift, unsurprisingly, motivated some music makers of the time to 
 
 > How I miss the good old pre-DX7 days.
 >
-> {: .figcaption }
->
 > Steve Cross
+> {: .figcaption }
 
 The DX7 does not make the physical aspects of performance any easier; it has no built-in arpeggiators or sequencers to take away the hard work of moving quickly and adeptly around the keyboard. What really made the DX7 a target for criticism from music-makers concerned with "authenticity" was, instead, the factory presets. The presets meant that synthesizer players were no longer required to be experts in synthesizer programming, which lowered the bar of entry for aspiring keyboardists. Perhaps inevitably, reliance on presets was equated with inauthentic and low-quality music by many musicians. Roland Orzabal of Tears for Fears spits, "Stop using the bloody DX7 presets and invent something new of your own ... People should stop pissing around with synthesizers and make fucking good music."[^30] Philip Oakey of The Human League, on the other hand, expressed a more complex frustration with his and his bandmates' continuing use of the DX7 presets as he reflected on the recording process during an interview with Doerschuk.
 
 > They get really bland after a while. And when we get into what I call the DX Sound Hunt, it drives me up the wall. Someone in the studio will say, 'Okay! Let's have a bell sound.' Then we start going through the 128 sounds on our DX—we have the Sycologic MX1 expander board—and playing every one, including the whistle, the train, and the bombs. If we find something we like, it has probably turned up on 50 records that have been made over the past few years. But chances are we'll give up after half an hour and say, "I guess we'd better [rent] a PPG." Why couldn't we get our own sound, like we did in the Dare days?
 >
-> {: .figcaption }
->
 > Philip Oakey, quoted in Doerschuk (1987a, 88–89).
+> {: .figcaption }
 
 In this interview, Oakey seems to be regretful, or even in denial, of using the DX7 presets, yet DX7 presets saturate The Human League's album *Crash,* released in September of 1986 and produced by Jimmy Jam and Terry Lewis, only eight months prior to this comment.[^31] Similarly, singer-songwriter Joe Walsh (formerly a member of the Eagles) publicly expresses a bit of embarrassment about using the presets during an interview with *Keyboard* magazine—"I very seldom go through presets. I don't like anybody to see me sliding my finger up and down the presets on the DX7"—yet DX7 presets can be heard on tracks in his 1985 album *The Confessor*, released a little over a year before that commen.[^32] Walsh also uses some DX7 presets, albeit to a lesser extent, on *Got Any Gum?* (1987), released just over one year after the interview in *Keyboard*.[^33] The common attitude toward DX7 presets in the mid-1980s can perhaps be understood like that toward Auto-Tune today: everyone uses it, but no one wants to admit it.
 
@@ -209,9 +203,8 @@ But very few practicing musicians were able to successfully program the DX7 and 
 
 > I've found ways to de-stabilize the DX7 a little bit to create interactions between it and other instruments that are more interesting ... I don't have very good voltage supply, for instance. Within the patches, I build in certain elements that don't repeat. For instance, there's something wrong with the programming of envelope generator four on the original DX7 and you can use that to create non-repeating patches. If you have that set to a value under 50, you'll find that the synthesizer behaves unpredictably. Unfortunately they've sorted this out on the second generation of DX7s, so I still use the first one, and that's an important element of quite a few of my patches.
 >
-> {: .figcaption }
->
 > Brian Eno, quoted in Diliberto (1988, 54).
+> {: .figcaption }
 
 Eno's ambition and dedication to learning to program the DX7 was not the norm, however. The vast majority of DX7 players indeed seem to have relied on the presets, the Yamaha ROM cartridges, or even additional presets purchased from the cottage industry of DX7 presets for sale that germinated during this time.
 
@@ -233,13 +226,13 @@ While the average music consumer, or even most music enthusiasts or music theori
 
 ## Bibliography
 
-[View bibliography](https://meganlavengood.com/research/dissertation/bibliography)
+[View bibliography](https://meganlavengood.com/research/dissertation/bibliography){: .btn .btn-primary}
 
 _This post is adapted from chapter 2 of my dissertation, which is the only part of the dissertation that I never reworked for a peer-reviewed article._
 
 ## More links
 
-[DX7 links](https://meganlavengood.com/research/dx7-links/)
+[DX7 links](https://meganlavengood.com/research/dx7-links/){: .btn .btn-primary}
 
 ## Footnotes
 
