@@ -2,7 +2,7 @@
 layout: default
 ---
 <article class="blog-post" itemscope itemtype="http://schema.org/BlogPosting">
-  <header class="post-header mb-5">
+  <header class=" post-header mb-5">
     <div id="banner" class="carousel slide">
       <img src="{{ page.banner }}" class="d-block w-100 object-fit-cover" height="300" alt="{{ page.banner-alt }}" />
       <div class="carousel-caption d-block text-start">
@@ -16,29 +16,38 @@ layout: default
   </header>
 
 
-  <div class="col-md-8 mx-auto">
+  <div class="col-lg-8 mx-auto">
 
     {% if page.lead %}
 
     <p class="lead text-center">
       {{ page.lead }}
     </p>
-
     {% endif %}
-    {% if page.toc == true %}
-    <div id="toc-container" class="toc card col-md-6 mx-md-auto">
-
-      <h2 class="h5 card-header">Table of Contents</h2>
-      <div class="card-body">
-        {% toc %}
-      </div>
-    </div>
 
     <hr>
-    {% endif %}
-    <div class="post-content e-content" itemprop="articleBody">
-      {{ content }}
+  </div>
+  <!-- {% if page.toc %} -->
+  <div class="col-lg-10 mx-auto">
+
+    <div class="d-flex flex-row flex-lg-row-reverse flex-wrap justify-content-between">
+
+      <nav class="col-lg-3 mx-auto">
+        <div id="toc-container" class="toc card sticky-lg-top">
+
+          <h2 class="h6 card-header">Table of Contents</h2>
+          <div class="card-body">
+            {% toc %}
+          </div>
+        </div>
+      </nav>
+      <div class="post-content e-content col-lg-8" itemprop="articleBody">
+        <!-- <div data-bs-spy="scroll" data-bs-target="#toc-container" data-bs-smooth-scroll="true" tabindex="0"> -->
+        {{ content }}
+        <!-- </div> -->
+      </div>
     </div>
+    <!-- {% endif %} -->
 
     {%- if site.posts.size > 0 -%}
 
@@ -67,6 +76,8 @@ layout: default
     </div>
     {% endif %}
   </div>
+  </div>
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+
 </article>
