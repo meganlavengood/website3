@@ -94,6 +94,7 @@ scholar:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-permalink: /:year/:month/:day/:title
+# permalink: /:year/:month/:day/:title
+permalink: :title
 
 future: true
