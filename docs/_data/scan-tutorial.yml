@@ -1,0 +1,117 @@
+---
+- src: /assets/scan-tutorial/af1.jpg
+  app: af
+  alt: Screenshot of ABBYY app about to take a photo of a document
+  caption: By default, it has "autocapture" enabled. I suggest turning it off.
+
+- src: /assets/scan-tutorial/af2.jpg
+  app: af
+  alt: Screenshot of ABBYY app about to take a photo of a document
+  caption: It's best to take the picture straight on.
+
+- src: /assets/scan-tutorial/af3.jpg
+  app: af
+  alt: The document is at a weird angle
+  caption: But even if you take it at an angle, you can fix it later…
+
+- src: /assets/scan-tutorial/af4.jpg
+  app: af
+  alt: Yellow lines appear around the document to adjust boundaries
+  caption: …by moving the sides and corners until they line up with document boundaries.
+
+- src: /assets/scan-tutorial/af5.jpg
+  app: af
+  alt: scan preview screen
+  caption: You can make it black and white by selecting Filters.
+
+- src: /assets/scan-tutorial/af6.jpg
+  app: af
+  alt: filter selection screen
+  caption: Choose the black and white option, and click "apply to all" to get it done to all your pages at once.
+
+- src: /assets/scan-tutorial/af7.jpg
+  app: af
+  alt: scan preview of page 2
+  caption: Once you've got all your pages formatted properly, click save.
+
+- src: /assets/scan-tutorial/af8.jpg
+  app: af
+  alt: document properties screen
+  caption: Name your scan if you want to change the default name and click Done (top right).
+
+- src: /assets/scan-tutorial/af9.jpg
+  app: af
+  alt: my documents screen
+  caption: Send the scan to yourself or to me with the Share icon.
+
+- src: /assets/scan-tutorial/cs1.jpg
+  app: cs
+  alt: Screenshot of CamScanner app about to take a photo of a document
+  caption: Make sure you have Batch mode enabled.
+
+- src: /assets/scan-tutorial/cs2.jpg
+  app: cs
+  alt: About to take a photo of a document
+  caption: It's best to take photos straight on.
+
+- src: /assets/scan-tutorial/cs3.jpg
+  app: cs
+  alt: The document is at a weird angle
+  caption: But even if you take the photo at an angle, you can still fix it later.
+
+- src: /assets/scan-tutorial/cs4.jpg
+  app: cs
+  alt: Scan preview screen
+  caption: Click Re-Edit in the top left to get the correct scan settings.
+
+- src: /assets/scan-tutorial/cs5.jpg
+  app: cs
+  alt: green lines appear around the document to show where boundary lines are
+  caption: If needed, fix the cropping by aligning sides and corners to the document boundaries. Then, click the checkmark.
+
+- src: /assets/scan-tutorial/cs6.jpg
+  app: cs
+  alt: filter selection page
+  caption: Now, you will be able to select the B&W color mode.
+
+- src: /assets/scan-tutorial/cs7.jpg
+  app: cs
+  alt: share popup
+  caption: After clicking the checkmark again, you'll be able to click the share button on the bottom bar. Share as a PDF and email it to yourself or to me.
+
+- src: /assets/scan-tutorial/printer1.jpg
+  app: printer
+  alt: Printer interface
+  caption: Press the "main menu" button to the left of the screen.
+
+- src: /assets/scan-tutorial/printer2.jpg
+  app: printer
+  alt: Printer interface, main menu screen
+  caption: Click Scan and Send on the right.
+
+- src: /assets/scan-tutorial/printer3.jpg
+  app: printer
+  alt: Printer interface, scan and send screen
+  caption: Tap "Send to myself" to send to your GMU address, and then you can forward me that email.
+
+- src: /assets/scan-tutorial/printer4.jpg
+  app: printer
+  alt: Printer interface, scan and send screen
+  caption: Tap where it says "auto (color/gray)".
+
+- src: /assets/scan-tutorial/printer5.jpg
+  app: printer
+  alt: Printer interface, select color screen
+  caption: Select Black & White.
+
+- src: /assets/scan-tutorial/printer6.jpg
+  app: printer
+  alt: Printer document feeder
+  caption: If you are scanning flat, detached pages, you can use the document feeder to scan quickly.
+
+- src: /assets/scan-tutorial/printer7.jpg
+  app: printer
+  alt: Printer flatbed scanner
+  caption: If you are scanning out of a book (or just don't want to fuss with the document feeder), lift the lid and use the flatbed scanner.
+---
+

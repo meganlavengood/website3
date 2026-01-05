@@ -18,17 +18,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Analyzing Musical Instruments
+title: Megan L. Lavengood
 author: Dr. Megan L. Lavengood
 email: mlavengo@gmu.edu
 description: >- # this means to ignore newlines until "baseurl:"
-    Course website for MUSI 810. Fall 2025.
+    Personal website for Megan Lavengood, music theorist.
 
-courseno: MUSI 810
-semester: Fall 2025
-domain: https://meganlavengood.github.io
-url: https://meganlavengood.github.io
-baseurl: "/website3" # the subpath of your site, e.g. /blog
+domain: https://meganlavengood.com
+url: https://meganlavengood.com
+baseurl: "" # the subpath of your site, e.g. /blog
 # repository: meganlavengood/instruments-class
 github_username: meganlavengood
 

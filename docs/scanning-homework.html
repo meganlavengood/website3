@@ -1,0 +1,129 @@
+---
+layout: page-toc
+title: "Scanning homework"
+permalink: /how-to-scan/
+toc: true
+---
+
+<p>When submitting homework to me, scans must be:</p>
+
+<ul>
+    <li>a single document (with multiple pages if applicable)</li>
+    <li>black and white (not grayscale or color)—or if color is essential, make sure your scan still has a bright white background</li>
+    <li>in .pdf format.</li>
+</ul>
+
+<p>These procedures are important enough to me that I've made a tutorial to address it! I'm going to explain how to create such a file in two ways: at a <a href="https://meganlavengood.com/how-to-scan/#printer">printer on campus,</a> or with <a href="https://meganlavengood.com/how-to-scan/#phone">an app on your phone</a>.</p>
+
+<h2>On a campus printer</h2>
+
+<p>Any printer on campus should have a scan function available to you for 3¢ per scan. To make this tutorial, I took photos of the old printer in the music office; the new printer will work almost the same way.</p>
+
+{% assign photos1 = site.data.scan-tutorial | where: "app", "printer" %}
+
+<div id="printer-carousel" class="carousel slide">
+    <div class="carousel-indicators">
+        {% for item in photos1 %}
+        <button type="button" data-bs-target="#printer-carousel" class="{% if forloop.first == true %} active {% endif %}" data-bs-slide-to="{{ forloop.index0 }}" aria-label="Slide {{ forloop.index }}"></button>
+        {% endfor %}
+    </div>
+    <div class="carousel-inner">
+        {% for item in photos1 %}
+        <div class="carousel-item {% if forloop.first == true %} active {% endif %}">
+            <img src="{{ item.src | relative_url }}" class="d-block w-100" alt="{{ item.alt }}">
+            <div class="carousel-caption d-none d-md-block">
+
+                <p>{{ item.caption }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#printer-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#printer-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<h2>On your smartphone</h2>
+
+<p>If you're not on campus, the best way to scan might be by using your phone. There are two different free apps I have used successfully to do this, <a href="https://www.finescanner.com/en/">ABBYY FineScanner</a> and <a href="https://www.camscanner.com/user/dow%E2%80%A6">CamScanner</a>, and I will give you a guide for each. If you have an iPhone or iPad, you can also <a href="https://support.apple.com/en-gb/HT210336">create a scan using your Notes app</a>.</p>
+
+<p>All the apps provide basically the same functionality. Here's what to do in your chosen scanning app:</p>
+
+<ul>
+    <li>This works best with flat pages, so you might want to still remove the pages from a workbook.</li>
+    <li>Make sure to select the option for a multi-page document (often called &quot;batch&quot; mode).</li>
+    <li>Place the document against a dark background, because the app can probably auto-crop the document for you, but only if it can detect the edges. Putting a white page against your brown desk or similar will make the page vs the background high contrast and help the computer do its job.</li>
+    <li>If the auto-cropping doesn't work, adjust the cropping and the corners after taking the photos, because this will correct any distortion from taking the photo at an angle.</li>
+    <li>Ensure that the lighting is not too bright or too dark.</li>
+    <li>Be sure to select the Black and White option as a filter for your scan.</li>
+    <li>After you're finished, click the Share button, select PDF, and send to yourself, to me, or wherever it needs to go to arrive in my inbox.</li>
+</ul>
+
+<p>If you still need more help, I've made photo tutorials for ABBYY and CamScanner.</p>
+
+<h3>ABBYY</h3>
+
+{% assign photos2 = site.data.scan-tutorial | where: "app", "af" %}
+
+<div id="af-carousel" class="carousel slide">
+    <div class="carousel-indicators">
+        {% for item in photos2 %}
+        <button type="button" data-bs-target="#af-carousel" class="{% if forloop.first == true %} active {% endif %}" data-bs-slide-to="{{ forloop.index0 }}" aria-label="Slide {{ forloop.index }}"></button>
+        {% endfor %}
+    </div>
+    <div class="carousel-inner">
+        {% for item in photos2 %}
+        <div class="carousel-item {% if forloop.first == true %} active {% endif %}">
+            <img src="{{ item.src | relative_url }}" class="d-block w-100" alt="{{ item.alt }}">
+            <div class="carousel-caption d-none d-md-block">
+
+                <p>{{ item.caption }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#af-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#af-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<h2>CamScanner</h2>
+
+{% assign photos3 = site.data.scan-tutorial | where: "app", "cs" %}
+
+<div id="cs-carousel" class="carousel slide">
+    <div class="carousel-indicators">
+        {% for item in photos3 %}
+        <button type="button" data-bs-target="#cs-carousel" class="{% if forloop.first == true %} active {% endif %}" data-bs-slide-to="{{ forloop.index0 }}" aria-label="Slide {{ forloop.index }}"></button>
+        {% endfor %}
+    </div>
+    <div class="carousel-inner">
+        {% for item in photos3 %}
+        <div class="carousel-item {% if forloop.first == true %} active {% endif %}">
+            <img src="{{ item.src | relative_url }}" class="d-block" alt="{{ item.alt }}">
+            <div class="carousel-caption d-none d-md-block">
+
+                <p>{{ item.caption }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#cs-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#cs-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
