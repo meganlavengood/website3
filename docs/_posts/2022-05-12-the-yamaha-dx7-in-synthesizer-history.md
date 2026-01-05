@@ -7,6 +7,8 @@ banner: "/assets/posts/dx7-1.jpg"
 banner-alt: "close-up photo of Yamaha DX7 settings"
 banner-caption: "[Leo-setä](https://www.flickr.com/people/12584677@N06), © [CC BY 2.0](https://creativecommons.org/licenses/by/2.0), via Wikimedia Commons."
 lead: "To say that the DX7’s arrival was earth-shaking would be no exaggeration: the affordable price, sound palette, and physical feel of the instrument combined to make the DX7 the new must-have instrument in every studio, garage, and university music department in the U.S. and the U.K."
+redirect_from:
+    - /the-yamaha-dx7-in-synthesizer-history
 ---
 
 My focus on the Yamaha DX7 synthesizer may seem overly niche or specialized, but in this essay I establish the magnitude of this synthesizer's impact on popular music in the 1980s. While the average person is unaware of the synthesizer by name, the DX7 changed popular music as we know it today. To say that the DX7's arrival was earth-shaking would be no exaggeration: the affordable price, sound palette, and physical feel of the instrument combined to make the DX7 the new must-have instrument in every studio, garage, and university music department in the U.S. and the U.K. My study of contemporaneous music periodicals has led me to construct a narrative that describes how the DX7 impacted the lives of working musicians in the U.S. and the U.K. in the 1980s.

@@ -42,6 +42,7 @@ plugins:
     - jekyll-toc
     - jekyll-spaceship
     # - jekyll-target-blank
+    - jekyll-redirect-from
 defaults:
     - scope:
           path: ""
