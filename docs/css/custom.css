@@ -30,6 +30,10 @@ body {
 	font-family: "Encode Sans SC", helvetica, sans-serif !important;
 }
 
+.small {
+	line-height: unset !important;
+}
+
 a {
 	text-decoration-style: dotted;
 }
@@ -283,6 +287,10 @@ fieldset legend {
 		position: relative;
 		font-size: 1.5em;
 		font-weight: bold;
+
+		& ul {
+			text-align: left;
+		}
 	}
 
 	& blockquote.small {
