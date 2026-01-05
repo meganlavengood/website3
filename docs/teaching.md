@@ -13,7 +13,7 @@ As Associate Professor and Area Chair of Music Theory at George Mason, I teach t
 As part of a team of music theorists, I worked to create [*Open Music Theory* v. 2](https://viva.pressbooks.pub/openmusictheory/), which is substantially revised and expanded from its original incarnation. *OMT *is an open-access music theory textbook suitable for the entire theory core curriculum.
 
 <div class="col-md-6 mx-auto text-center">
-    <figure><a href="https://viva.pressbooks.pub/openmusictheory/"><img class="img-fluid" src="https://meganlavengood.com/wp-content/uploads/2022/05/OMT-cover-lower-res-1-350x525-1.png" alt="Open Music Theory cover" /></a>
+    <figure><a href="https://viva.pressbooks.pub/openmusictheory/"><img class="img-fluid" src="/assets/OMT-cover.png" alt="Open Music Theory cover" /></a>
         <figcaption class="text-primary"><small>Cover design: <a href="https://www.bethanynistler.com">Bethany Nistler</a>.</small>
     </figcaption>
 
