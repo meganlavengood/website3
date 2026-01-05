@@ -3,7 +3,7 @@ layout: post
 title: "What Actually Are All These Songs on the Baby Einstein Take Along Tunes Toy?"
 date: 2021-07-21 11:26:37 -0500
 toc: true
-banner: "https://meganlavengood.com/wp-content/uploads/2021/07/IMG_35812-1536x1152.jpg"
+banner: "/assets/posts/baby-einstein.jpg"
 banner-alt: "Baby Einstein Take Along Tunes toy"
 lead: "It’s not just the Greatest Hits of the Classical Era—there are some seriously deep cuts."
 ---
@@ -19,6 +19,8 @@ While there are some obvious, Greatest-Hits-of-the-Classical-Era-type selections
 I tried simply searching the internet for a list of songs, and I was able to find [a review of the toy](https://web.archive.org/web/20240413153928/https://thekidstoyscenter.com/baby-einstein-take-along-tunes/) that appeared to have answered this question for me. A number of these were correct---all the Mozart selections, the Chopin, the Rossini, and Vivaldi "Spring"---but I listened to all of "Summer" and didn't hear anything from the toy, and about four tracks were left unidentified.
 
 Have a listen to these mystery tracks and feel yourself being transported to your last drop-the-needle test.
+
+![Audio A](/assets/posts/baby-einstein-a.mp3)
 
 **mystery tune a.** Described by one friend as having mode mixture that seems like "a Brahms or Dvořák thing, or like Berlioz"; by another as reminiscent of a trombone excerpt from *Damnation of FAust*.
 

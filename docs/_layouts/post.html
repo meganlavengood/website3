@@ -4,7 +4,7 @@ layout: default
 <article class="blog-post" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header mb-5">
     <div id="banner" class="carousel slide">
-      <img src="{{ page.banner }}" class="d-block w-100 object-fit-cover" height="300" alt="{{ page.banner-alt }}" />
+      <img src="{{ page.banner | relative_url }}" class="d-block w-100 object-fit-cover" height="300" alt="{{ page.banner-alt }}" />
       <div class="carousel-caption d-block text-start">
 
         <h1 class="small-caps fw-boldest">{% if page.title-prefix %}
@@ -56,7 +56,7 @@ layout: default
       {%- for post in site.related_posts -%}
       <div class="col-md-4 d-flex">
         <div class="card">
-          <img src="{{ post.banner }}" class="card-img-top" alt="{{post.banner-alt}}" />
+          <img src="{{ post.banner | relative_url }}" class="card-img-top" alt="{{post.banner-alt}}" />
           <div class="card-body">
 
             <h3 class="h5 card-title small-caps"><a class="stretched-link link-underline link-underline-opacity-0" href="{{ post.url | relative_url }}">
