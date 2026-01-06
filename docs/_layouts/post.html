@@ -58,9 +58,9 @@ layout: default
     {%- if site.posts.size > 0 -%}
 
     <h2>More posts</h2>
-    <div class="d-flex flex-row justify-content-around">
+    <div class="d-flex flex-row justify-content-around g-4">
       {%- for post in site.related_posts -%}
-      <div class="col-md-4 d-flex">
+      <div class="col-md-4 d-flex px-2">
         <div class="card">
           <img src="{{ post.banner | relative_url }}" class="card-img-top" alt="{{post.banner-alt}}" />
           <div class="card-body">
