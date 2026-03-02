@@ -12,7 +12,7 @@ SAM 2026
 
 ---
 
-## Nostalgia and Technological Development
+## Nostalgia and Technological Development (Enders 2017) <!-- .element: class="r-fit-text" -->
 
 1. Instrumentalization
 2. Mechanization
@@ -25,7 +25,19 @@ SAM 2026
 9. Informatization/Artificial Intelligence
 10. Hybridization
 
+[Enders (2017)](#/bib)
+
 ---
+
+ <!-- .element: data-auto-animate="true" -->
+
+## DX7 History
+
+![dx7 front](dx7.jpg)
+
+--
+
+<!-- .slide: data-background-image="dx7.jpg" data-background-size="fill" data-background-opacity=".1" data-background-position="top left" data-auto-animate="true" -->
 
 ## DX7 History
 
@@ -37,7 +49,118 @@ SAM 2026
 
 --
 
+<!-- .slide: data-background-image="dx7.jpg" data-background-size="fill" data-background-opacity=".1" data-background-position="top left" data-auto-animate="true" -->
+
 ## DX7 History
 
 - Popularized the use of **presets**
 - `E. PIANO 1`, short for "electric piano", might be the most popular
+
+<figure><audio src="beauty.mp3" controls></audio><figcaption>Celine Dion, "Beauty and the Beast" (1991)</figcaption></figure>
+
+--
+
+## DX7 History
+
+<!-- .slide: data-background-image="dx7.jpg" data-background-size="fill" data-background-opacity=".1" data-background-position="top left" data-auto-animate="true" -->
+
+- DX7 was marketed as an all-in-one alternative to a keyboard collection
+- `E. PIANO 1` was often compared to Fender Rhodes and referred to as the "Rhodes sound"
+- Sounds are not that similar, but `E. PIANO 1` was nevertheless popular
+
+---
+
+## Imitators
+
+- Roland D-50
+- Korg M1
+- Other Yamaha instruments
+- VSTs
+
+--
+
+<!-- .element: data-auto-animate="true" -->
+
+## Roland D-50
+
+![Roland D-50 Front, Public domain, via Wikimedia Commons](d50.png)
+
+--
+
+<!-- .slide: data-background-image="d50.png" data-background-size="fill" data-background-opacity=".1" data-background-position="bottom" data-auto-animate="true" -->
+
+## Roland D-50
+
+- Released in 1987
+- Preset name: `Synthetic Electric`—this is meant to sound like _a synth_, not like a Rhodes!
+
+> The only disappointment is the electric piano, which doesn't match the DX7's and sounds more like a Wurlitzer. ([Gavin 1987](#/bib))
+
+--
+
+## Yamaha Clavinova
+
+![Clavinova front](clavinova.png)
+
+--
+
+<!-- .slide: data-background-image="clavinova.png" data-background-size="fill" data-background-opacity=".2" data-background-position="top" data-auto-animate="true" -->
+
+## Yamaha Clavinova
+
+- Originally released in 1983 but still produced today
+- A family of instruments; substitutes for acoustic piano (e.g., in homes, schools, churches)
+- Two electric piano presets:
+    1. `E. PIANO 1` sound
+    2. Fender Rhodes sound
+
+--
+
+<!-- .element: data-auto-animate="true" -->
+
+## VSTs: Dexed
+
+![](dexed.png) <!-- .element: class="r-stretch" -->
+
+--
+
+<!-- .slide: data-background-image="dexed.png" data-background-size="fill" data-background-opacity=".1" data-background-position="bottom left" data-auto-animate="true" -->
+
+## VSTs: Dexed
+
+- Open-source VST (standalone and plugin)
+- Released in 2015 by Digital Suburban
+- “closely modeled on the original DX7 characteristics” ([Gauthier n.d.](#/bib))
+- Produces virtually identical `E. PIANO 1` sound
+
+--
+
+## Comparisons
+
+| _timbre ↓_&emsp;**inst →** | **DX7** | **CLP&nbsp;1** | **D&#8209;50** | **Dexed** |
+| -------------------------: | :-----: | :------------: | :------------: | :-------: |
+|            _bright / dark_ |    −    |       −        |       −        |     −     |
+|             _pure / noisy_ |    −    |       −        |       +        |     −     |
+|            _hollow / full_ |    −    |       −        |       +        |     −     |
+|            _sparse / rich_ |    −    |       −        |       +        |     −     |
+|       _beating / beatless_ |    −    |       +        |       −        |     −     |
+|        _steady / wavering_ |    −    |       −        |       −        |     −     |
+|       _harmonic / inharm._ |    −    |       −        |       −        |     −     |
+
+---
+
+<!-- .slide: data-background-image="versace.png" data-background-size="cover" data-background-opacity=".2" data-background-position="bottom left" data-auto-animate="true" -->
+
+## Versace on the Floor
+
+- Released in 2016 on _24k Magic_
+
+---
+
+<!-- .slide: id="bib" -->
+
+## Thanks
+
+![](qr-bib.svg)<!-- .element: data-preview-image data-preview-fit="contain" -->
+
+↑ [Bibliography](https://www.zotero.org/mlavengood/collections/5P4J3M25/collection)
