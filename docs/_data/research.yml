@@ -120,6 +120,18 @@
 
 # Presentations
 
+- title: "The Timbre Is the Instrument: The Imagined DX7 and 1980s Nostalgia"
+  id: 2026-sam
+  type: presentation
+  img: dx7-french.png
+  alt: French promotional flyer for the Yamaha DX7 synthesizer
+  credit: via <a href="https://archive.org/details/lm-107-f-84510/page/n1/mode/2up">Archive.org</a>
+  conf: Society for American Music 52nd Annual Conference
+  conf-link: https://www.american-music.org/page/RIC2026GeneralInfo
+  location: Richmond, VA
+  date: March 11–15
+  year: 2026
+  link: /presentations/2026-sam
 - title: "EDM as Timbre Learning Lab"
   id: edm-ped
   type: presentation

@@ -1,0 +1,48 @@
+{
+	// Place your presentations workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders.
+	// Placeholders with the same ids are connected.
+	// Example:
+	"Add fragment code": {
+		"prefix": "-frag",
+		"body": ["<!-- .element: class=\"fragment\" data-fragment-index=\"$1\" -->"],
+		"description": "Add revealjs comment to create fragments"
+	},
+
+	"fit-text": {
+		"prefix": "-fit",
+		"body": ["<!-- .element: class=\"r-fit-text\" -->"],
+		"description": "fit text to single line"
+	},
+
+	"class": {
+		"prefix": "-class",
+		"body": ["<!-- .element: class=\"$1\" -->"],
+		"description": "add a class to this element"
+	},
+
+	"float the image": {
+		"prefix": "-float",
+		"body": ["<div style=\"float: right; width:30%;\">", "<img class=\"r-frame\" src=\"$1\">", "</div>", "<div style=\"width:70%;\">", "<section data-markdown>", "<textarea data-template>", "$2", "</textarea>", "</section>", "</div>"],
+		"description": "Float an image and add text in Markdown"
+	},
+
+	"auto animate": {
+		"prefix": "-animate",
+		"body": "<!-- .element: data-auto-animate=\"true\" -->",
+		"description": "Apply to both slides to auto-animate between them"
+	},
+
+	"new listing on website": {
+		"prefix": "-list-pres",
+		"body": ["<div>", "<h3><a href=\"${1:html file}.html\">${2:title}</a></h3>", "<p class=\"d-inline-flex gap-1\">", "<button class=\"btn btn-secondary btn-sm\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#abstract-$1\" aria-expanded=\"false\" aria-controls=\"abstract-$1\">", "<i class=\"fa-solid fa-circle-info\"></i> More info", "</button>", "</p>", "<div class=\"collapse\" id=\"abstract-$1\">", "<div class=\"card\">", "<div class=\"card-body\">", "<h5 class=\"card-title\">Abstract</h5>", "<p class=\"card-text\">${3:abstract}</p>", "</div>", "<div class=\"card-footer\"><small class=\"text-body-secondary\">${4:where presented}</small></div>", "</div>", "</div>", "</div>"]
+	},
+	"pres-note": {
+		"prefix": "-note",
+		"body": ["<aside class=\"notes\" data-markdown>", "$1", "</aside>"],
+		"description": "add presenter note"
+	}
+}

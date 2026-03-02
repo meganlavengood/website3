@@ -160,7 +160,7 @@ invited:
         - title: "I Want It That Way: Good Practices for Pop Music Pedagogy"
           details: Lecture within a mini-residency, Music Scholars Series, Utah State University. Logan, UT. April 3–6.
           year: 2024
-          url: https://presentations.meganlavengood.com/2024-teaching-pop.html
+          url: /presentations/2024-teaching-pop
         - title: "Layers of Meaning: Teaching Instrumentation and Texture"
           details: Oxford Seminar in Music Theory & Analysis. Virtual (University of Oxford, UK). November 21, 2023.
           year: 2023
@@ -195,28 +195,29 @@ conf:
                   location: Montreal, QC
                   date: June 5–7
                   year: 2025
-                  url: https://presentations.meganlavengood.com/2025-tops.html
+                  url: /presentations/2025-tops
                 - title: "Layers of Meaning: Teaching Instrumentation and Texture"
                   note: Keynote lecture.
                   conf: 46th Annual Meeting of the Texas Society for Music Theory
                   location: Arlington, TX
                   date: February 24
                   year: 2024
-                  url: https://presentations.meganlavengood.com/2024-teaching-timbre.html
+                  url: /presentations/2024-teaching-timbre
         pres:
-            subheading: Peer-Reviewed Prseentations
+            subheading: Peer-Reviewed Presentations
             entries:
                 - title: "The Timbre Is the Instrument: The Imagined DX7 and 1980s Nostalgia"
                   conf: Society for American Music 52nd Annual Conference
                   location: Richmond, VA
                   date: March 11–15
                   year: 2026
+                  url: /presentations/2026-sam
                 - title: EDM as Timbre Learning Lab
                   conf: American Musicological Society and Society for Music Theory Joint Annual Meeting
                   location: Minneapolis, MN
                   date: November 6
                   year: 2025
-                  url: https://presentations.meganlavengood.com/2025-edm-smt.html
+                  url: /presentations/2025-edm-smt
                 - title: "Auralayer: An Easy-to-Use Web App for Visualizing Instrumentation and Timbre"
                   note: With Brian Jarvis and Evan Williams.
                   conf: Timbre and Orchestration Interest Group meeting, American Musicological Society and Society for Music Theory Joint Annual Meeting
