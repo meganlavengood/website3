@@ -9,13 +9,13 @@
 
 <div class="col">
 <p>Slides</p>
-<img data-preview-image data-preview-fit="contain" src="2025-edm/qr-slides.svg" width=300>
+<img data-preview-image data-preview-fit="contain" src="qr-slides.svg" width=300>
 
 </div>
 
 <div class="col">
 <p><a href="2025-edm/edm-timbre-ped-handout.pdf" target=_blank>Lesson plans <i class="bi bi-file-pdf-fill"></i></a></p>
-<img data-preview-image data-preview-fit="contain" src="2025-edm/qr-handout.svg" width=300>
+<img data-preview-image data-preview-fit="contain" src="qr-handout.svg" width=300>
 
 </div></div>
 
@@ -25,12 +25,12 @@
 
 <div class="col">
 <p>Slides</p>
-<img data-preview-image data-preview-fit="contain" src="2025-edm/qr-slides.svg" style="width:85%;">
+<img data-preview-image data-preview-fit="contain" src="qr-slides.svg" style="width:85%;">
 </div>
 
 <div class="col">
 <p><a href="2025-edm/edm-timbre-ped-handout.pdf" target=_blank>Lesson plans <i class="bi bi-file-pdf-fill"></i></a><br/></p>
-<img data-preview-image data-preview-fit="contain" src="2025-edm/qr-handout.svg" style="width:85%;">
+<img data-preview-image data-preview-fit="contain" src="qr-handout.svg" style="width:85%;">
 
 </div></div>
 
@@ -93,7 +93,7 @@ Cornelia Fales, "Hearing Timbre: Perceptual Learning among Early Bay Area Ravers
 
 <div class="col">
 <p><a href="2025-edm/edm-timbre-ped-handout.pdf" target=_blank>Lesson plans <i class="bi bi-file-pdf-fill"></i></a><br/></p>
-<img data-preview-image data-preview-fit="contain" src="2025-edm/qr-handout.svg" style="height:100%;">
+<img data-preview-image data-preview-fit="contain" src="qr-handout.svg" style="height:100%;">
 
 </div></div>
 
@@ -451,7 +451,7 @@ By the end of the class, students will be able to:
 
 - Distinguish terms within an oppositional pair of timbre descriptors
 - Assign timbre descriptors to **unpitched percussion sound signals**
-  </aside>
+      </aside>
 
 ---
 
@@ -484,18 +484,18 @@ Thanks for listening and I hope you can take some of these ideas back to your ow
 <div class="container">
 <div class="col">
 <p><a href="https://www.zotero.org/mlavengood/collections/LGAQSUZI/item-list" target=_blank>Bibliography</a></p>
-<img data-preview-image data-preview-fit="contain" src="2025-edm/qr-bib.svg" width=100%>
+<img data-preview-image data-preview-fit="contain" src="qr-bib.svg" width=100%>
 </div>
 
 <div class="col">
 <p>Slides</p>
-<img data-preview-image data-preview-fit="contain" src="2025-edm/qr-slides.svg" width=100%>
+<img data-preview-image data-preview-fit="contain" src="qr-slides.svg" width=100%>
 
 </div>
 
 <div class="col">
 <p><a href="2025-edm/edm-timbre-ped-handout.pdf" target=_blank>Lesson plans <i class="bi bi-file-pdf-fill"></i></a></p>
-<img data-preview-image data-preview-fit="contain" src="2025-edm/qr-handout.svg" width=100%>
+<img data-preview-image data-preview-fit="contain" src="qr-handout.svg" width=100%>
 
 </div></div>
 

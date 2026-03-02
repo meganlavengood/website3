@@ -129,7 +129,7 @@
   conf: American Musicological Society and Society for Music Theory Joint Annual Meeting
   year: 2025
   conf-link: https://minneapolis2025.ams-smt.org
-  link: /presentations/2025-edm-smt.html
+  link: /presentations/2025-edm-smt
 
 - title: "Instrumental Timbre and Texture in Popular Song"
   id: tops
@@ -140,7 +140,7 @@
   conf: Timbre and Orchestration in Popular Song
   conf-link: https://www.mcgill.ca/tops2025/
   year: 2025
-  link: /presentations/2025-tops.html
+  link: /presentations/2025-tops
 
 - title: "Layers of Meaning: Teaching Instrumentation and Texture"
   id: tsmt_keynote
@@ -150,7 +150,7 @@
   credit: Image by <a href="https://pixabay.com/users/nusrat-kaniz-fahima-44946305/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8988890">Nusrat Fahima</a> from <a href="https://pixabay.com/">Pixabay</a>
   conf: Keynote for Texas Society for Music Theory 2024; also presented at University of Iowa, University of Maryland, and Oxford Seminar in Music Theory &amp; Analysis
   year: 2024
-  link: /presentations/2024-teaching-timbre.html
+  link: /presentations/2024-teaching-timbre
 
 - title: "I Want It That Way: Good Practices for Pop Music Pedagogy"
   id: teaching_pop
@@ -160,7 +160,7 @@
   credit: Image by <a href="https://pixabay.com/users/domenicocervini-4705559/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4345340">Domenico Cervini</a> from <a href="https://pixabay.com/">Pixabay</a>
   conf: Utah State University
   year: 2024
-  link: /presentations/2024-teaching-pop.html
+  link: /presentations/2024-teaching-pop
 
 - title: "Tracing Music Theory’s (un)Shifting Frames:&nbsp; A Natural Language Processing Approach"
   id: language
