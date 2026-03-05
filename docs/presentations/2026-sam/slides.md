@@ -98,6 +98,8 @@ SAM 2026
 
 --
 
+ <!-- .element: data-auto-animate="true" -->
+
 ## Yamaha Clavinova
 
 ![Clavinova front](clavinova.png)
@@ -149,7 +151,7 @@ SAM 2026
 
 ---
 
-<!-- .slide: data-background-image="versace.png" data-background-size="cover" data-background-opacity=".2" data-background-position="bottom left" data-auto-animate="true" -->
+<!-- .slide: data-background-image="versace.png" data-background-size="cover" data-background-opacity=".2" data-background-position="bottom right" data-auto-animate="true" -->
 
 ## Versace on the Floor
 
