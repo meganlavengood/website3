@@ -4,6 +4,7 @@
 <head>
   <link rel="stylesheet" href="https://unpkg.com/reveal.js/dist/reveal.css" />
   <link rel="stylesheet" href="https://unpkg.com/reveal.js/dist/theme/dracula.css" />
+  <link rel="stylesheet" href="../plugin/drawer/drawer.css" />
   <!-- <link rel="stylesheet" href="../solarized-custom.css"> -->
   <title>The Timbre Is the Instrument (Lavengood)</title>
   <meta name="citation_title" content="The Timbre Is the Instrument: The Imagined DX7 and 1980s Nostalgia">
@@ -24,6 +25,10 @@
       --r-heading2-size: 2.11em;
       --r-heading3-size: 1.55em;
       --r-heading4-size: 1em;
+    }
+
+    .reveal blockquote {
+      background: rgba(0, 0, 0, .3);
     }
 
     .container {
@@ -59,13 +64,12 @@
 
     .comp-table {
       font-size: 80% !important;
-      position: absolute;
-      left: -50px;
     }
 
     table td {
       white-space: nowrap;
       text-align: center !important;
+      min-width: 1.5em;
     }
 
     table td:first-child {
@@ -77,9 +81,25 @@
     }
 
     code {
-      background-color: rgb(0, 0, 0, .5);
+      background-color: rgba(0, 0, 0, .3);
       border-radius: 4px;
       padding: 0 3px;
+    }
+
+    th.rotated-text {
+      height: 140px;
+      white-space: nowrap;
+      padding: 0 !important;
+    }
+
+    th.rotated-text>div {
+      transform:
+        translate(20px, 0px) rotate(320deg);
+      width: 30px;
+    }
+
+    th.rotated-text>div>span {
+      padding: 5px 10px;
     }
 
   </style>
@@ -96,12 +116,19 @@
   <script src="https://unpkg.com/reveal.js/dist/reveal.js"></script>
   <script src="https://unpkg.com/reveal.js/plugin/markdown/markdown.js"></script>
   <script src="https://unpkg.com/reveal.js/plugin/notes/notes.js"></script>
+  <script src="../plugin/drawer/drawer.js"></script>
   <script>
     Reveal.initialize({
-      plugins: [RevealMarkdown, RevealNotes],
+      plugins: [RevealMarkdown, RevealNotes, RevealDrawer],
       slideNumber: true,
       width: 960,
       hash: true,
+      drawer: {
+        toggleDrawKey: "d", // (optional) key to enable drawing, default "d"
+        toggleBoardKey: "t", // (optional) key to show drawing board, default "t"
+        colors: ["#FFB86C", "#F1FA8C", "#50FA7B", "#8BE9FD", "#BD93F9", "#FF79C6", "#FFF", "#000"], // (optional) list of colors avaiable (hex color codes)
+        pathSize: 4, // (optional) path size in px, default 4
+      }
     });
   </script>
 </body>

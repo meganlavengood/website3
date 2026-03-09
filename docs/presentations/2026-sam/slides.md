@@ -68,6 +68,14 @@ SAM 2026
 - `E. PIANO 1` was often compared to Fender Rhodes and referred to as the "Rhodes sound"
 - Sounds are not that similar, but `E. PIANO 1` was nevertheless popular
 
+--
+
+## DX7 History
+
+<!-- .slide: data-background-image="dx7.jpg" data-background-size="fill" data-background-opacity=".1" data-background-position="top left" data-auto-animate="true" -->
+
+<figure><video data-autoplay controls src="video/dx7-rhodes.mov" alt="video comparison of DX7 and Rhodes"></video><figcaption>DX7 (left) vs. Rhodes (right)</figcaption></figure>
+
 ---
 
 ## Imitators
@@ -95,6 +103,14 @@ SAM 2026
 - Preset name: `Synthetic Electric`—this is meant to sound like _a synth_, not like a Rhodes!
 
 > The only disappointment is the electric piano, which doesn't match the DX7's and sounds more like a Wurlitzer. ([Gavin 1987](#/bib))
+
+--
+
+<!-- .element: data-auto-animate="true" -->
+
+## Roland D-50
+
+<figure><video controls src="video/dx7-d50se.mov" alt="video comparison of DX7 and Rhodes"></video><figcaption>DX7 (left) vs. Rhodes (right)</figcaption></figure>
 
 --
 
@@ -137,7 +153,7 @@ SAM 2026
 
 --
 
-## Comparisons
+<h2 style="text-align:left;">Comparisons</h2>
 
 <!--
 | _timbre ↓_&emsp;**inst →** | **DX7** | **CLP&nbsp;1** | **D&#8209;50** | **Dexed** |
@@ -148,8 +164,8 @@ SAM 2026
 |            _sparse / rich_ |    −    |       −        |       +        |     −     |
 |       _beating / beatless_ |    −    |       +        |       −        |     −     |
 |        _steady / wavering_ |    −    |       −        |       −        |     −     |
-|       _harmonic / inharm._ |    −    |       −        |       −        |     −     | -->
-<!--
+|       _harmonic / inharm._ |    −    |       −        |       −        |     −     |
+
 |                         |     |     |       |       |       |       |       |
 | ----------------------- | --- | --- | ----- | ----- | ----- | ----- | ----- |
 | _bright / dark_         | −   | −   | −     | −     | **+** | −     | **+** |
@@ -164,13 +180,13 @@ SAM 2026
 <thead style="vertical-align:bottom;">
 <tr>
 <th style="text-align:right;"><em style="font-style:unset;">timbre ↓</em>&emsp;&emsp;&emsp;<strong style="color:unset;">inst →</strong></th>
-<th style="text-align:center;">DX7</th>
-<th style="text-align:center;">Dexed</th>
-<th style="text-align:center;">CL&nbsp;1</th>
-<th style="text-align:center;">D50 SE</th>
-<th style="text-align:center;">CL&nbsp;2</th>
-<th style="text-align:center;">D50 PCM</th>
-<th style="text-align:center;">Rh</th>
+<th class="rotated-text" style="text-align:center;"><div><span>DX7</span></div></th>
+<th class="rotated-text" style="text-align:center;"><div><span>Dexed</span></div></th>
+<th class="rotated-text" style="text-align:center;"><div><span>Clavinova EP 1</span></div></th>
+<th class="rotated-text" style="text-align:center;"><div><span>D-50 Synthetic Electric</span></div></th>
+<th class="rotated-text" style="text-align:center;"><div><span>Clavinova EP 2</span></div></th>
+<th class="rotated-text" style="text-align:center;"><div><span>D-50 PCM EP</span></div></th>
+<th class="rotated-text" style="text-align:center;"><div><span>Rhodes</span></div></th>
 </tr>
 </thead>
 <tbody>
