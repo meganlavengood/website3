@@ -122,7 +122,7 @@ SAM 2026
 
 ## VSTs: Dexed
 
-![](dexed.png) <!-- .element: class="r-stretch" -->
+<img class="r-stretch" src="dexed.png" alt="">
 
 --
 
@@ -139,6 +139,7 @@ SAM 2026
 
 ## Comparisons
 
+<!--
 | _timbre ↓_&emsp;**inst →** | **DX7** | **CLP&nbsp;1** | **D&#8209;50** | **Dexed** |
 | -------------------------: | :-----: | :------------: | :------------: | :-------: |
 |            _bright / dark_ |    −    |       −        |       −        |     −     |
@@ -147,7 +148,104 @@ SAM 2026
 |            _sparse / rich_ |    −    |       −        |       +        |     −     |
 |       _beating / beatless_ |    −    |       +        |       −        |     −     |
 |        _steady / wavering_ |    −    |       −        |       −        |     −     |
-|       _harmonic / inharm._ |    −    |       −        |       −        |     −     |
+|       _harmonic / inharm._ |    −    |       −        |       −        |     −     | -->
+<!--
+|                         |     |     |       |       |       |       |       |
+| ----------------------- | --- | --- | ----- | ----- | ----- | ----- | ----- |
+| _bright / dark_         | −   | −   | −     | −     | **+** | −     | **+** |
+| _pure / noisy_          | −   | −   | −     | **+** | −     | **+** | −     |
+| _hollow / full_         | −   | −   | −     | **+** | **+** | **+** | **+** |
+| _sparse / rich_         | −   | −   | −     | **+** | **+** | **+** | **+** |
+| _beating / beatless_    | −   | −   | **+** | −     | **+** | **+** | **+** |
+| _steady / wavering_     | −   | −   | −     | −     | −     | **+** | −     |
+| _harmonic / inharmonic_ | −   | −   | −     | −     | **+** | **+** | **+** | -->
+
+<table class="comp-table">
+<thead style="vertical-align:bottom;">
+<tr>
+<th style="text-align:right;"><em style="font-style:unset;">timbre ↓</em>&emsp;&emsp;&emsp;<strong style="color:unset;">inst →</strong></th>
+<th style="text-align:center;">DX7</th>
+<th style="text-align:center;">Dexed</th>
+<th style="text-align:center;">CL&nbsp;1</th>
+<th style="text-align:center;">D50 SE</th>
+<th style="text-align:center;">CL&nbsp;2</th>
+<th style="text-align:center;">D50 PCM</th>
+<th style="text-align:center;">Rh</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>bright / dark</em></td>
+<td>−</td>
+<td>−</td>
+<td>−</td>
+<td>−</td>
+<td><strong>+</strong></td>
+<td>−</td>
+<td><strong>+</strong></td>
+</tr>
+<tr>
+<td><em>pure / noisy</em></td>
+<td>−</td>
+<td>−</td>
+<td>−</td>
+<td><strong>+</strong></td>
+<td>−</td>
+<td><strong>+</strong></td>
+<td>−</td>
+</tr>
+<tr>
+<td><em>hollow / full</em></td>
+<td>−</td>
+<td>−</td>
+<td>−</td>
+<td><strong>+</strong></td>
+<td><strong>+</strong></td>
+<td><strong>+</strong></td>
+<td><strong>+</strong></td>
+</tr>
+<tr>
+<td><em>sparse / rich</em></td>
+<td>−</td>
+<td>−</td>
+<td>−</td>
+<td><strong>+</strong></td>
+<td><strong>+</strong></td>
+<td><strong>+</strong></td>
+<td><strong>+</strong></td>
+</tr>
+<tr>
+<td><em>beating / beatless</em></td>
+<td>−</td>
+<td>−</td>
+<td><strong>+</strong></td>
+<td>−</td>
+<td><strong>+</strong></td>
+<td><strong>+</strong></td>
+<td><strong>+</strong></td>
+</tr>
+<tr>
+<td><em>steady / wavering</em></td>
+<td>−</td>
+<td>−</td>
+<td>−</td>
+<td>−</td>
+<td>−</td>
+<td><strong>+</strong></td>
+<td>−</td>
+</tr>
+<tr>
+<td><em>harmonic / inharmonic</em></td>
+<td>−</td>
+<td>−</td>
+<td>−</td>
+<td>−</td>
+<td><strong>+</strong></td>
+<td><strong>+</strong></td>
+<td><strong>+</strong></td>
+</tr>
+</tbody>
+</table>
 
 ---
 

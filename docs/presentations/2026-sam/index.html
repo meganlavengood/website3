@@ -57,8 +57,29 @@
       }
     }
 
+    .comp-table {
+      font-size: 80% !important;
+      position: absolute;
+      left: -50px;
+    }
+
+    table td {
+      white-space: nowrap;
+      text-align: center !important;
+    }
+
+    table td:first-child {
+      text-align: right !important;
+    }
+
     .align-items-center {
       align-items: center !important;
+    }
+
+    code {
+      background-color: rgb(0, 0, 0, .5);
+      border-radius: 4px;
+      padding: 0 3px;
     }
 
   </style>
@@ -80,6 +101,7 @@
       plugins: [RevealMarkdown, RevealNotes],
       slideNumber: true,
       width: 960,
+      hash: true,
     });
   </script>
 </body>
