@@ -74,7 +74,7 @@ SAM 2026
 
 <!-- .slide: data-background-image="dx7.jpg" data-background-size="fill" data-background-opacity=".1" data-background-position="top left" data-auto-animate="true" -->
 
-<figure><video data-autoplay controls src="video/dx7-rhodes.mov" alt="video comparison of DX7 and Rhodes"></video><figcaption>DX7 (left) vs. Rhodes (right)</figcaption></figure>
+<figure><video data-autoplay controls src="media/dx7-rhodes.mov" alt="video comparison of DX7 and Rhodes"></video><figcaption>DX7 (left) vs. Rhodes (right)</figcaption></figure>
 
 ---
 
@@ -110,7 +110,7 @@ SAM 2026
 
 ## Roland D-50
 
-<figure><video controls src="video/dx7-d50se.mov" alt="video comparison of DX7 and Rhodes"></video><figcaption>DX7 (left) vs. Rhodes (right)</figcaption></figure>
+<figure><video controls src="media/dx7-rhodes-d50se.mov" alt="video comparison of DX7 and Rhodes"></video><figcaption>DX7 (left) vs. Rhodes (center) vs. Roland D-50 Synthetic Electric (right)</figcaption></figure>
 
 --
 
@@ -136,6 +136,14 @@ SAM 2026
 
 <!-- .element: data-auto-animate="true" -->
 
+## Yamaha Clavinova
+
+<figure><video controls src="media/dx7-rhodes-clav.mov" alt="video comparison of DX7 and Rhodes"></video><figcaption>DX7 — Clavinova EP 1 — Rhodes — Clavinova EP2</figcaption></figure>
+
+--
+
+<!-- .element: data-auto-animate="true" -->
+
 ## VSTs: Dexed
 
 <img class="r-stretch" src="dexed.png" alt="">
@@ -150,6 +158,14 @@ SAM 2026
 - Released in 2015 by Digital Suburban
 - “closely modeled on the original DX7 characteristics” ([Gauthier n.d.](#/bib))
 - Produces virtually identical `E. PIANO 1` sound
+
+--
+
+<!-- .element: data-auto-animate="true" -->
+
+## VSTs: Dexed
+
+<figure><video controls src="media/dx7-dexed.mov" alt="video comparison of DX7 and Rhodes"></video><figcaption>DX7 — Dexed</figcaption></figure>
 
 --
 
@@ -263,13 +279,27 @@ SAM 2026
 </tbody>
 </table>
 
+--
+
+The DX7 `E. PIANO 1` gradually becomes at least as recognizable and imitated as the Rhodes.
+
 ---
 
 <!-- .slide: data-background-image="versace.png" data-background-size="cover" data-background-opacity=".2" data-background-position="bottom right" data-auto-animate="true" -->
 
 ## Versace on the Floor
 
-- Released in 2016 on _24k Magic_
+performed by Bruno Mars
+
+on _24k Magic_ (2016)
+
+--
+
+## Versace on the Floor
+
+<figure><audio src="media/beauty.mp3" controls></audio><figcaption>Celine Dion, "Beauty and the Beast" (1991)</figcaption></figure>
+
+<figure><audio src="media/versace-orig-clip.mp3" controls></audio><figcaption>Bruno Mars, "Versace on the Floor" (2016)</figcaption></figure>
 
 ---
 
