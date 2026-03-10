@@ -343,7 +343,7 @@ on _24k Magic_ (2016)
 
 ## Versace on the Floor
 
-<figure class="r-stretch"><video controls src="media/versace-side-by-side.mov" alt="original clip, followed by recreations on DX7 and Dexed"></video><figcaption>Original — DX7 — Dexed</figcaption></figure>
+<figure class="r-stretch"><video controls src="media/versace-side-by-side-smaller.mp4" alt="original clip, followed by recreations on DX7 and Dexed"></video><figcaption>Original — DX7 — Dexed</figcaption></figure>
 
 ---
 
