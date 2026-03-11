@@ -186,7 +186,7 @@ As I discuss in [Lavengood (2020)](https://www.mtosmt.org/issues/mto.20.26.3/mt
 
 The DX7 is part of a collection of advances in synthesizer technology that together changed the rules for what it took to be a keyboardist. Digital technology also delivered sequencers and arpeggiators to the public. These electronic tools made the synthesizer an accessible choice even for untrained keyboardists. A sequencer is a computer that can store and recall patterns entered by the programmer. The programmer does not necessarily have to enter these patterns in real time, which introduces the possibility of programming something that would be quite difficult to perform if played live. An arpeggiator function allows a keyboardist to hold down a chord while the arpeggiator transforms the chord into a random, rapid arpeggio, hence the name for the technology. This of course makes complex and energetic arpeggios far easier to play, even while performing live. Bob Doerschuk, a prolific music journalist and regular writer for *Keyboard* magazine, wrote of The Human League, "Like electronic magicians, they dazzled their audiences by producing lots of music while playing as little as possible. The point of *Dare* [1981] seemed to be that you didn't even need to know how to play at all to be in a pop band—a point made many times since then."[^26] Using these tools, one barely had to know how to play a keyboard to perform rhythmic and driving licks that would previously have been virtuosic.
 
-This paradigm shift, unsurprisingly, motivated some music makers of the time to vocally oppose these technologies.[^27] Some saw the wild success of the DX7 as yet another example within a larger trend of moving toward simplicity and automation in keyboards and rock music. For their May 1986 issue, *Keyboard* magazine featured Duran Duran's keyboardist, Nick Rhodes, as their cover story, a move that outraged those *Keyboard* subscribers who thought the magazine should stay focused on virtuosi (in turn focusing on the genres of classical, jazz, and progressive rock). Consider this letter to the editor, which was published in the following month's issue: "How I miss the good old pre-DX7 days. I am so sick of reading about these Fairlight freaks and one-finger virtuosos. As a performer, Nick Rhodes is a joke. Why don't you interview a *real *keyboard player, like Rick Wakeman?"[^28] The letter writer is an example of those that view technologies that facilitate performance and composition with suspicion; i.e., people who are concerned with the relationship between synthesizers, sequencers, arpeggiators, and the notion of authenticity (revealed in the letter-writer's declaration that Wakeman is a "real" keyboard player). This letter-writer seems unaware that Nick Rhodes actually rarely used the DX7, a fact that Rhodes plainly states in the very same interview that the letter-writer complains about.[^29] The letter-writer's misattribution of the decline of keyboard-playing society to the rise of the DX7 shows that the DX7 was the poster child for these developments, even when not directly responsible for the declinational performances.
+This paradigm shift, unsurprisingly, motivated some music makers of the time to vocally oppose these technologies.[^27] Some saw the wild success of the DX7 as yet another example within a larger trend of moving toward simplicity and automation in keyboards and rock music. For their February 1986 issue, *Keyboard* magazine featured Duran Duran's keyboardist, Nick Rhodes, as their cover story, a move that outraged those *Keyboard* subscribers who thought the magazine should stay focused on virtuosi (in turn focusing on the genres of classical, jazz, and progressive rock). Consider this letter to the editor, which was published in the June 1986 issue: "How I miss the good old pre-DX7 days. I am so sick of reading about these Fairlight freaks and one-finger virtuosos. As a performer, Nick Rhodes is a joke. Why don't you interview a *real *keyboard player, like Rick Wakeman?"[^28] The letter writer is an example of those that view technologies that facilitate performance and composition with suspicion; i.e., people who are concerned with the relationship between synthesizers, sequencers, arpeggiators, and the notion of authenticity (revealed in the letter-writer's declaration that Wakeman is a "real" keyboard player). This letter-writer seems unaware that Nick Rhodes actually rarely used the DX7, a fact that Rhodes plainly states in the very same interview that the letter-writer complains about.[^29] The letter-writer's misattribution of the decline of keyboard-playing society to the rise of the DX7 shows that the DX7 was the poster child for these developments, even when not directly responsible for the declinational performances.
 
 > How I miss the good old pre-DX7 days.
 >
@@ -242,40 +242,77 @@ _This post is adapted from chapter 2 of my dissertation, which is the only part 
 ## Footnotes
 
 [^1]: Cateforis (2011) details this evolution in Chapter 6, “Roll Over Guitar Heros, Synthesizers Are Here…”.
+
 [^2]: For a detailed history of the Moog and the Minimoog, see Pinch and Trocco (2004).
+
 [^3]: By the late 1980s, sampling-based synthesizers had finally become more affordable, at which point they did become quite popular. Later in this essay I discuss the Korg M1, the most popular sampling-based keyboard.
+
 [^4]: After 1986, Yamaha produced successors to the DX7, the DX7II and the DX7II FD. There were no further DX7II FDs produced after 1989, which likely solidifies the role of the DX7 as a quintessentially ’80s synthesizer (Vail 2002, 130).
+
 [^5]: Quoted in Frederick (1986, 46). As the interview title insinuates, Rushen played piano from a very young age. She was classically trained before she released her jazz albums, which used the DX7 and other synthesizers.
+
 [^6]: Quoted in Doerschuk (1986c, 72).
+
 [^7]: Quoted in Doerschuk (1987b, 85).
+
 [^8]: Quoted in Darter (1985, 24).
+
 [^9]: _Keyboard_ (2003, 40).
+
 [^10]: “Envelope” is a common term in synthesizer programming, referring to the amplitude profile of a sound. Typically, a sound begins at zero, peaks shortly thereafter during the attack (A), decays slightly (D) and then maintains a somewhat lower volume as the pitch sustains (S), and then releases (R) back down to zero.
+
 [^11]: Chapman (1984, 70).
+
 [^12]: A list of the DX7’s preset sounds can be found on [Synthmania.com](https://www.synthmania.com/dx7.htm).
+
 [^13]: The inventor of FM synthesis has published very complete and succinct explanations of synthesis via frequency modulation from a mathematical perspective, including concepts such as the modulation index, and how one might simulate various kinds of acoustic instruments (Chowning 1973).
+
 [^14]: Additive and subtractive synthesis both start from the understanding of timbre as made up of the fundamental and the partials above it. Different sounds are created by adjusting the number of partials and their volume.
+
 [^15]: This quote from Howarth also exemplifies the idea that people wanted the DX7 as a replacement for the Hohner Clavinet and the Fender Rhodes, which I discuss more in [Lavengood (2019)](https://jpms.ucpress.edu/content/31/3/73).
+
 [^16]: Quoted in Gilby (1985, 39). Note however that despite this, Ure does use the DX7 in many of his own tracks, such as “Do They Know It’s Christmas?” by Band Aid, which I analyze in [Lavengood (2020)](https://www.mtosmt.org/issues/mto.20.26.3/mto.20.26.3.lavengood.html).
+
 [^17]: Greenwald (1986).
+
 [^18]: RAM (random-access memory) cartridges could be rewritten, so users could store their own custom sounds on RAM cartridges. ROM (read-only memory) cartridges were not able to be edited.
+
 [^19]: Japan and Europe received Yamaha’s ROMs #1 and #2, while the United States received ROMs #3 and #4. The presets on ROM #1a and #3a were saved in the internal memory of Japanese/European and American synthesizers, respectively. Most of the presets were shared between 1/2 and 3/4, but some sounds appear only on one region’s ROMs. A list of the DX7’s preset sounds can be found on [Synthmania.com](https://www.synthmania.com/dx7.htm).
+
 [^20]: One precedent for this technology can be found in home organs, such as the Lowrey Berkshire Deluxe, which would have some preset sounds that were not user-programmable.
+
 [^21]: Pinch (2005, 259). I enjoy this story, but some find it doubtful that Wakeman really had thirteen Minimoogs. I was only able to find photo evidence of him simultaneously using four.
+
 [^22]: Théberge (1997, 75–8).
+
 [^23]: Quoted in Armbruster (1986, 46). Briggs was primarily based in Nashville, Tennessee, and worked mostly with country music artists.
+
 [^24]: Théberge (1997, 75). This number is calculated based on the number of Sequential Circuits Prophet-5 synthesizers received at the factory for repair that still had the factory presets saved to he internal memory. However, Théberge notes also that there may be another explanation for the prevalence of factory presets on the Prophet-5s: programmers may have purged their own custom sounds before sending the synthesizers back to the factory to avoid any infringement by the company on the programmer’s intellectual property. Sounds were not copyrightable at this time, so a company could conceivably steal a programmer’s sound and sell it themselves. Théberge notes that a personal informant attested to this.
+
 [^25]: Quoted in diPerna (1984, 40).
+
 [^26]: Doerschuk (1987a, 86). _Dare_ is the third studio album by The Human League.
+
 [^27]: This is one of the senses in which new wave music, and eventually mainstream 1980s pop in general, grew out of the D.I.Y. (“do it yourself,” self-sufficient) ethic of the punk scene in the late 1970s.
+
 [^28]: Steve Cross, letter to the editor, _Keyboard_ (June 1986): 6.
+
 [^29]: Doerschuk (1986b, 76).
+
 [^30]: Quoted in Rue and Goodyer (1990, 53).
+
 [^31]: Jimmy Jam and Terry Lewis’s aforementioned preference for the DX7 no doubt has something to do with the reliance on DX7 sounds on _Crash._ I hear `BASS 1` and `BRASS 1` on “Money”; `BRASS 3` on “Jam”; `VOICE 1`, `BASS 1`, and `KOTO` on “Are You Ever Coming Back”; `BRASS 1` and `BASS 1` on “I Need Your Loving”; `BASS 1` and SY`NBRASS 1` on “Party”; `E. PIANO 1` and `SYNBRASS 1` on “Love on the Run”; `BASS 1` on “The Real Thing”; and `LOG DRUM` on “Love Is All that Matters.” I think “Human” is likely using DX7 bell and plucked sounds, but I can’t identify which.
+
 [^32]: Quoted in “Uses and Abuses of Synthesizers” (1986, 69).
+
 [^33]: To my ears, `BASS 1` is used on “I Broke My Leg,” `FLUTE 2` on “Bubbles,” and `CALIOPE` (sic) on “Slow Dancing,” all tracks from _The Confessor._ `GUITAR 4` I think is also used in “The Radio Song,” `CLAV 1` in “Up to Me,” and `XYLOPHONE` in “Time” on _Got Any Gum?._ Walsh might also be using `CALIOPE` in “Memory Lane,” but produced somehow to sound less sharp—this sounds a bit Mellotron-ish to me, actually.
+
 [^34]: Quoted in Armbruster (1984, 55). Zawinul was discussing his preference for the Sequential Circuits Prophet-5 over all types of digital keyboards, both samplers and FM synthesizers
+
 [^35]: Théberge (1997, 76).
+
 [^36]: E. PIANO 1 is so remarkable a phenomenon that I wrote [an article dedicated to it](https://jpms.ucpress.edu/content/31/3/73).
+
 [^37]: “`CALIOPE`” is spelled as shown in the Yamaha ROM cartridge, rather than correctly (“calliope”). Colloquially, `CALIOPE` is frequently called a “pan flute” sound, but this should not be confused for the actual preset `PAN FLUTE`, a sound that was only available on the American ROM #4A. A list of the DX7’s preset sounds can be found on [Synthmania.com](https://www.synthmania.com/dx7.htm).
+
 [^38]: For example, see [Brian McCalla, “What sonic qualities make a synth a cheesy ’80s synth?”](https://www.quora.com/What-sonic-qualities-make-a-synth-a-cheesy-80s-synth), _Quora_, last modified January 8, 2017.

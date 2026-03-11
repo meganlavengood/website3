@@ -12,20 +12,91 @@ SAM 2026
 
 ---
 
-## Nostalgia and Technological Development (Enders 2017) <!-- .element: class="r-fit-text" -->
+<!-- .slide: data-background-image="versace.png" data-background-size="cover" data-background-opacity=".2" data-background-position="bottom right" data-auto-animate="true" -->
 
-1. Instrumentalization
-2. Mechanization
-3. Automatization
-4. Electronification
-5. Modularization
-6. **Digitalization**
-7. **Virtualization**
-8. Globalization
-9. Informatization/Artificial Intelligence
-10. Hybridization
+## Versace on the Floor
 
-[Enders (2017)](#/bib)
+performed by Bruno Mars
+
+on _24k Magic_ (2016)
+
+<audio src="media/versace-orig-clip.mp3" controls></audio>
+
+--
+
+<!-- .slide: data-background-image="versace.png" data-background-size="cover" data-background-opacity=".2" data-background-position="bottom right" data-auto-animate="true" -->
+
+## Versace on the Floor
+
+> [Mars] says he wanted to re-create the feeling of the R&B he fell in love with as a kid, growing up in Hawaii in the early Nineties: **Jimmy Jam and Terry Lewis, New Edition and Bobby Brown, Jodeci, Boyz II Men, Teddy Riley, Babyface**. "There's nothing more joyous for me than those school dances," Mars says. "Slow-dancing at the Valentine's Day banquet with the girl you have a crush on, and the DJ spins **'Before I Let You Go,' by Blackstreet**. And the shit is magical, and you think about it for the next eight months." ([Eells 2016](#bib))
+
+<!-- .element: class="r-fit-text" -->
+
+--
+
+How does Bruno Mars get this to sound like early-’90s R&B?
+
+<div class="r-stack">
+
+<img class="fragment" src="jpms1.png" alt="screenshot of my JPMS article title">
+
+<img class="fragment" src="jpms2.png" alt="screenshot of my JPMS article title but it's 90s">
+
+</div>
+
+<p class="fragment">…right??</p>
+
+--
+
+## Talk outline
+
+1. "Versace on the Floor" and nostalgia
+2. The DX7 `E. PIANO 1` sound
+3. Influence of `E. PIANO 1` on later instruments
+4. The Imagined DX7
+5. Nostalgia and technological development
+
+---
+
+<!-- .slide: data-background-image="versace.png" data-background-size="cover" data-background-opacity=".2" data-background-position="bottom right" data-auto-animate="true" -->
+
+## Versace on the Floor
+
+Critics compare it to:
+
+<ul>
+<li data-id="gaye" class="fragment"><a href="https://web.archive.org/web/20161120040607/http://www.rollingstone.com/music/albumreviews/review-bruno-mars-24k-magic-w451090#:~:text=%22Versace%20on%20the%20Floor%22%20is%20the%20umpteenth%20tribute%20to%20Marvin%20Gaye's%20%22Sexual%20Healing%22%20in%20an%20era%20that%20didn't%20need%20them%20from%20Wiz%20Khalifa%2C%20Nelly%2C%20Wale%20or%20Kygo.">Marvin Gaye, &quot;Sexual Healing&quot; (<strong>1982</strong>)</a></li>
+<li class="fragment"><a href="https://web.archive.org/web/20161123221016/https://www.nytimes.com/2016/11/23/arts/music/bruno-mars-24k-magic-review.html#:~:text=%E2%80%9CVersace%20on%20the%20Floor%E2%80%9D%20is%20dreamy%20New%20Edition%20homage">New Edition in <strong>1984</strong></a></li>
+<li data-id="jackson" class="fragment"><a href="https://web.archive.org/web/20161220031526/http://www.billboard.com/articles/columns/pop/7581423/bruno-mars-24k-magic-artists-influences-riyl#:~:text=%22Rock%20Me%20Tonight%20(For%20Old%20Times%20Sake)%22.%20The%20latter%20crossover%20hit%20in%20particular%20reverberates%20throughout%20Bruno's%20show%2Dstopping%2024K%20Magic%20centerpiece">Freddie Jackson, &quot;Rock Me Tonight (For Old Time's Sake)&quot; (<strong>1985</strong>)</a></li>
+<li class="fragment"><a href="https://web.archive.org/web/20161106060754/http://www.gq.com/story/bruno-mars-versace-on-the-floor#:~:text=toes%20the%20line%20between%20legitimate%20fuckjam%20and%20an%20old%20Shanice%20song%20that%20wouldn%E2%80%99t%20have%20sounded%20out%20of%20place%20on%20the%20original%2090210%20soundtrack">&quot;…an old Shanice song that wouldn’t have sounded out of place on the original <i>90210</i> soundtrack&quot; (<strong>1991</strong>?)</a></li>
+<li class="fragment"><a href="https://web.archive.org/web/20190106060359/https://www.stereogum.com/1911071/at-least-america-can-agree-on-bruno-mars/franchises/the-week-in-pop/#:~:text=%E2%80%9CVersace%20On%20The%20Floor%E2%80%9D%20imagines%20Boyz%20II%20Men%E2%80%99s%20%E2%80%9CI%E2%80%99ll%20Make%20Love%20To%20You%E2%80%9D%20repurposed%20for%20the%20Dirty%20Dancing%20soundtrack">&quot;…Boyz II Men’s “I’ll Make Love To You” repurposed for the <i>Dirty Dancing</i> soundtrack&quot; (<strong>1994</strong> and <strong>1987</strong> respectively)</a></li>
+</ul>
+
+--
+
+<!-- .slide: data-background-image="versace.png" data-background-size="cover" data-background-opacity=".2" data-background-position="bottom right" data-auto-animate="true" -->
+
+<ul>
+<li data-id="gaye">Marvin Gaye, &quot;Sexual Healing&quot; (<strong>1982</strong>)<br/><audio src="media/gaye.mp3" controls>
+<li data-id="jackson">Freddie Jackson, &quot;Rock Me Tonight (For Old Time's Sake)&quot; (<strong>1985</strong>)<br/><audio src="media/jackson.mp3" controls>
+<li data-id="blackstreet">Blackstreet, &quot;Before I Let You Go&quot; (<strong>1994</strong>)<br/><audio src="media/blackstreet.mp3" controls>
+</ul>
+
+--
+
+<!-- .slide: data-background-image="versace.png" data-background-size="cover" data-background-opacity=".2" data-background-position="bottom right" data-auto-animate="true" -->
+
+<ul>
+<li data-id="gaye">Marvin Gaye, &quot;Sexual Healing&quot; (<strong>1982</strong>)<br/><strong>Jupiter-8</strong> (maybe)</li>
+<li data-id="jackson">Freddie Jackson, &quot;Rock Me Tonight (For Old Time's Sake)&quot; (<strong>1985</strong>)<br/><strong>DX7</strong></li>
+<li data-id="blackstreet">Blackstreet, &quot;Before I Let You Go&quot; (<strong>1994</strong>)<br/><strong>Rhodes</strong></li>
+</ul>
+
+--
+
+- The subtle differences between these EP sounds are lost in context
+- All of them meld into a generic ’80s/’90s R&B electric piano sound
+- If it's an electric piano sound bound to this time, it's reasonable to hear it as a DX7 sound.
 
 ---
 
@@ -64,9 +135,8 @@ SAM 2026
 
 <!-- .slide: data-background-image="dx7.jpg" data-background-size="fill" data-background-opacity=".1" data-background-position="top left" data-auto-animate="true" -->
 
-- DX7 was marketed as an all-in-one alternative to a keyboard collection
-- `E. PIANO 1` was often compared to Fender Rhodes and referred to as the "Rhodes sound"
-- Sounds are not that similar, but `E. PIANO 1` was nevertheless popular
+- Prior to DX7, the Fender Rhodes was the gold standard of electric piano sounds
+- `E. PIANO 1` was often compared to Fender Rhodes and referred to as the "Rhodes sound"\
 
 --
 
@@ -82,7 +152,7 @@ SAM 2026
 
 - Roland D-50
 - Korg M1
-- Other Yamaha instruments
+- Yamaha Clavinova
 - VSTs
 
 --
@@ -281,69 +351,92 @@ SAM 2026
 
 --
 
-The DX7 `E. PIANO 1` gradually becomes at least as recognizable and imitated as the Rhodes.
+The DX7 `E. PIANO 1` gradually becomes at least as culturally significant, imitated, and recognizable as the Rhodes.
 
 ---
 
-<!-- .slide: data-background-image="versace.png" data-background-size="cover" data-background-opacity=".2" data-background-position="bottom right" data-auto-animate="true" -->
+<!-- .slide: data-auto-animate="true" -->
 
-## Versace on the Floor
+## The Imagined DX7
 
-performed by Bruno Mars
-
-on _24k Magic_ (2016)
-
-<audio src="media/versace-orig-clip.mp3" controls></audio>
+The DX7 as it lives in popular imagination of its most well-known and imitated presets
 
 --
 
-<!-- .slide: data-background-image="versace.png" data-background-size="cover" data-background-opacity=".2" data-background-position="bottom right" data-auto-animate="true" -->
+<!-- .slide: data-auto-animate="true" -->
 
-## Versace on the Floor
+## The Imagined DX7
 
-> [Mars] says he wanted to re-create the feeling of the R&B he fell in love with as a kid, growing up in Hawaii in the early Nineties: **Jimmy Jam and Terry Lewis, New Edition and Bobby Brown, Jodeci, Boyz II Men, Teddy Riley, Babyface**. "There's nothing more joyous for me than those school dances," Mars says. "Slow-dancing at the Valentine's Day banquet with the girl you have a crush on, and the DJ spins **'Before I Let You Go,' by Blackstreet**. And the shit is magical, and you think about it for the next eight months." ([Eells 2016](#bib))
-
-<!-- .element: class="r-fit-text" -->
-
-<!-- TO DO NEXT: show how people eract to it—80s or 90s ballad mentioned almost exclusviely (the long 1980s). do we think it's a dx7? Blackstreet song is probably a Rhodes actually. probably this sounds more like the Dexed plugin! -->
+- Cornelia Fales's "paradox of timbre" ([2002](#/bib)): it doesn't matter whether you identify a sound source _accurately_, but rather whether your identification works for that situation.
+- If it looks like a duck and quacks like a duck, it's a duck.
 
 --
 
-<!-- .slide: data-background-image="versace.png" data-background-size="cover" data-background-opacity=".2" data-background-position="bottom right" data-auto-animate="true" -->
+<!-- .slide: data-auto-animate="true" -->
 
-<ul>
-<li>Nostalgia-fueled, very intentionally retro</li>
-<li>Critics compare it to:
-<ul>
-<li class="fragment"><a href="https://web.archive.org/web/20161120040607/http://www.rollingstone.com/music/albumreviews/review-bruno-mars-24k-magic-w451090#:~:text=%22Versace%20on%20the%20Floor%22%20is%20the%20umpteenth%20tribute%20to%20Marvin%20Gaye's%20%22Sexual%20Healing%22%20in%20an%20era%20that%20didn't%20need%20them%20from%20Wiz%20Khalifa%2C%20Nelly%2C%20Wale%20or%20Kygo.">Marvin Gaye, &quot;Sexual Healing&quot; (<strong>1982</strong>)</a></li>
-<li class="fragment"><a href="https://web.archive.org/web/20161123221016/https://www.nytimes.com/2016/11/23/arts/music/bruno-mars-24k-magic-review.html#:~:text=%E2%80%9CVersace%20on%20the%20Floor%E2%80%9D%20is%20dreamy%20New%20Edition%20homage">New Edition in <strong>1984</strong></a></li>
-<li class="fragment"><a href="https://web.archive.org/web/20161220031526/http://www.billboard.com/articles/columns/pop/7581423/bruno-mars-24k-magic-artists-influences-riyl#:~:text=%22Rock%20Me%20Tonight%20(For%20Old%20Times%20Sake)%22.%20The%20latter%20crossover%20hit%20in%20particular%20reverberates%20throughout%20Bruno's%20show%2Dstopping%2024K%20Magic%20centerpiece">Freddie Jackson, &quot;Rock Me Tonight (For Old Time's Sake)&quot; (<strong>1985</strong>)</a></li>
-<li class="fragment"><a href="https://web.archive.org/web/20161106060754/http://www.gq.com/story/bruno-mars-versace-on-the-floor#:~:text=toes%20the%20line%20between%20legitimate%20fuckjam%20and%20an%20old%20Shanice%20song%20that%20wouldn%E2%80%99t%20have%20sounded%20out%20of%20place%20on%20the%20original%2090210%20soundtrack">&quot;…an old Shanice song that wouldn’t have sounded out of place on the original <i>90210</i> soundtrack&quot; (<strong>1991</strong>?)</a></li>
-<li class="fragment"><a href="https://web.archive.org/web/20190106060359/https://www.stereogum.com/1911071/at-least-america-can-agree-on-bruno-mars/franchises/the-week-in-pop/#:~:text=%E2%80%9CVersace%20On%20The%20Floor%E2%80%9D%20imagines%20Boyz%20II%20Men%E2%80%99s%20%E2%80%9CI%E2%80%99ll%20Make%20Love%20To%20You%E2%80%9D%20repurposed%20for%20the%20Dirty%20Dancing%20soundtrack">&quot;…Boyz II Men’s “I’ll Make Love To You” repurposed for the <i>Dirty Dancing</i> soundtrack&quot; (<strong>1994</strong> and <strong>1987</strong> respectively)</a></li>
-</ul>
-</li>
-</ul>
+## The Imagined DX7
+
+- If it looks like a duck and quacks like a duck, it's a duck.
+- If it sounds like a DX7 and is somewhere we would expect a DX7, it's a DX7.
 
 --
 
-<!-- .slide: data-background-image="versace.png" data-background-size="cover" data-background-opacity=".2" data-background-position="bottom right" data-auto-animate="true" -->
+<!-- .slide: data-auto-animate="true" -->
 
-<ul>
-<ul>
-<li>Marvin Gaye, &quot;Sexual Healing&quot; (<strong>1982</strong>)<br/><audio src="media/gaye.mp3" controls></li>
-<li>Freddie Jackson, &quot;Rock Me Tonight (For Old Time's Sake)&quot; (<strong>1985</strong>)<br/><audio src="media/jackson.mp3" controls></li>
-<li>Blackstreet, "Before I Let You Go" (<strong>1994</strong>)<br/><audio src="media/blackstreet.mp3" controls></li>
-</ul>
-</li>
-</ul>
+## The Imagined DX7
+
+> How I miss the good old pre-DX7 days. I am so sick of reading about these Fairlight freaks and one-finger virtuosos. … Why don't you interview a real keyboard player, like Rick Wakeman?
+
+letter to the editor, _Keyboard_, May 1986
 
 --
 
-<!-- .element: data-auto-animate="true" -->
+<!-- .slide: data-auto-animate="true" -->
 
-## Versace on the Floor
+## The Imagined DX7
+
+<blockquote>
+So we’ve played a bunch of stuff here, and there’s a common thread that we’re all sort of cringing at, right? … The curse of this time, for me, was … Yamaha invented an instrument called the DX7. The DX7 made it onto every single record in the universe.
+</blockquote>
+<p class="fragment r-fit-text">– Bob Boilen, after listening to three songs without any DX7 at all<br/><i>All Songs Considered</i>, 2008</p>
+
+--
+
+<!-- .slide: data-auto-animate="true" -->
+
+## The Imagined DX7
+
+What makes it DX7?
+
+- Prominent synth
+- 1980s
+- "Cheesy" sound
+
+--
+
+<!-- .slide: data-auto-animate="true" -->
+
+## The Imagined DX7
+
+Does "Versace on the Floor" use DX7?
 
 <figure class="r-stretch"><video controls src="media/versace-side-by-side-smaller.mp4" alt="original clip, followed by recreations on DX7 and Dexed"></video><figcaption>Original — DX7 — Dexed</figcaption></figure>
+
+--
+
+<!-- .slide: data-auto-animate="true" -->
+
+## The Imagined DX7
+
+More important: it _could_ be DX7; it's reasonable to think that it is.
+
+---
+
+## Concluding thoughts
+
+- The Imagined DX7 shows how it can be productive to consider instruments as something larger than their physical entities
+- Possibly related to chiptune music and the use of the term "8-bit" to refer to lots of retro-sounding timbres that are actually not possible on 8-bit sound chips
+- Nostalgia for a time when hardware was audible
 
 ---
 

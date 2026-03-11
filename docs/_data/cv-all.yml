@@ -207,9 +207,7 @@ conf:
             subheading: Peer-Reviewed Presentations
             entries:
                 - title: "The Timbre Is the Instrument: The Imagined DX7 and 1980s Nostalgia"
-                  conf: Society for American Music 52nd Annual Conference
-                  location: Richmond, VA
-                  date: March 11–15
+                  multiconf: Society for American Music 52nd Annual Conference; 4th International Conference on Timbre
                   year: 2026
                   url: /presentations/2026-sam
                 - title: EDM as Timbre Learning Lab
