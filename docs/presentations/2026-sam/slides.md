@@ -12,6 +12,17 @@ SAM 2026
 
 ---
 
+<!-- .slide: data-auto-animate="true" -->
+
+## Bruno Mars, 24k Magic (2016) <!-- .element: class="r-fit-text" -->
+
+<blockquote class="r-fit-text">
+[Mars] says he wanted to re-create the feeling of the <strong>R&amp;B</strong> … <strong>in the early Nineties</strong>: Jimmy Jam and Terry Lewis, New Edition and Bobby Brown, Jodeci, Boyz II Men, Teddy Riley, Babyface. &quot;There's nothing more joyous for me than those school dances,&quot; Mars says. &quot;<strong>Slow-dancing at the Valentine's Day banquet</strong> with the girl you have a crush on, and the DJ spins <strong>'Before I Let You Go,' by Blackstreet</strong>. And the shit is magical, and you think about it for the next eight months.&quot;
+</blockquote>
+<p><a href="#bib">Eells 2016</a>, emphasis added</p>
+
+--
+
 <!-- .slide: data-background-image="versace.png" data-background-size="cover" data-background-opacity=".2" data-background-position="bottom right" data-auto-animate="true" -->
 
 ## Versace on the Floor
@@ -28,12 +39,6 @@ on _24k Magic_ (2016)
 
 ## Versace on the Floor
 
-> [Mars] says he wanted to re-create the feeling of the R&B he fell in love with as a kid, growing up in Hawaii in the early Nineties: **Jimmy Jam and Terry Lewis, New Edition and Bobby Brown, Jodeci, Boyz II Men, Teddy Riley, Babyface**. "There's nothing more joyous for me than those school dances," Mars says. "Slow-dancing at the Valentine's Day banquet with the girl you have a crush on, and the DJ spins **'Before I Let You Go,' by Blackstreet**. And the shit is magical, and you think about it for the next eight months." ([Eells 2016](#bib))
-
-<!-- .element: class="r-fit-text" -->
-
---
-
 How does Bruno Mars get this to sound like early-’90s R&B?
 
 <div class="r-stack">
@@ -44,7 +49,7 @@ How does Bruno Mars get this to sound like early-’90s R&B?
 
 </div>
 
-<p class="fragment">…right??</p>
+<p class="fragment"><em>…or is it???</em></p>
 
 --
 
@@ -60,9 +65,7 @@ How does Bruno Mars get this to sound like early-’90s R&B?
 
 <!-- .slide: data-background-image="versace.png" data-background-size="cover" data-background-opacity=".2" data-background-position="bottom right" data-auto-animate="true" -->
 
-## Versace on the Floor
-
-Critics compare it to:
+Critics compare "Versace" to:
 
 <ul>
 <li data-id="gaye" class="fragment"><a href="https://web.archive.org/web/20161120040607/http://www.rollingstone.com/music/albumreviews/review-bruno-mars-24k-magic-w451090#:~:text=%22Versace%20on%20the%20Floor%22%20is%20the%20umpteenth%20tribute%20to%20Marvin%20Gaye's%20%22Sexual%20Healing%22%20in%20an%20era%20that%20didn't%20need%20them%20from%20Wiz%20Khalifa%2C%20Nelly%2C%20Wale%20or%20Kygo.">Marvin Gaye, &quot;Sexual Healing&quot; (<strong>1982</strong>)</a></li>
@@ -87,9 +90,9 @@ Critics compare it to:
 <!-- .slide: data-background-image="versace.png" data-background-size="cover" data-background-opacity=".2" data-background-position="bottom right" data-auto-animate="true" -->
 
 <ul>
-<li data-id="gaye">Marvin Gaye, &quot;Sexual Healing&quot; (<strong>1982</strong>)<br/><strong>Jupiter-8</strong> (maybe)</li>
-<li data-id="jackson">Freddie Jackson, &quot;Rock Me Tonight (For Old Time's Sake)&quot; (<strong>1985</strong>)<br/><strong>DX7</strong></li>
-<li data-id="blackstreet">Blackstreet, &quot;Before I Let You Go&quot; (<strong>1994</strong>)<br/><strong>Rhodes</strong></li>
+<li data-id="gaye">Marvin Gaye, &quot;Sexual Healing&quot; (<strong>1982</strong>)<br/><strong>Roland Jupiter-8</strong> (maybe)</li>
+<li data-id="jackson">Freddie Jackson, &quot;Rock Me Tonight (For Old Time's Sake)&quot; (<strong>1985</strong>)<br/><strong>Yamaha DX7</strong></li>
+<li data-id="blackstreet">Blackstreet, &quot;Before I Let You Go&quot; (<strong>1994</strong>)<br/><strong>Fender Rhodes</strong></li>
 </ul>
 
 --
@@ -136,7 +139,7 @@ Critics compare it to:
 <!-- .slide: data-background-image="dx7.jpg" data-background-size="fill" data-background-opacity=".1" data-background-position="top left" data-auto-animate="true" -->
 
 - Prior to DX7, the Fender Rhodes was the gold standard of electric piano sounds
-- `E. PIANO 1` was often compared to Fender Rhodes and referred to as the "Rhodes sound"\
+- `E. PIANO 1` was often compared to Fender Rhodes and referred to as the "Rhodes sound"
 
 --
 
@@ -144,7 +147,7 @@ Critics compare it to:
 
 <!-- .slide: data-background-image="dx7.jpg" data-background-size="fill" data-background-opacity=".1" data-background-position="top left" data-auto-animate="true" -->
 
-<figure class="r-stretch"><video data-autoplay controls src="media/dx7-rhodes.mov" alt="video comparison of DX7 and Rhodes"></video><figcaption>DX7 (left) vs. Rhodes (right)</figcaption></figure>
+<figure class="r-stretch"><video controls src="media/dx7-rhodes-short.mov" alt="video comparison of DX7 and Rhodes"></video><figcaption>DX7 (left) vs. Rhodes (right)</figcaption></figure>
 
 ---
 
@@ -239,118 +242,6 @@ Critics compare it to:
 
 --
 
-<h2 style="text-align:left;">Comparisons</h2>
-
-<!--
-| _timbre ↓_&emsp;**inst →** | **DX7** | **CLP&nbsp;1** | **D&#8209;50** | **Dexed** |
-| -------------------------: | :-----: | :------------: | :------------: | :-------: |
-|            _bright / dark_ |    −    |       −        |       −        |     −     |
-|             _pure / noisy_ |    −    |       −        |       +        |     −     |
-|            _hollow / full_ |    −    |       −        |       +        |     −     |
-|            _sparse / rich_ |    −    |       −        |       +        |     −     |
-|       _beating / beatless_ |    −    |       +        |       −        |     −     |
-|        _steady / wavering_ |    −    |       −        |       −        |     −     |
-|       _harmonic / inharm._ |    −    |       −        |       −        |     −     |
-
-|                         |     |     |       |       |       |       |       |
-| ----------------------- | --- | --- | ----- | ----- | ----- | ----- | ----- |
-| _bright / dark_         | −   | −   | −     | −     | **+** | −     | **+** |
-| _pure / noisy_          | −   | −   | −     | **+** | −     | **+** | −     |
-| _hollow / full_         | −   | −   | −     | **+** | **+** | **+** | **+** |
-| _sparse / rich_         | −   | −   | −     | **+** | **+** | **+** | **+** |
-| _beating / beatless_    | −   | −   | **+** | −     | **+** | **+** | **+** |
-| _steady / wavering_     | −   | −   | −     | −     | −     | **+** | −     |
-| _harmonic / inharmonic_ | −   | −   | −     | −     | **+** | **+** | **+** | -->
-
-<table class="comp-table">
-<thead style="vertical-align:bottom;">
-<tr>
-<th style="text-align:right;"><em style="font-weight:normal;">timbre ↓</em>&emsp;&emsp;&emsp;<strong style="color:unset;">inst →</strong></th>
-<th class="rotated-text" style="text-align:center;"><div><span>DX7</span></div></th>
-<th class="rotated-text" style="text-align:center;"><div><span>Dexed</span></div></th>
-<th class="rotated-text" style="text-align:center;"><div><span>Clavinova EP 1</span></div></th>
-<th class="rotated-text" style="text-align:center;"><div><span>D-50 Synthetic Electric</span></div></th>
-<th class="rotated-text" style="text-align:center;"><div><span>Clavinova EP 2</span></div></th>
-<th class="rotated-text" style="text-align:center;"><div><span>D-50 PCM EP</span></div></th>
-<th class="rotated-text" style="text-align:center;"><div><span>Rhodes</span></div></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><em>bright / dark</em></td>
-<td>−</td>
-<td>−</td>
-<td>−</td>
-<td>−</td>
-<td><strong>+</strong></td>
-<td>−</td>
-<td><strong>+</strong></td>
-</tr>
-<tr>
-<td><em>pure / noisy</em></td>
-<td>−</td>
-<td>−</td>
-<td>−</td>
-<td><strong>+</strong></td>
-<td>−</td>
-<td><strong>+</strong></td>
-<td>−</td>
-</tr>
-<tr>
-<td><em>hollow / full</em></td>
-<td>−</td>
-<td>−</td>
-<td>−</td>
-<td><strong>+</strong></td>
-<td><strong>+</strong></td>
-<td><strong>+</strong></td>
-<td><strong>+</strong></td>
-</tr>
-<tr>
-<td><em>sparse / rich</em></td>
-<td>−</td>
-<td>−</td>
-<td>−</td>
-<td><strong>+</strong></td>
-<td><strong>+</strong></td>
-<td><strong>+</strong></td>
-<td><strong>+</strong></td>
-</tr>
-<tr>
-<td><em>beating / beatless</em></td>
-<td>−</td>
-<td>−</td>
-<td><strong>+</strong></td>
-<td>−</td>
-<td><strong>+</strong></td>
-<td><strong>+</strong></td>
-<td><strong>+</strong></td>
-</tr>
-<tr>
-<td><em>steady / wavering</em></td>
-<td>−</td>
-<td>−</td>
-<td>−</td>
-<td>−</td>
-<td>−</td>
-<td><strong>+</strong></td>
-<td>−</td>
-</tr>
-<tr>
-<td><em>harmonic / inharmonic</em></td>
-<td>−</td>
-<td>−</td>
-<td>−</td>
-<td>−</td>
-<td><strong>+</strong></td>
-<td><strong>+</strong></td>
-<td><strong>+</strong></td>
-</tr>
-</tbody>
-</table>
-
---
-
 The DX7 `E. PIANO 1` gradually becomes at least as culturally significant, imitated, and recognizable as the Rhodes.
 
 ---
@@ -409,8 +300,8 @@ So we’ve played a bunch of stuff here, and there’s a common thread that we�
 What makes it DX7?
 
 - Prominent synth
-- 1980s
 - "Cheesy" sound
+- 1980s
 
 --
 
@@ -424,7 +315,7 @@ Does "Versace on the Floor" use DX7?
 
 --
 
-<!-- .slide: data-auto-animate="true" -->
+<!-- .slide: data-auto-animate="true" data-background-color="#10100b" data-background-image="xfiles.jpg" data-background-opacity=".3" -->
 
 ## The Imagined DX7
 
