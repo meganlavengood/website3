@@ -55,7 +55,7 @@ How does Bruno Mars get this to sound like early-’90s R&B?
 
 ## Talk outline
 
-1. "Versace on the Floor" and nostalgia
+1. "Versace on the Floor"
 2. The DX7 `E. PIANO 1` sound
 3. Influence of `E. PIANO 1` on later instruments
 4. The Imagined DX7
@@ -154,7 +154,7 @@ Critics compare "Versace" to:
 ## Imitators
 
 - Roland D-50
-- Korg M1
+- Korg M1 (not discussed today (sorry))
 - Yamaha Clavinova
 - VSTs
 
@@ -300,7 +300,7 @@ So we’ve played a bunch of stuff here, and there’s a common thread that we�
 What makes it DX7?
 
 - Prominent synth
-- "Cheesy" sound
+- "Cheesy" sound (obviously subjective)
 - 1980s
 
 --
@@ -315,19 +315,118 @@ Does "Versace on the Floor" use DX7?
 
 --
 
-<!-- .slide: data-auto-animate="true" data-background-color="#10100b" data-background-image="xfiles.jpg" data-background-opacity=".3" -->
-
-## The Imagined DX7
+<!-- .slide: data-auto-animate="true" data-background-color="#10100b" data-background-image="xfiles.jpg" data-background-size="contain" data-background-opacity=".3" -->
 
 More important: it _could_ be DX7; it's reasonable to think that it is.
+
+---
+
+<!-- .slide: data-auto-animate="true" -->
+
+## Nostalgia and technological development<!-- .element: class="r-fit-text" -->
+
+How does the imagined DX7 relate to nostalgia and shifting aesthetics through time?
+
+--
+
+<!-- .slide: data-auto-animate="true" -->
+
+## Nostalgia and technological development <!-- .element: class="r-fit-text" -->
+
+1. Instrumentalization
+2. Mechanization
+3. Automatization
+4. **Electronification**
+5. **Modularization**
+6. **Digitalization**
+7. **Virtualization**
+8. Globalization
+9. Informatization/Artificial Intelligence
+10. Hybridization
+
+[Enders (2017)](#/bib)
+
+--
+
+<!-- .slide: data-auto-animate="true" -->
+
+## Nostalgia and technological development <!-- .element: class="r-fit-text" -->
+
+- **Digitalization**
+- 1980s–90s: drum machines, sequencers, samplers, synths
+- Artificiality vs. authenticity debates: new technology is "fake" (recall Boilen and _Keyboard_ mag quotes)
+
+--
+
+<!-- .slide: data-auto-animate="true" -->
+
+## Nostalgia and technological development <!-- .element: class="r-fit-text" -->
+
+> Stop using the bloody DX7 presets and invent something new of your own.
+
+Roland Orzabal (Tears for Fears), 1990
+
+> I was getting really fed up with all those DX7 preset sounds. … Why couldn't we get our own sound, like we did in the Dare days?
+
+Philip Oakey (Human League), 1987
+
+--
+
+<!-- .slide: data-auto-animate="true" -->
+
+## Nostalgia and technological development <!-- .element: class="r-fit-text" -->
+
+[Frith (1986), Goodwin (1988), and Thèberge (1997)](#/bib) show how, throughout history, new technologies are viewed as inhuman/inauthentic:
+
+- When amplification is introduced (**Electronification**), it's viewed as creating artificiality or allowing singers to cheat
+- When analog synths are introduced (**Modularization**), they are seen as soulless (think _Clockwork Orange_)
+
+--
+
+<!-- .slide: data-auto-animate="true" -->
+
+## Nostalgia and technological development <!-- .element: class="r-fit-text" -->
+
+[Frith (1986), Goodwin (1988), and Thèberge (1997)](#/bib) show how, throughout history, new technologies are viewed as inhuman/inauthentic:
+
+- When digital synths, sequencers, etc. are introduced (**Digitalization**), _these_ synths/tools are now the "soulless" ones, and analog is seen as more human.
+
+--
+
+<!-- .slide: data-auto-animate="true" -->
+
+## Nostalgia and technological development <!-- .element: class="r-fit-text" -->
+
+Today, perhaps part of the reason that digital sounds are heard as nostalgic and human is that we are in the **Virtualization** stage of VSTs and DAWs, and we're nostalgic for physicality (rather than a particular mode of sound synthesis)
+
+--
+
+<!-- .slide: data-auto-animate="true" -->
+
+## Nostalgia and technological development <!-- .element: class="r-fit-text" -->
+
+- [Enders (2021)](#/bib) adeptly identifies that not all digital instruments are the same
+    - DX7s and DAWs are both examples of digital technology, but
+    - Virtual instruments are a new layer of technological intervention—they make hardware merely incidental
+
+--
+
+<!-- .slide: data-auto-animate="true" -->
+
+## Nostalgia and technological development <!-- .element: class="r-fit-text" -->
+
+- [Thèberge (1997)](#/bib): digital technologies allow seamless reproduction of iconic sounds with specific cultural meanings
+- We can go further: Cultural meanings are called up even when the reproduction is inaccurate or totally misidentified.
 
 ---
 
 ## Concluding thoughts
 
 - The Imagined DX7 shows how it can be productive to consider instruments as something larger than their physical entities
-- Possibly related to chiptune music and the use of the term "8-bit" to refer to lots of retro-sounding timbres that are actually not possible on 8-bit sound chips
 - Nostalgia for a time when hardware was audible
+- Related ideas:
+    - chiptune music and the use of the term "8-bit" to refer to lots of retro-sounding timbres that are actually not possible on 8-bit sound chips
+    - "lo-fi" music made to sound degraded and grainy
 
 ---
 
