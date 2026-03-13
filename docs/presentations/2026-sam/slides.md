@@ -1,6 +1,6 @@
-<!-- .slide: data-background-color="#10100b" data-background-image="dx7-bg2.png" data-background-position="top right" data-background-size="auto 80%" data-background-opacity="1" style="text-align:left;padding-top:150px;" -->
+<!-- .slide: data-background-color="#10100b" data-background-image="img/dx7-bg2.png" data-background-position="top right" data-background-size="auto 80%" data-background-opacity="1" style="text-align:left;padding-top:150px;" -->
 
-<figure style="position:absolute;bottom:0;right:0;text-align:right;margin-bottom:0;" ><img data-preview-image data-preview-fit="contain" src="qr.svg" width=150><figcaption><a href=".">meganlavengood.com/sam2026</a></figcaption></figure>
+<figure style="position:absolute;bottom:0;right:0;text-align:right;margin-bottom:0;" ><img data-preview-image data-preview-fit="contain" src="img/qr.svg" width=150><figcaption><a href=".">meganlavengood.com/sam2026</a></figcaption></figure>
 <div class="col-6">
 <h1 class="white-when-small" style="font-size:1.5em;">The Timbre Is the Instrument</h1>
 <h4 class="white-when-small">The Imagined DX7 and<br/> 1980s Nostalgia</h4>
@@ -23,7 +23,7 @@ SAM 2026
 
 --
 
-<!-- .slide: data-background-image="versace.png" data-background-size="cover" data-background-opacity=".2" data-background-position="bottom right" data-auto-animate="true" -->
+<!-- .slide: data-background-image="img/versace.png" data-background-size="cover" data-background-opacity=".2" data-background-position="bottom right" data-auto-animate="true" -->
 
 ## Versace on the Floor
 
@@ -35,7 +35,7 @@ on _24k Magic_ (2016)
 
 --
 
-<!-- .slide: data-background-image="versace.png" data-background-size="cover" data-background-opacity=".2" data-background-position="bottom right" data-auto-animate="true" -->
+<!-- .slide: data-background-image="img/versace.png" data-background-size="cover" data-background-opacity=".2" data-background-position="bottom right" data-auto-animate="true" -->
 
 ## Versace on the Floor
 
@@ -43,9 +43,9 @@ How does Bruno Mars get this to sound like early-’90s R&B?
 
 <div class="r-stack">
 
-<img class="fragment" src="jpms1.png" alt="screenshot of my JPMS article title">
+<img class="fragment" src="img/jpms1.png" alt="screenshot of my JPMS article title">
 
-<img class="fragment" src="jpms2.png" alt="screenshot of my JPMS article title but it's 90s">
+<img class="fragment" src="img/jpms2.png" alt="screenshot of my JPMS article title but it's 90s">
 
 </div>
 
@@ -63,7 +63,7 @@ How does Bruno Mars get this to sound like early-’90s R&B?
 
 ---
 
-<!-- .slide: data-background-image="versace.png" data-background-size="cover" data-background-opacity=".2" data-background-position="bottom right" data-auto-animate="true" -->
+<!-- .slide: data-background-image="img/versace.png" data-background-size="cover" data-background-opacity=".2" data-background-position="bottom right" data-auto-animate="true" -->
 
 Critics compare "Versace" to:
 
@@ -77,7 +77,7 @@ Critics compare "Versace" to:
 
 --
 
-<!-- .slide: data-background-image="versace.png" data-background-size="cover" data-background-opacity=".2" data-background-position="bottom right" data-auto-animate="true" -->
+<!-- .slide: data-background-image="img/versace.png" data-background-size="cover" data-background-opacity=".2" data-background-position="bottom right" data-auto-animate="true" -->
 
 <ul>
 <li data-id="gaye">Marvin Gaye, &quot;Sexual Healing&quot; (<strong>1982</strong>)<br/><audio src="media/gaye.mp3" controls>
@@ -87,7 +87,7 @@ Critics compare "Versace" to:
 
 --
 
-<!-- .slide: data-background-image="versace.png" data-background-size="cover" data-background-opacity=".2" data-background-position="bottom right" data-auto-animate="true" -->
+<!-- .slide: data-background-image="img/versace.png" data-background-size="cover" data-background-opacity=".2" data-background-position="bottom right" data-auto-animate="true" -->
 
 <ul>
 <li data-id="gaye">Marvin Gaye, &quot;Sexual Healing&quot; (<strong>1982</strong>)<br/><strong>Roland Jupiter-8</strong> (maybe)</li>
@@ -111,7 +111,7 @@ Critics compare "Versace" to:
 
 --
 
-<!-- .slide: data-background-image="dx7.jpg" data-background-size="fill" data-background-opacity=".1" data-background-position="top left" data-auto-animate="true" -->
+<!-- .slide: data-background-image="img/dx7.jpg" data-background-size="fill" data-background-opacity=".1" data-background-position="top left" data-auto-animate="true" -->
 
 ## DX7 History
 
@@ -123,7 +123,7 @@ Critics compare "Versace" to:
 
 --
 
-<!-- .slide: data-background-image="dx7.jpg" data-background-size="fill" data-background-opacity=".1" data-background-position="top left" data-auto-animate="true" -->
+<!-- .slide: data-background-image="img/dx7.jpg" data-background-size="fill" data-background-opacity=".1" data-background-position="top left" data-auto-animate="true" -->
 
 ## DX7 History
 
@@ -136,7 +136,7 @@ Critics compare "Versace" to:
 
 ## DX7 History
 
-<!-- .slide: data-background-image="dx7.jpg" data-background-size="fill" data-background-opacity=".1" data-background-position="top left" data-auto-animate="true" -->
+<!-- .slide: data-background-image="img/dx7.jpg" data-background-size="fill" data-background-opacity=".1" data-background-position="top left" data-auto-animate="true" -->
 
 - Prior to DX7, the Fender Rhodes was the gold standard of electric piano sounds
 - `E. PIANO 1` was often compared to Fender Rhodes and referred to as the "Rhodes sound"
@@ -145,7 +145,7 @@ Critics compare "Versace" to:
 
 ## DX7 History
 
-<!-- .slide: data-background-image="dx7.jpg" data-background-size="fill" data-background-opacity=".1" data-background-position="top left" data-auto-animate="true" -->
+<!-- .slide: data-background-image="img/dx7.jpg" data-background-size="fill" data-background-opacity=".1" data-background-position="top left" data-auto-animate="true" -->
 
 <figure class="r-stretch"><video controls src="media/dx7-rhodes-short.mov" alt="video comparison of DX7 and Rhodes"></video><figcaption>DX7 (left) vs. Rhodes (right)</figcaption></figure>
 
@@ -168,7 +168,7 @@ Critics compare "Versace" to:
 
 --
 
-<!-- .slide: data-background-image="d50.png" data-background-size="fill" data-background-opacity=".1" data-background-position="bottom" data-auto-animate="true" -->
+<!-- .slide: data-background-image="img/d50.png" data-background-size="fill" data-background-opacity=".1" data-background-position="bottom" data-auto-animate="true" -->
 
 ## Roland D-50
 
@@ -195,7 +195,7 @@ Critics compare "Versace" to:
 
 --
 
-<!-- .slide: data-background-image="clavinova.png" data-background-size="fill" data-background-opacity=".2" data-background-position="top" data-auto-animate="true" -->
+<!-- .slide: data-background-image="img/clavinova.png" data-background-size="fill" data-background-opacity=".2" data-background-position="top" data-auto-animate="true" -->
 
 ## Yamaha Clavinova
 
@@ -219,11 +219,11 @@ Critics compare "Versace" to:
 
 ## VSTs: Dexed
 
-<img class="r-stretch" src="dexed.png" alt="">
+<img class="r-stretch" src="img/dexed.png" alt="">
 
 --
 
-<!-- .slide: data-background-image="dexed.png" data-background-size="fill" data-background-opacity=".1" data-background-position="bottom left" data-auto-animate="true" -->
+<!-- .slide: data-background-image="img/dexed.png" data-background-size="fill" data-background-opacity=".1" data-background-position="bottom left" data-auto-animate="true" -->
 
 ## VSTs: Dexed
 
@@ -315,7 +315,7 @@ Does "Versace on the Floor" use DX7?
 
 --
 
-<!-- .slide: data-auto-animate="true" data-background-color="#10100b" data-background-image="xfiles.jpg" data-background-size="contain" data-background-opacity=".3" -->
+<!-- .slide: data-auto-animate="true" data-background-color="#10100b" data-background-image="img/xfiles.jpg" data-background-size="contain" data-background-opacity=".3" -->
 
 More important: it _could_ be DX7; it's reasonable to think that it is.
 
@@ -352,19 +352,9 @@ How does the imagined DX7 relate to nostalgia and shifting aesthetics through ti
 
 ## Nostalgia and technological development <!-- .element: class="r-fit-text" -->
 
-- **Digitalization**
-- 1980s–90s: drum machines, sequencers, samplers, synths
-- Artificiality vs. authenticity debates: new technology is "fake" (recall Boilen and _Keyboard_ mag quotes)
+> How I miss the good old pre-DX7 days. I am so sick of reading about these Fairlight freaks and one-finger virtuosos. … Why don't you interview a real keyboard player, like Rick Wakeman?
 
---
-
-<!-- .slide: data-auto-animate="true" -->
-
-## Nostalgia and technological development <!-- .element: class="r-fit-text" -->
-
-> Stop using the bloody DX7 presets and invent something new of your own.
-
-Roland Orzabal (Tears for Fears), 1990
+letter to the editor, _Keyboard_, May 1986
 
 > I was getting really fed up with all those DX7 preset sounds. … Why couldn't we get our own sound, like we did in the Dare days?
 
@@ -376,47 +366,7 @@ Philip Oakey (Human League), 1987
 
 ## Nostalgia and technological development <!-- .element: class="r-fit-text" -->
 
-[Frith (1986), Goodwin (1988), and Thèberge (1997)](#/bib) show how, throughout history, new technologies are viewed as inhuman/inauthentic:
-
-- When amplification is introduced (**Electronification**), it's viewed as creating artificiality or allowing singers to cheat
-- When analog synths are introduced (**Modularization**), they are seen as soulless (think _Clockwork Orange_)
-
---
-
-<!-- .slide: data-auto-animate="true" -->
-
-## Nostalgia and technological development <!-- .element: class="r-fit-text" -->
-
-[Frith (1986), Goodwin (1988), and Thèberge (1997)](#/bib) show how, throughout history, new technologies are viewed as inhuman/inauthentic:
-
-- When digital synths, sequencers, etc. are introduced (**Digitalization**), _these_ synths/tools are now the "soulless" ones, and analog is seen as more human.
-
---
-
-<!-- .slide: data-auto-animate="true" -->
-
-## Nostalgia and technological development <!-- .element: class="r-fit-text" -->
-
-Today, perhaps part of the reason that digital sounds are heard as nostalgic and human is that we are in the **Virtualization** stage of VSTs and DAWs, and we're nostalgic for physicality (rather than a particular mode of sound synthesis)
-
---
-
-<!-- .slide: data-auto-animate="true" -->
-
-## Nostalgia and technological development <!-- .element: class="r-fit-text" -->
-
-- [Enders (2021)](#/bib) adeptly identifies that not all digital instruments are the same
-    - DX7s and DAWs are both examples of digital technology, but
-    - Virtual instruments are a new layer of technological intervention—they make hardware merely incidental
-
---
-
-<!-- .slide: data-auto-animate="true" -->
-
-## Nostalgia and technological development <!-- .element: class="r-fit-text" -->
-
-- [Thèberge (1997)](#/bib): digital technologies allow seamless reproduction of iconic sounds with specific cultural meanings
-- We can go further: Cultural meanings are called up even when the reproduction is inaccurate or totally misidentified.
+![](img/newspapers.jpg)
 
 ---
 
@@ -430,11 +380,11 @@ Today, perhaps part of the reason that digital sounds are heard as nostalgic and
 
 ---
 
-<!-- .slide: id="bib" data-background-color="#10100b" data-background-image="dx7-bg2.png" data-background-position="top right" data-background-size="auto 80%" data-background-opacity="1" style="text-align:left;padding-top:150px;" -->
+<!-- .slide: id="bib" data-background-color="#10100b" data-background-image="img/dx7-bg2.png" data-background-position="top right" data-background-size="auto 80%" data-background-opacity="1" style="text-align:left;padding-top:150px;" -->
 
 ## Thanks
 
 <figure>
-    <img src="qr-bib.svg" alt="QR code" data-preview-image data-preview-fit="contain">
+    <img src="img/qr-bib.svg" alt="QR code" data-preview-image data-preview-fit="contain">
     <figcaption><a href="https://www.zotero.org/mlavengood/collections/5P4J3M25/itemlist">Bibliography ↑ </a></figcaption>
 </figure>
