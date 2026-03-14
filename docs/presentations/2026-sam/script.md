@@ -1,53 +1,105 @@
-In 2016, Bruno Mars released an album called 24k Magic. This was coming off the massive success of “Uptown Funk,” which had major retro vibes, and maybe building off that aesthetic, 24k Magic was also deliberately retro in sound, according to Mars. In an interview with Rolling Stone, he says
-the album is meant to sound like early 90s R&B—like slow-dancing at a junior high dance to “Before I Let You Go” by Blackstreet.
+---
+layout: page
+---
+
+In 2016, Bruno Mars released an album called 24k Magic. This was coming off the massive success of “Uptown Funk,” which had major retro vibes, and maybe building off that aesthetic, 24k Magic was also deliberately retro in sound, according to Mars. In an interview with Rolling Stone, he says the album is meant to sound like early 90s R&B—like slow-dancing at a junior high dance to “Before I Let You Go” by Blackstreet.
+
 This comes through clearly in "Versace on the Floor", which was the third single off the album. Let's listen.
+
 How does Bruno Mars get this to sound like early-’90s R&B?
+
 Back in 2019 I published a paper about this kind of thing.
+
 kind of.
+
 To me, what makes it sound ’80s—er, ’90s—is the fact that it's using the Yamaha DX7 synthesizer's classic electric piano sound.
+
 …OR IS IT?
+
 Today I want to talk you through a bunch of ideas that I got from listening to "Versace on the Floor" as a Yamaha DX7 1980s pop scholar. First I’ll try to get you excited about the DX7 too, by briefly explaining why the DX7's electric piano sound is so important. Then I'll show how the E. PIANO 1 preset influenced presets on other later instruments, which starts to make recognizing the DX7 sound a little more complicated. This leads into the Imagined DX7 concept, where I’ll investigate what people think the DX7 is, and especially when people attribute sounds to the DX7 erroneously. I’ll attempt to define the imagined DX7 through some cultural factors as well as some timbral factors. I'll conclude with some still-underbaked ideas about how the Imagined DX7 relates to nostalgia and technological development.
+
 So, music critics in 2016 all make note of “Versace”’s throwback sound. I was unable to find a music critic explicitly referencing the DX7 in their review of “Versace”, which is understandable since that’s relatively niche knowledge. But let’s check out the comparisons they make to other songs.
+
 They compare it to:
+
 Marvin Gaye's "sexual healing"
+
 1984 New Edition
+
 Freddie Jackson's "Rock Me Tonight"
+
 an old Shanice song that wouldn't have sounded out of place on the original 90210 soundtrack, and
+
 Boyz II Men's "I'll Make Love to You" repurposed for the Dirty Dancing soundtrack.
+
 All the songs are from what I like to refer to as the “long 1980s”—mainstream pop music and R&B has a relatively consistent sound through the early 1990s. It’s unsurprising that even if Bruno Mars says this is meant to be early ’90s, a lot of the intertexts are actually with mid- to late-’80s music.
+
 Let's zoom in on the more specific song references. Take a listen to these excerpts of all 3 songs and see if you hear what I hear.
+
 You could probably guess I wanted you to notice the pretty prominent electric piano in each track. But if you listen super duper closely, they each actually use a different electric piano. Marvin Gaye I think uses a Roland Jupiter-8, Freddie Jackson is absolutely a DX7, and Blackstreet sounds more like a classic Fender Rhodes.
+
 But realistically, the subtle differences between these sounds kind of melt away when you listen to these songs all in sequence. What comes through instead is the through-line of a generic ’80s/’90s R&B electric piano sound.
+
 One of my points today is that if it's an electric piano and it's the ’80s or ’90s, it is a very reasonable guess to label it as a DX7 sound.
+
 I'll try to keep this super brief since I've published about it elsewhere. You can see some details on the slide. The takeaway is that the DX7 was truly ubiquitous in the long 1980s, and even if you don’t know it by name, if you listened to pop music in the 80s or 90s, you absolutely know the sound: [play]
+
 That was, of course, the electric piano preset, E. PIANO 1. The DX7 popularized the use of synthesizer presets, rather than custom sounds.
+
 Prior to the DX7, the Fender Rhodes was the go-to electric piano, and so because of this E. PIANO 1 was often called a "Rhodes sound" and compared to the Rhodes. They don't really sound that much alike, though—here’s a comparison.
+
 What I want to show next is how later synths and artists went out of their way to imitate not the Rhodes sound, but the dx7 sound, which elevated the DX7's sound to be equally as important as the Rhodes sound. I think it’s significant that while one of the purposes of synths is to imitate acoustic instruments, there’s eventually this shift to imitating synths—like imitating imitations. I also want to explain the differences and consistencies among the sounds by doing a little timbre analysis.
+
 So first, the D-50. One of the D-50 factory preset sounds is called Synthetic Electric. I'm really excited about the word "synthetic" here because it indicates to me that this sound is supposed to sound like a synthesizer, and not like a Rhodes or any other acoustic or electric instrument. Of course they don't specify whether it's supposed to be a DX7 electric piano, but I think it's implied, and at least one contemporaneous reviewer hears it that way. So for me that’s a very strong piece of evidence that this sound is building off the DX7 instead of a Rhodes.
+
 Here's a comparison: first the dx7, then the Rhodes, then the D-50. All 3 are distinct, obviously, but I think the D-50 sound is much closer to the DX7 than to the Rhodes. Notice the characteristic brightness present in the two synth sounds, and notice how the D-50 lacks that inharmonicity and noisiness in the attack and cutoff of the sound.
+
 Here's another example. Yamaha's Clavinova is a whole different genre of instrument. It's not a synth, but it's more of a digital piano, meant to replace an acoustic piano. As such it comes with only a small palette of especially useful sounds. Among them are both kinds of electric piano sound that you might want: a DX7 electric piano, and a Rhodes electric piano.
+
 Here's how the sounds stack up. [play] By building in a separate sound that is really close to the Rhodes, it’s emphasizing the importance of the DX7 sound.
+
 Nowadays, we have virtual instruments that can replicate seemingly any vintage synth you might wish you had. For the DX7, a common one is an open-source option called Dexed.
+
 Dexed can load the same SysEx files that you would use to reprogram your DX7 to the factory preset sounds. If you do this, you'll find that the E. PIANO 1 sound comes through as virtually identical to the original DX7's rendering. Here's the side-by-side comparison. So for a lot of present-day music makers, you don’t need a DX7 to get that DX7 sound, because this free VST and the right soundbanks, which are also free, will get you 99% of the way there.
+
 The DX7 E. PIANO 1 gradually becomes at least as culturally significant, imitated, and recognizable as the Rhodes. And the authentic DX7 sound also becomes blurred as these other sounds, like the D-50 and VSTs, repeatedly pass as DX7 sounds.
+
 This brings me to The Imagined DX7, which I think of as "The DX7 as it lives in popular imagination of its most well-known and imitated presets."
+
 The imagined DX7 relates to Cornelia Fales's well-known "paradox of timbre." It doesn't matter whether you identify a sound source accurately, but rather whether your identification works for that situation.
+
 Or to oversimplify futher: if it looks like a duck and quacks like a duck, it's a duck.
+
 So with the Imagined DX7, I'm saying that if it sounds like a DX7 and is somewhere we would expect a DX7, it's a DX7.
+
 I see the Imagined DX7 operating as far back as 1986, where in a letter to the editor of Keyboard magazine, a reader blames the DX7 for the sins of the Fairlight (which predates the DX7).
+
 Or consider this quote from a podcast episode titled "The ’80s: Were They Really That Bad?" Here Bob Boilen says, or at least implies, that the DX7 is the common thread that ties together a bunch of songs they just played. The songs were "Let's Hear It for the Boy", "Wild Wild West," and "You Make My Dreams Come True”—and actually none of those songs use the DX7.
+
 What inspires people to label these things as DX7? I think it's prominent synthesizer, a "cheesy" sound, and the fact that the music is from the 1980s.
+
 So let me back up a bit. What about "Versace on the Floor"—is this using the DX7? Obviously my first research task was to try to determine if there was documented evidence of “Versace on the Floor” using a DX7. I couldn’t find specific equipment mentioned in the liner notes; I emailed Greg Phillinganes, the keyboardist credited on the track, but he said he only overdubbed the synth solo after the track was basically finished; I looked at concert footage but the keyboards were pretty hard to identify since the focus was obviously on Bruno Mars and not the guy playing chords.
+
 The thing is, of course, that in 2016, it's very hard to say. It could easily be a plugin like Dexed (or like a fancy expensive version of Dexed).
+
 But I guess what I'm saying is that really, what's more important is that it could be the DX7, and it's reasonable to think that it is the DX7. And it's more interesting to choose to believe that it is.
+
 Now I’ll attempt to carefully open the can of worms that is “nostalgia.”
+
 Bernd Enders in 2017 lays out this periodization of music-instrumental history as it progresses from the very first instruments through what I assume is still a hypothetical future in which we can control instruments directly with our minds. Most relevant to synthesizers and my talk today are phases 4 through 7 here. Enders doesn't talk about nostalgia in that paper, but I see a link between this and what other musicologists like Simon Frith and Paul Thèberge have described.
+
 Let's first consider the period the DX7 belongs to: Digitalization. This phase of music-instrumental development gets going in the 1980s with not just the DX7 but also drum machines, sequencers, and other kinds of synths like samplers.
+
 In the work I've done on the reception of the DX7, I saw plenty of these very classic artificiality vs. authenticity debates: new technology is “fake”. You can see this in the Boilen and Keyboard mag quotes I showed earlier, but I'll also throw in a few new ones.
+
 [read] Both quotes portray analog as more authentic, more desirable, and more personal than the DX7 or Fairlight (another digital synth).
+
 Frith and Thèberge and Goodwin all talk about how these popular aesthetic values change as time goes by and new technologies are introduced. In the Electronification stage, amplification is introduced, and it's viewed as creating artificiality. For example, microphones allow singers to cheat and not properly project their voices the way a real singer would. Next, in the modularization stage, analog synths are introduced, and they are seen as soulless and inexpressive instruments (think Clockwork Orange), but by now microphones are so normal that they’re not questioned anymore. Then a bunch of disruptive technologies are introduced in the Digitalization stage: the DX7, other digital synths, samplers, sequencers, etc. Now these synths/tools are now the "soulless" ones, and the older analog synths is seen as more human. That’s especially implied in the quotes that reference The Human League’s Dare days, which was when they were using analog synths, or the quote referencing Rick Wakeman, who played Moog synths with the band Yes.
+
 Alright so this is the “maybe” part of the talk. Today, maybe part of the reason that digital sounds are heard as nostalgic and human is that we are firmly in the Virtualization stage of DAWs and VSTs. What I like about Enders’s periodization of music history is that he shows that not all digital instruments are the same. DX7s and VSTs are both examples of digital technology, but VSTs are a new layer of technological intervention. Music production is less and less about gear and more about software. VSTs make hardware merely incidental. But humans like to have possessions, right? If we buy something, it feels more real when we have an object to hold and point to and say “this is mine.”
+
 So, I don’t think the average person knows what a DX7 is, and in that sense it’s probably a stretch to say that the average person listens to “Versace on the Floor” and feels nostalgic for the DX7. But I also think you don’t need to be conscious of all these techno-historical details in order to sense that the sound you hear in the opening is something that once came from a specific physical instrument. That characteristic brightness, that ping in the sound, is so tied to the music of the ’80s and ’90s, a time when the hardware being used was still audible in the music—and I think that at least is common knowledge, even if you don’t know about the DX7.
+
 So when Bruno Mars wanted to evoke early-'90s R&B, he reached for a sound that listeners associate with that era—whether or not that sound actually came from a DX7. The imagined DX7 did the cultural work. And perhaps that's the most interesting thing about instruments in the age of virtualization: their cultural power can outlive, and even exceed, their physical presence. The DX7 I hear in "Versace on the Floor" might not be real, but the nostalgia it triggers certainly is.
 
 <!-- This suggests that studying instruments solely through their physical specs or sonic capabilities misses something important. Instruments accumulate meaning over time—through imitation, association, and misattribution. The imagined DX7 is a collective construct, built as much from memory and cultural shorthand as from FM synthesis. For timbre scholars, this means attending not just to what sounds are, but to what listeners believe them to be. -->
