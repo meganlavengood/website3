@@ -404,7 +404,7 @@ Philip Oakey (Human League), 1987
     <figcaption><a href="https://www.zotero.org/mlavengood/collections/5P4J3M25/itemlist">Bibliography ↑ </a></figcaption>
 </figure>
 
-[mlavengo@gmu.edu](mlavengo@gmu.edu)
+[megan@meganlavengood.com](mailto:megan@meganlavengood.com)
 
 ---
 
