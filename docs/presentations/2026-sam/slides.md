@@ -12,7 +12,11 @@ SAM 2026
 
 ---
 
-<!-- .slide: data-auto-animate="true" -->
+<!-- .slide: data-auto-animate="true" data-background-image="img/24k.jpg" data-background-size="contain"  -->
+
+--
+
+<!-- .slide: data-auto-animate="true" data-background-image="img/24k.jpg" data-background-size="contain" data-background-opacity=".1"  -->
 
 ## Bruno Mars, 24k Magic (2016) <!-- .element: class="r-fit-text" -->
 
@@ -48,8 +52,6 @@ How does Bruno Mars get this to sound like early-’90s R&B?
 <img class="fragment" src="img/jpms2.png" alt="screenshot of my JPMS article title but it's 90s">
 
 </div>
-
-<p class="fragment"><em>…or is it???</em></p>
 
 --
 
@@ -95,19 +97,13 @@ Critics compare "Versace" to:
 <li data-id="blackstreet">Blackstreet, &quot;Before I Let You Go&quot; (<strong>1994</strong>)<br/><strong>Fender Rhodes</strong></li>
 </ul>
 
---
-
-- The subtle differences between these EP sounds are lost in context
-- All of them meld into a generic ’80s/’90s R&B electric piano sound
-- If it's an electric piano sound bound to this time, it's reasonable to hear it as a DX7 sound.
-
 ---
 
  <!-- .element: data-auto-animate="true" -->
 
 ## DX7 History
 
-![dx7 front](dx7.jpg)
+![dx7 front](img/dx7.jpg)
 
 --
 
@@ -121,6 +117,8 @@ Critics compare "Versace" to:
 - Popular due to affordability and new tech
 - Especially remarkable **plucked, brassy, and percussive sounds**
 
+<figure><audio src="media/beauty.mp3" controls></audio><figcaption>Celine Dion, "Beauty and the Beast" (1991)</figcaption></figure>
+
 --
 
 <!-- .slide: data-background-image="img/dx7.jpg" data-background-size="fill" data-background-opacity=".1" data-background-position="top left" data-auto-animate="true" -->
@@ -130,7 +128,7 @@ Critics compare "Versace" to:
 - Popularized the use of **presets**
 - `E. PIANO 1`, short for "electric piano", might be the most popular
 
-<figure><audio src="media/beauty.mp3" controls></audio><figcaption>Celine Dion, "Beauty and the Beast" (1991)</figcaption></figure>
+![](img/ep1.png)
 
 --
 
@@ -164,7 +162,7 @@ Critics compare "Versace" to:
 
 ## Roland D-50
 
-![Roland D-50 Front, Public domain, via Wikimedia Commons](d50.png)
+![Roland D-50 Front, Public domain, via Wikimedia Commons](img/d50.png)
 
 --
 
@@ -191,7 +189,7 @@ Critics compare "Versace" to:
 
 ## Yamaha Clavinova
 
-![Clavinova front](clavinova.png)
+![Clavinova front](img/clavinova.png)
 
 --
 
@@ -242,7 +240,9 @@ Critics compare "Versace" to:
 
 --
 
-The DX7 `E. PIANO 1` gradually becomes at least as culturally significant, imitated, and recognizable as the Rhodes.
+1. The DX7 `E. PIANO 1` gradually becomes at least as culturally significant, imitated, and recognizable as the Rhodes.
+
+2. The pervasiveness of `E. PIANO 1` and `E. PIANO 1`-like sounds starts to blur the aural identity of the DX7.
 
 ---
 
@@ -258,8 +258,12 @@ The DX7 as it lives in popular imagination of its most well-known and imitated p
 
 ## The Imagined DX7
 
-- Cornelia Fales's "paradox of timbre" ([2002](#/bib)): it doesn't matter whether you identify a sound source _accurately_, but rather whether your identification works for that situation.
-- If it looks like a duck and quacks like a duck, it's a duck.
+<ul>
+<li>Cornelia Fales's &quot;paradox of timbre&quot; (<a href="#/bib">2002</a>)</li>
+<li class="fragment" data-fragment-index="2">If it looks like a duck and swims like a duck, it's a duck.</li>
+</ul>
+
+<img class="fragment" data-fragment-index="2" src="img/duck.png" height="400px" alt="screenshot of the Duck Test page on Wikipedia">
 
 --
 
@@ -267,7 +271,7 @@ The DX7 as it lives in popular imagination of its most well-known and imitated p
 
 ## The Imagined DX7
 
-- If it looks like a duck and quacks like a duck, it's a duck.
+- If it looks like a duck and swims like a duck, it's a duck.
 - If it sounds like a DX7 and is somewhere we would expect a DX7, it's a DX7.
 
 --
@@ -309,10 +313,6 @@ What makes it DX7?
 
 ## The Imagined DX7
 
-Does "Versace on the Floor" use DX7?
-
-<figure class="r-stretch"><video controls src="media/versace-side-by-side-smaller.mp4" alt="original clip, followed by recreations on DX7 and Dexed"></video><figcaption>Original — DX7 — Dexed</figcaption></figure>
-
 --
 
 <!-- .slide: data-auto-animate="true" data-background-color="#10100b" data-background-image="img/xfiles.jpg" data-background-size="contain" data-background-opacity=".3" -->
@@ -325,7 +325,7 @@ More important: it _could_ be DX7; it's reasonable to think that it is.
 
 ## Nostalgia and technological development<!-- .element: class="r-fit-text" -->
 
-How does the imagined DX7 relate to nostalgia and shifting aesthetics through time?
+How does the "imagined DX7" relate to nostalgia?
 
 --
 
@@ -366,17 +366,32 @@ Philip Oakey (Human League), 1987
 
 ## Nostalgia and technological development <!-- .element: class="r-fit-text" -->
 
-![](img/newspapers.jpg)
+1. Instrumentalization
+2. Mechanization
+3. Automatization
+4. **Electronification**
+5. **Modularization**
+6. **Digitalization**
+7. **Virtualization**
+8. Globalization
+9. Informatization/Artificial Intelligence
+10. Hybridization
+
+[Enders (2017)](#/bib)
 
 ---
 
 ## Concluding thoughts
 
-- The Imagined DX7 shows how it can be productive to consider instruments as something larger than their physical entities
-- Nostalgia for a time when hardware was audible
 - Related ideas:
     - chiptune music and the use of the term "8-bit" to refer to lots of retro-sounding timbres that are actually not possible on 8-bit sound chips
-    - "lo-fi" music made to sound degraded and grainy
+    - "lo-fi" music made to sound degraded and grainy but it's actually all digital
+
+--
+
+## Concluding thoughts
+
+- Looking closely at timbre and studying public reception can reveal how instruments become larger than a single instrument and its sound
 
 ---
 
@@ -388,3 +403,129 @@ Philip Oakey (Human League), 1987
     <img src="img/qr-bib.svg" alt="QR code" data-preview-image data-preview-fit="contain">
     <figcaption><a href="https://www.zotero.org/mlavengood/collections/5P4J3M25/itemlist">Bibliography ↑ </a></figcaption>
 </figure>
+
+---
+
+## Bonus content
+
+--
+
+<!-- .slide: data-auto-animate="true" -->
+
+## The Imagined DX7
+
+Does "Versace on the Floor" use DX7?
+
+<figure class="r-stretch"><video controls src="media/versace-side-by-side-smaller.mp4" alt="original clip, followed by recreations on DX7 and Dexed"></video><figcaption>Original — DX7 — Dexed</figcaption></figure>
+
+--
+
+<h2 style="text-align:left;">Comparisons</h2>
+
+<!--
+| _timbre ↓_&emsp;**inst →** | **DX7** | **CLP&nbsp;1** | **D&#8209;50** | **Dexed** |
+| -------------------------: | :-----: | :------------: | :------------: | :-------: |
+|            _bright / dark_ |    −    |       −        |       −        |     −     |
+|             _pure / noisy_ |    −    |       −        |       +        |     −     |
+|            _hollow / full_ |    −    |       −        |       +        |     −     |
+|            _sparse / rich_ |    −    |       −        |       +        |     −     |
+|       _beating / beatless_ |    −    |       +        |       −        |     −     |
+|        _steady / wavering_ |    −    |       −        |       −        |     −     |
+|       _harmonic / inharm._ |    −    |       −        |       −        |     −     |
+
+|                         |     |     |       |       |       |       |       |
+| ----------------------- | --- | --- | ----- | ----- | ----- | ----- | ----- |
+| _bright / dark_         | −   | −   | −     | −     | **+** | −     | **+** |
+| _pure / noisy_          | −   | −   | −     | **+** | −     | **+** | −     |
+| _hollow / full_         | −   | −   | −     | **+** | **+** | **+** | **+** |
+| _sparse / rich_         | −   | −   | −     | **+** | **+** | **+** | **+** |
+| _beating / beatless_    | −   | −   | **+** | −     | **+** | **+** | **+** |
+| _steady / wavering_     | −   | −   | −     | −     | −     | **+** | −     |
+| _harmonic / inharmonic_ | −   | −   | −     | −     | **+** | **+** | **+** | -->
+
+<table class="comp-table">
+<thead style="vertical-align:bottom;">
+<tr>
+<th style="text-align:right;"><em style="font-weight:normal;">timbre ↓</em>&emsp;&emsp;&emsp;<strong style="color:unset;">inst →</strong></th>
+<th class="rotated-text" style="text-align:center;"><div><span>DX7</span></div></th>
+<th class="rotated-text" style="text-align:center;"><div><span>Dexed</span></div></th>
+<th class="rotated-text" style="text-align:center;"><div><span>Clavinova EP 1</span></div></th>
+<th class="rotated-text" style="text-align:center;"><div><span>D-50 Synthetic Electric</span></div></th>
+<th class="rotated-text" style="text-align:center;"><div><span>Clavinova EP 2</span></div></th>
+<th class="rotated-text" style="text-align:center;"><div><span>D-50 PCM EP</span></div></th>
+<th class="rotated-text" style="text-align:center;"><div><span>Rhodes</span></div></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>bright / dark</em></td>
+<td>−</td>
+<td>−</td>
+<td>−</td>
+<td>−</td>
+<td><strong>+</strong></td>
+<td>−</td>
+<td><strong>+</strong></td>
+</tr>
+<tr>
+<td><em>pure / noisy</em></td>
+<td>−</td>
+<td>−</td>
+<td>−</td>
+<td><strong>+</strong></td>
+<td>−</td>
+<td><strong>+</strong></td>
+<td>−</td>
+</tr>
+<tr>
+<td><em>hollow / full</em></td>
+<td>−</td>
+<td>−</td>
+<td>−</td>
+<td><strong>+</strong></td>
+<td><strong>+</strong></td>
+<td><strong>+</strong></td>
+<td><strong>+</strong></td>
+</tr>
+<tr>
+<td><em>sparse / rich</em></td>
+<td>−</td>
+<td>−</td>
+<td>−</td>
+<td><strong>+</strong></td>
+<td><strong>+</strong></td>
+<td><strong>+</strong></td>
+<td><strong>+</strong></td>
+</tr>
+<tr>
+<td><em>beating / beatless</em></td>
+<td>−</td>
+<td>−</td>
+<td><strong>+</strong></td>
+<td>−</td>
+<td><strong>+</strong></td>
+<td><strong>+</strong></td>
+<td><strong>+</strong></td>
+</tr>
+<tr>
+<td><em>steady / wavering</em></td>
+<td>−</td>
+<td>−</td>
+<td>−</td>
+<td>−</td>
+<td>−</td>
+<td><strong>+</strong></td>
+<td>−</td>
+</tr>
+<tr>
+<td><em>harmonic / inharmonic</em></td>
+<td>−</td>
+<td>−</td>
+<td>−</td>
+<td>−</td>
+<td><strong>+</strong></td>
+<td><strong>+</strong></td>
+<td><strong>+</strong></td>
+</tr>
+</tbody>
+</table>

@@ -143,6 +143,20 @@ redirect_from: /sam2026
   <script src="../plugin/drawer/drawer.js"></script>
   <script>
     Reveal.initialize({
+      keyboard: { // make spacebar play videos too (would be good to make this work for audio or video)
+        32: () => {
+          var currentSlide = Reveal.getCurrentSlide();
+          var currentVideo = currentSlide.getElementsByTagName("video")[0];
+          if (currentVideo) {
+            if (currentVideo.ended == true) Reveal.next();
+            else if (currentVideo.paused == true) currentVideo.play();
+            else currentVideo.pause();
+          }
+          else {
+            Reveal.next();
+          }
+        }
+      },
       plugins: [RevealMarkdown, RevealNotes, RevealDrawer],
       slideNumber: true,
       width: 960,
