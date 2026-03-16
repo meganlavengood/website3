@@ -12,10 +12,6 @@ SAM 2026
 
 ---
 
-<!-- .slide: data-auto-animate="true" data-background-image="img/24k.jpg" data-background-size="contain"  -->
-
---
-
 <!-- .slide: data-auto-animate="true" data-background-image="img/24k.jpg" data-background-size="contain" data-background-opacity=".1"  -->
 
 ## Bruno Mars, 24k Magic (2016) <!-- .element: class="r-fit-text" -->
