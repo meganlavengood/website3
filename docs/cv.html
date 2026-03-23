@@ -8,9 +8,9 @@ permalink: /cv/
 
 <p class="text-secondary">Updated {{ "now" | date: "%B %e, %Y" }}</p>
 
-{% for item in site.data.cv-all %} {% assign category = item[1] %}
+{% for item in site.data.cv-all %} {% assign category = item[1] %} {% comment %} assign filter: stores item[1] (the value portion of a key-value pair) in the variable "category" {% endcomment %}
 <h2 id="{{ category.heading | slugify }}">{{ category.heading }}</h2>
-{% for category_type in category.types %} {% assign subcategory = category_type[1] %}
+{% for category_type in category.types %} {% assign subcategory = category_type[1] %} {% comment %} assign filter: stores category_type[1] in "subcategory" to access nested data {% endcomment %}
 <h3 id="{{ subcategory.heading | slugify }}">{{ subcategory.subheading }}</h3>
 {% for entry in subcategory.entries %}
 <div class="cv-entry d-flex flex-md-row justify-content-between g-2">

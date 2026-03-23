@@ -1,0 +1,15 @@
+{
+  "plugins": ["@shopify/prettier-plugin-liquid"],
+  "useTabs": true,
+  "overrides": [
+    {
+      "files": ["*.html", "*.liquid"],
+      "options": {
+        "parser": "liquid-html",
+        "singleLineLinkTags": false,
+        "indentSchema": true,
+        "printwidth": 1
+      }
+    }
+  ]
+}

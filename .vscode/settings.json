@@ -1,6 +1,7 @@
 {
 	"files.associations": {
 		"cv.html": "liquid",
-		"cv.yml": "yaml"
+		"cv.yml": "yaml",
+		"research.html": "liquid"
 	}
 }
