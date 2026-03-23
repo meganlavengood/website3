@@ -1,63 +1,79 @@
 ---
 layout: page-toc
-title: "CV"
+title: "Curriculum Vitae"
 menu: false
 toc: true
 permalink: /cv/
 ---
+<p class="text-secondary">Updated {{ 'now' | date: '%B %e, %Y' }}</p>
 
-<p class="text-secondary">Updated {{ "now" | date: "%B %e, %Y" }}</p>
+{% for item in site.data['cv-all'] %}
+	{% assign category = item[1] %}
+	{% comment %} assign filter: stores item[1] (the value portion of a key-value pair) in the variable "category" {% endcomment %}
+	<h2 id="{{ category.heading | slugify }}">{{ category.heading }}</h2>
+	{% for category_type in category.types %}
+		{% assign subcategory = category_type[1] %}
+		{% comment %} assign filter: stores category_type[1] in "subcategory" to access nested data {% endcomment %}
+		<h3 id="{{ subcategory.heading | slugify }}">{{ subcategory.subheading }}</h3>
+		{% for entry in subcategory.entries %}
+			<div class="cv-entry d-flex flex-md-row justify-content-between g-2">
+				<div class="col">
+					{% if entry.url %}
+						<p class="cv-title">
+							<a href="{{ entry.url }}">{{ entry.title }}</a>
+						</p>
+					{% else %}
+						<p class="cv-title">{{ entry.title }}</p>
+					{% endif %}
+					{% if entry.journal %}
+						<p>
+							<i>{{ entry.journal }}</i>
+							{{ entry.vol }}. {{ entry.details }}
+						</p>
+					{% elsif entry.edby %}
+						<p>
+							In <i>{{ entry.book }}</i>, ed. {{ entry.edby }}. {{ entry.details }}
+						</p>
+					{% elsif entry.conf %}
+						<p>{{ entry.conf }}. {{ entry.location }}. {{ entry.date }}. {{ entry.note }}</p>
+					{% elsif entry.multiconf %}
+						<p>{{ entry.multiconf }}. {{ entry.note }}</p>
+					{% else %}
+						<p>{{ entry.details }}</p>
+					{% endif %}
+				</div>
+				<div class="col-2 cv-year text-end">
+					{{ entry.year }}
+					{% if entry.award %}
+						<p>
+							<a href="#awards-and-grants"><i class="bi bi-award fs-3"></i></a>
+						</p>
+					{% endif %}
+				</div>
+			</div>
+		{% endfor %}
+	{% endfor %}
 
-{% for item in site.data.cv-all %} {% assign category = item[1] %} {% comment %} assign filter: stores item[1] (the value portion of a key-value pair) in the variable "category" {% endcomment %}
-<h2 id="{{ category.heading | slugify }}">{{ category.heading }}</h2>
-{% for category_type in category.types %} {% assign subcategory = category_type[1] %} {% comment %} assign filter: stores category_type[1] in "subcategory" to access nested data {% endcomment %}
-<h3 id="{{ subcategory.heading | slugify }}">{{ subcategory.subheading }}</h3>
-{% for entry in subcategory.entries %}
-<div class="cv-entry d-flex flex-md-row justify-content-between g-2">
-	<div class="col">
-		{% if entry.url %}
-		<p class="cv-title"><a href="{{ entry.url }}">{{ entry.title }}</a></p>
-		{% else %}
-		<p class="cv-title">{{ entry.title }}</p>
-		{% endif %} {% if entry.journal %}
-		<p>
-			<i>{{ entry.journal }}</i>
-			{{ entry.vol }}. {{ entry.details }}
-		</p>
-		{% elsif entry.edby %}
-		<p>In <i>{{ entry.book }}</i>, ed. {{ entry.edby }}. {{entry.details}}</p>
-		{% elsif entry.conf %}
-		<p>{{ entry.conf }}. {{ entry.location }}. {{ entry.date }}. {{ entry.note }}</p>
-		{% elsif entry.multiconf %}
-		<p>{{ entry.multiconf }}. {{ entry.note }}</p>
-		{% else %}
-		<p>{{ entry.details }}</p>
-		{% endif %}
-	</div>
-	<div class="col-2 cv-year text-end">
-		{{ entry.year }} {% if entry.award %}
-		<p>
-			<a href="#awards-and-grants"><i class="bi bi-award fs-3"></i></a>
-		</p>
-		{% endif %}
-	</div>
-</div>
+	<!-- categories without subcategories -->
 
-{% endfor %} {% endfor %}
-
-<!-- categories without subcategories -->
-
-{% for entry in category.entries %}
-<div class="cv-entry d-flex flex-md-row justify-content-between g-2">
-	<div class="col">
-		{% if entry.url %}
-		<p class="cv-title"><a href="{{ entry.url }}">{{ entry.title }}</a></p>
-		{% else %}
-		<p class="cv-title">{{ entry.title }}</p>
-		{% endif %}
-		<p>{{ entry.institution }}</p>
-		<p>{{ entry.degree }}{{ entry.location }}{{ entry.details }}</p>
-	</div>
-	<div class="col-2 cv-year text-end">{{ entry.year }}</div>
-</div>
-{% endfor %} {% endfor %}
+	{% for entry in category.entries %}
+		<div class="cv-entry d-flex flex-md-row justify-content-between g-2">
+			<div class="col">
+				{% if entry.url %}
+					<p class="cv-title">
+						<a href="{{ entry.url }}">{{ entry.title }}</a>
+					</p>
+				{% else %}
+					<p class="cv-title">{{ entry.title }}</p>
+				{% endif %}
+				<p>{{ entry.institution }}</p>
+				<p>
+					{{ entry.degree -}}
+					{{- entry.location -}}
+					{{- entry.details }}
+				</p>
+			</div>
+			<div class="col-2 cv-year text-end">{{ entry.year }}</div>
+		</div>
+	{% endfor %}
+{% endfor %}
