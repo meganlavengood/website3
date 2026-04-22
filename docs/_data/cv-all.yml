@@ -110,14 +110,15 @@ pubs:
     bookSection:
       subheading: Invited Chapters in Edited Volumes
       entries:
-        - title: "Orchestrating for Tambourine: A Timbral Guide for Conductors, Composers, and Performers"
+        - title: "Nuances of Orchestration for Tambourines, Triangles, and Crash Cymbal"
           featured-research: true
-          details: Co-authored with Michael Barranco. Forthcoming.
+          details: Co-authored with Michael Barranco.
           book: Oxford Handbook of Orchestration Studies
           edby: Robert Hasegawa
           year: 2026
           img: cymbals.jpg
           alt: Many cymbals displayed along a store wall
+          url: https://doi.org/10.1093/9780197633489.003.0031
           credit: <a href="https://commons.wikimedia.org/wiki/File:LotOfCymbals.jpg">Pastorius</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons
         - title: "/r/musictheory: Making Music Theory on Reddit"
           featured-research: true
