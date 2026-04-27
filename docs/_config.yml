@@ -43,7 +43,6 @@ plugins:
   - jekyll-spaceship
   # - jekyll-target-blank
   - jekyll-redirect-from
-  - jekyll-figure
 defaults:
   - scope:
       path: ""
