@@ -18,6 +18,10 @@ While there are some obvious, Greatest-Hits-of-the-Classical-Era-type selections
 
 I tried simply searching the internet for av list of songs, and I was able to find [a review of the toy](https://web.archive.org/web/20240413153928/https://thekidstoyscenter.com/baby-einstein-take-along-tunes/) that appeared to have answered this question for me:
 
+{% figure [caption:"Supposedly a list of tunes for the toy."] [class:"class1 class2"] %}
+Figure content (markdown)
+{% endfigure %}
+
 <figure data-bs-toggle="lightbox" class="figure">
 <img src="{{ '/assets/posts/baby-einstein-incorrect-tunes.png' | relative_url }}" class="img-fluid" alt="The tunes played by the toy are listed below. Serenade No. 13 in G, Eine Kleine Nachtmusik, K525, 1st movement, Mozart. Nocturne No. 6, K239, 1st movement, Mozart. Piano Sonata in A, K331, 3rd movement, Mozart. Waltz in GB Op. 70, No.1, Chopin. The Four Seasons, Spring, 1st movement, Vivaldi. The Four Seasons, Summer, 1st and 3rd movements, Vivaldi. William Tell Overture, Lone Ranger, Rossini."/>
 <figcaption>Supposedly a list of tunes for the toy.</figcaption>

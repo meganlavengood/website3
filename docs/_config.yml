@@ -22,7 +22,7 @@ title: Megan L. Lavengood
 author: Dr. Megan L. Lavengood
 email: mlavengo@gmu.edu
 description: >- # this means to ignore newlines until "baseurl:"
-    Personal website for Megan Lavengood, music theorist.
+  Personal website for Megan Lavengood, music theorist.
 
 domain: https://meganlavengood.com
 url: https://meganlavengood.com
@@ -36,43 +36,44 @@ github_username: meganlavengood
 
 # theme: minima
 plugins:
-    - jekyll-feed
-    - jekyll-remote-theme
-    - jekyll-scholar
-    - jekyll-toc
-    - jekyll-spaceship
-    # - jekyll-target-blank
-    - jekyll-redirect-from
+  - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-scholar
+  - jekyll-toc
+  - jekyll-spaceship
+  # - jekyll-target-blank
+  - jekyll-redirect-from
+  - jekyll-figure
 defaults:
-    - scope:
-          path: ""
-      values:
-          toc: true
+  - scope:
+      path: ""
+    values:
+      toc: true
 
 show_excerpts: true
 
 kramdown:
-    input: Kramdown
+  input: Kramdown
 
 # Jekyll-TOC
 toc:
-    min_level: 2
-    max_level: 2
-    ordered_list: false
-    list_id: toc
-    list_class: section-nav
-    sublist_class: "toc-sublist"
-    item_class: toc-entry
-    item_prefix: toc-
+  min_level: 2
+  max_level: 2
+  ordered_list: false
+  list_id: toc
+  list_class: section-nav
+  sublist_class: "toc-sublist"
+  item_class: toc-entry
+  item_prefix: toc-
 
 scholar:
-    bibliography: instruments-class.bib
-    style: chicago-author-date
-    bibtex_filters:
-        - latex
-        - HtmlLinks
-        - DOILinks
-    sort_by: author
+  bibliography: instruments-class.bib
+  style: chicago-author-date
+  bibtex_filters:
+    - latex
+    - HtmlLinks
+    - DOILinks
+  sort_by: author
 
 # Exclude from processing.
 # The following items will not be processed, by default.

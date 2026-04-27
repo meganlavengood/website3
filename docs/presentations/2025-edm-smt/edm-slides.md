@@ -1,40 +1,20 @@
 # EDM as Timbre Learning Lab
 
-<div class="container">
+<!-- <div class="container">
 
-<div class="col">
+<div class="col"> -->
 <p><b>Megan L. Lavengood</b><br/>Associate Prof<br/>George Mason University</p>
 <p>AMS/SMT 2025</p>
-</div>
-
+<a href="./edm-timbre-ped-handout.pdf" target=_blank>Lesson plans <i class="bi bi-file-pdf-fill"></i></a>
+<!-- </div>
 <div class="col">
 <p>Slides</p>
 <img data-preview-image data-preview-fit="contain" src="qr-slides.svg" width=300>
-
 </div>
-
 <div class="col">
-<p><a href="2025-edm/edm-timbre-ped-handout.pdf" target=_blank>Lesson plans <i class="bi bi-file-pdf-fill"></i></a></p>
+<p><a href="./edm-timbre-ped-handout.pdf" target=_blank>Lesson plans <i class="bi bi-file-pdf-fill"></i></a></p>
 <img data-preview-image data-preview-fit="contain" src="qr-handout.svg" width=300>
-
-</div></div>
-
---
-
-<div class="container">
-
-<div class="col">
-<p>Slides</p>
-<img data-preview-image data-preview-fit="contain" src="qr-slides.svg" style="width:85%;">
-</div>
-
-<div class="col">
-<p><a href="2025-edm/edm-timbre-ped-handout.pdf" target=_blank>Lesson plans <i class="bi bi-file-pdf-fill"></i></a><br/></p>
-<img data-preview-image data-preview-fit="contain" src="qr-handout.svg" style="width:85%;">
-
-</div></div>
-
-Or go to [presentations.meganlavengood.com](https://presentations.meganlavengood.com) <!-- .element: class="r-fit-text" -->
+</div></div> -->
 
 ---
 
@@ -59,16 +39,16 @@ Cornelia Fales, "Hearing Timbre: Perceptual Learning among Early Bay Area Ravers
 <aside class="notes" data-markdown>
 
 - Legendary timbre scholar Cornelia Fales has a 2018 book chapter where she studies this group of 1990s ravers by going through an archive of this listserv they had.
-    - `CLICK` Her article discusses a connection between EDM's fringe status and its aesthetic of "nonspecificity."
-    - She documents that these EDM listeners prioritized timbral nonspecificity, meaning: they preferred their rave music to have timbres with ambiguous or disconnected sound sources.
-    - They rejected vocals and meaningful lyrics as distracting and disruptive to the rave experience.
-    - Citing perception studies, Fales argues that by eschewing clear sound sources and vocals, the musical features of EDM actually encourage a heightened timbral attentiveness.
+  - `CLICK` Her article discusses a connection between EDM's fringe status and its aesthetic of "nonspecificity."
+  - She documents that these EDM listeners prioritized timbral nonspecificity, meaning: they preferred their rave music to have timbres with ambiguous or disconnected sound sources.
+  - They rejected vocals and meaningful lyrics as distracting and disruptive to the rave experience.
+  - Citing perception studies, Fales argues that by eschewing clear sound sources and vocals, the musical features of EDM actually encourage a heightened timbral attentiveness.
 - This has clear implications for pedagogues looking to teach students about timbre.
-    - By de-emphasizing more familiar domains of focus, as EDM does, we can more easily get students to pay attention to timbre. `CLICK`
+  - By de-emphasizing more familiar domains of focus, as EDM does, we can more easily get students to pay attention to timbre. `CLICK`
 - As a bonus, it turns out that according to Fales's research, listening in this way can improve one's appreciation for EDM.
-    - EDM can seem hard to understand for a cultural outsider.
-    - A lot of it lacks vocals, easily-identifiable instruments, and some music theory comfort objects like teleological progressions.
-    - But if we learn to hear in this new timbre-focused way, we would be hearing more like the EDM community would. `CLICK`
+  - EDM can seem hard to understand for a cultural outsider.
+  - A lot of it lacks vocals, easily-identifiable instruments, and some music theory comfort objects like teleological progressions.
+  - But if we learn to hear in this new timbre-focused way, we would be hearing more like the EDM community would. `CLICK`
 
 </aside>
 
@@ -81,7 +61,7 @@ Cornelia Fales, "Hearing Timbre: Perceptual Learning among Early Bay Area Ravers
 <div class="container">
 
 <div class="col">
-<p><b><a href="2025-edm/edm-timbre-ped-handout.pdf" target=_blank>Four lessons</a></b></p>
+<p><b><a href="./edm-timbre-ped-handout.pdf" target=_blank>Four lessons</a></b></p>
 <ol>
 <li>Texture in pop music</li>
 <li><b>Timbre vocabulary</b></li>
@@ -92,7 +72,7 @@ Cornelia Fales, "Hearing Timbre: Perceptual Learning among Early Bay Area Ravers
 </div>
 
 <div class="col">
-<p><a href="2025-edm/edm-timbre-ped-handout.pdf" target=_blank>Lesson plans <i class="bi bi-file-pdf-fill"></i></a><br/></p>
+<p><a href="./edm-timbre-ped-handout.pdf" target=_blank>Lesson plans <i class="bi bi-file-pdf-fill"></i></a><br/></p>
 <img data-preview-image data-preview-fit="contain" src="qr-handout.svg" style="height:100%;">
 
 </div></div>
@@ -114,7 +94,7 @@ Cornelia Fales, "Hearing Timbre: Perceptual Learning among Early Bay Area Ravers
 <div class="container align-items-center">
 
 <div class="col">
-<p><b><a href="2025-edm/edm-timbre-ped-handout.pdf" target=_blank>Four lessons</a></b></p>
+<p><b><a href="./edm-timbre-ped-handout.pdf" target=_blank>Four lessons</a></b></p>
 <ol>
 <li>Texture in pop music</li>
 <li>Timbre vocabulary</li>
@@ -182,8 +162,8 @@ Cornelia Fales, "Hearing Timbre: Perceptual Learning among Early Bay Area Ravers
 <aside class="notes" data-markdown>
 
 - If I had to pick one major issue I encountered in teaching these lessons, it was that students brought in strong feelings about the meanings of certain words that they were reluctant to let go of.
-    - And this is an issue with timbre analysis in general. People already have a vocabulary they're using to describe timbre, but it's often entirely scrutinized, and culturally dependent.
-    - A big part of this lesson is getting students to buy into the idea that a shared lexicon is useful, even if that lexicon has imperfections or limited applicability.
+  - And this is an issue with timbre analysis in general. People already have a vocabulary they're using to describe timbre, but it's often entirely scrutinized, and culturally dependent.
+  - A big part of this lesson is getting students to buy into the idea that a shared lexicon is useful, even if that lexicon has imperfections or limited applicability.
 - As you might imagine, I'm partial to my own set of terms, but for more vocally-focused terms I also really like, for example, Kate Heidemann's, Michele Duguay's, or Victoria Malawey's…there's so many good timbre publications out there nowadays. I won't be mad if you go another direction.
 - The key thing is agreeing on what definitions you'll use in your classes.
 
@@ -197,7 +177,7 @@ Cornelia Fales, "Hearing Timbre: Perceptual Learning among Early Bay Area Ravers
 
 ### Lesson plan
 
-Opposition chart (printable in [handout](2025-edm/edm-timbre-ped-handout.pdf))
+Opposition chart (printable in [handout](./edm-timbre-ped-handout.pdf))
 
 |    opposition<br/> − / + | [some sound]</br>&nbsp; |
 | -----------------------: | :---------------------: |
@@ -309,7 +289,7 @@ Preliminaries
 
 - Define "unpitched percussion"
 - Refer back to Lavengood (2020) timbre vocabulary: what will be less useful? what will be more useful?
-- Distribute [customizable opposition charts](2025-edm/edm-timbre-ped-handout.pdf) (printable in handout)
+- Distribute [customizable opposition charts](./edm-timbre-ped-handout.pdf) (printable in handout)
 
 | opposition<br/> − / + | snare |
 | --------------------: | :---: |
@@ -373,19 +353,19 @@ https://roland50.studio -- quick demo, show what the knobs do
 ### Lesson plan
 
 - Divide students into groups; have each group analyze different instruments on the 909.
-    - Try to define them by their most distinctive characteristics.
-    - Timbres should be defined relative to the overall sound palette of the TR-909.
-    - Encourage groups to invent new oppositions if needed.
-    - Explain using our established timbre vocabulary what the knobs change in each sound.
+  - Try to define them by their most distinctive characteristics.
+  - Timbres should be defined relative to the overall sound palette of the TR-909.
+  - Encourage groups to invent new oppositions if needed.
+  - Explain using our established timbre vocabulary what the knobs change in each sound.
 
 <aside class="notes" data-markdown>
 
 - This leads well into another small group activity where students work with each other to try and define the timbres of these 909 sounds.
 - Divide students into groups; have each group analyze different instruments on the 909.
-    - Try to define them by their most distinctive characteristics.
-    - Timbres should be defined relative to the overall sound palette of the TR-909.
-    - Encourage groups to invent new oppositions if needed.
-    - Explain using our established timbre vocabulary what the knobs change in each sound.
+  - Try to define them by their most distinctive characteristics.
+  - Timbres should be defined relative to the overall sound palette of the TR-909.
+  - Encourage groups to invent new oppositions if needed.
+  - Explain using our established timbre vocabulary what the knobs change in each sound.
 
 </aside>
 
@@ -398,9 +378,9 @@ https://roland50.studio -- quick demo, show what the knobs do
 ### Lesson plan
 
 - Presentation and reflection
-    - share findings
-    - determine what terms were most useful, including any new terms (e.g., _dry/wet_ may come up—length of decay)
-    - Important takeaway: for binary oppositions to work, you have to consider what kind of context you're working within
+  - share findings
+  - determine what terms were most useful, including any new terms (e.g., _dry/wet_ may come up—length of decay)
+  - Important takeaway: for binary oppositions to work, you have to consider what kind of context you're working within
 
 <aside class="notes" data-markdown>
 - When you reconvene the groups back together, several issues will likely come up.
@@ -428,8 +408,8 @@ https://roland50.studio -- quick demo, show what the knobs do
 - Next, we can show them what an expert can do with this machine. Let's watch a little of it.
 - As I'm sure you can see, It's worth taking time to watch this in class with the student, because it's a very attention-grabbing performance. This way the students will actually watch it in full at home.
 - For a homework assignment, I'd ask the students to pick some number of instruments to focus on, and to work on doing a timbre analysis with a simplified opposition table.
-    - The track is really long and complex, so you should circumscribe their work appropriately, or else they'll be overwhelmed.
-    - I do have a published analysis of this in a 2021 book chapter you can find in my bibliography that you can use as an answer key of sorts.
+  - The track is really long and complex, so you should circumscribe their work appropriately, or else they'll be overwhelmed.
+  - I do have a published analysis of this in a 2021 book chapter you can find in my bibliography that you can use as an answer key of sorts.
 
 </aside>
 
@@ -451,7 +431,7 @@ By the end of the class, students will be able to:
 
 - Distinguish terms within an oppositional pair of timbre descriptors
 - Assign timbre descriptors to **unpitched percussion sound signals**
-      </aside>
+  </aside>
 
 ---
 
@@ -464,14 +444,14 @@ By the end of the class, students will be able to:
 <aside class="notes" data-markdown>
 
 - It's hard for me to wrap up here, because honestly I could talk about this stuff for a long, long time.
-    - I actually made a script today instead of talking off bullets like I've been doing lately, because of my concern that I'll blow right past the 20-minute mark if I don't stick to a script!
-    - I think these topics are so interesting and valuable, for myself and for my students, and I hope I've convinced you to feel the same way.
+  - I actually made a script today instead of talking off bullets like I've been doing lately, because of my concern that I'll blow right past the 20-minute mark if I don't stick to a script!
+  - I think these topics are so interesting and valuable, for myself and for my students, and I hope I've convinced you to feel the same way.
 - The thing is that timbre and texture are special. They can be used to analyze any type of music—not just EDM, and not just Western Classical music, but really anything. Virtually any piece of music has a timbre and a texture.
 - Teaching this way of listening to music makes students really flexible in how they can apply music theory going forward in their careers and lives.
 - It's true that timbre and texture can be difficult to teach, but our mantra with critical pedagogy is that the difficulty is part of the lesson.
-    - As much as I love putting everything in the right box like any good music theorist, the fact is that not everything in music can be fully described within a system of categories.
-    - But we don't need to throw the baby out with the bathwater, either—systems can still get us talking and provide a basis for understanding one another.
-    - By asking students to grapple with challenging examples, they learn an important life lesson that no tool is perfect, but we can always build on existing tools to make something new and meaningful.
+  - As much as I love putting everything in the right box like any good music theorist, the fact is that not everything in music can be fully described within a system of categories.
+  - But we don't need to throw the baby out with the bathwater, either—systems can still get us talking and provide a basis for understanding one another.
+  - By asking students to grapple with challenging examples, they learn an important life lesson that no tool is perfect, but we can always build on existing tools to make something new and meaningful.
 
 Thanks for listening and I hope you can take some of these ideas back to your own students.
 
@@ -484,18 +464,18 @@ Thanks for listening and I hope you can take some of these ideas back to your ow
 <div class="container">
 <div class="col">
 <p><a href="https://www.zotero.org/mlavengood/collections/LGAQSUZI/item-list" target=_blank>Bibliography</a></p>
-<img data-preview-image data-preview-fit="contain" src="qr-bib.svg" width=100%>
+<!-- <img data-preview-image data-preview-fit="contain" src="qr-bib.svg" width=100%> -->
 </div>
 
-<div class="col">
+<!-- <div class="col">
 <p>Slides</p>
 <img data-preview-image data-preview-fit="contain" src="qr-slides.svg" width=100%>
 
-</div>
+</div> -->
 
 <div class="col">
-<p><a href="2025-edm/edm-timbre-ped-handout.pdf" target=_blank>Lesson plans <i class="bi bi-file-pdf-fill"></i></a></p>
-<img data-preview-image data-preview-fit="contain" src="qr-handout.svg" width=100%>
+<p><a href="./edm-timbre-ped-handout.pdf" target=_blank>Lesson plans <i class="bi bi-file-pdf-fill"></i></a></p>
+<!-- <img data-preview-image data-preview-fit="contain" src="qr-handout.svg" width=100%> -->
 
 </div></div>
 
