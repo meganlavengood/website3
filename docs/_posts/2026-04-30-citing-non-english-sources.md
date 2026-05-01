@@ -28,19 +28,19 @@ I welcome any notes for improvement that anyone may have, especially those schol
 
 All non-English titles are rendered in **sentence case**, rather than **title case**. So in English titles, we capitalize every word except the articles, prepositions, and conjunctions, and we call this "title case," but it is actually an English-language quirk that doesn't exist in other languages. If it's not English, we don't do that. Also beware that German has its own capitalization system that you don't want to mess with.
 
-<div class="d-flex flex-row flex-wrap flex-md-nowrap justify-content-around gap-2">
-<div class="alert alert-success col-md-6">
+<div class="row justify-content-around g-2">
+<div class="alert alert-success col-lg-6">
 <b><i class="bi bi-check-circle-fill"></i> Correct capitalization</b><hr/>
 <ul>
-<li><p><i>Mille plateaux</i> <span class="badge rounded-pill text-bg-success float-end" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Don't use title case on non-English titles—use sentence case instead.">why?</span></p></li>
-<li><p><i>Ökonomisch-philosophische Manuskripte aus dem Jahre 1844</i> <span class="badge rounded-pill text-bg-success float-end" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="In German, all nouns are capitalized, always. Preserve the German capitalization style in German titles.">why?</span></p></li>
+<li><p><i>Mille plateaux</i></p></li>
+<li><p><i>Ökonomisch-philosophische Manuskripte aus dem Jahre 1844</i></p></li>
 </ul>
 </div>
-<div class="alert alert-danger col-md-6">
+<div class="alert alert-danger col-lg-6">
 <b><i class="bi bi-x-circle-fill"></i> Incorrect capitalization</b><hr/>
 <ul>
-<li><p><i><span lang="fr">Mille Plateaux</span></i></p></li>
-<li><p><i><span lang="de">Ökonomisch-philosophische manuskripte aus dem jahre 1844</span></i></p></li>
+<li><p><i><span lang="fr">Mille Plateaux</span></i> <span class="badge rounded-pill text-bg-danger float-end" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Don't use title case on non-English titles—use sentence case instead.">what's wrong?</span></p></li>
+<li><p><i><span lang="de">Ökonomisch-philosophische manuskripte aus dem jahre 1844</span></i> <span class="badge rounded-pill text-bg-danger float-end" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="In German, all nouns are capitalized, always. Preserve the German capitalization style in German titles.">what's wrong?</span></p></li>
 </ul>
 </div></div>
 
@@ -59,7 +59,7 @@ But how do you format it within those parentheses/square brackets? It depends!
 
 So official translation = official-looking formatting.
 
-<div class="d-flex flex-row flex-wrap justify-content-around gap-2">
+<div class="row justify-content-around g-2">
 <div class="alert alert-success">
 <b><i class="bi bi-check-circle-fill"></i> Correct formatting</b><hr/>
 <ul>
@@ -125,8 +125,8 @@ Example 2.4 shows an excerpt of the <span lang="zh"><i>qupai</i></span> 曲牌 (
 2. **For a title of a smaller work (article, book chapter):** first provide the transliterated title in quotation marks, then the characters, then the translated title in square brackets. All use sentence case (unless the translation is published, in which case the English title is set in title case).
 3. **For the title of a larger work (book, journal):** first provide the transliterated title in italics, then the characters, then the translated title in square brackets and Roman (non-italic) type. Note that journal names need not be translated.
 
-<div class="d-flex flex-row flex-wrap flex-md-nowrap justify-content-around gap-2">
-<div class="alert alert-success col-md-6">
+<div class="row justify-content-around g-2">
+<div class="alert alert-success col-lg-6">
 <b><i class="bi bi-check-circle-fill"></i> Correct formatting</b><hr/>
 <ul>
 <li><p>Cao Baoming and Zhang Hongjiang. 2011. <em>Nitulingqi: Dongbei Errenzhuan</em> 泥土灵气: 东北二人转 [The Vital Spirit of the Soil: Northeastern Errenzhuan]. Heilongjiang People’s Publishing House.</p></li>
@@ -134,12 +134,12 @@ Example 2.4 shows an excerpt of the <span lang="zh"><i>qupai</i></span> 曲牌 (
 <li><p>Liu Beini 劉貝妮. 2013. "'Xuangong fangshi' yanjiu zongshu" "旋宮方式" 研究綜述 [A critical survey of the "xuangong method"]. <i>Xinghai yinyue xueyuan xuebao</i> 星海音樂學院學報 133: 92–100.</p></li>
 </ul>
 </div>
-<div class="alert alert-danger col-md-6">
+<div class="alert alert-danger col-lg-6">
 <b><i class="bi bi-x-circle-fill"></i> Incorrect formatting</b><hr/>
 <ul>
 <li><p>Cao Baoming and Zhang Hongjiang. 2011. <em>Nitulingqi: Dongbei Errenzhuan</em> 泥土灵气: 东北二人转 [<i>The Vital Spirit of the Soil: Northeastern Errenzhuan</i>]. Heilongjiang People’s Publishing House. <span class="badge rounded-pill text-bg-danger float-end" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Don't italicize the translated title, and use sentence case for unpublished title translations.">what's wrong?</span></p></li>
 <li><p>Li Laizhang 李來璋. 1985. "Wudiaochaoyuan 五調朝元 [Five-mode cycle]". Yinyue Yanjiu 音樂研究 1985 (4): 93–101.<span class="badge rounded-pill text-bg-danger float-end" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="The end-quote should go after the pinyin title (Wudiaochaoyuan), not the translation. The journal name (Yinyue Yanjiu) should be italicized.">what's wrong?</span></p></li>
-<li><p>Liu Beini 劉貝妮. 2013. ‘Xuangong fangshi’ yanjiu zongshu ‘旋宮方式’ 研究綜述 [A critical survey of the ‘<i>xuangong</i> method’]. Xinghai yinyue xueyuan xuebao 星海音樂學院學報 <i>Journal of Xinghai Conservatory of Music</i> 133: 92–100.<span class="badge rounded-pill text-bg-danger float-end" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="The pinyin article title should be surrounded in double-quotes (the single quotes around Xuangong fangshi would be preserved, since it's a quote-within-a-quote). Then, in both the Chinese characters and the English translation of the title, double quotes should be used instead of single quotes, because the outer quotation marks are not used to surround the title. The pinyin journal title should be italicized. The English translation of the journal title is not necessary to include; if it is included, it should be in square brackets and Roman type.">what's wrong?</span></p></li>
+<li><p>Liu Beini 劉貝妮. 2013. ‘Xuangong fangshi’ yanjiu zongshu ‘旋宮方式’ 研究綜述 [A critical survey of the ‘<i>xuangong</i> method’]. Xinghai yinyue xueyuan xuebao 星海音樂學院學報 <i>Journal of Xinghai Conservatory of Music</i> 133: 92–100. <span class="badge rounded-pill text-bg-danger float-end" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="The pinyin article title should be surrounded in double-quotes (the single quotes around Xuangong fangshi would be preserved, since it's a quote-within-a-quote). Then, in both the Chinese characters and the English translation of the title, double quotes should be used instead of single quotes, because the outer quotation marks are not used to surround the title. The pinyin journal title should be italicized. The English translation of the journal title is not necessary to include; if it is included, it should be in square brackets and Roman type.">what's wrong?</span></p></li>
 </ul>
 </div></div>
 
