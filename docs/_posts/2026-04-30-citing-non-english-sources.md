@@ -28,7 +28,7 @@ I welcome any notes for improvement that anyone may have, especially those schol
 
 All non-English titles are rendered in **sentence case**, rather than **title case**. So in English titles, we capitalize every word except the articles, prepositions, and conjunctions, and we call this "title case," but it is actually an English-language quirk that doesn't exist in other languages. If it's not English, we don't do that. Also beware that German has its own capitalization system that you don't want to mess with.
 
-<div class="d-flex flex-row justify-content-around gap-2">
+<div class="d-flex flex-row flex-wrap justify-content-around gap-2">
 <div class="alert alert-success col-md-6">
 <b><i class="bi bi-check-circle-fill"></i> Correct capitalization</b><hr/>
 <ul>
@@ -59,7 +59,7 @@ But how do you format it within those parentheses/square brackets? It depends!
 
 So official translation = official-looking formatting.
 
-<div class="d-flex flex-row justify-content-around gap-2">
+<div class="d-flex flex-row flex-wrap justify-content-around gap-2">
 <div class="alert alert-success">
 <b><i class="bi bi-check-circle-fill"></i> Correct formatting</b><hr/>
 <ul>
@@ -125,7 +125,7 @@ Example 2.4 shows an excerpt of the <span lang="zh"><i>qupai</i></span> 曲牌 (
 2. **For a title of a smaller work (article, book chapter):** first provide the transliterated title in quotation marks, then the characters, then the translated title in square brackets. All use sentence case (unless the translation is published, in which case the English title is set in title case).
 3. **For the title of a larger work (book, journal):** first provide the transliterated title in italics, then the characters, then the translated title in square brackets and Roman (non-italic) type. Note that journal names need not be translated.
 
-<div class="d-flex flex-row justify-content-around gap-2">
+<div class="d-flex flex-row flex-wrap justify-content-around gap-2">
 <div class="alert alert-success col-md-6">
 <b><i class="bi bi-check-circle-fill"></i> Correct formatting</b><hr/>
 <ul>
