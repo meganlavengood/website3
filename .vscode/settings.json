@@ -2,7 +2,6 @@
 	"files.associations": {
 		"cv.html": "liquid",
 		"cv.yml": "yaml",
-		"research.html": "liquid",
-		"head.html": "liquid"
+		"research.html": "liquid"
 	}
 }

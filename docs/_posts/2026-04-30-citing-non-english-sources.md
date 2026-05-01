@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Citing non-English sources according to Chicago Manual of Style, 18th edition"
-date: 2022-05-12 11:26:37 -0400
+date: 2026-05-01 12:00:00 -0400
 toc: true
 banner: "/assets/posts/typewriter.jpg"
 banner-alt: "close-up of a typewriter prototype for Chinese typesetting"
