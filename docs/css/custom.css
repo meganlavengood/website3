@@ -293,7 +293,7 @@ fieldset legend {
 		right: 5%;
 	}
 
-	& blockquote {
+	& blockquote:not(figure > blockquote) {
 		padding: 40px 10px;
 		text-align: center;
 		background-color: var(--bs-primary-bg-subtle) !important;
