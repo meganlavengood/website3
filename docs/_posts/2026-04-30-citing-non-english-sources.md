@@ -125,7 +125,7 @@ Example 2.4 shows an excerpt of the <span lang="zh"><i>qupai</i></span> 曲牌 (
 2. **For a title of a smaller work (article, book chapter):** first provide the transliterated title in quotation marks, then the characters, then the translated title in square brackets. All use sentence case (unless the translation is published, in which case the English title is set in title case).
 3. **For the title of a larger work (book, journal):** first provide the transliterated title in italics, then the characters, then the translated title in square brackets and Roman (non-italic) type. Note that journal names need not be translated.
 
-<div class="d-flex flex-row flex-wrap justify-content-around gap-2">
+<div class="d-flex flex-row flex-wrap flex-md-nowrap justify-content-around gap-2">
 <div class="alert alert-success col-md-6">
 <b><i class="bi bi-check-circle-fill"></i> Correct formatting</b><hr/>
 <ul>
