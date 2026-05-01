@@ -28,7 +28,7 @@ I welcome any notes for improvement that anyone may have, especially those schol
 
 All non-English titles are rendered in **sentence case**, rather than **title case**. So in English titles, we capitalize every word except the articles, prepositions, and conjunctions, and we call this "title case," but it is actually an English-language quirk that doesn't exist in other languages. If it's not English, we don't do that. Also beware that German has its own capitalization system that you don't want to mess with.
 
-<div class="d-flex flex-row flex-wrap justify-content-around gap-2">
+<div class="d-flex flex-row flex-wrap flex-md-nowrap justify-content-around gap-2">
 <div class="alert alert-success col-md-6">
 <b><i class="bi bi-check-circle-fill"></i> Correct capitalization</b><hr/>
 <ul>
