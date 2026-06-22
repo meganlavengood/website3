@@ -21,8 +21,8 @@
 	<script src="{{ '/js/rat.lightbox.js' | relative_url}}"></script>
 	<!-- Tablesaw -->
 	<script type="module" src="{{ '/js/table-saw.js' | relative_url }}"></script>
-	<!-- Masonry for research page only -->
-	{% if page.title == 'Research' %}
+	{% if page.title == 'Research' or page.title == 'Blog' %}
+	<!-- Masonry -->
 	<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
 	{% endif %}
 	<!-- Invoke Lightbox on all valid components -->
