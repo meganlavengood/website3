@@ -2,25 +2,11 @@
 layout: page
 ---
 
-In 2016, Bruno Mars released an album called 24k Magic. This was coming off the massive success of “Uptown Funk,” which had major retro vibes, and maybe building off that aesthetic, 24k Magic was also deliberately retro in sound, according to Mars. In an interview with Rolling Stone, he says the album is meant to sound like early 90s R&B—like slow-dancing at a junior high dance to “Before I Let You Go” by Blackstreet.
+In 2016, Bruno Mars released an album called _24k Magic_. This was coming off the massive success of “Uptown Funk,” which had major retro vibes. 24k Magic was also deliberately retro in sound, according to Mars. In an interview with Rolling Stone, he says the album is meant to sound like early 90s R&B—like slow-dancing at a junior high dance to “Before I Let You Go” by Blackstreet.
 
 This comes through clearly in "Versace on the Floor", which was the third single off the album. Let's listen.
 
-How does Bruno Mars get this to sound like early-’90s R&B?
-
-Back in 2019 I published a paper about this kind of thing.
-
-kind of.
-
-To me, what makes it sound ’80s—er, ’90s—is the fact that it's using the Yamaha DX7 synthesizer's classic electric piano sound.
-
-…OR IS IT?
-
-Today I want to talk you through a bunch of ideas that I got from listening to "Versace on the Floor" as a Yamaha DX7 1980s pop scholar. First I’ll try to get you excited about the DX7 too, by briefly explaining why the DX7's electric piano sound is so important. Then I'll show how the E. PIANO 1 preset influenced presets on other later instruments, which starts to make recognizing the DX7 sound a little more complicated. This leads into the Imagined DX7 concept, where I’ll investigate what people think the DX7 is, and especially when people attribute sounds to the DX7 erroneously. I’ll attempt to define the imagined DX7 through some cultural factors as well as some timbral factors. I'll conclude with some still-underbaked ideas about how the Imagined DX7 relates to nostalgia and technological development.
-
-So, music critics in 2016 all make note of “Versace”’s throwback sound. I was unable to find a music critic explicitly referencing the DX7 in their review of “Versace”, which is understandable since that’s relatively niche knowledge. But let’s check out the comparisons they make to other songs.
-
-They compare it to:
+Music critics in 2016 all make note of “Versace”’s throwback sound. They compare it to:
 
 Marvin Gaye's "sexual healing"
 
@@ -40,7 +26,7 @@ You could probably guess I wanted you to notice the pretty prominent electric pi
 
 But realistically, the subtle differences between these sounds kind of melt away when you listen to these songs all in sequence. What comes through instead is the through-line of a generic ’80s/’90s R&B electric piano sound.
 
-One of my points today is that if it's an electric piano and it's the ’80s or ’90s, it is a very reasonable guess to label it as a DX7 sound.
+As a scholar an immensely popular 1980s synthesizer with a very famous electric piano preset, it’s this electric piano sound that immediately grabbed my attention on first hearing “Versace.” It doesn’t sound like just any electric piano: the timbre is specifically that of a Yamaha DX7 electric piano preset. I hoped to find album reviewers noting the technological homage, but I suppose this detail is too niche for general audiences; nevertheless, the songs they choose to compare with “Versace” suggest that reviewers do hear the connection, even if they don’t name the DX7. An electric piano sound of the long 1980s is highly likely to be coming from a DX7 using the E. PIANO 1 preset. So when I heard “Versace” and its distinctly ’80s sound, I immediately wanted to know whether Mars did in fact use a DX7 on the recording; if so, I could hold up the song as an exemplar of a twenty-first-century resurgence of the DX7. But as I will show, definitive evidence one way or the other was hard to find.
 
 I'll try to keep this super brief since I've published about it elsewhere. You can see some details on the slide. The takeaway is that the DX7 was truly ubiquitous in the long 1980s, and even if you don’t know it by name, if you listened to pop music in the 80s or 90s, you absolutely know the sound: [play]
 

@@ -1,14 +1,14 @@
 <!-- .slide: data-background-color="#10100b" data-background-image="img/dx7-bg2.png" data-background-position="top right" data-background-size="auto 80%" data-background-opacity="1" style="text-align:left;padding-top:150px;" -->
 
-<figure style="position:absolute;bottom:0;right:0;text-align:right;margin-bottom:0;" ><img data-preview-image data-preview-fit="contain" src="img/qr.svg" width=150><figcaption><a href=".">meganlavengood.com/sam2026</a></figcaption></figure>
+<figure style="position:absolute;bottom:0;right:0;text-align:right;margin-bottom:0;" ><img data-preview-image data-preview-fit="contain" src="img/qr.svg" width=150><figcaption><a href=".">meganlavengood.com/timbre2026</a></figcaption></figure>
 <div class="col-6">
 <h1 class="white-when-small" style="font-size:1.5em;">The Timbre Is the Instrument</h1>
-<h4 class="white-when-small">The Imagined DX7 and<br/> 1980s Nostalgia</h4>
+<h4 class="white-when-small">The Imagined DX7</h4>
 </div>
 
 Megan L. Lavengood<br/>Associate Prof, George Mason University
 
-SAM 2026
+Timbre Montréal 2026
 
 ---
 
@@ -16,9 +16,10 @@ SAM 2026
 
 ## Bruno Mars, 24k Magic (2016) <!-- .element: class="r-fit-text" -->
 
-<blockquote class="r-fit-text">
+<blockquote>
 [Mars] says he wanted to re-create the feeling of the <strong>R&amp;B</strong> … <strong>in the early Nineties</strong>: Jimmy Jam and Terry Lewis, New Edition and Bobby Brown, Jodeci, Boyz II Men, Teddy Riley, Babyface. &quot;There's nothing more joyous for me than those school dances,&quot; Mars says. &quot;<strong>Slow-dancing at the Valentine's Day banquet</strong> with the girl you have a crush on, and the DJ spins <strong>'Before I Let You Go,' by Blackstreet</strong>. And the shit is magical, and you think about it for the next eight months.&quot;
 </blockquote>
+
 <p><a href="#bib">Eells 2016</a>, emphasis added</p>
 
 --
@@ -37,32 +38,6 @@ on _24k Magic_ (2016)
 
 <!-- .slide: data-background-image="img/versace.png" data-background-size="cover" data-background-opacity=".2" data-background-position="bottom right" data-auto-animate="true" -->
 
-## Versace on the Floor
-
-How does Bruno Mars get this to sound like early-’90s R&B?
-
-<div class="r-stack">
-
-<img class="fragment" src="img/jpms1.png" alt="screenshot of my JPMS article title">
-
-<img class="fragment" src="img/jpms2.png" alt="screenshot of my JPMS article title but it's 90s">
-
-</div>
-
---
-
-## Talk outline
-
-1. "Versace on the Floor"
-2. The DX7 `E. PIANO 1` sound
-3. Influence of `E. PIANO 1` on later instruments
-4. The Imagined DX7
-5. Nostalgia and technological development
-
----
-
-<!-- .slide: data-background-image="img/versace.png" data-background-size="cover" data-background-opacity=".2" data-background-position="bottom right" data-auto-animate="true" -->
-
 Critics compare "Versace" to:
 
 <ul>
@@ -70,7 +45,7 @@ Critics compare "Versace" to:
 <li class="fragment"><a href="https://web.archive.org/web/20161123221016/https://www.nytimes.com/2016/11/23/arts/music/bruno-mars-24k-magic-review.html#:~:text=%E2%80%9CVersace%20on%20the%20Floor%E2%80%9D%20is%20dreamy%20New%20Edition%20homage">New Edition in <strong>1984</strong></a></li>
 <li data-id="jackson" class="fragment"><a href="https://web.archive.org/web/20161220031526/http://www.billboard.com/articles/columns/pop/7581423/bruno-mars-24k-magic-artists-influences-riyl#:~:text=%22Rock%20Me%20Tonight%20(For%20Old%20Times%20Sake)%22.%20The%20latter%20crossover%20hit%20in%20particular%20reverberates%20throughout%20Bruno's%20show%2Dstopping%2024K%20Magic%20centerpiece">Freddie Jackson, &quot;Rock Me Tonight (For Old Time's Sake)&quot; (<strong>1985</strong>)</a></li>
 <li class="fragment"><a href="https://web.archive.org/web/20161106060754/http://www.gq.com/story/bruno-mars-versace-on-the-floor#:~:text=toes%20the%20line%20between%20legitimate%20fuckjam%20and%20an%20old%20Shanice%20song%20that%20wouldn%E2%80%99t%20have%20sounded%20out%20of%20place%20on%20the%20original%2090210%20soundtrack">&quot;…an old Shanice song that wouldn’t have sounded out of place on the original <i>90210</i> soundtrack&quot; (<strong>1991</strong>?)</a></li>
-<li class="fragment"><a href="https://web.archive.org/web/20190106060359/https://www.stereogum.com/1911071/at-least-america-can-agree-on-bruno-mars/franchises/the-week-in-pop/#:~:text=%E2%80%9CVersace%20On%20The%20Floor%E2%80%9D%20imagines%20Boyz%20II%20Men%E2%80%99s%20%E2%80%9CI%E2%80%99ll%20Make%20Love%20To%20You%E2%80%9D%20repurposed%20for%20the%20Dirty%20Dancing%20soundtrack">&quot;…Boyz II Men’s “I’ll Make Love To You” repurposed for the <i>Dirty Dancing</i> soundtrack&quot; (<strong>1994</strong> and <strong>1987</strong> respectively)</a></li>
+<li data-id="boyz" class="fragment"><a href="https://web.archive.org/web/20190106060359/https://www.stereogum.com/1911071/at-least-america-can-agree-on-bruno-mars/franchises/the-week-in-pop/#:~:text=%E2%80%9CVersace%20On%20The%20Floor%E2%80%9D%20imagines%20Boyz%20II%20Men%E2%80%99s%20%E2%80%9CI%E2%80%99ll%20Make%20Love%20To%20You%E2%80%9D%20repurposed%20for%20the%20Dirty%20Dancing%20soundtrack">&quot;…Boyz II Men’s “I’ll Make Love To You” repurposed for the <i>Dirty Dancing</i> soundtrack&quot; (<strong>1994</strong> and <strong>1987</strong> respectively)</a></li>
 </ul>
 
 --
@@ -80,6 +55,7 @@ Critics compare "Versace" to:
 <ul>
 <li data-id="gaye">Marvin Gaye, &quot;Sexual Healing&quot; (<strong>1982</strong>)<br/><audio src="media/gaye.mp3" controls>
 <li data-id="jackson">Freddie Jackson, &quot;Rock Me Tonight (For Old Time's Sake)&quot; (<strong>1985</strong>)<br/><audio src="media/jackson.mp3" controls>
+<li data-id="jackson">Freddie Jackson, &quot;Rock Me Tonight (For Old Time's Sake)&quot; (<strong>1985</strong>)<br/><audio src="media/boyz.mp3" controls>
 <li data-id="blackstreet">Blackstreet, &quot;Before I Let You Go&quot; (<strong>1994</strong>)<br/><audio src="media/blackstreet.mp3" controls>
 </ul>
 
@@ -92,6 +68,22 @@ Critics compare "Versace" to:
 <li data-id="jackson">Freddie Jackson, &quot;Rock Me Tonight (For Old Time's Sake)&quot; (<strong>1985</strong>)<br/><strong>Yamaha DX7</strong></li>
 <li data-id="blackstreet">Blackstreet, &quot;Before I Let You Go&quot; (<strong>1994</strong>)<br/><strong>Fender Rhodes</strong></li>
 </ul>
+
+--
+
+<!-- .slide: data-background-color="#10100b" data-background-image="img/dx7-bg2.png" data-background-position="top right" data-background-size="auto 80%" data-background-opacity="1" style="text-align:left;padding-top:150px;" -->
+
+<div>
+
+<h2 class="white-when-small" style="font-size:1.5em;">Talk outline</h2>
+
+1. "Versace on the Floor"
+2. The DX7 `E. PIANO 1` sound
+3. Later instruments as imitators of `E. PIANO 1`
+4. The Imagined DX7
+5. Implications for the study of musical instruments
+
+</div><!-- .element: class="fragment" data-fragment-index="" -->
 
 ---
 
@@ -196,8 +188,8 @@ Critics compare "Versace" to:
 - Originally released in 1983 but still produced today
 - A family of instruments; substitutes for acoustic piano (e.g., in homes, schools, churches)
 - Two electric piano presets:
-    1. `E. PIANO 1` sound
-    2. Fender Rhodes sound
+  1. `E. PIANO 1` sound
+  2. Fender Rhodes sound
 
 --
 
@@ -380,8 +372,8 @@ Philip Oakey (Human League), 1987
 ## Concluding thoughts
 
 - Related ideas:
-    - chiptune music and the use of the term "8-bit" to refer to lots of retro-sounding timbres that are actually not possible on 8-bit sound chips
-    - "lo-fi" music made to sound degraded and grainy but it's actually all digital
+  - chiptune music and the use of the term "8-bit" to refer to lots of retro-sounding timbres that are actually not possible on 8-bit sound chips
+  - "lo-fi" music made to sound degraded and grainy but it's actually all digital
 
 --
 

@@ -257,11 +257,11 @@ conf:
     pres:
       subheading: Peer-Reviewed Presentations
       entries:
-        - title: "The Timbre Is the Instrument: The Imagined DX7 and 1980s Nostalgia"
+        - title: "The Timbre Is the Instrument: The Imagined DX7"
           featured-research: true
           multiconf: Society for American Music 52nd Annual Conference; 4th International Conference on Timbre
           year: 2026
-          url: /presentations/2026-sam
+          url: /presentations/2026-dx7
           img: dx7-french.png
           alt: French promotional flyer for the Yamaha DX7 synthesizer
           credit: via <a href="https://archive.org/details/lm-107-f-84510/page/n1/mode/2up">Archive.org</a>
