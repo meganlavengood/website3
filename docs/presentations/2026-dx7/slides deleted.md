@@ -129,8 +129,8 @@ SAM 2026
 - Originally released in 1983 but still produced today
 - A family of instruments; substitutes for acoustic piano (e.g., in homes, schools, churches)
 - Two electric piano presets:
-    1. `E. PIANO 1` sound
-    2. Fender Rhodes sound
+  1. `E. PIANO 1` sound
+  2. Fender Rhodes sound
 
 --
 
@@ -472,3 +472,59 @@ What changes?
 - Popular opinions on the (imagined) DX7 shift through time
 - For a while, digital synths like the DX7 are panned as sounding artificial and cold, and lament the decline of analog synth sounds
 - These critiques mirror earlier critiques of analog synths versus guitars ([Goodwin 1988, Theberge 1997](#/bib)
+
+--
+
+ <!-- .element: data-auto-animate="true" -->
+
+### Yamaha Clavinova
+
+![Clavinova front](img/clavinova.png)
+
+--
+
+<!-- .slide: data-background-image="img/clavinova.png" data-background-size="fill" data-background-opacity=".2" data-background-position="top" data-auto-animate="true" -->
+
+## Yamaha Clavinova
+
+- Originally released in 1983 but still produced today
+- A family of instruments; substitutes for acoustic piano (e.g., in homes, schools, churches)
+- Two electric piano presets:
+  1. `E. PIANO 1` sound
+  2. Fender Rhodes sound
+
+--
+
+<!-- .element: data-auto-animate="true" -->
+
+## Yamaha Clavinova
+
+<figure class="r-stretch"><video controls src="media/dx7-rhodes-clav.mov" alt="video comparison of DX7 and Rhodes"></video><figcaption>DX7 — Clavinova EP 1 — Rhodes — Clavinova EP2</figcaption></figure>
+
+<!-- .slide: data-auto-animate="true" -->
+
+## The Imagined DX7
+
+<ul>
+<li>Cornelia Fales's &quot;paradox of timbre&quot; (<a href="#/bib">2002</a>)</li>
+<li class="fragment" data-fragment-index="2">If it looks like a duck and swims like a duck, it's a duck.</li>
+</ul>
+
+<img class="fragment" data-fragment-index="2" src="img/duck.png" height="400px" alt="screenshot of the Duck Test page on Wikipedia">
+
+--
+
+<!-- .slide: data-auto-animate="true" -->
+
+## The Imagined DX7
+
+- If it looks like a duck and swims like a duck, it's a duck.
+- If it sounds like a DX7 and is somewhere we would expect a DX7, it's a DX7.
+
+--
+
+--
+
+<!-- .slide: data-auto-animate="true" data-background-color="#10100b" data-background-image="img/xfiles.jpg" data-background-size="contain" data-background-opacity=".3" -->
+
+More important: it _could_ be DX7; it's reasonable to think that it is.

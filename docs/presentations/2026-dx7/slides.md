@@ -55,7 +55,7 @@ Critics compare "Versace" to:
 <ul>
 <li data-id="gaye">Marvin Gaye, &quot;Sexual Healing&quot; (<strong>1982</strong>)<br/><audio src="media/gaye.mp3" controls>
 <li data-id="jackson">Freddie Jackson, &quot;Rock Me Tonight (For Old Time's Sake)&quot; (<strong>1985</strong>)<br/><audio src="media/jackson.mp3" controls>
-<li data-id="jackson">Freddie Jackson, &quot;Rock Me Tonight (For Old Time's Sake)&quot; (<strong>1985</strong>)<br/><audio src="media/boyz.mp3" controls>
+<li data-id="boyz">Boyz II Men, &quot;I'll Make Love to You&quot; (<strong>1994</strong>)<br/><audio src="media/boyz.mp3" controls>
 <li data-id="blackstreet">Blackstreet, &quot;Before I Let You Go&quot; (<strong>1994</strong>)<br/><audio src="media/blackstreet.mp3" controls>
 </ul>
 
@@ -64,8 +64,9 @@ Critics compare "Versace" to:
 <!-- .slide: data-background-image="img/versace.png" data-background-size="cover" data-background-opacity=".2" data-background-position="bottom right" data-auto-animate="true" -->
 
 <ul>
-<li data-id="gaye">Marvin Gaye, &quot;Sexual Healing&quot; (<strong>1982</strong>)<br/><strong>Roland Jupiter-8</strong> (maybe)</li>
+<li data-id="gaye">Marvin Gaye, &quot;Sexual Healing&quot; (<strong>1982</strong>)<br/><strong>Roland Jupiter-8</strong></li>
 <li data-id="jackson">Freddie Jackson, &quot;Rock Me Tonight (For Old Time's Sake)&quot; (<strong>1985</strong>)<br/><strong>Yamaha DX7</strong></li>
+<li data-id="boyz">Boyz II Men, &quot;I'll Make Love to You&quot; (<strong>1994</strong>)<br/><strong>Korg M1</strong>
 <li data-id="blackstreet">Blackstreet, &quot;Before I Let You Go&quot; (<strong>1994</strong>)<br/><strong>Fender Rhodes</strong></li>
 </ul>
 
@@ -77,13 +78,15 @@ Critics compare "Versace" to:
 
 <h2 class="white-when-small" style="font-size:1.5em;">Talk outline</h2>
 
-1. "Versace on the Floor"
-2. The DX7 `E. PIANO 1` sound
-3. Later instruments as imitators of `E. PIANO 1`
-4. The Imagined DX7
-5. Implications for the study of musical instruments
+<ol>
+<li class="fragment" data-fragment-index="1">&quot;Versace on the Floor&quot;</li>
+<li class="fragment" data-fragment-index="1">The DX7 <code>D 1</code> sound</li>
+<li class="fragment">Imitators of <code>D 1</code></li>
+<li class="fragment">The Imagined DX7</li>
+<li class="fragment">Implications for the study of musical instruments</li>
+</ol>
 
-</div><!-- .element: class="fragment" data-fragment-index="" -->
+</div>
 
 ---
 
@@ -120,35 +123,42 @@ Critics compare "Versace" to:
 
 --
 
-## DX7 History
-
 <!-- .slide: data-background-image="img/dx7.jpg" data-background-size="fill" data-background-opacity=".1" data-background-position="top left" data-auto-animate="true" -->
+
+## DX7 History
 
 - Prior to DX7, the Fender Rhodes was the gold standard of electric piano sounds
 - `E. PIANO 1` was often compared to Fender Rhodes and referred to as the "Rhodes sound"
 
 --
 
+<!-- .slide: data-background-image="img/dx7.jpg" data-background-size="fill" data-background-opacity=".1" data-background-position="top left" data-auto-animate="true" -->
+
 ## DX7 History
+
+<figure class="r-stretch"><video controls src="media/dx7-rhodes-short.mov" alt="video comparison of DX7 and Rhodes"></video><figcaption>DX7 (left) vs. Rhodes (right)</figcaption></figure>
+
+--
 
 <!-- .slide: data-background-image="img/dx7.jpg" data-background-size="fill" data-background-opacity=".1" data-background-position="top left" data-auto-animate="true" -->
 
-<figure class="r-stretch"><video controls src="media/dx7-rhodes-short.mov" alt="video comparison of DX7 and Rhodes"></video><figcaption>DX7 (left) vs. Rhodes (right)</figcaption></figure>
+## DX7 History
+
+<figure class="r-stretch"><img src="img/die.png" alt="Keyboard magazine article of 20 sounds that must die; clip shows the dx7 rhodes patch and dx7 anything"><figcaption>David Battino, <em>Keyboard</em>, October 1995</figcaption>
 
 ---
 
 ## Imitators
 
 - Roland D-50
-- Korg M1 (not discussed today (sorry))
-- Yamaha Clavinova
-- VSTs
+- Korg M1
+- Dexed (VST)
 
 --
 
 <!-- .element: data-auto-animate="true" -->
 
-## Roland D-50
+### Roland D-50
 
 ![Roland D-50 Front, Public domain, via Wikimedia Commons](img/d50.png)
 
@@ -156,7 +166,7 @@ Critics compare "Versace" to:
 
 <!-- .slide: data-background-image="img/d50.png" data-background-size="fill" data-background-opacity=".1" data-background-position="bottom" data-auto-animate="true" -->
 
-## Roland D-50
+### Roland D-50
 
 - Released in 1987
 - Preset name: `Synthetic Electric`—this is meant to sound like _a synth_, not like a Rhodes!
@@ -167,43 +177,35 @@ Critics compare "Versace" to:
 
 <!-- .element: data-auto-animate="true" -->
 
-## Roland D-50
+### Roland D-50
 
-<figure><video controls src="media/dx7-rhodes-d50se.mov" alt="video comparison of DX7 and Rhodes"></video><figcaption>DX7 (left) vs. Rhodes (center) vs. Roland D-50 Synthetic Electric (right)</figcaption></figure>
+[edit with new video that doesn't have Rhodes]
 
---
-
- <!-- .element: data-auto-animate="true" -->
-
-## Yamaha Clavinova
-
-![Clavinova front](img/clavinova.png)
-
---
-
-<!-- .slide: data-background-image="img/clavinova.png" data-background-size="fill" data-background-opacity=".2" data-background-position="top" data-auto-animate="true" -->
-
-## Yamaha Clavinova
-
-- Originally released in 1983 but still produced today
-- A family of instruments; substitutes for acoustic piano (e.g., in homes, schools, churches)
-- Two electric piano presets:
-  1. `E. PIANO 1` sound
-  2. Fender Rhodes sound
+<!-- <figure><video controls src="media/dx7-rhodes-d50se.mov" alt="video comparison of DX7 and Rhodes"></video><figcaption>DX7 (left) vs. Rhodes (center) vs. Roland D-50 Synthetic Electric (right)</figcaption></figure> -->
 
 --
 
 <!-- .element: data-auto-animate="true" -->
 
-## Yamaha Clavinova
+### Korg M1
 
-<figure class="r-stretch"><video controls src="media/dx7-rhodes-clav.mov" alt="video comparison of DX7 and Rhodes"></video><figcaption>DX7 — Clavinova EP 1 — Rhodes — Clavinova EP2</figcaption></figure>
+![Korg M1 Front, Public domain, via Wikimedia Commons](img/m1.png)
+
+--
+
+<!-- .slide: data-background-image="img/m1.png" data-background-size="fill" data-background-opacity=".1" data-background-position="bottom" data-auto-animate="true" -->
+
+### Korg M1
+
+- Released 1988
+- Best-selling synthesizer of all-time
+- **Four** DX7-esque electric piano presets
 
 --
 
 <!-- .element: data-auto-animate="true" -->
 
-## VSTs: Dexed
+### VSTs: Dexed
 
 <img class="r-stretch" src="img/dexed.png" alt="">
 
@@ -211,7 +213,7 @@ Critics compare "Versace" to:
 
 <!-- .slide: data-background-image="img/dexed.png" data-background-size="fill" data-background-opacity=".1" data-background-position="bottom left" data-auto-animate="true" -->
 
-## VSTs: Dexed
+### VSTs: Dexed
 
 - Open-source VST (standalone and plugin)
 - Released in 2015 by Digital Suburban
@@ -222,15 +224,84 @@ Critics compare "Versace" to:
 
 <!-- .element: data-auto-animate="true" -->
 
-## VSTs: Dexed
+### VSTs: Dexed
 
 <figure><video controls src="media/dx7-dexed.mov" alt="video comparison of DX7 and Rhodes"></video><figcaption>DX7 — Dexed</figcaption></figure>
 
 --
 
-1. The DX7 `E. PIANO 1` gradually becomes at least as culturally significant, imitated, and recognizable as the Rhodes.
+<!-- .element: data-auto-animate="true" -->
 
-2. The pervasiveness of `E. PIANO 1` and `E. PIANO 1`-like sounds starts to blur the aural identity of the DX7.
+### Summary
+
+<table class="comp-table">
+<thead style="vertical-align:bottom;">
+<tr>
+<th style="text-align:right;"><em style="font-weight:normal;">timbre ↓</em>&emsp;&emsp;&emsp;<strong style="color:unset;">inst →</strong></th>
+<th class="rotated-text"><div><span>DX7</span></div></th>
+<th class="rotated-text"><div><span>D-50</span></div></th>
+<th class="rotated-text"><div><span>M1</span></div></th>
+<th class="rotated-text"><div><span>Dexed</span></div></th>
+</tr>
+</thead>
+<tbody>
+<tr class="fragment custom row-highlight" data-fragment-index="1">
+<td>bright / dark</td>
+<td>−</td>
+<td>−</td>
+<td>−</td>
+<td>−</td>
+</tr>
+<tr>
+<td>pure / noisy</td>
+<td>−</td>
+<td><strong>+</strong></td>
+<td><strong>+</strong></td>
+<td>−</td>
+</tr>
+<tr>
+<td>hollow / full</td>
+<td>−</td>
+<td><strong>+</strong></td>
+<td>−</td>
+<td>−</td>
+</tr>
+<tr>
+<td>sparse / rich</td>
+<td>−</td>
+<td><strong>+</strong></td>
+<td>−</td>
+<td>−</td>
+</tr>
+<tr class="fragment custom row-highlight" data-fragment-index="1">
+<td>beating / beatless</td>
+<td>−</td>
+<td>−</td>
+<td>−</td>
+<td>−</td>
+</tr>
+<tr class="fragment custom row-highlight" data-fragment-index="1">
+<td>steady / wavering</td>
+<td>−</td>
+<td>−</td>
+<td>−</td>
+<td>−</td>
+</tr>
+<tr class="fragment custom row-highlight" data-fragment-index="1">
+<td>harmonic / inharm.</td>
+<td>−</td>
+<td>−</td>
+<td>−</td>
+<td>−</td>
+</tr>
+</tbody>
+</table>
+
+--
+
+<!-- .slide: data-auto-animate="true" data-background-video="media/katamari.mov" data-background-color="#83c0dd" style="height:100vh;vertical-align:top;"  -->
+
+## The Imagined DX7 <!-- .element: style="text-shadow:none;" class="fragment" -->
 
 ---
 
@@ -239,28 +310,6 @@ Critics compare "Versace" to:
 ## The Imagined DX7
 
 The DX7 as it lives in popular imagination of its most well-known and imitated presets
-
---
-
-<!-- .slide: data-auto-animate="true" -->
-
-## The Imagined DX7
-
-<ul>
-<li>Cornelia Fales's &quot;paradox of timbre&quot; (<a href="#/bib">2002</a>)</li>
-<li class="fragment" data-fragment-index="2">If it looks like a duck and swims like a duck, it's a duck.</li>
-</ul>
-
-<img class="fragment" data-fragment-index="2" src="img/duck.png" height="400px" alt="screenshot of the Duck Test page on Wikipedia">
-
---
-
-<!-- .slide: data-auto-animate="true" -->
-
-## The Imagined DX7
-
-- If it looks like a duck and swims like a duck, it's a duck.
-- If it sounds like a DX7 and is somewhere we would expect a DX7, it's a DX7.
 
 --
 
@@ -289,48 +338,95 @@ So we’ve played a bunch of stuff here, and there’s a common thread that we�
 
 ## The Imagined DX7
 
-What makes it DX7?
-
-- Prominent synth
-- "Cheesy" sound (obviously subjective)
-- 1980s
-
---
-
-<!-- .slide: data-auto-animate="true" -->
-
-## The Imagined DX7
-
---
-
-<!-- .slide: data-auto-animate="true" data-background-color="#10100b" data-background-image="img/xfiles.jpg" data-background-size="contain" data-background-opacity=".3" -->
-
-More important: it _could_ be DX7; it's reasonable to think that it is.
-
 ---
 
-<!-- .slide: data-auto-animate="true" -->
+## Implications
 
-## Nostalgia and technological development<!-- .element: class="r-fit-text" -->
+<ul>
+<li  class="fragment" data-fragment-index="1">Cornelia Fales's &quot;paradox of timbre&quot; (<a href="#/bib">2002</a>)</li>
+<li class="fragment"  data-fragment-index="2">If it looks like a duck and swims like a duck, it's a duck.</li>
+</ul>
 
-How does the "imagined DX7" relate to nostalgia?
+<img class="fragment" data-fragment-index="2" src="img/duck.png" height="400px" alt="screenshot of the Duck Test page on Wikipedia">
 
 --
 
 <!-- .slide: data-auto-animate="true" -->
 
-## Nostalgia and technological development <!-- .element: class="r-fit-text" -->
+## Implications
 
-1. Instrumentalization
-2. Mechanization
-3. Automatization
-4. **Electronification**
-5. **Modularization**
-6. **Digitalization**
-7. **Virtualization**
-8. Globalization
-9. Informatization/Artificial Intelligence
-10. Hybridization
+ <img src="img/mj-screengrab.png" alt="Michael Jackson performing with a dx7 in the background" class="fragment">
+
+--
+
+<!-- .slide: data-auto-animate="true" -->
+
+## Implications
+
+![Jimmy Smith at a Hammond organ](img/smith.jpg)
+
+--
+
+<!-- .slide: data-auto-animate="true" -->
+
+## Implications
+
+ <img src="img/mj-screengrab.png" alt="Michael Jackson performing with a dx7 in the background">
+
+--
+
+<!-- .slide: data-auto-animate="true" -->
+
+## Implications
+
+ <figure><img src="img/setup.png" alt="black-and-whtie line drawing"><figcaption></figcaption></figure>
+
+--
+
+<!-- .slide: data-auto-animate="true" -->
+
+## Implications
+
+ <figure><img src="img/keyboard-mag.png" alt="black-and-whtie line drawing"><figcaption></figcaption></figure>
+
+--
+
+- _Keyboard_ 🪦 2017
+- _Music Technology_ (née _Electronics and Music Maker_) 🪦 1994
+- _Making Music_ 🪦 2002
+
+--
+
+<!-- .slide: data-auto-animate="true" -->
+
+## Implications
+
+<ul>
+<li class="fragment fade-in-then-semi-out">Liner notes</li>
+<li class="fragment fade-in-then-semi-out">Interviews</li>
+<li class="fragment fade-in-then-semi-out">Concert footage</li>
+<li class="fragment fade-in-then-semi-out">John Fossit</li>
+<li class="fragment fade-in-then-semi-out">Greg Phillinganes</li>
+</ul>
+
+--
+
+<!-- .slide: data-auto-animate="true" -->
+
+## Implications
+
+<ol style="font-size:80%;">
+<li>Instrumentalization</li>
+<li>Mechanization</li>
+<li>Automatization</li>
+<li>Electronification</li>
+<li>Modularization</li>
+<li>Digitalization</li>
+<li>Virtualization</li>
+<li>Globalization</li>
+<li>Informatization/Artificial Intelligence</li>
+<li>Hybridization</li>
+</ol>
 
 [Enders (2017)](#/bib)
 
@@ -338,48 +434,25 @@ How does the "imagined DX7" relate to nostalgia?
 
 <!-- .slide: data-auto-animate="true" -->
 
-## Nostalgia and technological development <!-- .element: class="r-fit-text" -->
+## Implications
 
-> How I miss the good old pre-DX7 days. I am so sick of reading about these Fairlight freaks and one-finger virtuosos. … Why don't you interview a real keyboard player, like Rick Wakeman?
-
-letter to the editor, _Keyboard_, May 1986
-
-> I was getting really fed up with all those DX7 preset sounds. … Why couldn't we get our own sound, like we did in the Dare days?
-
-Philip Oakey (Human League), 1987
+<p class="fragment strike" data-fragment-index="0">How was this sound made?</p>
+<p class="fragment strike" data-fragment-index="0">With a DAW and VST</p>
+<p class="fragment fade-up" data-fragment-index="0"><strong>Why</strong> was this sound made?</p>
 
 --
 
-<!-- .slide: data-auto-animate="true" -->
+<!-- .slide: data-auto-animate="true" data-background-image="img/24k.jpg" data-background-size="contain" data-background-opacity=".1"  -->
 
-## Nostalgia and technological development <!-- .element: class="r-fit-text" -->
+## Implications
 
-1. Instrumentalization
-2. Mechanization
-3. Automatization
-4. **Electronification**
-5. **Modularization**
-6. **Digitalization**
-7. **Virtualization**
-8. Globalization
-9. Informatization/Artificial Intelligence
-10. Hybridization
-
-[Enders (2017)](#/bib)
+**Why** was this sound made?
 
 ---
 
-## Concluding thoughts
+## Conclusion
 
-- Related ideas:
-  - chiptune music and the use of the term "8-bit" to refer to lots of retro-sounding timbres that are actually not possible on 8-bit sound chips
-  - "lo-fi" music made to sound degraded and grainy but it's actually all digital
-
---
-
-## Concluding thoughts
-
-- Looking closely at timbre and studying public reception can reveal how instruments become larger than a single instrument and its sound
+Immaterial Organology?
 
 ---
 
@@ -407,115 +480,3 @@ Philip Oakey (Human League), 1987
 Does "Versace on the Floor" use DX7?
 
 <figure class="r-stretch"><video controls src="media/versace-side-by-side-smaller.mp4" alt="original clip, followed by recreations on DX7 and Dexed"></video><figcaption>Original — DX7 — Dexed</figcaption></figure>
-
---
-
-<h2 style="text-align:left;">Comparisons</h2>
-
-<!--
-| _timbre ↓_&emsp;**inst →** | **DX7** | **CLP&nbsp;1** | **D&#8209;50** | **Dexed** |
-| -------------------------: | :-----: | :------------: | :------------: | :-------: |
-|            _bright / dark_ |    −    |       −        |       −        |     −     |
-|             _pure / noisy_ |    −    |       −        |       +        |     −     |
-|            _hollow / full_ |    −    |       −        |       +        |     −     |
-|            _sparse / rich_ |    −    |       −        |       +        |     −     |
-|       _beating / beatless_ |    −    |       +        |       −        |     −     |
-|        _steady / wavering_ |    −    |       −        |       −        |     −     |
-|       _harmonic / inharm._ |    −    |       −        |       −        |     −     |
-
-|                         |     |     |       |       |       |       |       |
-| ----------------------- | --- | --- | ----- | ----- | ----- | ----- | ----- |
-| _bright / dark_         | −   | −   | −     | −     | **+** | −     | **+** |
-| _pure / noisy_          | −   | −   | −     | **+** | −     | **+** | −     |
-| _hollow / full_         | −   | −   | −     | **+** | **+** | **+** | **+** |
-| _sparse / rich_         | −   | −   | −     | **+** | **+** | **+** | **+** |
-| _beating / beatless_    | −   | −   | **+** | −     | **+** | **+** | **+** |
-| _steady / wavering_     | −   | −   | −     | −     | −     | **+** | −     |
-| _harmonic / inharmonic_ | −   | −   | −     | −     | **+** | **+** | **+** | -->
-
-<table class="comp-table">
-<thead style="vertical-align:bottom;">
-<tr>
-<th style="text-align:right;"><em style="font-weight:normal;">timbre ↓</em>&emsp;&emsp;&emsp;<strong style="color:unset;">inst →</strong></th>
-<th class="rotated-text" style="text-align:center;"><div><span>DX7</span></div></th>
-<th class="rotated-text" style="text-align:center;"><div><span>Dexed</span></div></th>
-<th class="rotated-text" style="text-align:center;"><div><span>Clavinova EP 1</span></div></th>
-<th class="rotated-text" style="text-align:center;"><div><span>D-50 Synthetic Electric</span></div></th>
-<th class="rotated-text" style="text-align:center;"><div><span>Clavinova EP 2</span></div></th>
-<th class="rotated-text" style="text-align:center;"><div><span>D-50 PCM EP</span></div></th>
-<th class="rotated-text" style="text-align:center;"><div><span>Rhodes</span></div></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><em>bright / dark</em></td>
-<td>−</td>
-<td>−</td>
-<td>−</td>
-<td>−</td>
-<td><strong>+</strong></td>
-<td>−</td>
-<td><strong>+</strong></td>
-</tr>
-<tr>
-<td><em>pure / noisy</em></td>
-<td>−</td>
-<td>−</td>
-<td>−</td>
-<td><strong>+</strong></td>
-<td>−</td>
-<td><strong>+</strong></td>
-<td>−</td>
-</tr>
-<tr>
-<td><em>hollow / full</em></td>
-<td>−</td>
-<td>−</td>
-<td>−</td>
-<td><strong>+</strong></td>
-<td><strong>+</strong></td>
-<td><strong>+</strong></td>
-<td><strong>+</strong></td>
-</tr>
-<tr>
-<td><em>sparse / rich</em></td>
-<td>−</td>
-<td>−</td>
-<td>−</td>
-<td><strong>+</strong></td>
-<td><strong>+</strong></td>
-<td><strong>+</strong></td>
-<td><strong>+</strong></td>
-</tr>
-<tr>
-<td><em>beating / beatless</em></td>
-<td>−</td>
-<td>−</td>
-<td><strong>+</strong></td>
-<td>−</td>
-<td><strong>+</strong></td>
-<td><strong>+</strong></td>
-<td><strong>+</strong></td>
-</tr>
-<tr>
-<td><em>steady / wavering</em></td>
-<td>−</td>
-<td>−</td>
-<td>−</td>
-<td>−</td>
-<td>−</td>
-<td><strong>+</strong></td>
-<td>−</td>
-</tr>
-<tr>
-<td><em>harmonic / inharmonic</em></td>
-<td>−</td>
-<td>−</td>
-<td>−</td>
-<td>−</td>
-<td><strong>+</strong></td>
-<td><strong>+</strong></td>
-<td><strong>+</strong></td>
-</tr>
-</tbody>
-</table>
