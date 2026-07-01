@@ -80,8 +80,8 @@ Critics compare "Versace" to:
 
 <ol>
 <li class="fragment" data-fragment-index="1">&quot;Versace on the Floor&quot;</li>
-<li class="fragment" data-fragment-index="1">The DX7 <code>D 1</code> sound</li>
-<li class="fragment">Imitators of <code>D 1</code></li>
+<li class="fragment" data-fragment-index="1">The DX7 <code>E. PIANO 1</code> sound</li>
+<li class="fragment">Imitators of <code>E. PIANO 1</code></li>
 <li class="fragment">The Imagined DX7</li>
 <li class="fragment">Implications for the study of musical instruments</li>
 </ol>
@@ -104,9 +104,10 @@ Critics compare "Versace" to:
 
 - Digital FM synth (vs. analog synth or electric piano)
 - Released in late 1983
+- Popularized the use of **presets**
 - Ubiquitous in mid- to late-1980s pop music
 - Popular due to affordability and new tech
-- Especially remarkable **plucked, brassy, and percussive sounds**
+- Especially remarkable plucked, brassy, and percussive sounds
 
 <figure><audio src="media/beauty.mp3" controls></audio><figcaption>Celine Dion, "Beauty and the Beast" (1991)</figcaption></figure>
 
@@ -116,7 +117,6 @@ Critics compare "Versace" to:
 
 ## DX7 History
 
-- Popularized the use of **presets**
 - `E. PIANO 1`, short for "electric piano", might be the most popular
 
 ![](img/ep1.png)
@@ -127,24 +127,13 @@ Critics compare "Versace" to:
 
 ## DX7 History
 
-- Prior to DX7, the Fender Rhodes was the gold standard of electric piano sounds
-- `E. PIANO 1` was often compared to Fender Rhodes and referred to as the "Rhodes sound"
-
---
-
-<!-- .slide: data-background-image="img/dx7.jpg" data-background-size="fill" data-background-opacity=".1" data-background-position="top left" data-auto-animate="true" -->
-
-## DX7 History
-
-<figure class="r-stretch"><video controls src="media/dx7-rhodes-short.mov" alt="video comparison of DX7 and Rhodes"></video><figcaption>DX7 (left) vs. Rhodes (right)</figcaption></figure>
-
---
-
-<!-- .slide: data-background-image="img/dx7.jpg" data-background-size="fill" data-background-opacity=".1" data-background-position="top left" data-auto-animate="true" -->
-
-## DX7 History
-
 <figure class="r-stretch"><img src="img/die.png" alt="Keyboard magazine article of 20 sounds that must die; clip shows the dx7 rhodes patch and dx7 anything"><figcaption>David Battino, <em>Keyboard</em>, October 1995</figcaption>
+
+--
+
+<!-- .slide: data-background-image="img/dx7.jpg" data-background-size="fill" data-background-opacity=".1" data-background-position="top left" data-auto-animate="true" -->
+
+## DX7 History
 
 ---
 
@@ -179,9 +168,7 @@ Critics compare "Versace" to:
 
 ### Roland D-50
 
-[edit with new video that doesn't have Rhodes]
-
-<!-- <figure><video controls src="media/dx7-rhodes-d50se.mov" alt="video comparison of DX7 and Rhodes"></video><figcaption>DX7 (left) vs. Rhodes (center) vs. Roland D-50 Synthetic Electric (right)</figcaption></figure> -->
+<figure><video controls src="media/dx7-d50se.mov" alt="video comparison of DX7 and D-50"></video><figcaption>DX7 (left) vs. Rhodes (center) vs. Roland D-50 Synthetic Electric (right)</figcaption></figure>
 
 --
 
@@ -200,6 +187,14 @@ Critics compare "Versace" to:
 - Released 1988
 - Best-selling synthesizer of all-time
 - **Four** DX7-esque electric piano presets
+
+--
+
+<!-- .element: data-auto-animate="true" -->
+
+### Korg M1
+
+<figure><video controls src="media/dx7-m1-all.mov" alt="video comparison of DX7 and M1"></video><figcaption>DX7 (left) vs. Rhodes (center) vs. Roland D-50 Synthetic Electric (right)</figcaption></figure>
 
 --
 
@@ -226,7 +221,7 @@ Critics compare "Versace" to:
 
 ### VSTs: Dexed
 
-<figure><video controls src="media/dx7-dexed.mov" alt="video comparison of DX7 and Rhodes"></video><figcaption>DX7 — Dexed</figcaption></figure>
+<figure><video controls src="media/dx7-dexed.mov" alt="video comparison of DX7 and Dexed"></video><figcaption>DX7 — Dexed</figcaption></figure>
 
 --
 
