@@ -194,7 +194,7 @@ Critics compare "Versace" to:
 
 ### Korg M1
 
-<figure><video controls src="media/dx7-m1-all.mov" alt="video comparison of DX7 and M1"></video><figcaption>DX7 (left) vs. Rhodes (center) vs. Roland D-50 Synthetic Electric (right)</figcaption></figure>
+<figure><video controls src="media/dx7-m1-all.mov" alt="video comparison of DX7 and M1"></video><figcaption>From left, M1 Electric Pianos 1, 2, 3, and 4; finally DX7</figcaption></figure>
 
 --
 
@@ -227,7 +227,7 @@ Critics compare "Versace" to:
 
 <!-- .element: data-auto-animate="true" -->
 
-### Summary
+<div class="row" style="justify-content: space-between;align-items:end;"><div><h3>Summary</h3></div><div><a href="https://mtosmt.org/issues/mto.20.26.3/mto.20.26.3.lavengood.html">�</a></div></div>
 
 <table class="comp-table">
 <thead style="vertical-align:bottom;">
@@ -326,6 +326,14 @@ letter to the editor, _Keyboard_, May 1986
 So we’ve played a bunch of stuff here, and there’s a common thread that we’re all sort of cringing at, right? … The curse of this time, for me, was … Yamaha invented an instrument called the DX7. The DX7 made it onto every single record in the universe.
 </blockquote>
 <p class="fragment r-fit-text">– Bob Boilen, after listening to three songs without any DX7 at all<br/><i>All Songs Considered</i>, 2008</p>
+
+--
+
+<!-- .slide: data-auto-animate="true" -->
+
+## The Imagined DX7
+
+<audio src="media/bolton.mp3" controls></audio>
 
 --
 
