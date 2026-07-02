@@ -312,16 +312,6 @@ The DX7 as it lives in popular imagination of its most well-known and imitated p
 
 ## The Imagined DX7
 
-> How I miss the good old pre-DX7 days. I am so sick of reading about these Fairlight freaks and one-finger virtuosos. … Why don't you interview a real keyboard player, like Rick Wakeman?
-
-letter to the editor, _Keyboard_, May 1986
-
---
-
-<!-- .slide: data-auto-animate="true" -->
-
-## The Imagined DX7
-
 <blockquote>
 So we’ve played a bunch of stuff here, and there’s a common thread that we’re all sort of cringing at, right? … The curse of this time, for me, was … Yamaha invented an instrument called the DX7. The DX7 made it onto every single record in the universe.
 </blockquote>
@@ -333,6 +323,10 @@ So we’ve played a bunch of stuff here, and there’s a common thread that we�
 
 ## The Imagined DX7
 
+> **To start**, get a record or CD that has a Rhodes-style sound that you like. As you're building the sound, you'll be able to **use the record for comparison**. Two suggestions: "Didn't We Have It All, by Whitney Houston; and **"How Am I Supposed To Live Without You," by Michael Bolton**.
+
+<p><a href="#bib">Jimmerson 1990</a>, emphasis added</p>
+
 <audio src="media/bolton.mp3" controls></audio>
 
 --
@@ -343,14 +337,9 @@ So we’ve played a bunch of stuff here, and there’s a common thread that we�
 
 ---
 
+<!-- .slide: data-auto-animate="true" -->
+
 ## Implications
-
-<ul>
-<li  class="fragment" data-fragment-index="1">Cornelia Fales's &quot;paradox of timbre&quot; (<a href="#/bib">2002</a>)</li>
-<li class="fragment"  data-fragment-index="2">If it looks like a duck and swims like a duck, it's a duck.</li>
-</ul>
-
-<img class="fragment" data-fragment-index="2" src="img/duck.png" height="400px" alt="screenshot of the Duck Test page on Wikipedia">
 
 --
 
@@ -358,7 +347,7 @@ So we’ve played a bunch of stuff here, and there’s a common thread that we�
 
 ## Implications
 
- <img src="img/mj-screengrab.png" alt="Michael Jackson performing with a dx7 in the background" class="fragment">
+Cornelia Fales's &quot;paradox of timbre&quot; (<a href="#/bib">2002</a>)
 
 --
 
@@ -390,13 +379,11 @@ So we’ve played a bunch of stuff here, and there’s a common thread that we�
 
 ## Implications
 
- <figure><img src="img/keyboard-mag.png" alt="black-and-whtie line drawing"><figcaption></figcaption></figure>
-
---
-
-- _Keyboard_ 🪦 2017
-- _Music Technology_ (née _Electronics and Music Maker_) 🪦 1994
-- _Making Music_ 🪦 2002
+<ul class="fragment">
+<li><em>Keyboard</em> 🪦 2017</li>
+<li><em>Music Technology</em> (née <em>Electronics and Music Maker</em>) 🪦 1994</li>
+<li><em>Making Music</em> 🪦 2002</li>
+</ul>
 
 --
 
@@ -412,26 +399,13 @@ So we’ve played a bunch of stuff here, and there’s a common thread that we�
 <li class="fragment fade-in-then-semi-out">Greg Phillinganes</li>
 </ul>
 
+:( <!-- .element: class="fragment" -->
+
 --
 
 <!-- .slide: data-auto-animate="true" -->
 
 ## Implications
-
-<ol style="font-size:80%;">
-<li>Instrumentalization</li>
-<li>Mechanization</li>
-<li>Automatization</li>
-<li>Electronification</li>
-<li>Modularization</li>
-<li>Digitalization</li>
-<li>Virtualization</li>
-<li>Globalization</li>
-<li>Informatization/Artificial Intelligence</li>
-<li>Hybridization</li>
-</ol>
-
-[Enders (2017)](#/bib)
 
 --
 
@@ -483,3 +457,34 @@ Immaterial Organology?
 Does "Versace on the Floor" use DX7?
 
 <figure class="r-stretch"><video controls src="media/versace-side-by-side-smaller.mp4" alt="original clip, followed by recreations on DX7 and Dexed"></video><figcaption>Original — DX7 — Dexed</figcaption></figure>
+
+--
+
+<!-- .slide: data-auto-animate="true" -->
+
+## The Imagined DX7
+
+> How I miss the good old pre-DX7 days. I am so sick of reading about these Fairlight freaks and one-finger virtuosos. … Why don't you interview a real keyboard player, like Rick Wakeman?
+
+letter to the editor, _Keyboard_, May 1986
+
+--
+
+<!-- .slide: data-auto-animate="true" -->
+
+## Implications
+
+<ol style="font-size:80%;">
+<li>Instrumentalization</li>
+<li>Mechanization</li>
+<li>Automatization</li>
+<li>Electronification</li>
+<li>Modularization</li>
+<li>Digitalization</li>
+<li>Virtualization</li>
+<li>Globalization</li>
+<li>Informatization/Artificial Intelligence</li>
+<li>Hybridization</li>
+</ol>
+
+[Enders (2017)](#/bib)
