@@ -1,6 +1,6 @@
 <!-- .slide: data-background-color="#10100b" data-background-image="img/dx7-bg2.png" data-background-position="top right" data-background-size="auto 80%" data-background-opacity="1" style="text-align:left;padding-top:150px;" -->
 
-<figure style="position:absolute;bottom:0;right:0;text-align:right;margin-bottom:0;" ><img data-preview-image data-preview-fit="contain" src="img/qr.svg" width=150><figcaption><a href=".">meganlavengood.com/timbre2026</a></figcaption></figure>
+<figure style="position:absolute;bottom:0;right:0;text-align:right;margin-bottom:0;" ><div>Slides ↓</div><img data-preview-image data-preview-fit="contain" src="img/qr.svg" width=150><figcaption><a href=".">meganlavengood.com/timbre2026</a></figcaption></figure>
 <div class="col-6">
 <h1 class="white-when-small" style="font-size:1.5em;">The Timbre Is the Instrument</h1>
 <h4 class="white-when-small">The Imagined DX7</h4>
@@ -66,8 +66,19 @@ Critics compare "Versace" to:
 <ul>
 <li data-id="gaye">Marvin Gaye, &quot;Sexual Healing&quot; (<strong>1982</strong>)<br/><strong>Roland Jupiter-8</strong></li>
 <li data-id="jackson">Freddie Jackson, &quot;Rock Me Tonight (For Old Time's Sake)&quot; (<strong>1985</strong>)<br/><strong>Yamaha DX7</strong></li>
-<li data-id="boyz">Boyz II Men, &quot;I'll Make Love to You&quot; (<strong>1994</strong>)<br/><strong>Korg M1</strong>
+<li data-id="boyz">Boyz II Men, &quot;I'll Make Love to You&quot; (<strong>1994</strong>)<br/><strong>Korg M1</strong></li>
 <li data-id="blackstreet">Blackstreet, &quot;Before I Let You Go&quot; (<strong>1994</strong>)<br/><strong>Fender Rhodes</strong></li>
+</ul>
+
+--
+
+<!-- .slide: data-background-image="img/versace.png" data-background-size="cover" data-background-opacity=".2" data-background-position="bottom right" data-auto-animate="true" -->
+
+<ul>
+<li data-id="gaye">Marvin Gaye, &quot;Sexual Healing&quot; (<strong>1982</strong>)<br/><strong>that ’80s Electric Piano sound</strong></li>
+<li data-id="jackson">Freddie Jackson, &quot;Rock Me Tonight (For Old Time's Sake)&quot; (<strong>1985</strong>)<br/><strong>that ’80s Electric Piano sound</strong></li>
+<li data-id="boyz">Boyz II Men, &quot;I'll Make Love to You&quot; (<strong>1994</strong>)<br/><strong>that ’80s Electric Piano sound</strong></li>
+<li data-id="blackstreet">Blackstreet, &quot;Before I Let You Go&quot; (<strong>1994</strong>)<br/><strong>that ’80s Electric Piano sound</strong></li>
 </ul>
 
 --
@@ -109,8 +120,6 @@ Critics compare "Versace" to:
 - Popular due to affordability and new tech
 - Especially remarkable plucked, brassy, and percussive sounds
 
-<figure><audio src="media/beauty.mp3" controls></audio><figcaption>Celine Dion, "Beauty and the Beast" (1991)</figcaption></figure>
-
 --
 
 <!-- .slide: data-background-image="img/dx7.jpg" data-background-size="fill" data-background-opacity=".1" data-background-position="top left" data-auto-animate="true" -->
@@ -121,6 +130,8 @@ Critics compare "Versace" to:
 
 ![](img/ep1.png)
 
+<figure><audio src="media/beauty.mp3" controls></audio><figcaption>Celine Dion, "Beauty and the Beast" (1991)</figcaption></figure>
+
 --
 
 <!-- .slide: data-background-image="img/dx7.jpg" data-background-size="fill" data-background-opacity=".1" data-background-position="top left" data-auto-animate="true" -->
@@ -129,12 +140,6 @@ Critics compare "Versace" to:
 
 <figure class="r-stretch"><img src="img/die.png" alt="Keyboard magazine article of 20 sounds that must die; clip shows the dx7 rhodes patch and dx7 anything"><figcaption>David Battino, <em>Keyboard</em>, October 1995</figcaption>
 
---
-
-<!-- .slide: data-background-image="img/dx7.jpg" data-background-size="fill" data-background-opacity=".1" data-background-position="top left" data-auto-animate="true" -->
-
-## DX7 History
-
 ---
 
 ## Imitators
@@ -142,6 +147,8 @@ Critics compare "Versace" to:
 - Roland D-50
 - Korg M1
 - Dexed (VST)
+
+<p class="fragment">All imitate <code>E. PIANO 1</code> with slight variations, codifying a signature timbral essence of the DX7</p>
 
 --
 
@@ -227,7 +234,7 @@ Critics compare "Versace" to:
 
 <!-- .element: data-auto-animate="true" -->
 
-<div class="row" style="justify-content: space-between;align-items:end;"><div><h3>Summary</h3></div><div><a href="https://mtosmt.org/issues/mto.20.26.3/mto.20.26.3.lavengood.html">�</a></div></div>
+<div class="row" style="justify-content: space-between;align-items:end;"><div><h3>Summary</h3></div><div><a target="blank" href="https://mtosmt.org/issues/mto.20.26.3/mto.20.26.3.lavengood.html">�</a></div></div>
 
 <table class="comp-table">
 <thead style="vertical-align:bottom;">
@@ -323,9 +330,12 @@ So we’ve played a bunch of stuff here, and there’s a common thread that we�
 
 ## The Imagined DX7
 
-> **To start**, get a record or CD that has a Rhodes-style sound that you like. As you're building the sound, you'll be able to **use the record for comparison**. Two suggestions: "Didn't We Have It All, by Whitney Houston; and **"How Am I Supposed To Live Without You," by Michael Bolton**.
-
-<p><a href="#bib">Jimmerson 1990</a>, emphasis added</p>
+<figure class="fragment">
+<blockquote>
+<p><strong>To start</strong>, get a record or CD that has a Rhodes-style sound that you like. As you're building the sound, you'll be able to <strong>use the record for comparison</strong>. Two suggestions: &quot;Didn't We Have It All, by Whitney Houston; and <strong>&quot;How Am I Supposed To Live Without You,&quot; by Michael Bolton</strong>.</p>
+</blockquote>
+<figcaption><a href="#bib">Jimmerson 1990</a>, emphasis added</figcaption>
+</figure>
 
 <audio src="media/bolton.mp3" controls></audio>
 
@@ -335,11 +345,15 @@ So we’ve played a bunch of stuff here, and there’s a common thread that we�
 
 ## The Imagined DX7
 
+<img class="fragment" src="img/rhodes.jpg" alt="Rhodes interior">
+
 ---
 
 <!-- .slide: data-auto-animate="true" -->
 
 ## Implications
+
+for the study of musical instruments
 
 --
 
@@ -437,12 +451,14 @@ Immaterial Organology?
 
 ## Thanks
 
+[megan@meganlavengood.com](mailto:megan@meganlavengood.com)
+
+<div class="row">
 <figure>
     <img src="img/qr-bib.svg" alt="QR code" data-preview-image data-preview-fit="contain">
     <figcaption><a href="https://www.zotero.org/mlavengood/collections/5P4J3M25/itemlist">Bibliography ↑ </a></figcaption>
 </figure>
-
-[megan@meganlavengood.com](mailto:megan@meganlavengood.com)
+<figure><img data-preview-image data-preview-fit="contain" src="img/qr.svg" width=150><figcaption><a href=".">Slides ↑ <br/>meganlavengood.com/timbre2026</a></figcaption></figure></div>
 
 ---
 
