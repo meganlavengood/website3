@@ -173,14 +173,15 @@ redirect_from:
   <script src="../plugin/drawer/drawer.js"></script>
   <script>
     Reveal.initialize({
-      keyboard: { // make spacebar play videos too (would be good to make this work for audio or video)
+      keyboard: {
         32: () => {
           var currentSlide = Reveal.getCurrentSlide();
-          var currentVideo = currentSlide.getElementsByTagName("video")[0];
-          if (currentVideo) {
-            if (currentVideo.ended == true) Reveal.next();
-            else if (currentVideo.paused == true) currentVideo.play();
-            else currentVideo.pause();
+          var currentMedia = currentSlide.getElementsByTagName("video")[0]
+                          || currentSlide.getElementsByTagName("audio")[0];
+          if (currentMedia) {
+            if (currentMedia.ended == true) Reveal.next();
+            else if (currentMedia.paused == true) currentMedia.play();
+            else currentMedia.pause();
           }
           else {
             Reveal.next();
