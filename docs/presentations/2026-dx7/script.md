@@ -2,6 +2,12 @@
 layout: page
 ---
 
+<style>
+    p {
+        border-bottom: 6px solid var(--bs-body-color);
+    }
+</style>
+
 In 2016, Bruno Mars released an album called _24k Magic_. This was coming off the massive success of “Uptown Funk." Like "Uptown Funk," _24k Magic_ was also deliberately made to sound retro.
 
 In an interview with Rolling Stone, he says the album is meant to sound like early 90s R&B—like slow-dancing at a junior high dance to “Before I Let You Go” by Blackstreet.
