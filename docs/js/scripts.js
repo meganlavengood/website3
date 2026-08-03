@@ -1,3 +1,28 @@
+// ----- color mode toggle -----
+
+(function () {
+	const html = document.documentElement;
+	const stored = localStorage.getItem("color-mode");
+	if (stored) html.setAttribute("data-bs-theme", stored);
+
+	function updateIcon(theme) {
+		const icon = document.getElementById("color-mode-icon");
+		if (icon) icon.className = theme === "dark" ? "bi bi-sun-fill" : "bi bi-moon-stars-fill";
+	}
+
+	document.addEventListener("DOMContentLoaded", function () {
+		updateIcon(html.getAttribute("data-bs-theme") || "light");
+		const btn = document.getElementById("color-mode-toggle");
+		if (!btn) return;
+		btn.addEventListener("click", function () {
+			const next = html.getAttribute("data-bs-theme") === "dark" ? "light" : "dark";
+			html.setAttribute("data-bs-theme", next);
+			localStorage.setItem("color-mode", next);
+			updateIcon(next);
+		});
+	});
+})();
+
 // ----- last modified date -----
 
 if (document.getElementById("last-modified") != null) {
