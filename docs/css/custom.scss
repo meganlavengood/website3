@@ -1,0 +1,375 @@
+// ============================================================
+// BOOTSTRAP COLOR PALETTE CUSTOMIZATION
+// ============================================================
+// Uses Bootstrap's modular import so we can extend the utility
+// API between map definition and class generation.
+//
+// Order matters:
+//   1. Base palette variables
+//   2. Gray scale
+//   3. Theme color roles + body/link defaults
+//   4. Dark theme override map   ← add dark mode colors here
+//   5. Bootstrap config  (functions → variables → maps → mixins → utilities)
+//   6. Utility map extensions
+//   7. Bootstrap components
+//   8. utilities/api           ← generates .text-*, .bg-*, .border-* etc.
+//   9. Dark mode block         ← @each loop emits --bs-* and --bs-*-rgb
+// ============================================================
+
+// ------------------------------------------------------------
+// 1. BASE PALETTE
+// Overriding Bootstrap's named color variables before they are
+// referenced by $theme-colors, component defaults, etc.
+// ------------------------------------------------------------
+
+$blue: #016fb9;
+$indigo: #6610f2;
+$purple: #730071;
+$pink: #e000dd;
+$red: #de3c4b;
+$orange: #fd7e14;
+$yellow: #e0aa38;
+$green: #57886c;
+$teal: #4c9f98;
+$cyan: #0dcaf0;
+$turquoise: #00ccbb;
+$periwinkle: #c1bfff;
+$peach: #eeaf8d;
+$salmon: #ff8d83;
+$white: #fffaef;
+$black: #312319;
+$brown: #553819;
+
+// $colors map — used by .text-{color}, .bg-{color} utilities
+// (Bootstrap merges this into the utility values automatically)
+$colors: (
+	"blue": $blue,
+	"indigo": $indigo,
+	"purple": $purple,
+	"pink": $pink,
+	"red": $red,
+	"orange": $orange,
+	"yellow": $yellow,
+	"green": $green,
+	"teal": $teal,
+	"cyan": $cyan,
+	"black": $black,
+	"white": $white,
+);
+
+// ------------------------------------------------------------
+// 2. GRAY SCALE
+// Warm brown-tinted grays anchored at $white / $black above.
+// Override Bootstrap's $gray-* variables and the $grays map.
+// ------------------------------------------------------------
+
+$gray-100: #f5eedf;
+$gray-200: #e8d9c0;
+$gray-300: #d4bfa0;
+$gray-400: #bda080;
+$gray-500: #99866f;
+$gray-600: #7f6e59;
+$gray-700: #775f44;
+$gray-800: #584232;
+$gray-900: #664b2e;
+
+$grays: (
+	"100": $gray-100,
+	"200": $gray-200,
+	"300": $gray-300,
+	"400": $gray-400,
+	"500": $gray-500,
+	"600": $gray-600,
+	"700": $gray-700,
+	"800": $gray-800,
+	"900": $gray-900,
+);
+
+// ------------------------------------------------------------
+// 3. THEME COLOR ROLES
+// Map semantic roles onto your palette.
+// Bootstrap derives emphasis/subtle/border variants from these
+// automatically via tint-color() / shade-color().
+// ------------------------------------------------------------
+
+$primary: $purple;
+$secondary: $yellow;
+$success: $green;
+$info: $teal;
+$warning: $yellow;
+$danger: $red;
+$light: $gray-100;
+$dark: #553819;
+
+// ------------------------------------------------------------
+// 4. BODY & LINK DEFAULTS
+// ------------------------------------------------------------
+
+$body-bg: $white;
+$body-color: $dark;
+$link-color: $primary;
+$link-hover-color: $pink;
+
+// Uncomment to control heading / muted colors:
+// $headings-color:  $gray-900;
+// $text-muted:      $gray-600;   // Bootstrap 5.2 compat alias
+
+// ------------------------------------------------------------
+// 4. DARK THEME COLOR OVERRIDES
+// Add any --bs-* CSS variable you want to override in dark mode.
+// Both --bs-{name} and --bs-{name}-rgb are generated automatically.
+// ------------------------------------------------------------
+
+$dark-theme-overrides: (
+	"primary": $periwinkle,
+	"secondary": $peach,
+	"body-bg": $black,
+	"body-color": $light,
+	"link-color": $periwinkle,
+	"emphasis-color": $peach,
+	"heading-color": $turquoise,
+	"danger": $salmon,
+);
+
+// ============================================================
+// BOOTSTRAP MODULAR IMPORT
+// Split so we can inject utility extensions before the API run.
+// ============================================================
+
+// --- Config layer ---
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/variables-dark";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/utilities";
+
+// ------------------------------------------------------------
+// 5. UTILITY MAP EXTENSIONS
+// Add palette colors that aren't already in $theme-colors to
+// the text / background / border utility value lists.
+//
+// $theme-colors already covers: primary, secondary, success,
+// info, warning, danger, light, dark.
+// We add the remaining named palette colors here.
+// ------------------------------------------------------------
+
+$extra-colors: (
+	"purple": $purple,
+	"pink": $pink,
+	"orange": $orange,
+	"indigo": $indigo,
+	"teal": $teal,
+	"cyan": $cyan,
+	"turquoise": $turquoise,
+	"periwinkle": $periwinkle,
+	"peach": $peach,
+	"salmon": $salmon,
+	"brown": $brown,
+);
+
+// Extend .text-{color}
+$utilities: map-merge(
+	$utilities,
+	(
+		"color": map-merge(
+				map-get($utilities, "color"),
+				(
+					values: map-merge(
+							map-get(map-get($utilities, "color"), "values"),
+							$extra-colors
+						),
+				)
+			),
+	)
+);
+
+// Extend .bg-{color}
+$utilities: map-merge(
+	$utilities,
+	(
+		"background-color": map-merge(
+				map-get($utilities, "background-color"),
+				(
+					values: map-merge(
+							map-get(map-get($utilities, "background-color"), "values"),
+							$extra-colors
+						),
+				)
+			),
+	)
+);
+
+// Extend .border-{color}
+$utilities: map-merge(
+	$utilities,
+	(
+		"border-color": map-merge(
+				map-get($utilities, "border-color"),
+				(
+					values: map-merge(
+							map-get(map-get($utilities, "border-color"), "values"),
+							$extra-colors
+						),
+				)
+			),
+	)
+);
+
+// ============================================================
+// BOOTSTRAP COMPONENTS
+// ============================================================
+
+@import "bootstrap/scss/root";
+@import "bootstrap/scss/reboot";
+@import "bootstrap/scss/type";
+@import "bootstrap/scss/images";
+@import "bootstrap/scss/containers";
+@import "bootstrap/scss/grid";
+@import "bootstrap/scss/tables";
+@import "bootstrap/scss/forms";
+@import "bootstrap/scss/buttons";
+@import "bootstrap/scss/transitions";
+@import "bootstrap/scss/dropdown";
+@import "bootstrap/scss/button-group";
+@import "bootstrap/scss/nav";
+@import "bootstrap/scss/navbar";
+@import "bootstrap/scss/card";
+@import "bootstrap/scss/accordion";
+@import "bootstrap/scss/breadcrumb";
+@import "bootstrap/scss/pagination";
+@import "bootstrap/scss/badge";
+@import "bootstrap/scss/alert";
+@import "bootstrap/scss/progress";
+@import "bootstrap/scss/list-group";
+@import "bootstrap/scss/close";
+@import "bootstrap/scss/toasts";
+@import "bootstrap/scss/modal";
+@import "bootstrap/scss/tooltip";
+@import "bootstrap/scss/popover";
+@import "bootstrap/scss/carousel";
+@import "bootstrap/scss/spinners";
+@import "bootstrap/scss/offcanvas";
+@import "bootstrap/scss/placeholders";
+@import "bootstrap/scss/helpers";
+
+// ============================================================
+// UTILITY API — generates all utility classes from the maps
+// above, including our extended color values.
+// ============================================================
+
+@import "bootstrap/scss/utilities/api";
+
+// ============================================================
+// DARK MODE OVERRIDES
+// ============================================================
+
+[data-bs-theme="dark"] {
+	@each $name, $value in $dark-theme-overrides {
+		--bs-#{$name}: #{$value};
+		--bs-#{$name}-rgb: #{red($value)}, #{green($value)}, #{blue($value)};
+	}
+	--bs-border-color-translucent: #{rgba($peach, 0.2)};
+	--bs-border-color: #{$peach};
+	--bs-border-width: 2px;
+	--bs-box-shadow: 0;
+
+	.navbar-brand {
+		background-color: #{$turquoise};
+		color: var(--bs-body-bg);
+	}
+
+	hr {
+		color: var(--bs-border-color-translucent);
+		opacity: unset;
+	}
+
+	.btn-primary {
+		--bs-btn-bg: #{$periwinkle};
+		--bs-btn-border-color: #{$periwinkle};
+		--bs-btn-color: #{$black};
+		--bs-btn-hover-bg: #{darken($periwinkle, 10%)};
+		--bs-btn-hover-border-color: #{darken($periwinkle, 10%)};
+		--bs-btn-hover-color: #{$black};
+	}
+
+	.btn-secondary {
+		--bs-btn-bg: #{$peach};
+		--bs-btn-border-color: #{$peach};
+		--bs-btn-color: #{$black};
+		--bs-btn-hover-bg: #{darken($peach, 10%)};
+		--bs-btn-hover-border-color: #{darken($peach, 10%)};
+		--bs-btn-hover-color: #{$black};
+	}
+
+	.btn-danger {
+		--bs-btn-bg: #{$salmon};
+		--bs-btn-border-color: #{$salmon};
+		--bs-btn-color: #{$black};
+		--bs-btn-hover-bg: #{darken($salmon, 10%)};
+		--bs-btn-hover-border-color: #{darken($salmon, 10%)};
+		--bs-btn-hover-color: #{$black};
+	}
+
+	.btn-info {
+		--bs-btn-bg: #{$turquoise};
+		--bs-btn-border-color: #{$turquoise};
+		--bs-btn-color: #{$black};
+		--bs-btn-hover-bg: #{darken($turquoise, 10%)};
+		--bs-btn-hover-border-color: #{darken($turquoise, 10%)};
+		--bs-btn-hover-color: #{$black};
+	}
+
+	.btn-pink {
+		--bs-btn-bg: #{lighten($pink, 40%)};
+		--bs-btn-border-color: #{lighten($pink, 40%)};
+		--bs-btn-color: #{$black};
+		--bs-btn-hover-bg: #{lighten($pink, 30%)};
+		--bs-btn-hover-border-color: #{lighten($pink, 30%)};
+		--bs-btn-hover-color: #{$black};
+	}
+
+	.blog-post {
+		& .carousel-caption {
+			text-shadow: 0 0 6px var(--bs-body-bg);
+			& h1 {
+				color: var(--bs-light);
+			}
+		}
+		& figure {
+			background-color: transparent;
+		}
+	}
+	.blockquote-footer {
+		color: #{$peach};
+	}
+	.card {
+		// background: #{rgba($brown, 0.2)};
+		border: 0;
+		box-shadow: var(--bs-box-shadow);
+		border: 2px solid #{$brown};
+	}
+}
+
+// ============================================================
+// LIGHT MODE OVERRIDES
+// ============================================================
+
+[data-bs-theme="light"] {
+	.card {
+		--bs-card-bg: white;
+		border-color: transparent;
+	}
+	.btn-pink {
+		--bs-btn-bg: #{$pink};
+		--bs-btn-border-color: #{$pink};
+		--bs-btn-color: #{$black};
+		--bs-btn-hover-bg: #{darken($pink, 10%)};
+		--bs-btn-hover-border-color: #{darken($pink, 10%)};
+		--bs-btn-hover-color: #{$black};
+	}
+}
+
+// ============================================================
+// PRINT MODE OVERRIDES
+// ============================================================

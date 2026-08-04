@@ -127,48 +127,6 @@ main {
 	width: 100%;
 }
 
-.btn-pink {
-	color: #fff;
-	background-color: #e000dd;
-	border-color: #e000dd;
-
-	&:hover {
-		color: #fff;
-		background-color: #b400b1;
-		border-color: #9d009b;
-	}
-
-	&:disabled,
-	&.disabled {
-		color: #fff;
-		background-color: #e000dd;
-		border-color: #e000dd;
-	}
-}
-.btn-check:focus + .btn-pink,
-.btn-pink:focus {
-	color: #fff;
-	background-color: #b400b1;
-	border-color: #9d009b;
-	box-shadow: 0 0 0 0.25rem rgba(224, 0, 221, 0.5);
-}
-.btn-check:checked + .btn-pink,
-.btn-check:active + .btn-pink,
-.btn-pink:active,
-.btn-pink.active,
-.show > .btn-pink.dropdown-toggle {
-	color: #fff;
-	background-color: #9d009b;
-	border-color: #870085;
-}
-.btn-check:checked + .btn-pink:focus,
-.btn-check:active + .btn-pink:focus,
-.btn-pink:active:focus,
-.btn-pink.active:focus,
-.show > .btn-pink.dropdown-toggle:focus {
-	box-shadow: 0 0 0 0.25rem rgba(224, 0, 221, 0.5);
-}
-
 .input-group .btn {
 	box-shadow: var(--bs-box-shadow-sm);
 }
@@ -301,6 +259,7 @@ fieldset legend {
 		border-top-style: solid;
 		border-width: 3px;
 		border-color: var(--primary); */
+		border-radius: var(--bs-border-radius);
 		color: var(--bs-primary);
 		position: relative;
 		font-size: 1.5em;
@@ -349,6 +308,7 @@ fieldset legend {
 		margin-left: auto;
 		margin-right: auto;
 		border: var(--bs-border-width) solid var(--bs-border-color-translucent);
+		border-radius: var(--bs-border-radius);
 		& img {
 			display: block;
 			margin-left: auto;
