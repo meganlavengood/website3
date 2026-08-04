@@ -7,23 +7,23 @@
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
 
-        <ul class="navbar-nav mb-2 mb-lg-0 text-lg-start text-end d-print-none">
+        <ul class="navbar-nav mb-2 mb-lg-0 text-lg-start text-end d-print-none align-items-lg-center">
           {% assign sorted_pages = site.pages | where: "menu", true | sort:"order" %}
           {% for node in sorted_pages %}
           <li class="nav-item"><a class="nav-link" href="{{ node.url | relative_url }}">{{node.title}}</a></li>
           {%- endfor -%}
-          <li class="nav-item d-flex align-items-center ps-lg-2">
+          <li class="nav-item">
             <button class="btn btn-sm" id="color-mode-toggle" aria-label="Toggle color mode" title="Toggle dark/light mode">
               <i class="bi bi-moon-stars-fill" id="color-mode-icon"></i>
             </button>
           </li>
         </ul>
 
-        <ul class="navbar-nav mb-2 mb-lg-0 text-lg-start text-end d-none d-print-flex">
-          <li class="nav-item">www.meganlavengood.com</li>
-        </ul>
-
       </div>
+
+      <ul class="navbar-nav mb-2 mb-lg-0 text-lg-start text-end d-none d-print-flex">
+        <li class="nav-item">www.meganlavengood.com</li>
+      </ul>
     </div>
   </nav>
 

@@ -136,6 +136,9 @@ $dark-theme-overrides: (
 // Split so we can inject utility extensions before the API run.
 // ============================================================
 
+// Disable !important on utility classes — @layer handles precedence instead.
+$enable-important-utilities: false;
+
 // --- Config layer ---
 @import "bootstrap/scss/functions";
 @import "bootstrap/scss/variables";
@@ -216,160 +219,163 @@ $utilities: map-merge(
 	)
 );
 
+@layer bootstrap, site;
+
 // ============================================================
 // BOOTSTRAP COMPONENTS
 // ============================================================
 
-@import "bootstrap/scss/root";
-@import "bootstrap/scss/reboot";
-@import "bootstrap/scss/type";
-@import "bootstrap/scss/images";
-@import "bootstrap/scss/containers";
-@import "bootstrap/scss/grid";
-@import "bootstrap/scss/tables";
-@import "bootstrap/scss/forms";
-@import "bootstrap/scss/buttons";
-@import "bootstrap/scss/transitions";
-@import "bootstrap/scss/dropdown";
-@import "bootstrap/scss/button-group";
-@import "bootstrap/scss/nav";
-@import "bootstrap/scss/navbar";
-@import "bootstrap/scss/card";
-@import "bootstrap/scss/accordion";
-@import "bootstrap/scss/breadcrumb";
-@import "bootstrap/scss/pagination";
-@import "bootstrap/scss/badge";
-@import "bootstrap/scss/alert";
-@import "bootstrap/scss/progress";
-@import "bootstrap/scss/list-group";
-@import "bootstrap/scss/close";
-@import "bootstrap/scss/toasts";
-@import "bootstrap/scss/modal";
-@import "bootstrap/scss/tooltip";
-@import "bootstrap/scss/popover";
-@import "bootstrap/scss/carousel";
-@import "bootstrap/scss/spinners";
-@import "bootstrap/scss/offcanvas";
-@import "bootstrap/scss/placeholders";
-@import "bootstrap/scss/helpers";
+@layer bootstrap {
+	@import "bootstrap/scss/root";
+	@import "bootstrap/scss/reboot";
+	@import "bootstrap/scss/type";
+	@import "bootstrap/scss/images";
+	@import "bootstrap/scss/containers";
+	@import "bootstrap/scss/grid";
+	@import "bootstrap/scss/tables";
+	@import "bootstrap/scss/forms";
+	@import "bootstrap/scss/buttons";
+	@import "bootstrap/scss/transitions";
+	@import "bootstrap/scss/dropdown";
+	@import "bootstrap/scss/button-group";
+	@import "bootstrap/scss/nav";
+	@import "bootstrap/scss/navbar";
+	@import "bootstrap/scss/card";
+	@import "bootstrap/scss/accordion";
+	@import "bootstrap/scss/breadcrumb";
+	@import "bootstrap/scss/pagination";
+	@import "bootstrap/scss/badge";
+	@import "bootstrap/scss/alert";
+	@import "bootstrap/scss/progress";
+	@import "bootstrap/scss/list-group";
+	@import "bootstrap/scss/close";
+	@import "bootstrap/scss/toasts";
+	@import "bootstrap/scss/modal";
+	@import "bootstrap/scss/tooltip";
+	@import "bootstrap/scss/popover";
+	@import "bootstrap/scss/carousel";
+	@import "bootstrap/scss/spinners";
+	@import "bootstrap/scss/offcanvas";
+	@import "bootstrap/scss/placeholders";
+	@import "bootstrap/scss/helpers";
+
+	// ============================================================
+	// UTILITY API — generates all utility classes from the maps
+	// above, including our extended color values.
+	// ============================================================
+
+	@import "bootstrap/scss/utilities/api";
+} // end @layer bootstrap
 
 // ============================================================
-// UTILITY API — generates all utility classes from the maps
-// above, including our extended color values.
+// SITE OVERRIDES
 // ============================================================
 
-@import "bootstrap/scss/utilities/api";
+@layer site {
+	[data-bs-theme="dark"] {
+		@each $name, $value in $dark-theme-overrides {
+			--bs-#{$name}: #{$value};
+			--bs-#{$name}-rgb: #{red($value)}, #{green($value)}, #{blue($value)};
+		}
+		--bs-border-color-translucent: #{rgba($peach, 0.2)};
+		--bs-border-color: #{$peach};
+		--bs-border-width: 2px;
+		--bs-box-shadow: 0;
 
-// ============================================================
-// DARK MODE OVERRIDES
-// ============================================================
+		.navbar-brand {
+			background-color: #{$turquoise};
+			color: var(--bs-body-bg);
+		}
 
-[data-bs-theme="dark"] {
-	@each $name, $value in $dark-theme-overrides {
-		--bs-#{$name}: #{$value};
-		--bs-#{$name}-rgb: #{red($value)}, #{green($value)}, #{blue($value)};
-	}
-	--bs-border-color-translucent: #{rgba($peach, 0.2)};
-	--bs-border-color: #{$peach};
-	--bs-border-width: 2px;
-	--bs-box-shadow: 0;
+		hr {
+			color: var(--bs-border-color-translucent);
+			opacity: unset;
+		}
 
-	.navbar-brand {
-		background-color: #{$turquoise};
-		color: var(--bs-body-bg);
-	}
+		.btn-primary {
+			--bs-btn-bg: #{$periwinkle};
+			--bs-btn-border-color: #{$periwinkle};
+			--bs-btn-color: #{$black};
+			--bs-btn-hover-bg: #{darken($periwinkle, 10%)};
+			--bs-btn-hover-border-color: #{darken($periwinkle, 10%)};
+			--bs-btn-hover-color: #{$black};
+		}
 
-	hr {
-		color: var(--bs-border-color-translucent);
-		opacity: unset;
-	}
+		.btn-secondary {
+			--bs-btn-bg: #{$peach};
+			--bs-btn-border-color: #{$peach};
+			--bs-btn-color: #{$black};
+			--bs-btn-hover-bg: #{darken($peach, 10%)};
+			--bs-btn-hover-border-color: #{darken($peach, 10%)};
+			--bs-btn-hover-color: #{$black};
+		}
 
-	.btn-primary {
-		--bs-btn-bg: #{$periwinkle};
-		--bs-btn-border-color: #{$periwinkle};
-		--bs-btn-color: #{$black};
-		--bs-btn-hover-bg: #{darken($periwinkle, 10%)};
-		--bs-btn-hover-border-color: #{darken($periwinkle, 10%)};
-		--bs-btn-hover-color: #{$black};
-	}
+		.btn-danger {
+			--bs-btn-bg: #{$salmon};
+			--bs-btn-border-color: #{$salmon};
+			--bs-btn-color: #{$black};
+			--bs-btn-hover-bg: #{darken($salmon, 10%)};
+			--bs-btn-hover-border-color: #{darken($salmon, 10%)};
+			--bs-btn-hover-color: #{$black};
+		}
 
-	.btn-secondary {
-		--bs-btn-bg: #{$peach};
-		--bs-btn-border-color: #{$peach};
-		--bs-btn-color: #{$black};
-		--bs-btn-hover-bg: #{darken($peach, 10%)};
-		--bs-btn-hover-border-color: #{darken($peach, 10%)};
-		--bs-btn-hover-color: #{$black};
-	}
+		.btn-info {
+			--bs-btn-bg: #{$turquoise};
+			--bs-btn-border-color: #{$turquoise};
+			--bs-btn-color: #{$black};
+			--bs-btn-hover-bg: #{darken($turquoise, 10%)};
+			--bs-btn-hover-border-color: #{darken($turquoise, 10%)};
+			--bs-btn-hover-color: #{$black};
+		}
 
-	.btn-danger {
-		--bs-btn-bg: #{$salmon};
-		--bs-btn-border-color: #{$salmon};
-		--bs-btn-color: #{$black};
-		--bs-btn-hover-bg: #{darken($salmon, 10%)};
-		--bs-btn-hover-border-color: #{darken($salmon, 10%)};
-		--bs-btn-hover-color: #{$black};
-	}
+		.btn-pink {
+			--bs-btn-bg: #{lighten($pink, 40%)};
+			--bs-btn-border-color: #{lighten($pink, 40%)};
+			--bs-btn-color: #{$black};
+			--bs-btn-hover-bg: #{lighten($pink, 30%)};
+			--bs-btn-hover-border-color: #{lighten($pink, 30%)};
+			--bs-btn-hover-color: #{$black};
+		}
 
-	.btn-info {
-		--bs-btn-bg: #{$turquoise};
-		--bs-btn-border-color: #{$turquoise};
-		--bs-btn-color: #{$black};
-		--bs-btn-hover-bg: #{darken($turquoise, 10%)};
-		--bs-btn-hover-border-color: #{darken($turquoise, 10%)};
-		--bs-btn-hover-color: #{$black};
-	}
-
-	.btn-pink {
-		--bs-btn-bg: #{lighten($pink, 40%)};
-		--bs-btn-border-color: #{lighten($pink, 40%)};
-		--bs-btn-color: #{$black};
-		--bs-btn-hover-bg: #{lighten($pink, 30%)};
-		--bs-btn-hover-border-color: #{lighten($pink, 30%)};
-		--bs-btn-hover-color: #{$black};
-	}
-
-	.blog-post {
-		& .carousel-caption {
-			text-shadow: 0 0 6px var(--bs-body-bg);
-			& h1 {
-				color: var(--bs-light);
+		.blog-post {
+			& .carousel-caption {
+				text-shadow: 0 0 6px var(--bs-body-bg);
+				& h1 {
+					color: var(--bs-light);
+				}
+			}
+			& figure {
+				background-color: transparent;
 			}
 		}
-		& figure {
-			background-color: transparent;
+		.blockquote-footer {
+			color: #{$peach};
+		}
+		.card {
+			// background: #{rgba($brown, 0.2)};
+			border: 0;
+			box-shadow: var(--bs-box-shadow);
+			border: 2px solid #{$brown};
+			--bs-card-cap-bg: transparent;
 		}
 	}
-	.blockquote-footer {
-		color: #{$peach};
-	}
-	.card {
-		// background: #{rgba($brown, 0.2)};
-		border: 0;
-		box-shadow: var(--bs-box-shadow);
-		border: 2px solid #{$brown};
-	}
-}
 
-// ============================================================
-// LIGHT MODE OVERRIDES
-// ============================================================
+	// ============================================================
+	// LIGHT MODE OVERRIDES
+	// ============================================================
 
-[data-bs-theme="light"] {
-	.card {
-		--bs-card-bg: white;
-		border-color: transparent;
+	[data-bs-theme="light"] {
+		.card {
+			--bs-card-bg: white;
+			border-color: transparent;
+		}
+		.btn-pink {
+			--bs-btn-bg: #{$pink};
+			--bs-btn-border-color: #{$pink};
+			--bs-btn-color: #{$black};
+			--bs-btn-hover-bg: #{darken($pink, 10%)};
+			--bs-btn-hover-border-color: #{darken($pink, 10%)};
+			--bs-btn-hover-color: #{$black};
+		}
 	}
-	.btn-pink {
-		--bs-btn-bg: #{$pink};
-		--bs-btn-border-color: #{$pink};
-		--bs-btn-color: #{$black};
-		--bs-btn-hover-bg: #{darken($pink, 10%)};
-		--bs-btn-hover-border-color: #{darken($pink, 10%)};
-		--bs-btn-hover-color: #{$black};
-	}
-}
-
-// ============================================================
-// PRINT MODE OVERRIDES
-// ============================================================
+} // end @layer site

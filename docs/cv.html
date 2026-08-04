@@ -5,7 +5,7 @@ menu: false
 toc: true
 permalink: /cv/
 ---
-<p class="text-secondary">Updated {{ 'now' | date: '%B %e, %Y' }}</p>
+<p class="text-secondary d-print-none">Updated {{ 'now' | date: '%B %e, %Y' }}</p>
 
 {% for item in site.data['cv-all'] %}
 	{% assign category = item[1] %}

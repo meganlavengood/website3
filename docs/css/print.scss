@@ -1,106 +1,200 @@
-// stylelint-disable declaration-no-important, selector-no-qualifying-type
+// ============================================================
+// PRINT STYLESHEET
+// Linked with media="print" so no @media print wrapper needed.
+// Import Bootstrap variables to use $-variables if needed.
+// ============================================================
+@import url("https://fonts.googleapis.com/css2?family=Spectral+SC:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
 
-/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
+// Establish layer order: print wins over site wins over bootstrap.
+// bootstrap and site are declared in bootstrap-custom.css / custom.css.
+@layer bootstrap, site, print;
 
-// ==========================================================================
-// Print styles.
-// Inlined to avoid the additional HTTP request: h5bp.com/r
-// ==========================================================================
-
-*,
-*:before,
-*:after {
-	color: #000 !important; // Black prints faster: h5bp.com/s
-	text-shadow: none !important;
-	background: transparent !important;
-	box-shadow: none !important;
-	background: white !important;
-}
-
-a,
-a:visited {
-	text-decoration: underline;
-}
-
-// a[href]:after {
-// 	content: " (" attr(href) ")";
-// 	color: gray !important;
-// }
-
-// abbr[title]:after {
-// 	content: " (" attr(title) ")";
-// 	color: gray !important;
-// }
-
-// Don't show links that are fragment identifiers,
-// or use the `javascript:` pseudo protocol
-a[href^="#"]:after,
-a[href^="javascript:"]:after {
-	content: "";
-}
-
-pre,
-blockquote {
-	border: 1px solid #999;
-	page-break-inside: avoid;
-}
-
-thead {
-	display: table-header-group; // h5bp.com/t
-}
-
-tr,
-img {
-	page-break-inside: avoid;
-}
-
-img {
-	max-width: 100% !important;
-}
-
-p,
-h2,
-h3 {
-	orphans: 3;
-	widows: 3;
-}
-
-h2,
-h3 {
-	page-break-after: avoid;
-}
-
-// Bootstrap specific changes start
-
-// Bootstrap components
-// .navbar {
-// 	display: none;
-// }
-.btn,
-.dropup > .btn {
-	> .caret {
-		border-top-color: #000 !important;
+@layer print {
+	:root {
+		--body-font: "Spectral", Georgia, Serif;
+		--heading-font: "Spectral SC", Georgia, Serif;
+		--font-size: 11pt;
+		--h6: var(--font-size);
+		--h5: calc(var(--font-size) * 1.125);
+		--h4: calc(var(--h5) * 1.125);
+		--h3: calc(var(--h4) * 1.125);
+		--h2: calc(var(--h3) * 1.125);
+		--h1: calc(var(--h2) * 1.125);
 	}
-}
-.label {
-	border: 1px solid #000;
-}
 
-.table {
-	border-collapse: collapse !important;
-
-	td,
-	th {
-		background-color: #fff !important;
+	html,
+	body {
+		background: #ffffff;
+		color: #000000;
+		font-family: var(--body-font);
+		font-size: 11pt;
+		line-height: 1.3;
+		box-shadow: none;
+		text-shadow: none;
 	}
-}
-.table-bordered {
-	th,
-	td {
-		border: 1px solid #ddd !important;
-	}
-}
 
-.text-secondary {
-	color: gray !important;
-}
+	nav {
+		border-bottom: 1px solid black;
+	}
+
+	p {
+		margin: 0 0 0pt 0.25in;
+	}
+
+	.text-secondary {
+		color: gray;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		color: black;
+		font-family: var(--heading-font);
+		line-height: 1.2;
+		margin-bottom: 0;
+	}
+
+	h1 {
+		font-size: var(--h1);
+		text-align: center;
+	}
+
+	.navbar-brand {
+		padding: 0;
+		font-size: var(--h1);
+	}
+
+	h2 {
+		font-size: var(--h2);
+		margin-top: 11pt;
+		border-bottom: 1px solid black;
+	}
+
+	h3 {
+		font-size: var(--h3);
+		margin-top: 16pt;
+		font-weight: normal;
+	}
+
+	h4 {
+		font-size: var(--h4);
+		font-weight: normal;
+	}
+
+	/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
+
+	// ==========================================================================
+	// Print styles.
+	// Inlined to avoid the additional HTTP request: h5bp.com/r
+	// ==========================================================================
+
+	*,
+	*:before,
+	*:after {
+		color: #000;
+		text-shadow: none;
+		background: white;
+		box-shadow: none;
+	}
+
+	// a,
+	// a:visited {
+	// 	text-decoration: underline;
+	// }
+
+	a[href]:after {
+		content: " (" attr(href) ")";
+		font-family: var(--body-font);
+		position: initial;
+		font-size: inherit;
+		font-weight: normal;
+		color: gray;
+	}
+
+	abbr[title]:after {
+		content: " (" attr(title) ")";
+		color: gray;
+	}
+
+	// Don't show links that are fragment identifiers,
+	// or use the `javascript:` pseudo protocol
+	a[href^="#"]:after,
+	a[href^="javascript:"]:after {
+		content: "";
+	}
+
+	a[href^="/"]:after {
+		content: " (meganlavengood.com" attr(href) ")";
+	}
+
+	a[href="/"]:after {
+		content: "";
+	}
+
+	pre,
+	blockquote {
+		border: 1px solid #999;
+		page-break-inside: avoid;
+	}
+
+	thead {
+		display: table-header-group; // h5bp.com/t
+	}
+
+	tr,
+	img {
+		page-break-inside: avoid;
+	}
+
+	img {
+		max-width: 100%;
+	}
+
+	p,
+	h2,
+	h3 {
+		orphans: 3;
+		widows: 3;
+	}
+
+	h2,
+	h3 {
+		page-break-after: avoid;
+	}
+
+	// Bootstrap specific changes start
+
+	// Bootstrap components
+	// .navbar {
+	// 	display: none;
+	// }
+	.btn,
+	.dropup > .btn {
+		> .caret {
+			border-top-color: #000;
+		}
+	}
+	.label {
+		border: 1px solid #000;
+	}
+
+	.table {
+		border-collapse: collapse;
+
+		td,
+		th {
+			background-color: #fff;
+		}
+	}
+	.table-bordered {
+		th,
+		td {
+			border: 1px solid #ddd;
+		}
+	}
+} // end @layer print
