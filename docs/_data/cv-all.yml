@@ -257,6 +257,12 @@ conf:
     pres:
       subheading: Peer-Reviewed Presentations
       entries:
+        - title: "Listening in Layers: A Web‑Based Tool for Timbral and Multimedia Analysis"
+          year: 2026
+          location: Barcelona, Catalonia, Spain
+          date: September 9
+          note: With Brian Jarvis.
+          conf: The 11th European Music Analysis Conference (EuroMAC)
         - title: "The Timbre Is the Instrument: The Imagined DX7"
           featured-research: true
           multiconf: Society for American Music 52nd Annual Conference; 4th International Conference on Timbre
@@ -357,6 +363,12 @@ conf:
     disc:
       subheading: Invited Discussant
       entries:
+        - title: Tech Tips and Best Practices for Publications, Presentations, and Pedagogy
+          note: Special session sponsored by the Professional Development Committee.
+          conf: Society for Music Theory 49th Annual Meeting
+          location: Milwaukee, WI
+          date: November 5
+          year: 2026
         - title: Teaching Timbre
           note: Panel discussion.
           conf: Analysis, Creation, and Teaching of Orchestration (ACTOR) Workshop
@@ -365,7 +377,7 @@ conf:
           year: 2021
         - title: The Dynamics of the Job Interview
           note: Special session sponsored by the Professional Development Committee.
-          conf: Society of Music Theory 41st Annual Meeting
+          conf: Society for Music Theory 41st Annual Meeting
           location: San Antonio, TX
           date: November 1
           year: 2018
@@ -571,17 +583,17 @@ service-pro:
   heading: Professional Service to the Field
   entries:
     - title: Society for Music Theory
-      details: Web Editor 2019–present<br/>
+      details: Web Editor, 2019–present<br/>
+        IT/Networking Committee, 2017–present<br/>
         Archival Committee, 2022–2025<br/>
         CV Review Session mentor, 2023<br/>
-        Co-Chair, Popular Music Interest Group, 2018–2020<br/>
-        IT/Networking Committee, 2017–2020
+        Co-Chair, Popular Music Interest Group, 2018–2020
       year: 2017–present
     - title: Music Theory Online
       details: Editorial Board Member
       year: 2024–2027
     - title: Music Theory Society of the Mid-Atlantic
-      details: President, 2024–2026<br/>
+      details: President, 2024–2028<br/>
         Member-at-large, 2019–2023<br/>
         Web designer, 2022<br/>
         Program committee, 2021
