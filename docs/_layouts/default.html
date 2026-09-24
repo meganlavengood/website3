@@ -21,13 +21,13 @@
 	<script src="{{ '/js/rat.lightbox.js' | relative_url}}"></script>
 	<!-- Tablesaw -->
 	<script type="module" src="{{ '/js/table-saw.js' | relative_url }}"></script>
-	{% if page.title == 'Research' or page.title == 'Blog' %}
+	{% if page.title == 'Research' or page.title == 'Blog' or page.title == 'Presentations' %}
 	<!-- Masonry -->
 	<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
 	<script>
-		document.querySelectorAll('.masonry-grid').forEach(function(grid) {
-			imagesLoaded(grid, function() {
+		document.querySelectorAll('.masonry-grid').forEach(function (grid) {
+			imagesLoaded(grid, function () {
 				new Masonry(grid, { percentPosition: true });
 			});
 		});
