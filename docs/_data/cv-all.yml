@@ -220,6 +220,9 @@ invited:
       year: 2024
       details: Lecture within a mini-residency, Music Scholars Series, Utah State University. Logan, UT. April 3–6.
       url: /presentations/2024-teaching-pop
+      img: teaching_pop.jpg
+      alt: A close-up of the headstock of a guitar
+      credit: Image by <a href="https://pixabay.com/users/domenicocervini-4705559/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4345340">Domenico Cervini</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4345340">Pixabay</a>
     - title: "Layers of Meaning: Teaching Instrumentation and Texture"
       year: 2023
       details: Oxford Seminar in Music Theory & Analysis. Virtual (University of Oxford, UK). November 21, 2023.
@@ -255,6 +258,10 @@ conf:
           location: Montreal, QC
           date: June 5–7
           url: /presentations/2025-tops
+          img: tops.jpg
+          alt: Origami-shaped metal sculptures
+          credit: <a href="https://commons.wikimedia.org/wiki/File:Metal_clay_origami.jpg">Tyler Spaeth</a>, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, via Wikimedia Commons
+
         - title: "Layers of Meaning: Teaching Instrumentation and Texture"
           year: 2024
           note: Keynote lecture.
@@ -262,6 +269,9 @@ conf:
           location: Arlington, TX
           date: February 24
           url: /presentations/2024-teaching-timbre
+          img: tsmt_keynote.jpg
+          alt: close-up of a layer cake
+          credit: Image by <a href="https://pixabay.com/users/nusrat-kaniz-fahima-44946305/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8988890">Nusrat Fahima</a> from <a href="https://pixabay.com/">Pixabay</a>
     pres:
       subheading: Peer-Reviewed Presentations
       entries:
