@@ -12,7 +12,7 @@ redirect_from:
   <link rel="stylesheet" href="https://unpkg.com/reveal.js/dist/reveal.css" />
   <link rel="stylesheet" href="https://unpkg.com/reveal.js/dist/theme/dracula.css" />
   <link rel="stylesheet" href="../plugin/drawer/drawer.css" />
-  <!-- <link rel="stylesheet" href="../solarized-custom.css"> -->
+  <!-- <link rel="stylesheet" href="../styles/solarized-custom.css"> -->
   <title>The Timbre Is the Instrument (Lavengood)</title>
   <meta name="citation_title" content="The Timbre Is the Instrument: The Imagined DX7 and 1980s Nostalgia">
   <meta name="citation_author" content="Lavengood, Megan L.">
@@ -177,7 +177,7 @@ redirect_from:
         32: () => {
           var currentSlide = Reveal.getCurrentSlide();
           var currentMedia = currentSlide.getElementsByTagName("video")[0]
-                          || currentSlide.getElementsByTagName("audio")[0];
+            || currentSlide.getElementsByTagName("audio")[0];
           if (currentMedia) {
             if (currentMedia.ended == true) Reveal.next();
             else if (currentMedia.paused == true) currentMedia.play();

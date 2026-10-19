@@ -1,0 +1,168 @@
+---
+featured: true
+redirect_from:
+---
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js/dist/reveal.css" />
+  <!-- <link rel="stylesheet" href="https://unpkg.com/reveal.js/dist/theme/night.css" /> -->
+  <link rel="stylesheet" href="../styles/angine.css">
+  <link rel="stylesheet" href="../plugin/drawer/drawer.css" />
+  <title>The Timbre Is the Instrument (Lavengood)</title>
+  <meta name="citation_title" content="?????">
+  <meta name="citation_author" content="Lavengood, Megan L.">
+
+
+  <style>
+    .reveal blockquote {
+      background: rgba(0, 0, 0, .3);
+    }
+
+    .container {
+      display: flex !important;
+    }
+
+    figcaption {
+      font-size: .5em;
+    }
+
+    .row {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .col-8 {
+      display: block;
+      width: 80%;
+    }
+
+    .col {
+      width: auto;
+    }
+
+    .col-6 {
+      width: 50%;
+    }
+
+    @media screen and (max-width:768px) {
+      .col-6 {
+        width: 100%;
+      }
+
+      .white-when-small {
+        color: white !important;
+      }
+    }
+
+    table td,
+    table th {
+      color: white;
+      white-space: nowrap;
+      min-width: 1.5em;
+      text-align: center !important;
+    }
+
+    .fragment.row-highlight.visible {
+      background-color: rgba(255, 255, 0, 0.2);
+    }
+
+    .fragment.right-border.visible {
+      border-right: 1px solid white;
+    }
+
+    .reveal .fragment.highlight-blue.visible {
+      color: #f1fa8c;
+    }
+
+    th.rotated-text {
+      height: 140px;
+      white-space: nowrap;
+      padding: 0 !important;
+      text-align: center;
+    }
+
+    th.rotated-text>div {
+      transform:
+        translate(20px, 0px) rotate(320deg);
+      width: 30px;
+    }
+
+    th.rotated-text>div>span {
+      padding: 5px 10px;
+    }
+
+    .align-items-center {
+      align-items: center !important;
+    }
+
+    blockquote {
+      font-size: 80%;
+    }
+
+    blockquote+p {
+      font-size: 80%;
+      color: var(--r-list-bullet-color);
+    }
+
+    code {
+      background-color: rgba(0, 0, 0, .3);
+      border-radius: 4px;
+      padding: 0 3px;
+    }
+
+
+    figure>img {
+      margin-bottom: 0 !important;
+    }
+
+  </style>
+
+</head>
+
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section data-markdown="slides.md" data-separator="^\n---\n" data-separator-vertical="^\n--\n" data-separator-notes="^Note:" data-auto-animate>
+      </section>
+    </div>
+  </div>
+  <script src="https://unpkg.com/reveal.js/dist/reveal.js"></script>
+  <script src="https://unpkg.com/reveal.js/dist/plugin/markdown.js"></script>
+  <script src="https://unpkg.com/reveal.js/dist/plugin/notes.js"></script>
+  <script src="../plugin/drawer/drawer.js"></script>
+  <script>
+    Reveal.initialize({
+      keyboard: {
+        32: () => {
+          var currentSlide = Reveal.getCurrentSlide();
+          var currentMedia = currentSlide.getElementsByTagName("video")[0]
+            || currentSlide.getElementsByTagName("audio")[0];
+          if (currentMedia) {
+            if (currentMedia.ended == true) Reveal.next();
+            else if (currentMedia.paused == true) currentMedia.play();
+            else currentMedia.pause();
+          }
+          else {
+            Reveal.next();
+          }
+        }
+      },
+      plugins: [RevealMarkdown, RevealNotes, RevealDrawer],
+      slideNumber: true,
+      width: 960,
+      hash: true,
+      drawer: {
+        toggleDrawKey: "d", // (optional) key to enable drawing, default "d"
+        toggleBoardKey: "t", // (optional) key to show drawing board, default "t"
+        colors: ["#FFB86C", "#F1FA8C", "#50FA7B", "#8BE9FD", "#BD93F9", "#FF79C6", "#FFF", "#000"], // (optional) list of colors avaiable (hex color codes)
+        pathSize: 4, // (optional) path size in px, default 4
+      },
+      // view: "scroll", 
+    });
+  </script>
+</body>
+
+</html>
