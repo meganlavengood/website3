@@ -301,6 +301,20 @@ $utilities: map-merge(
 			--bs-btn-hover-color: #{$black};
 		}
 
+		.btn-outline-primary {
+			--bs-btn-color: #{$periwinkle};
+			--bs-btn-border-color: #{$periwinkle};
+			--bs-btn-hover-color: #{$black};
+			--bs-btn-hover-bg: #{$periwinkle};
+			--bs-btn-hover-border-color: #{$periwinkle};
+			--bs-btn-focus-shadow-rgb: #{red($periwinkle)}, #{green($periwinkle)}, #{blue($periwinkle)};
+			--bs-btn-active-color: #{$black};
+			--bs-btn-active-bg: #{$periwinkle};
+			--bs-btn-active-border-color: #{$periwinkle};
+			--bs-btn-disabled-color: #{$periwinkle};
+			--bs-btn-disabled-border-color: #{$periwinkle};
+		}
+
 		.btn-secondary {
 			--bs-btn-bg: #{$peach};
 			--bs-btn-border-color: #{$peach};
