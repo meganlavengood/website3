@@ -71,8 +71,14 @@
 		return {
 			plugins: {
 				legend: {
-					position: "bottom",
-					labels: { font: { size: 11 }, boxWidth: 14 },
+					position: "top",
+					labels: { font: { size: 16 }, boxWidth: 14 },
+					onHover: (e) => {
+						e.native.target.style.cursor = "pointer";
+					},
+					onLeave: (e) => {
+						e.native.target.style.cursor = "default";
+					},
 				},
 			},
 			scales:
@@ -226,7 +232,7 @@
 	//                     What each row displays is controlled by makeTooltipCallback above.
 	//   options         — Chart.js options object (use barOpts('x') or barOpts('y'))
 
-	const CHART_DEFS = [
+	const HIREE_CHART_DEFS = [
 		{
 			id: "degreeTypeChart",
 			title: "Hiree Degree & Concentration",
@@ -267,13 +273,60 @@
 		},
 	];
 
-	document.getElementById("charts-grid").insertAdjacentHTML(
+	const STATUS_LABELS = [
+		"Filled",
+		"No hire listed",
+		"Search cancelled",
+		"Search failed",
+	];
+	const STATUS_COLORS = [
+		"rgba(25, 135, 84, 0.6)",
+		"rgba(255, 193, 7, 0.6)",
+		"rgba(220, 53, 69, 0.6)",
+		"rgba(253, 126, 20, 0.6)",
+	];
+
+	const JOBS_CHART_DEFS = [
+		{
+			id: "jobTypeChart",
+			title: "Job Type",
+			labels: ["TT", "NTT"],
+			getData: () => [ttJobs.length, nttJobs.length],
+			getColors: () => [chartColors().tt, chartColors().ntt],
+			getTooltipJobs: (label) => jobs.filter((j) => j.type === label),
+		},
+		{
+			id: "jobStatusChart",
+			title: "Job Status",
+			labels: STATUS_LABELS,
+			getData: () =>
+				STATUS_LABELS.map((s) => jobs.filter((j) => j.status === s).length),
+			getColors: () => STATUS_COLORS,
+			getTooltipJobs: (label) => jobs.filter((j) => j.status === label),
+		},
+	];
+
+	document.getElementById("jobs-charts-grid").insertAdjacentHTML(
 		"afterbegin",
-		CHART_DEFS.map(
+		JOBS_CHART_DEFS.map(
+			(def) => `
+		<div class="card chart-card">
+        <h3 class="card-header h6">${def.title}</h3>
+			<div class="card-body">
+				<div class="chart-wrap donut"><canvas aria-label="${def.title}" role="img" id="${def.id}"></canvas></div>
+			</div>
+		</div>`,
+		).join(""),
+	);
+
+	document.getElementById("hirees-charts-grid").insertAdjacentHTML(
+		"afterbegin",
+		HIREE_CHART_DEFS.map(
 			(def) => `
 		<div class="card chart-card${def.wide ? " wide" : ""}${def.narrow ? " narrow" : ""}">
+        <h3 class="card-header h6">${def.title}</h3>
 			<div class="card-body">
-				<p class="fs-6">${def.title}</p>
+                <p class="text-sm text-body-tertiary fw-light">Click TT or NTT in the legend to remove those jobs from the graph.</p>
 				<div class="chart-wrap"><canvas aria-label="${def.title}" role="img" id="${def.id}"></canvas></div>
 			</div>
 		</div>`,
@@ -282,7 +335,7 @@
 
 	Chart.defaults.color = chartColors().text;
 
-	const charts = CHART_DEFS.map((def) => {
+	const hireeCharts = HIREE_CHART_DEFS.map((def) => {
 		const canvas = document.getElementById(def.id);
 		if (def.dynamicHeight) {
 			canvas.parentElement.style.height = `${def.labels.length * 28 + 50}px`;
@@ -314,20 +367,67 @@
 		};
 	});
 
+	const jobsCharts = JOBS_CHART_DEFS.map((def) => ({
+		def,
+		instance: new Chart(document.getElementById(def.id), {
+			type: "doughnut",
+			data: {
+				labels: def.labels,
+				datasets: [
+					{
+						data: def.getData(),
+						backgroundColor: def.getColors(),
+						borderColor: "transparent",
+					},
+				],
+			},
+			options: {
+				plugins: {
+					legend: {
+						position: "top",
+						labels: { font: { size: 16 }, boxWidth: 14 },
+						onHover: (e) => {
+							e.native.target.style.cursor = "pointer";
+						},
+						onLeave: (e) => {
+							e.native.target.style.cursor = "default";
+						},
+					},
+					tooltip: {
+						callbacks: {
+							afterLabel(ctx) {
+								const label = ctx.chart.data.labels[ctx.dataIndex];
+								const matching = def.getTooltipJobs(label);
+								if (!matching.length) return [];
+								const lines = matching
+									.slice(0, 8)
+									.map((j) => `• ${j.institution}`);
+								if (matching.length > 8)
+									lines.push(`  … and ${matching.length - 8} more`);
+								return lines;
+							},
+						},
+					},
+				},
+			},
+		}),
+	}));
+
 	// ── stats & table ─────────────────────────────────────────────────────────────
 
-	// Renders the summary stat cards above the charts.
-	// To add/remove/rename a stat card, edit the `rows` arrays below.
-	// Each entry needs a `num` (the count) and a `label` (the display text).
+	// Renders the intro text.
 	function updateStats() {
 		const isCancelledFailed = (j) =>
 			j.status === "Search cancelled" || j.status === "Search failed";
 		const isNoInfo = (j) => j.status === "No hire listed";
 		const ttNoInfo = ttJobs.filter(isNoInfo).length;
 		const nttNoInfo = nttJobs.filter(isNoInfo).length;
-		document.getElementById("intro").innerHTML = `
+		document.getElementById("jobs-intro").innerHTML = `
     <p>
-        In this job market cycle, <span class="fw-bold text-primary">${ttJobs.length} tenure-track (TT) and ${nttJobs.length} non-tenure-track (NTT)</span> jobs were listed. Of these, <span class="fw-bold text-success">${ttHires.length} TT and ${nttHires.length} NTT</span> were filled. <span class="fw-bold text-danger">${ttJobs.filter(isCancelledFailed).length} TT and ${nttJobs.filter(isCancelledFailed).length} NTT</span> were canceled or failed. <span class="fw-bold text-warning">${ttNoInfo + nttNoInfo} jobs</span> (${ttNoInfo} TT, ${nttNoInfo} NTT) have no hire information posted.</p><p>In an effort to better understand hiring trends, the following charts reflect only the <span class="fw-bold text-primary">${allHires.length} jobs</span> whose positions were filled successfully.
+        In this job market cycle, <span class="fw-bold text-primary">${ttJobs.length} tenure-track (TT) and ${nttJobs.length} non-tenure-track (NTT)</span> jobs were listed. Of these, <span class="fw-bold text-success">${ttHires.length} TT and ${nttHires.length} NTT</span> were filled. <span class="fw-bold text-danger">${ttJobs.filter(isCancelledFailed).length} TT and ${nttJobs.filter(isCancelledFailed).length} NTT</span> were canceled or failed. <span class="fw-bold text-warning">${ttNoInfo + nttNoInfo} jobs</span> (${ttNoInfo} TT, ${nttNoInfo} NTT) have no hire information posted.</p>
+    </p>`;
+		document.getElementById("hirees-intro").innerHTML =
+			`<p>The following charts reflect only the <span class="fw-bold text-primary">${allHires.length} jobs</span> that were filled successfully.
     </p>`;
 	}
 
@@ -376,7 +476,7 @@
 	function applyChartTheme() {
 		const { text, tick, grid, tt, ntt } = chartColors();
 		Chart.defaults.color = text;
-		charts.forEach(({ instance }) => {
+		hireeCharts.forEach(({ instance }) => {
 			if (instance.options.scales) {
 				Object.values(instance.options.scales).forEach((scale) => {
 					if (scale.grid) scale.grid.color = grid;
@@ -387,6 +487,10 @@
 				if (ds.label === "TT" || ds.label === "NTT")
 					ds.backgroundColor = ds.label === "TT" ? tt : ntt;
 			});
+			instance.update("none");
+		});
+		jobsCharts.forEach(({ def, instance }) => {
+			instance.data.datasets[0].backgroundColor = def.getColors();
 			instance.update("none");
 		});
 	}

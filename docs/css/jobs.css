@@ -8,10 +8,6 @@
 	grid-column: 1 / -1;
 }
 
-.chart-card.narrow {
-	max-width: 420px;
-}
-
 .chart-wrap.donut {
 	max-width: 280px;
 	margin: 0 auto;
@@ -23,15 +19,3 @@
 	color: var(--bs-primary);
 	line-height: 1;
 }
-
-.stat-lbl {
-	font-size: 0.7rem;
-	text-transform: uppercase;
-	letter-spacing: 0.05em;
-	color: var(--bs-secondary-color);
-	margin-top: 0.2rem;
-}
-
-/* th {
-	white-space: nowrap;
-} */
