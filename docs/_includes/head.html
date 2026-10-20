@@ -11,7 +11,17 @@
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+	<!-- og meta tags -->
+	<meta property="og:title" content="{{ page.title }}" />
+	{% if page.lead %}
+	<meta property="og:description" content="{{ page.lead }}" />
+	{% endif %}
+	<meta property="og:url" content="{{ page.url | absolute_url }}" />
+	<meta property="og:type" content="website" />
+	{% if page.banner %}
+	<meta property="og:image" content="{{ page.banner | absolute_url }}" />
+	{% endif %}
+	<!-- stylesheets -->
 	<link rel="stylesheet" href="{{ '/css/bootstrap-custom.css' | relative_url }}">
 	<link rel="stylesheet" href="{{ '/css/custom.css' | relative_url }}">
 	<link rel="stylesheet" href="{{ '/css/print.css' | relative_url }}" media="print">
