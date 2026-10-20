@@ -93,7 +93,7 @@
 							y: {
 								stacked: true,
 								grid: { display: false },
-								ticks: { font: { size: 12 }, color: tick },
+								ticks: { font: { size: 16 }, color: tick },
 							},
 						}
 					: {
@@ -106,7 +106,7 @@
 							x: {
 								stacked: true,
 								grid: { display: false },
-								ticks: { color: tick },
+								ticks: { font: { size: 16 }, color: tick },
 							},
 						},
 		};
