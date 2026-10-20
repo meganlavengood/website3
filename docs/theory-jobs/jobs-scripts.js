@@ -171,15 +171,47 @@
 		];
 	}
 
+	// Builds the Chart.js tooltip plugin config for a given chart definition.
+	// Each chart def supplies a getTooltipJobs(label, type) function (see CHART_DEFS below)
+	// that returns the matching hire rows for a hovered bar segment.
+	//
+	// To change what text appears per row: edit the template literal in .map() below.
+	//   Available columns from the CSV: j.institution, j.hire, j.from, j.degree, j.spec, j.year
+	//   Example — show "Institution (degree-granting school)":
+	//     .map((j) => `  ${j.institution} (${j.from})`)
+	//
+	// To change the cap on listed entries: change the .slice(0, 8) limit.
+	// To remove the "… and N more" overflow line: delete the if-block after .map().
+	function makeTooltipCallback(def) {
+		return {
+			callbacks: {
+				afterLabel(ctx) {
+					const label = ctx.chart.data.labels[ctx.dataIndex];
+					const dsLabel = ctx.dataset.label;
+					const matching = def.getTooltipJobs(label, dsLabel);
+					if (!matching.length) return [];
+					const lines = matching.slice(0, 8).map((j) => `• ${j.institution}`);
+					if (matching.length > 8)
+						lines.push(`  … and ${matching.length - 8} more`);
+					return lines;
+				},
+			},
+		};
+	}
+
 	// ── chart registry ────────────────────────────────────────────────────────────
 	// To add a chart:    add a <canvas id="..."> to your HTML, then add one entry here.
 	// To remove a chart: delete the entry here, and delete the <canvas> from your HTML.
 	//
 	// Each entry needs:
-	//   id          — must match the id="..." on the <canvas> element in HTML
-	//   labels      — array of category labels shown on the axis
-	//   getDatasets — function returning Chart.js dataset arrays
-	//   options     — Chart.js options object (use barOpts('x') or barOpts('y'))
+	//   id              — must match the id="..." on the <canvas> element in HTML
+	//   labels          — array of category labels shown on the axis
+	//   getDatasets     — function returning Chart.js dataset arrays
+	//   getTooltipJobs  — function(label, type) returning the hire rows for a hovered bar.
+	//                     label is the axis category (e.g. "PhD"), type is "TT" or "NTT".
+	//                     Filter the appropriate hires array and return matching rows.
+	//                     What each row displays is controlled by makeTooltipCallback above.
+	//   options         — Chart.js options object (use barOpts('x') or barOpts('y'))
 
 	const CHART_DEFS = [
 		{
@@ -187,6 +219,8 @@
 			title: "Hiree degree type",
 			labels: DEG_LABELS,
 			getDatasets: () => datasets(DEG_LABELS, (j) => j.degree),
+			getTooltipJobs: (label, type) =>
+				(type === "TT" ? ttHires : nttHires).filter((j) => j.degree === label),
 			options: barOpts("x"),
 		},
 		{
@@ -194,6 +228,12 @@
 			title: "ABD vs. Degree in Hand at Hire",
 			labels: ABD_LABELS,
 			getDatasets: abdDatasets,
+			getTooltipJobs: (label, type) => {
+				const hires = type === "TT" ? ttHires : nttHires;
+				return label === "ABD"
+					? hires.filter((j) => j.year === "ABD")
+					: hires.filter((j) => j.year && j.year !== "ABD");
+			},
 			options: barOpts("x"),
 		},
 		{
@@ -205,6 +245,8 @@
 				datasets(FEEDER_LABELS, (j) =>
 					j.from !== "Not listed" ? j.from : null,
 				),
+			getTooltipJobs: (label, type) =>
+				(type === "TT" ? ttHires : nttHires).filter((j) => j.from === label),
 			options: { indexAxis: "y", ...barOpts("y") },
 		},
 		{
@@ -213,6 +255,8 @@
 			wide: true,
 			labels: SPEC_LABELS,
 			getDatasets: () => datasets(SPEC_LABELS, (j) => j.spec),
+			getTooltipJobs: (label, type) =>
+				(type === "TT" ? ttHires : nttHires).filter((j) => j.spec === label),
 			options: { indexAxis: "y", ...barOpts("y") },
 		},
 	];
@@ -224,7 +268,7 @@
 		<div class="card chart-card${def.wide ? " wide" : ""}">
 			<div class="card-body">
 				<p class="fs-6">${def.title}</p>
-				<div class="chart-wrap"><canvas id="${def.id}"></canvas></div>
+				<div class="chart-wrap"><canvas aria-label="${def.title}" role="img" id="${def.id}"></canvas></div>
 			</div>
 		</div>`,
 		).join(""),
@@ -232,14 +276,23 @@
 
 	Chart.defaults.color = chartColors().text;
 
-	const charts = CHART_DEFS.map((def) => ({
-		def,
-		instance: new Chart(document.getElementById(def.id), {
-			type: "bar",
-			data: { labels: def.labels, datasets: def.getDatasets() },
-			options: def.options,
-		}),
-	}));
+	const charts = CHART_DEFS.map((def) => {
+		const opts = {
+			...def.options,
+			plugins: {
+				...def.options.plugins,
+				tooltip: makeTooltipCallback(def),
+			},
+		};
+		return {
+			def,
+			instance: new Chart(document.getElementById(def.id), {
+				type: "bar",
+				data: { labels: def.labels, datasets: def.getDatasets() },
+				options: opts,
+			}),
+		};
+	});
 
 	// ── stats & table ─────────────────────────────────────────────────────────────
 
@@ -249,9 +302,12 @@
 	function updateStats() {
 		const isCancelledFailed = (j) =>
 			j.status === "Search cancelled" || j.status === "Search failed";
+		const isNoInfo = (j) => j.status === "No hire listed";
+		const ttNoInfo = ttJobs.filter(isNoInfo).length;
+		const nttNoInfo = nttJobs.filter(isNoInfo).length;
 		document.getElementById("intro").innerHTML = `
     <p>
-        In this job market cycle, <span class="fw-bold text-primary">${ttJobs.length} tenure-track (TT) and ${nttJobs.length} non-tenure-track (NTT)</span> jobs were listed. Of these, <span class="fw-bold text-success">${ttHires.length} TT and ${nttHires.length} NTT</span> were filled. <span class="fw-bold text-danger">${ttJobs.filter(isCancelledFailed).length} TT and ${nttJobs.filter(isCancelledFailed).length} NTT</span> were canceled or failed.</p><p>In an effort to better understand hiring trends, the following charts reflect only the <span class="fw-bold text-primary">${allHires.length} jobs</span> whose positions were filled successfully.
+        In this job market cycle, <span class="fw-bold text-primary">${ttJobs.length} tenure-track (TT) and ${nttJobs.length} non-tenure-track (NTT)</span> jobs were listed. Of these, <span class="fw-bold text-success">${ttHires.length} TT and ${nttHires.length} NTT</span> were filled. <span class="fw-bold text-danger">${ttJobs.filter(isCancelledFailed).length} TT and ${nttJobs.filter(isCancelledFailed).length} NTT</span> were canceled or failed. <span class="fw-bold text-warning">${ttNoInfo + nttNoInfo} jobs</span> (${ttNoInfo} TT, ${nttNoInfo} NTT) have no hire information posted.</p><p>In an effort to better understand hiring trends, the following charts reflect only the <span class="fw-bold text-primary">${allHires.length} jobs</span> whose positions were filled successfully.
     </p>`;
 	}
 
