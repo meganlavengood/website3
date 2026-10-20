@@ -396,21 +396,10 @@
 
 	// ── stats & table ─────────────────────────────────────────────────────────────
 
-	// Renders the intro text.
-	function updateStats() {
-		const isCancelledFailed = (j) =>
-			j.status === "Search cancelled" || j.status === "Search failed";
-		const isNoInfo = (j) => j.status === "No hire listed";
-		const ttNoInfo = ttJobs.filter(isNoInfo).length;
-		const nttNoInfo = nttJobs.filter(isNoInfo).length;
-		document.getElementById("jobs-intro").innerHTML = `
-    <p>
-        In this job market cycle, <span class="fw-bold text-primary">${ttJobs.length} tenure-track (TT) and ${nttJobs.length} non-tenure-track (NTT)</span> jobs were listed. Of these, <span class="fw-bold text-success">${ttHires.length} TT and ${nttHires.length} NTT</span> were filled. <span class="fw-bold text-danger">${ttJobs.filter(isCancelledFailed).length} TT and ${nttJobs.filter(isCancelledFailed).length} NTT</span> were canceled or failed. <span class="fw-bold text-warning">${ttNoInfo + nttNoInfo} jobs</span> (${ttNoInfo} TT, ${nttNoInfo} NTT) have no hire information posted.</p>
-    </p>`;
-		document.getElementById("hirees-intro").innerHTML =
-			`<p>The following charts reflect only the <span class="fw-bold text-primary">${allHires.length} jobs</span> that were filled successfully.
-    </p>`;
-	}
+	document.getElementById("jobs-intro").innerHTML =
+		`<p><span class="fw-bold">${jobs.length} jobs</span> were listed in this job market cycle.</p>`;
+	document.getElementById("hirees-intro").innerHTML =
+		`<p>The following charts reflect only the <span class="fw-bold">${allHires.length} jobs</span> that were filled successfully.</p>`;
 
 	// Returns a Bootstrap badge for the job status value.
 	// Add new status strings here if your CSV gains new status values.
@@ -447,7 +436,6 @@
 			.join("");
 	}
 
-	updateStats();
 	updateTable();
 
 	// ── dark-mode chart refresh ───────────────────────────────────────────────────
