@@ -13,9 +13,6 @@
 	margin: 0 auto;
 }
 
-.stat-num {
-	font-size: 2rem;
-	font-weight: bold;
-	color: var(--bs-primary);
-	line-height: 1;
-}
+/* th {
+	white-space: nowrap;
+} */

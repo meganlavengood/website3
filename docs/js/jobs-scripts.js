@@ -249,6 +249,7 @@
 			id: "abdChart",
 			title: "ABD vs. Degree in Hand at Hire",
 			labels: ABD_LABELS,
+			narrow: true,
 			getDatasets: abdDatasets,
 			getTooltipJobs: (label, type) => {
 				const hires = type === "TT" ? ttHires : nttHires;
@@ -274,12 +275,7 @@
 		},
 	];
 
-	const STATUS_LABELS = [
-		"Filled",
-		"No hire listed",
-		"Search cancelled",
-		"Search failed",
-	];
+	const STATUS_LABELS = ["Filled", "Unknown", "Cancelled", "Failed"];
 	const STATUS_COLORS = [
 		"rgba(25, 135, 84, 0.6)",
 		"rgba(255, 193, 7, 0.6)",
@@ -311,12 +307,14 @@
 		"afterbegin",
 		JOBS_CHART_DEFS.map(
 			(def) => `
-		<div class="card chart-card">
-        <h3 class="card-header h6">${def.title}</h3>
-			<div class="card-body">
-				<div class="chart-wrap donut"><canvas aria-label="${def.title}" role="img" id="${def.id}"></canvas></div>
-			</div>
-		</div>`,
+			<div class="${def.wide ? "col" : "col-md-6"}">
+				<div class="card chart-card">
+					<h3 class="card-header h6">${def.title}</h3>
+					<div class="card-body">
+						<div class="chart-wrap donut"><canvas aria-label="${def.title}" role="img" id="${def.id}"></canvas></div>
+					</div>
+				</div>
+			</div>`,
 		).join(""),
 	);
 
@@ -324,13 +322,15 @@
 		"afterbegin",
 		HIREE_CHART_DEFS.map(
 			(def) => `
-		<div class="card chart-card${def.wide ? " wide" : ""}${def.narrow ? " narrow" : ""}">
-        <h3 class="card-header h6">${def.title}</h3>
-			<div class="card-body">
-                <p class="text-sm text-body-tertiary fw-light">Click TT or NTT in the legend to remove those jobs from the graph.</p>
-				<div class="chart-wrap"><canvas aria-label="${def.title}" role="img" id="${def.id}"></canvas></div>
-			</div>
-		</div>`,
+			<div class="${def.wide ? "col" : "col-md-6"}">
+				<div class="card chart-card">
+					<h3 class="card-header h6">${def.title}</h3>
+					<div class="card-body">
+						<span class="text-sm text-body-tertiary fw-light lh-sm">Click TT or NTT in the legend to remove those jobs from the graph.</span>
+						<div class="chart-wrap"><canvas aria-label="${def.title}" role="img" id="${def.id}"></canvas></div>
+					</div>
+				</div>
+			</div>`,
 		).join(""),
 	);
 
@@ -385,7 +385,7 @@
 			options: {
 				plugins: {
 					legend: {
-						position: "top",
+						position: "left",
 						labels: { font: { size: 16 }, boxWidth: 14 },
 					},
 					tooltip: {},
@@ -407,9 +407,9 @@
 		const cls =
 			s === "Filled"
 				? "text-bg-success"
-				: s === "No hire listed"
+				: s === "Unknown"
 					? "text-bg-warning"
-					: s === "Search cancelled" || "Search failed"
+					: s === "Cancelled" || "Failed"
 						? "text-bg-danger"
 						: "text-bg-secondary";
 		return `<span class="badge ${cls}">${s}</span>`;
