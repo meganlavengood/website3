@@ -205,13 +205,14 @@
 		return {
 			callbacks: {
 				afterLabel(ctx) {
+					const cap = 7;
 					const label = ctx.chart.data.labels[ctx.dataIndex];
 					const dsLabel = ctx.dataset.label;
 					const matching = def.getTooltipJobs(label, dsLabel);
 					if (!matching.length) return [];
-					const lines = matching.slice(0, 8).map((j) => `• ${j.institution}`);
-					if (matching.length > 8)
-						lines.push(`  … and ${matching.length - 8} more`);
+					const lines = matching.slice(0, cap).map((j) => `• ${j.institution}`);
+					if (matching.length > cap)
+						lines.push(`  … and ${matching.length - cap} more`);
 					return lines;
 				},
 			},
@@ -297,7 +298,7 @@
 		},
 		{
 			id: "jobStatusChart",
-			title: "Job Status",
+			title: "Search Outcome",
 			labels: STATUS_LABELS,
 			getData: () =>
 				STATUS_LABELS.map((s) => jobs.filter((j) => j.status === s).length),
@@ -386,28 +387,8 @@
 					legend: {
 						position: "top",
 						labels: { font: { size: 16 }, boxWidth: 14 },
-						onHover: (e) => {
-							e.native.target.style.cursor = "pointer";
-						},
-						onLeave: (e) => {
-							e.native.target.style.cursor = "default";
-						},
 					},
-					tooltip: {
-						callbacks: {
-							afterLabel(ctx) {
-								const label = ctx.chart.data.labels[ctx.dataIndex];
-								const matching = def.getTooltipJobs(label);
-								if (!matching.length) return [];
-								const lines = matching
-									.slice(0, 8)
-									.map((j) => `• ${j.institution}`);
-								if (matching.length > 8)
-									lines.push(`  … and ${matching.length - 8} more`);
-								return lines;
-							},
-						},
-					},
+					tooltip: {},
 				},
 			},
 		}),

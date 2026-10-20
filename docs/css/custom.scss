@@ -272,6 +272,10 @@ $utilities: map-merge(
 // ============================================================
 
 @layer site {
+	.card {
+		--bs-card-cap-bg: transparent;
+	}
+
 	[data-bs-theme="dark"] {
 		@each $name, $value in $dark-theme-overrides {
 			--bs-#{$name}: #{$value};
@@ -370,7 +374,6 @@ $utilities: map-merge(
 			border: 0;
 			box-shadow: var(--bs-box-shadow);
 			border: 2px solid #{$brown};
-			--bs-card-cap-bg: transparent;
 		}
 	}
 
