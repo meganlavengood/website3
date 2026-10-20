@@ -45,7 +45,7 @@
 	// Used to build the axis labels for charts from the most-common values in the data.
 	function sortedKeys(obj, n = Infinity) {
 		return Object.entries(obj)
-			.sort((a, b) => b[1] - a[1])
+			.sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
 			.slice(0, n)
 			.map((e) => e[0]);
 	}
@@ -111,15 +111,28 @@
 	const ABD_LABELS = ["Degree in hand", "ABD"];
 
 	// These labels are built dynamically from the data — the most common values win.
-	// DEG_LABELS: all unique values in the "degree" column, sorted by frequency.
-	// FEEDER_LABELS: top 12 "from" values (skipping "Not listed").
+	// FEEDER_LABELS: top "from" values (skipping "Not listed").
 	// SPEC_LABELS: all unique values in the "spec" column, sorted by frequency.
-	const DEG_LABELS = sortedKeys(countBy(allHires, (j) => j.degree));
+	const DEG_LABELS = [
+		"PhD Theory",
+		"PhD Comp",
+		"PhD Other",
+		"DMA Comp",
+		"Other",
+	];
+	const degTypeLabel = (j) => {
+		if (!j.degree) return null;
+		if (j.degree === "PhD") {
+			if (j.spec === "Music Theory") return "PhD Theory";
+			if (j.spec === "Composition") return "PhD Comp";
+			return "PhD Other";
+		}
+		if (j.degree === "DMA" && j.spec === "Composition") return "DMA Comp";
+		return "Other";
+	};
 	const FEEDER_LABELS = sortedKeys(
 		countBy(allHires, (j) => (j.from !== "Not listed" ? j.from : null)),
-		12,
 	);
-	const SPEC_LABELS = sortedKeys(countBy(allHires, (j) => j.spec));
 
 	// Builds Chart.js dataset arrays for a chart, always showing TT and NTT as stacked datasets.
 	// labelList: the axis labels (e.g. DEG_LABELS).
@@ -216,12 +229,14 @@
 	const CHART_DEFS = [
 		{
 			id: "degreeTypeChart",
-			title: "Hiree degree type",
+			title: "Hiree Degree & Concentration",
 			labels: DEG_LABELS,
-			getDatasets: () => datasets(DEG_LABELS, (j) => j.degree),
+			getDatasets: () => datasets(DEG_LABELS, (j) => degTypeLabel(j)),
 			getTooltipJobs: (label, type) =>
-				(type === "TT" ? ttHires : nttHires).filter((j) => j.degree === label),
-			options: barOpts("x"),
+				(type === "TT" ? ttHires : nttHires).filter(
+					(j) => degTypeLabel(j) === label,
+				),
+			options: { indexAxis: "y", ...barOpts("y") },
 		},
 		{
 			id: "abdChart",
@@ -240,6 +255,7 @@
 			id: "feederChart",
 			title: "Hiree Degree-Granting Institution",
 			wide: true,
+			dynamicHeight: true,
 			labels: FEEDER_LABELS,
 			getDatasets: () =>
 				datasets(FEEDER_LABELS, (j) =>
@@ -249,23 +265,13 @@
 				(type === "TT" ? ttHires : nttHires).filter((j) => j.from === label),
 			options: { indexAxis: "y", ...barOpts("y") },
 		},
-		{
-			id: "specializationChart",
-			title: "Hiree Degree Concentration",
-			wide: true,
-			labels: SPEC_LABELS,
-			getDatasets: () => datasets(SPEC_LABELS, (j) => j.spec),
-			getTooltipJobs: (label, type) =>
-				(type === "TT" ? ttHires : nttHires).filter((j) => j.spec === label),
-			options: { indexAxis: "y", ...barOpts("y") },
-		},
 	];
 
 	document.getElementById("charts-grid").insertAdjacentHTML(
 		"afterbegin",
 		CHART_DEFS.map(
 			(def) => `
-		<div class="card chart-card${def.wide ? " wide" : ""}">
+		<div class="card chart-card${def.wide ? " wide" : ""}${def.narrow ? " narrow" : ""}">
 			<div class="card-body">
 				<p class="fs-6">${def.title}</p>
 				<div class="chart-wrap"><canvas aria-label="${def.title}" role="img" id="${def.id}"></canvas></div>
@@ -277,16 +283,30 @@
 	Chart.defaults.color = chartColors().text;
 
 	const charts = CHART_DEFS.map((def) => {
+		const canvas = document.getElementById(def.id);
+		if (def.dynamicHeight) {
+			canvas.parentElement.style.height = `${def.labels.length * 28 + 50}px`;
+		}
 		const opts = {
 			...def.options,
+			...(def.dynamicHeight && { maintainAspectRatio: false }),
 			plugins: {
 				...def.options.plugins,
 				tooltip: makeTooltipCallback(def),
 			},
+			...(def.dynamicHeight && {
+				scales: {
+					...def.options.scales,
+					y: {
+						...def.options.scales.y,
+						ticks: { ...def.options.scales.y.ticks, autoSkip: false },
+					},
+				},
+			}),
 		};
 		return {
 			def,
-			instance: new Chart(document.getElementById(def.id), {
+			instance: new Chart(canvas, {
 				type: "bar",
 				data: { labels: def.labels, datasets: def.getDatasets() },
 				options: opts,
@@ -334,7 +354,7 @@
 				<td scope="row">${j.institution}</td>
 				<td style="white-space:nowrap;">${j.location}</td>
 				<td style="max-width:300px;">${j.title}</td>
-				<td><span class="badge" style="background-color:${j.type === "TT" ? "rgba(0, 204, 187, 0.5)" : "rgba(238, 175, 141, 0.5)"}; color: inherit;">${j.type}</span></td>
+				<td><span class="badge" style="background-color:${j.type === "TT" ? "rgba(0, 204, 187, 0.5)" : "rgba(238, 175, 141, 0.5)"}; color: var(--bs-black);">${j.type}</span></td>
 				<td>${statusBadge(j.status)}</td>
 				<td style="white-space:nowrap;">${j.hire || "—"}</td>
 				<td>${j.from || "—"}</td>
