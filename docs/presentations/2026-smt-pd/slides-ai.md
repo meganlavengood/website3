@@ -33,7 +33,7 @@ Too many words
 
 <div class="r-stack">
 <img src="img/ai-slide-0.png" alt="screenshot of an AI-generated slide with a title, subtitle, two sentences, and two cards that each contain a title and two sentences">
-<img class="fragment" src="img/aint.gif" alt="meme: screenshot of text conversation that says &quot;I ain't raeding all that. I'm happy for you though. Or sorry that happened.&quot;">
+<img class="fragment r-frame" src="img/aint.gif" alt="meme: screenshot of text conversation that says &quot;I ain't raeding all that. I'm happy for you though. Or sorry that happened.&quot;">
 </div>
 
 --
@@ -42,7 +42,7 @@ Too many words
 
 Too many words (even with pics)
 
-![screenshot of an AI-generated slide has a title, subtitle, two images, and three sentences/fragments](/img/ai-slide-1.png)
+![screenshot of an AI-generated slide has a title, subtitle, two images, and three sentences/fragments](img/ai-slide-1.png)
 
 --
 
