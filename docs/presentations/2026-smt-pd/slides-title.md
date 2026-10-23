@@ -27,5 +27,6 @@ Megan Lavengood • megan@meganlavengood.com<br/>SMT 2026, Milwaukee, WI
 In this talk I will tell you my tech tips for presenting.
 
 1. Using the internet
-2. Using AI
+2. Audio examples
 3. Slide design
+4. Using AI
