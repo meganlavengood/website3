@@ -46,7 +46,7 @@ When in doubt, keep it simple. Overdone slides are often distracting.
 
 ### Text content
 
-- **Size**: Leave the font size large—no less than 24pt
+- **Size**: Leave the font size large—24 is an absolute minimum (prob still too small)
 - **Color**: Ensure sufficient contrast between background and text.
   - Often an issue when using images instead of a solid-color background.
 
