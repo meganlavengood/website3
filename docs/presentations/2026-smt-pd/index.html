@@ -12,11 +12,18 @@ redirect_from:
   <link rel="stylesheet" href="../styles/solarized-custom.css">
   <title>Tech Tips and Best Practices: Presenting</title>
   <link rel="icon" type="image/x-icon" href="/docs/ml-icon.png">
+  <style>
+    section.white-bg-demo * {
+      color: #000 !important;
+    }
+
+  </style>
   <meta name="citation_title" content="Tech Tips and Best Practices: Presenting">
   <meta name="citation_author" content="Lavengood, Megan L.">
   <meta name="citation_conference_title" content="The 49th Annual Meeting of the Society for Music Theory, Milwaukee, WI">
   <meta name="citation_abstract" content="This talk covers tech tips and best practices for presenting music theory research at a conference. Topics include AI use, media use, and thoughtful use of color and animation.">
   <meta name="citation_date" content="November 5, 2026">
+
 </head>
 
 <body>
@@ -24,7 +31,9 @@ redirect_from:
     <div class="slides">
       <section data-markdown="slides-title.md" data-separator="^\n---\n" data-separator-vertical="^\n--\n" data-separator-notes="^Note:" data-auto-animate></section>
       <section data-markdown="slides-internet.md" data-separator="^\n---\n" data-separator-vertical="^\n--\n" data-separator-notes="^Note:" data-auto-animate></section>
+      <section data-markdown="slides-design.md" data-separator="^\n---\n" data-separator-vertical="^\n--\n" data-separator-notes="^Note:" data-auto-animate></section>
       <section data-markdown="slides-ai.md" data-separator="^\n---\n" data-separator-vertical="^\n--\n" data-separator-notes="^Note:" data-auto-animate></section>
+      <section data-markdown="slides-conclusion.md" data-separator="^\n---\n" data-separator-vertical="^\n--\n" data-separator-notes="^Note:" data-auto-animate></section>
     </div>
   </div>
   <script src="https://unpkg.com/reveal.js/dist/reveal.js"></script>
@@ -34,6 +43,9 @@ redirect_from:
     Reveal.initialize({
       plugins: [RevealMarkdown, RevealNotes],
       slideNumber: true,
+      hash: true,
+      width: 1040, // 960 default
+      height: 700, // 700 default
     });
     // set preferences for certain elements
     Reveal.on('ready', () => {
@@ -42,8 +54,20 @@ redirect_from:
       });
       document.querySelectorAll('.reveal .slides section img').forEach(img => {
         img.classList.add('r-frame');
+        img.setAttribute('data-preview-image', '');
+      });
+      Reveal.sync();
+    });
+
+    document.addEventListener('click', function (e) {
+      if (e.target.classList.contains('toggle-white-bg')) {
+        const slide = e.target.closest('section');
+        const { h, v } = Reveal.getIndices(slide);
+        const bg = Reveal.getSlideBackground(h, v);
+        const on = slide.classList.toggle('white-bg-demo');
+        if (bg) bg.style.background = on ? '#fff' : '';
+        e.target.textContent = on ? 'AHHHH PUT IT BACK' : 'Demo: toggle white background';
       }
-      );
     });
   </script>
 </body>

@@ -28,6 +28,8 @@
     Reveal.initialize({
       plugins: [RevealMarkdown, RevealNotes],
       slideNumber: true,
+      hash: true, // add slide number to URL
+      width: 1040, // 960 default
     });
     Reveal.on('ready', () => {
       document.querySelectorAll('.reveal .slides section').forEach(section => {

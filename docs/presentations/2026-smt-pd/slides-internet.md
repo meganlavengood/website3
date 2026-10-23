@@ -1,11 +1,23 @@
 ## Put stuff on the internet
 
+--
+
+## Put stuff on the internet
+
 Let people see your slides from anywhere
 
 1. Have a personal website or Knowledge Commons profile
 2. Put your slides/script online
 3. Create a QR code for your slides
 4. Put the QR code on the slides
+
+--
+
+## Put stuff on the internet
+
+btw here is my QR code
+
+![QR code for slides](img/qr.svg)
 
 --
 
@@ -45,9 +57,9 @@ Let people see your slides from anywhere
 
 ### 3. Create a QR code for your slides
 
-<div class="container">
+<div class="container r-stretch">
 <div class="col">
-<img src="img/qr-chrome-1.png" alt="screenshot of right-click menu in Chrome">
+<img class="r-stretch" src="img/qr-chrome-1.png" alt="screenshot of right-click menu in Chrome">
 </div>
 <div class="col">
 <img src="img/qr-chrome-2.png" alt="screenshot of the popup window after you select &quot;Create QR code&quot; on the right-click menu">
@@ -73,3 +85,23 @@ Other options besides Chrome:
 
 - Make it nice and big
 - **Test it!**
+
+---
+
+## Don't rely on internet
+
+--
+
+## Don't rely on internet
+
+**DOWNLOAD</br>YOUR</br>YOUTUBE VIDEOS** <!-- .element: class="r-fit-text" -->
+
+--
+
+## Don't rely on internet
+
+### Ways to download YT videos
+
+- Command-line tool: [yt-dlp](https://github.com/yt-dlp/yt-dlp)
+- [yt-dlp online](https://ytdlp.online)
+- random websites on the internet
