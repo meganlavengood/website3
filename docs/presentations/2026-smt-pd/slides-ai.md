@@ -27,7 +27,7 @@ Use AI to communicate with the computer.<br/>**Do not use it for communicating w
 
 ## AI slide deck examples
 
-<div class="Container"><div class="col">
+<div class="container"><div class="col">
 <div class="r-stack">
 <img src="img/ai-slide-0.png" alt="screenshot of an AI-generated slide with a title, subtitle, two sentences, and two cards that each contain a title and two sentences">
 <img class="fragment r-frame" src="img/aint.gif" alt="meme: screenshot of text conversation that says &quot;I ain't raeding all that. I'm happy for you though. Or sorry that happened.&quot;">
@@ -45,7 +45,7 @@ too many words
 
 ## AI slide deck examples
 
-<div class="Container"><div class="col">
+<div class="container"><div class="col">
 <img src="img/ai-slide-1.png" alt="screenshot of an AI-generated slide has a title, subtitle, two images, and three sentences/fragments">
 </div><div class="col">
 
@@ -60,7 +60,7 @@ too many words (even with pics)
 
 ## AI slide deck examples
 
-<div class="Container"><div class="col">
+<div class="container"><div class="col">
 <img src="img/ai-slide-2.png" alt="screenshot of an AI-generated slide with four pictures in it">
 </div><div class="col">
 
@@ -75,7 +75,7 @@ too many images
 
 ## AI slide deck examples
 
-<div class="Container"><div class="col">
+<div class="container"><div class="col">
 <img src="img/ai-slide-4.png" alt="screenshot of an AI-generated slide that has small red uppercase sans-serif with wide letter spacing, large serif font in blue, medium sans-serif in blue, small sans-serif in gray, and large italic serif in yellow with blue background.">
 </div><div class="col">
 
@@ -90,7 +90,7 @@ too many fonts and styles and colors
 
 ## AI slide deck examples
 
-<div class="Container"><div class="col">
+<div class="container"><div class="col">
 <img src="img/ai-slide-3.png" alt="screenshot of an AI-generated slide">
 </div><div class="col">
 

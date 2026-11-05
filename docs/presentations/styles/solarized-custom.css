@@ -446,3 +446,7 @@ hr {
 figure > img {
 	margin-bottom: 0;
 }
+
+.w-100 {
+	width: 100%;
+}
