@@ -11,7 +11,10 @@ permalink: /presentations/
 
 <div class="row justify-content-around g-4 masonry-grid" id="presentations-list">
 
-    {% assign all_entries = site.data.cv-all.invited.entries | concat: site.data.cv-all.conf.types.keynote.entries | concat: site.data.cv-all.conf.types.pres.entries %}
+    {% assign all_entries = site.data.cv-all.invited.entries %}
+    {% for type in site.data.cv-all.conf.types %}
+      {% assign all_entries = all_entries | concat: type[1].entries %}
+    {% endfor %}
     {% assign talks = all_entries | where_exp: "item", "item.url contains '/presentations/'" | sort: "year" | reverse %}
 
     {% for item in talks %}
