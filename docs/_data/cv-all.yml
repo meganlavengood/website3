@@ -122,7 +122,7 @@ pubs:
           credit: <a href="https://commons.wikimedia.org/wiki/File:LotOfCymbals.jpg">Pastorius</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons
         - title: "/r/musictheory: Making Music Theory on Reddit"
           year: 2022
-          featured-research: true
+          featured-research: false
           details: Co-authored with Nathaniel Mitchell.
           book: Oxford Handbook of Public Music Theory
           edby: J. Daniel Jenkins
@@ -383,10 +383,14 @@ conf:
       entries:
         - title: Tech Tips and Best Practices for Publications, Presentations, and Pedagogy
           year: 2026
+          featured-research: yes
           note: Special session sponsored by the Professional Development Committee.
           conf: Society for Music Theory 49th Annual Meeting
           location: Milwaukee, WI
           date: November 5
+          url: /presentations/2026-smt-pd
+          img: smt-pd.png
+          alt: Slide from presentation reading "download your youtube videos" in huge text
         - title: Teaching Timbre
           year: 2021
           note: Panel discussion.

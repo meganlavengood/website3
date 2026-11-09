@@ -50,30 +50,19 @@ permalink: /research/
 </p>
 
 {% assign featured = '' | split: '' %}
-{% for entry in site.data['cv-all'].pubs.types.article.entries %}
-	{% if entry['featured-research'] %}
-		{% assign featured = featured | push: entry %}
-	{% endif %}
+{% for type in site.data['cv-all'].pubs.types %}
+	{% for entry in type[1].entries %}
+		{% if entry['featured-research'] %}
+			{% assign featured = featured | push: entry %}
+		{% endif %}
+	{% endfor %}
 {% endfor %}
-{% for entry in site.data['cv-all'].pubs.types['edited-collection'].entries %}
-	{% if entry['featured-research'] %}
-		{% assign featured = featured | push: entry %}
-	{% endif %}
-{% endfor %}
-{% for entry in site.data['cv-all'].pubs.types.textbook.entries %}
-	{% if entry['featured-research'] %}
-		{% assign featured = featured | push: entry %}
-	{% endif %}
-{% endfor %}
-{% for entry in site.data['cv-all'].pubs.types.bookSection.entries %}
-	{% if entry['featured-research'] %}
-		{% assign featured = featured | push: entry %}
-	{% endif %}
-{% endfor %}
-{% for entry in site.data['cv-all'].conf.types.pres.entries %}
-	{% if entry['featured-research'] %}
-		{% assign featured = featured | push: entry %}
-	{% endif %}
+{% for type in site.data['cv-all'].conf.types %}
+	{% for entry in type[1].entries %}
+		{% if entry['featured-research'] %}
+			{% assign featured = featured | push: entry %}
+		{% endif %}
+	{% endfor %}
 {% endfor %}
 {% assign featured = featured | sort: 'year' | reverse %}
 
