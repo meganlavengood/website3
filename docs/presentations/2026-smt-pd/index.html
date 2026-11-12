@@ -35,31 +35,36 @@ redirect_from:
 <body>
   <div class="reveal">
     <div class="slides">
-      <section data-markdown="slides-title.md" data-separator="^\n---\n" data-separator-vertical="^\n--\n" data-separator-notes="^Note:" data-auto-animate></section>
-      <section data-markdown="slides-internet.md" data-separator="^\n---\n" data-separator-vertical="^\n--\n" data-separator-notes="^Note:" data-auto-animate></section>
-      <section data-markdown="slides-audio.md" data-separator="^\n---\n" data-separator-vertical="^\n--\n" data-separator-notes="^Note:" data-auto-animate></section>
-      <section data-markdown="slides-design.md" data-separator="^\n---\n" data-separator-vertical="^\n--\n" data-separator-notes="^Note:" data-auto-animate></section>
+      <section data-markdown="slides-title.md" data-separator="^\n---\n" data-separator-vertical="^\n--\n" data-separator-notes="^Note:"></section>
+      <section data-markdown="slides-internet.md" data-separator="^\n---\n" data-separator-vertical="^\n--\n" data-separator-notes="^Note:"></section>
+      <section data-markdown="slides-audio.md" data-separator="^\n---\n" data-separator-vertical="^\n--\n" data-separator-notes="^Note:"></section>
+      <section data-markdown="slides-design.md" data-separator="^\n---\n" data-separator-vertical="^\n--\n" data-separator-notes="^Note:"></section>
       <section data-background-iframe="bad-slides/bad.html" data-background-interactive></section>
-      <section data-markdown="slides-ai.md" data-separator="^\n---\n" data-separator-vertical="^\n--\n" data-separator-notes="^Note:" data-auto-animate></section>
-      <section data-markdown="slides-conclusion.md" data-separator="^\n---\n" data-separator-vertical="^\n--\n" data-separator-notes="^Note:" data-auto-animate></section>
+      <section data-markdown="slides-ai.md" data-separator="^\n---\n" data-separator-vertical="^\n--\n" data-separator-notes="^Note:"></section>
+      <section data-markdown="slides-conclusion.md" data-separator="^\n---\n" data-separator-vertical="^\n--\n" data-separator-notes="^Note:"></section>
     </div>
   </div>
   <script src="https://unpkg.com/reveal.js/dist/reveal.js"></script>
   <script src="https://unpkg.com/reveal.js/dist/plugin/markdown.js"></script>
   <script src="https://unpkg.com/reveal.js/dist/plugin/notes.js"></script>
   <script>
+    const isMobile = window.matchMedia('(hover: none) and (pointer: coarse)').matches;
     Reveal.initialize({
       plugins: [RevealMarkdown, RevealNotes],
       slideNumber: true,
       hash: true,
       width: 1040, // 960 default
       height: 700, // 700 default
+      transition: isMobile ? 'fade' : 'slide',
+      autoAnimateUnmatched: false,
     });
     // set preferences for certain elements
     Reveal.on('ready', () => {
-      document.querySelectorAll('.reveal .slides section').forEach(section => {
-        section.setAttribute('data-auto-animate', '');
-      });
+      if (!isMobile) {
+        document.querySelectorAll('.reveal .slides section').forEach(section => {
+          section.setAttribute('data-auto-animate', '');
+        });
+      }
       document.querySelectorAll('.reveal .slides section img').forEach(img => {
         img.classList.add('r-frame');
         img.setAttribute('data-preview-image', '');

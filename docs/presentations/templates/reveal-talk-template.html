@@ -18,7 +18,7 @@
 <body>
   <div class="reveal">
     <div class="slides">
-      <section data-markdown="slides.md" data-separator="^\n---\n" data-separator-vertical="^\n--\n" data-separator-notes="^Note:" data-auto-animate>
+      <section data-markdown="slides.md" data-separator="^\n---\n" data-separator-vertical="^\n--\n" data-separator-notes="^Note:">
       </section>
     </div>
   </div>
@@ -26,18 +26,23 @@
   <script src="https://unpkg.com/reveal.js/dist/plugin/markdown.js"></script>
   <script src="https://unpkg.com/reveal.js/dist/plugin/notes.js"></script>
   <script>
+    const isMobile = window.matchMedia('(hover: none) and (pointer: coarse)').matches;
     Reveal.initialize({
       plugins: [RevealMarkdown, RevealNotes],
       slideNumber: true,
       hash: true, // add slide number to URL
       width: 1040, // 960 default
+      transition: isMobile ? 'fade' : 'slide',
+      autoAnimateUnmatched: false,
     });
     Reveal.on('ready', () => {
-      document.querySelectorAll('.reveal .slides section').forEach(section => {
-        if (section.querySelector('h1, h2, h3, h4, h5, h6')) {
-          section.setAttribute('data-auto-animate', '');
-        }
-      });
+      if (!isMobile) {
+        document.querySelectorAll('.reveal .slides section').forEach(section => {
+          if (section.querySelector('h1, h2, h3, h4, h5, h6')) {
+            section.setAttribute('data-auto-animate', '');
+          }
+        });
+      }
     });
   </script>
 </body>
